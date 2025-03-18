@@ -6022,32 +6022,6 @@
             "name": "Soma of neuron",
             "isTemplate": true,
             "supertype": "lt-segment-of-neuron"
-        },
-        {
-            "id": "_newLyph1A_bloodvessel",
-            "name": "Test A Blood Vessel",
-            "layers": [
-                "mat-blood",
-                "mat-tissue-cardiovascular-endothelium",
-                "mat-basement-membrane"
-            ],
-            "topology": "TUBE",
-            "ontologyTerms": [
-                "UBERON:0004640"
-            ]
-        },
-        {
-            "id": "_newLyph1B_tubule",
-            "name": "Test A Kidney Tube",
-            "layers": [
-                "mat-fluid-urinary",
-                "mat-tissue-urinary-distal-tubule-epithelium",
-                "mat-basement-membrane"
-            ],
-            "topology": "TUBE",
-            "ontologyTerms": [
-                "UBERON:0001287"
-            ]
         }
     ],
     "materials": [
@@ -8077,17 +8051,6 @@
                 "lyph-primary-bronchiole",
                 "lyph-vascular-pFTU-pulmonary-smooth-muscle"
             ]
-        },
-        {
-            "id": "_newCoalescence1: kidney_EA_PCT",
-            "name": "Test A EA_PCT",
-            "ontologyTerms": [
-                "UBERON:0005271"
-            ],
-            "lyphs": [
-                "_newLyph1A_bloodvessel",
-                "_newLyph1B_tubule"
-            ]
         }
     ],
     "chains": [
@@ -8776,7 +8739,6 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "8ab35a192abd452ad380d1b67bfdd9085512624c",
-    "schemaVersion": "1dc35b56a5e614345b888d7c63b6c566fafab85b",
-    "lastUpdated": "2025-03-11"
+    "version": "3222b6d0c57fe5126403265567b41663fe5cb7e1",
+    "schemaVersion": "1dc35b56a5e614345b888d7c63b6c566fafab85b"
 }
