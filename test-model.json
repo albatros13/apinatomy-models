@@ -2,8 +2,26 @@
     "name": "test-model",
     "created": "2025-03-18",
     "lastUpdated": "2025-03-18",
-    "version": "3badde33c201a8a0347cce4d81905d547ca99421",
+    "version": "6889ece1278090788c1fe7edfc5fca0efe475275",
     "id": "test-model",
     "namespace": "nm_main",
-    "schemaVersion": "1dc35b56a5e614345b888d7c63b6c566fafab85b"
+    "schemaVersion": "1dc35b56a5e614345b888d7c63b6c566fafab85b",
+    "lyphs": [
+        {
+            "id": "_newLyph1",
+            "name": "New lyph 1"
+        },
+        {
+            "id": "_newLyph2",
+            "name": "New lyph 2"
+        },
+        {
+            "id": "_newLyph3",
+            "name": "New lyph 3"
+        },
+        {
+            "id": "_newLyph4",
+            "name": "New lyph 4"
+        }
+    ]
 }
