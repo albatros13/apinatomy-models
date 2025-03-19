@@ -6024,8 +6024,8 @@
             "supertype": "lt-segment-of-neuron"
         },
         {
-            "id": "_TEST_LYPH_TEMPLATE",
-            "name": "Test lyph template",
+            "id": "_newLyph1TEMP",
+            "name": "New lyph 1TEMP",
             "isTemplate": true
         }
     ],
@@ -8744,7 +8744,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "bae6c08d9f8178cb2e16ac5e2791ad56c5454ada",
+    "version": "bef604331960cfeaf23de769d5574c450f2484a8",
     "schemaVersion": "1dc35b56a5e614345b888d7c63b6c566fafab85b",
     "lastUpdated": "2025-03-19"
 }
