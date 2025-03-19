@@ -6022,6 +6022,11 @@
             "name": "Soma of neuron",
             "isTemplate": true,
             "supertype": "lt-segment-of-neuron"
+        },
+        {
+            "id": "_TEST_LYPH_TEMPLATE",
+            "name": "Test lyph template",
+            "isTemplate": true
         }
     ],
     "materials": [
@@ -8739,6 +8744,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "3222b6d0c57fe5126403265567b41663fe5cb7e1",
-    "schemaVersion": "1dc35b56a5e614345b888d7c63b6c566fafab85b"
+    "version": "bae6c08d9f8178cb2e16ac5e2791ad56c5454ada",
+    "schemaVersion": "1dc35b56a5e614345b888d7c63b6c566fafab85b",
+    "lastUpdated": "2025-03-19"
 }
