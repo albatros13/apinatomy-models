@@ -6030,7 +6030,8 @@
         },
         {
             "id": "_newLyph2TEMP",
-            "name": "New lyph 2"
+            "name": "New lyph 2",
+            "isTemplate": true
         }
     ],
     "materials": [
@@ -8748,7 +8749,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "d494b3856d8f5b492225f6e41b3273a14fa7abf2",
+    "version": "81cbad5fde9b6fd125087d5fe1c1b7a00cf7662e",
     "schemaVersion": "1dc35b56a5e614345b888d7c63b6c566fafab85b",
     "lastUpdated": "2025-03-20"
 }
