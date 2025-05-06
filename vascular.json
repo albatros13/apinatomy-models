@@ -1,0 +1,272 @@
+{
+    "id": "vascular",
+    "name": "vascular",
+    "imports": [
+        "https://raw.githubusercontent.com/albatros13/apinatomy-models/main/wbrcm.json"
+    ],
+    "lyphs": [
+        {
+            "id": "lyph_50010931_50010931_3855",
+            "name": "Aorta -> Left coronary artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_3855_50010931_3802",
+            "name": "Aorta -> Right coronary artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_3802_50010931_69316",
+            "name": "Aorta -> Brachiocephalic artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69316_50010931_69326",
+            "name": "Aorta -> Left common carotid artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69326_50010931_69319",
+            "name": "Aorta -> Left subclavian artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69319_50010931_69334",
+            "name": "Aorta -> Pericardial artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69334_50010931_68141",
+            "name": "Aorta -> Right bronchial artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_68141_50010931_69332",
+            "name": "Aorta -> Left first bronchial artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69332_50010931_69333",
+            "name": "Aorta -> Left second bronchial artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69333_50010931_69342",
+            "name": "Aorta -> Right first posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69342_50010931_69343",
+            "name": "Aorta -> Left first posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69343_50010931_69345",
+            "name": "Aorta -> Right second posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69345_50010931_69346",
+            "name": "Aorta -> Left second posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69346_50010931_69348",
+            "name": "Aorta -> Right third posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69348_50010931_69349",
+            "name": "Aorta -> Left third posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69349_50010931_69351",
+            "name": "Aorta -> Right fourth posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69351_50010931_69352",
+            "name": "Aorta -> Left fourth posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69352_50010931_69354",
+            "name": "Aorta -> Right fifth posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69354_50010931_69355",
+            "name": "Aorta -> Left fifth posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69355_50010931_69357",
+            "name": "Aorta -> Right sixth posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69357_50010931_69358",
+            "name": "Aorta -> Left sixth posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69358_50010931_69360",
+            "name": "Aorta -> Right seventh posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69360_50010931_69361",
+            "name": "Aorta -> Left seventh posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69361_50010931_69363",
+            "name": "Aorta -> Right eighth posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69363_50010931_69364",
+            "name": "Aorta -> Left eighth posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69364_50010931_69339",
+            "name": "Aorta -> Esophageal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69339_50010931_69338",
+            "name": "Aorta -> Mediastinal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69338_50010931_69366",
+            "name": "Aorta -> Right ninth posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69366_50010931_69367",
+            "name": "Aorta -> Left ninth posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69367_50010931_69369",
+            "name": "Aorta -> Right tenth posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69369_50010931_69370",
+            "name": "Aorta -> Left tenth posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69370_50010931_69372",
+            "name": "Aorta -> Right eleventh posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69372_50010931_69373",
+            "name": "Aorta -> Left eleventh posterior intercostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69373_50010931_69375",
+            "name": "Aorta -> Right subcostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69375_50010931_69376",
+            "name": "Aorta -> Left subcostal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_69376_50010931_66484",
+            "name": "Aorta -> Right inferior phrenic artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_66484_50010931_66485",
+            "name": "Aorta -> Left inferior phrenic artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_66485_50010931_66358",
+            "name": "Aorta -> Superior mesenteric artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_66358_50010931_50011587",
+            "name": "Aorta -> Right middle suprarenal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_50011587_50010931_50013282",
+            "name": "Aorta -> Left middle suprarenal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_50013282_50010931_66363",
+            "name": "Aorta -> Right renal artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_66363_50010931_66364",
+            "name": "Aorta -> Left renal artery",
+            "supertype": "wbkg:lt-major-artery"
+        }
+    ],
+    "chains": [
+        {
+            "id": "chain_50010931_66363_50010931_66364",
+            "name": "Chain Aorta -> Left renal artery",
+            "lyphs": [
+                "lyph_50010931_50010931_3855",
+                "lyph_50010931_3855_50010931_3802",
+                "lyph_50010931_3802_50010931_69316",
+                "lyph_50010931_69316_50010931_69326",
+                "lyph_50010931_69326_50010931_69319",
+                "lyph_50010931_69319_50010931_69334",
+                "lyph_50010931_69334_50010931_68141",
+                "lyph_50010931_68141_50010931_69332",
+                "lyph_50010931_69332_50010931_69333",
+                "lyph_50010931_69333_50010931_69342",
+                "lyph_50010931_69342_50010931_69343",
+                "lyph_50010931_69343_50010931_69345",
+                "lyph_50010931_69345_50010931_69346",
+                "lyph_50010931_69346_50010931_69348",
+                "lyph_50010931_69348_50010931_69349",
+                "lyph_50010931_69349_50010931_69351",
+                "lyph_50010931_69351_50010931_69352",
+                "lyph_50010931_69352_50010931_69354",
+                "lyph_50010931_69354_50010931_69355",
+                "lyph_50010931_69355_50010931_69357",
+                "lyph_50010931_69357_50010931_69358",
+                "lyph_50010931_69358_50010931_69360",
+                "lyph_50010931_69360_50010931_69361",
+                "lyph_50010931_69361_50010931_69363",
+                "lyph_50010931_69363_50010931_69364",
+                "lyph_50010931_69364_50010931_69339",
+                "lyph_50010931_69339_50010931_69338",
+                "lyph_50010931_69338_50010931_69366",
+                "lyph_50010931_69366_50010931_69367",
+                "lyph_50010931_69367_50010931_69369",
+                "lyph_50010931_69369_50010931_69370",
+                "lyph_50010931_69370_50010931_69372",
+                "lyph_50010931_69372_50010931_69373",
+                "lyph_50010931_69373_50010931_69375",
+                "lyph_50010931_69375_50010931_69376",
+                "lyph_50010931_69376_50010931_66484",
+                "lyph_50010931_66484_50010931_66485",
+                "lyph_50010931_66485_50010931_66358",
+                "lyph_50010931_66358_50010931_50011587",
+                "lyph_50010931_50011587_50010931_50013282",
+                "lyph_50010931_50013282_50010931_66363",
+                "lyph_50010931_66363_50010931_66364"
+            ]
+        }
+    ],
+    "version": "a900cd1052197927a9dad90e919ca253b5c1ed1d",
+    "namespace": "nm_vascular",
+    "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758"
+}
