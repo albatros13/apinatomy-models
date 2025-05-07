@@ -2,7 +2,7 @@
     "name": "test-model",
     "created": "2025-03-18",
     "lastUpdated": "2025-05-07",
-    "version": "2e3fb51e77a6835f7366874afdd8152fe33c2a0a",
+    "version": "cedf0b17eb3df780c4d9fb8be3e6321823eaceb7",
     "id": "test-model",
     "namespace": "nm_main",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
@@ -58,6 +58,24 @@
                 "_newLyph6",
                 "_newLyph7"
             ]
+        }
+    ],
+    "materials": [
+        {
+            "id": "newMat1",
+            "name": "New material 1",
+            "materials": [
+                "newMat2",
+                "newMat3"
+            ]
+        },
+        {
+            "id": "newMat2",
+            "name": "New material 2"
+        },
+        {
+            "id": "newMat3",
+            "name": "New material 3"
         }
     ]
 }
