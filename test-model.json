@@ -1,11 +1,11 @@
 {
     "name": "test-model",
     "created": "2025-03-18",
-    "lastUpdated": "2025-03-18",
-    "version": "6889ece1278090788c1fe7edfc5fca0efe475275",
+    "lastUpdated": "2025-05-07",
+    "version": "c05a1001e5e9e4856bb49e1631cd192fcce7df9b",
     "id": "test-model",
     "namespace": "nm_main",
-    "schemaVersion": "1dc35b56a5e614345b888d7c63b6c566fafab85b",
+    "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lyphs": [
         {
             "id": "_newLyph1",
@@ -22,6 +22,23 @@
         {
             "id": "_newLyph4",
             "name": "New lyph 4"
+        },
+        {
+            "id": "_newLyph5",
+            "name": "New lyph 5"
+        }
+    ],
+    "chains": [
+        {
+            "id": "_newChain1",
+            "name": "New chain 1",
+            "lyphs": [
+                "_newLyph1",
+                "_newLyph2",
+                "_newLyph3",
+                "_newLyph4",
+                "_newLyph5"
+            ]
         }
     ]
 }
