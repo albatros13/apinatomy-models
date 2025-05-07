@@ -118,16 +118,14 @@
                 "mat-cytoplasm",
                 "mat-plasma-membrane",
                 "mat-extracellular-material"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lt-cell-bag",
             "name": "Cell bag",
             "isTemplate": true,
             "topology": "BAG",
-            "supertype": "lt-cell-segment",
-            "_subtypes": []
+            "supertype": "lt-cell-segment"
         },
         {
             "id": "lt-cell-cyst",
@@ -137,8 +135,7 @@
             "name": "Cell",
             "isTemplate": true,
             "topology": "CYST",
-            "supertype": "lt-cell-segment",
-            "_subtypes": []
+            "supertype": "lt-cell-segment"
         },
         {
             "id": "lt-axon-bag",
@@ -148,8 +145,7 @@
             "name": "Axon terminal",
             "isTemplate": true,
             "topology": "BAG-",
-            "supertype": "lt-cell-bag",
-            "_subtypes": []
+            "supertype": "lt-cell-bag"
         },
         {
             "id": "lt-axon-tube",
@@ -159,8 +155,7 @@
             "name": "Axon segment",
             "isTemplate": true,
             "topology": "TUBE",
-            "supertype": "lt-cell-segment",
-            "_subtypes": []
+            "supertype": "lt-cell-segment"
         },
         {
             "id": "lt-dend-bag",
@@ -170,8 +165,7 @@
             "name": "Dendrite terminal",
             "isTemplate": true,
             "topology": "BAG-",
-            "supertype": "lt-cell-bag",
-            "_subtypes": []
+            "supertype": "lt-cell-bag"
         },
         {
             "id": "lt-dend-tube",
@@ -181,8 +175,7 @@
             "name": "Dendrite segment",
             "isTemplate": true,
             "topology": "TUBE",
-            "supertype": "lt-cell-segment",
-            "_subtypes": []
+            "supertype": "lt-cell-segment"
         },
         {
             "id": "lt-axon-bag2",
@@ -192,8 +185,7 @@
             "name": "Axon terminal",
             "isTemplate": true,
             "topology": "BAG+",
-            "supertype": "lt-cell-bag",
-            "_subtypes": []
+            "supertype": "lt-cell-bag"
         },
         {
             "id": "lt-dend-bag2",
@@ -203,8 +195,7 @@
             "name": "Dendrite terminal",
             "isTemplate": true,
             "topology": "BAG+",
-            "supertype": "lt-cell-bag",
-            "_subtypes": []
+            "supertype": "lt-cell-bag"
         },
         {
             "id": "lt-segment-of-neuron",
@@ -213,8 +204,7 @@
             ],
             "name": "Segment of neuron",
             "isTemplate": true,
-            "supertype": "lt-cell-segment",
-            "_subtypes": []
+            "supertype": "lt-cell-segment"
         },
         {
             "id": "lyph-cell-red-blood",
@@ -222,8 +212,7 @@
                 "CL:0000232"
             ],
             "name": "Red blood cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lt-cell-white-blood",
@@ -232,8 +221,7 @@
             ],
             "name": "White blood cell",
             "isTemplate": true,
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-macrophage",
@@ -241,8 +229,7 @@
                 "CL:0000235"
             ],
             "name": "Macrophage",
-            "supertype": "lt-cell-white-blood",
-            "_subtypes": []
+            "supertype": "lt-cell-white-blood"
         },
         {
             "id": "lyph-cell-platelet",
@@ -250,8 +237,7 @@
                 "CL:0000233"
             ],
             "name": "Platelet",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-chondrocyte",
@@ -259,8 +245,7 @@
                 "CL:0000138"
             ],
             "name": "Chondrocyte",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-fibroblast",
@@ -268,8 +253,7 @@
                 "CL:0000057"
             ],
             "name": "Fibroblast",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-type-I-alveolar",
@@ -277,8 +261,7 @@
                 "CL:0002062"
             ],
             "name": "Type I alveolar cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-type-II-alveolar",
@@ -286,8 +269,7 @@
                 "CL:0002063"
             ],
             "name": "Type II alveolar cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-tracheobronchial-goblet",
@@ -295,8 +277,7 @@
                 "CL:1000312"
             ],
             "name": "Tracheobronchial goblet cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-tracheobronchial-neuroendocrine",
@@ -304,8 +285,7 @@
                 "CL:1000223"
             ],
             "name": "Tracheobronchial neuro-endocrine cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-cardiovascular-endothelial",
@@ -313,8 +293,7 @@
                 "ILX:0112265"
             ],
             "name": "Cardiovascular endothelial cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-smooth-muscle",
@@ -322,8 +301,7 @@
                 "CL:0000192"
             ],
             "name": "Smooth muscle cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-epithelial-squamous",
@@ -331,8 +309,7 @@
                 "CL:0000076"
             ],
             "name": "Squamous epithelial cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-columnar-cuboidal-epithelial",
@@ -340,8 +317,7 @@
                 "CL:0000075"
             ],
             "name": "Columnar or cuboidal epithelial cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-cardiovascular-myocyte",
@@ -349,8 +325,7 @@
                 "CL:0000746"
             ],
             "name": "Cardiac myocyte",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-cardiovascular-pericardial-fibroblast",
@@ -358,8 +333,7 @@
                 "CL:2000068"
             ],
             "name": "Pericardial fibroblast",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-cardiovascular-adipocyte-of-epicardial-fat",
@@ -367,8 +341,7 @@
                 "CL:1000309"
             ],
             "name": "Adipocyte of epicardial fat",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-vascular-smooth-muscle",
@@ -376,8 +349,7 @@
                 "CL:0000359"
             ],
             "name": "Vascular smooth muscle cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-oligodendrocyte",
@@ -385,8 +357,7 @@
                 "CL:0000128"
             ],
             "name": "Oligodendrocyte",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-microglial",
@@ -394,8 +365,7 @@
                 "CL:0000129"
             ],
             "name": "Microglial cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-gastric-smooth-muscle",
@@ -403,8 +373,7 @@
                 "ILX:0727285"
             ],
             "name": "Gastric smooth muscle cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-esophagus-smooth-muscle",
@@ -412,8 +381,7 @@
                 "CL:0002599"
             ],
             "name": "Esophageal smooth muscle cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-stomach-chief-cell",
@@ -421,8 +389,7 @@
                 "CL:0000155"
             ],
             "name": "Chief cell of stomach",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-gastric-interstitial-cell-of-cajal",
@@ -430,8 +397,7 @@
                 "CL:0002088"
             ],
             "name": "Gastric interstitial cell of Cajal",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-gastric-parietal",
@@ -439,8 +405,7 @@
                 "CL:0000162"
             ],
             "name": "Gastric parietal cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-gastric-enteroendocrine",
@@ -448,8 +413,7 @@
                 "CL:1001517"
             ],
             "name": "Gastric entroendocrine cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-liver-hepatocyte",
@@ -457,8 +421,7 @@
                 "CL:0000182"
             ],
             "name": "Hepatocyte",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-gastrointestinal-smooth-muscle",
@@ -466,8 +429,7 @@
                 "CL:0002504"
             ],
             "name": "Gastrointestinal smooth muscle cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-gastrointestinal-duodenal-gland-enterocyte-of-epithelium",
@@ -475,8 +437,7 @@
                 "CL:1000337"
             ],
             "name": "Enterocyte of epithelium of duodenal gland",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-gastrointestinal-duodenal-goblet",
@@ -484,8 +445,7 @@
                 "CL:1000324"
             ],
             "name": "Duodenal goblet cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-adrenal-chromaffin",
@@ -493,8 +453,7 @@
                 "CL:0000166"
             ],
             "name": "Chromaffin cell of adrenal medulla",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-urinary-transitional-epithelial",
@@ -502,8 +461,7 @@
                 "CL:0000244"
             ],
             "name": "Transitional epithelial cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-renal-principal-epithelial",
@@ -511,8 +469,7 @@
                 "CL:0005009"
             ],
             "name": "Renal principal cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-renal-type-A-intercalated-epithelial",
@@ -520,8 +477,7 @@
                 "CL:0005011"
             ],
             "name": "Renal alpha-intercalated cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-urinary-podocyte",
@@ -529,8 +485,7 @@
                 "CL:0000653"
             ],
             "name": "Bowmans capsule podocyte",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-urinary-macula-densa",
@@ -538,8 +493,7 @@
                 "CL:1000850"
             ],
             "name": "Macula densa epithelial cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-biliary-cholangiocyte",
@@ -547,8 +501,7 @@
                 "CL:1000488"
             ],
             "name": "Cholangiocyte",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-biliary-hepatocyte",
@@ -556,8 +509,7 @@
                 "CL:0000182"
             ],
             "name": "Hepatocyte",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-biliary-hepatocyte-stem",
@@ -565,8 +517,7 @@
                 "CL:0002195"
             ],
             "name": "Hepatocyte stem cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-biliary-goblet",
@@ -574,8 +525,7 @@
                 "ILX:0793747"
             ],
             "name": "Biliary goblet cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-pancreatic-centroacinar",
@@ -583,8 +533,7 @@
                 "CL:0002080"
             ],
             "name": "Pancreatic centroacinar cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-pancreatic-acinar",
@@ -592,8 +541,7 @@
                 "CL:0002064"
             ],
             "name": "Pancreatic acinar cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-pancreatic-cuboidal-epithelial",
@@ -601,8 +549,7 @@
                 "CL:0000241"
             ],
             "name": "Pancreatic cuboidal epithelial cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-pancreatic-simple-columnar-epithelial",
@@ -610,8 +557,7 @@
                 "CL:0000146"
             ],
             "name": "Pancreatic simple columnar epithelial cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-pancreatic-squamous-epithelial",
@@ -619,8 +565,7 @@
                 "ILX:0793742"
             ],
             "name": "Pancreatic squamous epithelial cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-pancreatic-goblet",
@@ -628,8 +573,7 @@
                 "CL:1000322"
             ],
             "name": "Pancreatic goblet cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-pancreatic-enteroendocrine",
@@ -637,8 +581,7 @@
                 "CL:0008024"
             ],
             "name": "Pancreatic enteroendocrine cells",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-pancreatic-pyramidal-serous-epithelial",
@@ -646,8 +589,7 @@
                 "CL:0002064"
             ],
             "name": "Pancreatic pyramidal serous cells",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-airway-pFTU-alveolus",
@@ -662,8 +604,7 @@
                 "mat-body-fluid",
                 "mat-tissue-alveolar-epithelium",
                 "mat-basement-membrane"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-vascular-pFTU-pulmonary-capillary",
@@ -671,8 +612,7 @@
                 "UBERON:0016405"
             ],
             "name": "Pulmonary capillary pFTU template",
-            "supertype": "lt-blood-capillary",
-            "_subtypes": []
+            "supertype": "lt-blood-capillary"
         },
         {
             "id": "lyph-airway-pFTU-alveolar-duct",
@@ -687,8 +627,7 @@
                 "mat-body-fluid",
                 "mat-tissue-alveolar-epithelium",
                 "mat-basement-membrane"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-vascular-pFTU-pulmonary-smooth-muscle",
@@ -703,8 +642,7 @@
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-basement-membrane",
                 "mat-tissue-pulmonary-smooth-muscle"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-airway-respiratory-bronchiole",
@@ -718,8 +656,7 @@
                 "mat-body-liquid",
                 "mat-tissue-bronchiolar-epithelium",
                 "mat-basement-membrane"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-airway-terminal-bronchiole",
@@ -733,8 +670,7 @@
                 "mat-body-liquid",
                 "mat-tissue-bronchiolar-epithelium",
                 "mat-basement-membrane"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-airway-conducting-bronchiole",
@@ -748,8 +684,7 @@
                 "mat-body-liquid",
                 "mat-tissue-bronchiolar-epithelium",
                 "mat-basement-membrane"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-airway-primary-bronchiole",
@@ -763,8 +698,7 @@
                 "mat-body-liquid",
                 "mat-tissue-bronchiolar-epithelium",
                 "mat-basement-membrane"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-airway-pFTU-bronchial-ciliated-epithelium",
@@ -779,8 +713,7 @@
                 "mat-body-liquid",
                 "mat-tissue-bronchial-epithelium",
                 "mat-basement-membrane"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-airway-pFTU-bronchial-muscularis",
@@ -795,8 +728,7 @@
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-basement-membrane",
                 "mat-tissue-pulmonary-smooth-muscle"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-vascular-pFTU-pulmonary-submucosa",
@@ -812,8 +744,7 @@
                 "mat-basement-membrane",
                 "mat-tissue-bronchial-submucosa",
                 "mat-tissue-connective-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-airway-pulmonary-cartilage",
@@ -826,8 +757,7 @@
             "layers": [
                 "mat-tissue-bronchial-cartilage",
                 "mat-tissue-connective-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-vascular-pFTU-bronchial-connective-tissue",
@@ -842,8 +772,7 @@
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-basement-membrane",
                 "mat-tissue-connective-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-vascular-pFTU-bronchial-adventitia",
@@ -858,8 +787,7 @@
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-basement-membrane",
                 "mat-tissue-connective-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-airway-segemental-bronchus",
@@ -868,8 +796,7 @@
             ],
             "name": "Segmental bronchus",
             "topology": "TUBE",
-            "supertype": "lt-airway-tracheobronchial-conduit",
-            "_subtypes": []
+            "supertype": "lt-airway-tracheobronchial-conduit"
         },
         {
             "id": "lyph-airway-lobar-bronchus",
@@ -878,8 +805,7 @@
             ],
             "name": "Lobar bronchus",
             "topology": "TUBE",
-            "supertype": "lt-airway-tracheobronchial-conduit",
-            "_subtypes": []
+            "supertype": "lt-airway-tracheobronchial-conduit"
         },
         {
             "id": "lyph-airway-primary-bronchus",
@@ -888,8 +814,7 @@
             ],
             "name": "Primary bronchus",
             "topology": "TUBE",
-            "supertype": "lt-airway-tracheobronchial-conduit",
-            "_subtypes": []
+            "supertype": "lt-airway-tracheobronchial-conduit"
         },
         {
             "id": "lyph-airway-trachea",
@@ -898,8 +823,7 @@
             ],
             "name": "Trachea",
             "topology": "TUBE",
-            "supertype": "lt-airway-tracheobronchial-conduit",
-            "_subtypes": []
+            "supertype": "lt-airway-tracheobronchial-conduit"
         },
         {
             "id": "lyph-airway-cricoidal-larynx",
@@ -911,8 +835,7 @@
             "layers": [
                 "mat-airway-air",
                 "mat-temporary-laryngeal-wall"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-airway-thyroidal-larynx",
@@ -924,8 +847,7 @@
             "layers": [
                 "mat-airway-air",
                 "mat-temporary-laryngeal-wall"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-airway-thyrohyoidal-larynx",
@@ -940,8 +862,7 @@
             ],
             "internalLyphs": [
                 "lyph-laryngeal-mechanoreceptors"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-oral-intragingival-lining",
@@ -953,8 +874,7 @@
             "layers": [
                 "mat-airway-air",
                 "mat-temporary-oral-wall"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-tongue",
@@ -962,8 +882,7 @@
                 "UBERON:0001723"
             ],
             "name": "Tongue",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-oral-gums",
@@ -975,8 +894,7 @@
             "layers": [
                 "mat-airway-air",
                 "mat-temporary-oral-wall"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-oral-extragingival-lining",
@@ -988,8 +906,7 @@
             "layers": [
                 "mat-airway-air",
                 "mat-temporary-oral-wall"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-oral-lips",
@@ -1001,8 +918,7 @@
             "layers": [
                 "mat-airway-air",
                 "mat-temporary-oral-wall"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-villus-airway-vocal-cords",
@@ -1014,8 +930,7 @@
             "layers": [
                 "mat-temporary-vocal-cord",
                 "mat-airway-air"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-villus-airway-epiglottis",
@@ -1030,8 +945,7 @@
             ],
             "internalLyphs": [
                 "lyph-epiglottic-mechanoreceptors"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-villus-oral-teeth",
@@ -1043,8 +957,7 @@
             "layers": [
                 "mat-temporary-dental",
                 "mat-airway-air"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-base-of-urethra",
@@ -1061,8 +974,7 @@
                 "mat-tissue-connective-tissue",
                 "mat-tissue-urinary-rhabdosphincter",
                 "mat-tissue-connective-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-bladder-neck",
@@ -1077,8 +989,7 @@
                 "mat-basement-membrane",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-bladder-dome",
@@ -1093,8 +1004,7 @@
                 "mat-basement-membrane",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-intravesical-portion-of-ureter",
@@ -1108,8 +1018,7 @@
                 "mat-tissue-urinary-transitional-epithelium",
                 "mat-basement-membrane",
                 "mat-tissue-urinary-muscularis"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-distal-free-ureter",
@@ -1126,8 +1035,7 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-proximal-free-ureter",
@@ -1143,8 +1051,7 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-renal-pelvis",
@@ -1160,8 +1067,7 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-major-calyx",
@@ -1177,8 +1083,7 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-minor-calyx",
@@ -1194,8 +1099,7 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-inner-medullary-collecting-duct",
@@ -1208,8 +1112,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-collecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-outer-medullary-collecting-duct",
@@ -1222,8 +1125,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-collecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-cortical-collecting-tubule",
@@ -1236,8 +1138,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-collecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-connecting-tubule",
@@ -1250,8 +1151,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-connecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-distal-convoluted-tubule",
@@ -1264,8 +1164,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-distal-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-macula-densa-portion-of-distal-tubule",
@@ -1278,8 +1177,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-distal-macula-densa-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-distal-straight-tubule",
@@ -1292,8 +1190,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-distal-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-ascending-thin-limb",
@@ -1306,8 +1203,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-thin-limbs-of-Henle-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-descending-thin-limb",
@@ -1320,8 +1216,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-thin-limbs-of-Henle-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-proximal-straight-tubule",
@@ -1334,8 +1229,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-proximal-straight-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-proximal-convoluted-tubule",
@@ -1348,8 +1242,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-proximal-convoluted-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-parietal-Bowmans-capsule",
@@ -1362,8 +1255,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-Bowmans-capsule-parietal-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-visceral-Bowmans-capsule",
@@ -1376,8 +1268,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-Bowmans-capsule-visceral-epithelium",
                 "mat-glomerular-basement-membrane"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-upper-esophageal-sphincter",
@@ -1397,8 +1288,7 @@
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-muscularis-externa-of-esophagus",
                 "mat-adventitia-of-esophagus"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-upper-third-esophagus",
@@ -1418,8 +1308,7 @@
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-muscularis-externa-of-esophagus",
                 "mat-adventitia-of-esophagus"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-proximal-stomach",
@@ -1440,8 +1329,7 @@
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-gastrointestinal-longitudinal-muscle",
                 "mat-peritoneal-serosa-of-stomach"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-distal-stomach",
@@ -1462,8 +1350,7 @@
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-gastrointestinal-longitudinal-muscle",
                 "mat-peritoneal-serosa-of-stomach"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-pre-ampullary-duodenum",
@@ -1484,8 +1371,7 @@
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-gastrointestinal-longitudinal-muscle",
                 "mat-peritoneal-serosa-of-duodenum"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-post-ampullary-duodenum",
@@ -1506,8 +1392,7 @@
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-gastrointestinal-longitudinal-muscle",
                 "mat-adventitia-of-duodenum"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-jejunum",
@@ -1528,8 +1413,7 @@
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-gastrointestinal-longitudinal-muscle",
                 "mat-peritoneal-serosa-of-jejunum"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-proximal-ileum",
@@ -1550,8 +1434,7 @@
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-gastrointestinal-longitudinal-muscle",
                 "mat-peritoneal-serosa-of-ileum"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-terminal-ileum",
@@ -1572,8 +1455,7 @@
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-gastrointestinal-longitudinal-muscle",
                 "mat-peritoneal-serosa-of-ileum"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-cecum",
@@ -1591,8 +1473,7 @@
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-gastrointestinal-longitudinal-muscle",
                 "mat-peritoneal-serosa-of-colon"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-rectum",
@@ -1609,14 +1490,12 @@
                 "mat-gastrointestinal-circular-muscle",
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-gastrointestinal-longitudinal-muscle"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-pancreaticobiliary-major-duodenal-papilla",
             "name": "Major duodenal papilla",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-pancreaticobiliary-ampulla-of-Vater",
@@ -1624,187 +1503,156 @@
                 "UBERON:0004913"
             ],
             "name": "Ampulla of Vater",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-pancreaticobiliary-sphincter",
-            "name": "Pancreaticobiliary sphincter",
-            "_subtypes": []
+            "name": "Pancreaticobiliary sphincter"
         },
         {
             "id": "lyph-digestive-pancreas-main-duct",
             "name": "Main pancreatic duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-pancreas-lobar-duct",
             "name": "Lobar pancreatic duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-pancreas-interlobular-duct",
             "name": "Interlobular pancreatic duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-pancreas-intralobular-duct",
             "name": "Intralobular pancreatic duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-pancreas-striated-duct",
             "name": "Striated pancreatic duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-pancreas-intercalated-duct",
             "name": "Intercalated pancreatic duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-pancreas-acinus",
             "name": "Pancreatic acinus",
-            "topology": "BAG",
-            "_subtypes": []
+            "topology": "BAG"
         },
         {
             "id": "lyph-digestive-biliary-choledochopancreatic-duct",
             "name": "Choledochopancreatic duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-biliary-common-bile-duct",
             "name": "Common bile duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-biliary-cystic-duct",
             "name": "Cystic duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-biliary-gallbladder",
             "name": "Gallbladder",
-            "topology": "BAG",
-            "_subtypes": []
+            "topology": "BAG"
         },
         {
             "id": "lyph-digestive-biliary-gallbladder-neck",
             "name": "Gallbladder neck",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-biliary-common-hepatic-duct",
             "name": "Common hepatic duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-biliary-hepatic-duct",
             "name": "Hepatic duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-biliary-intrahepatic-bile-duct",
             "name": "Intrahepatic duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-biliary-interlobular-bile-duct",
             "name": "Interlobular duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-biliary-perilobular-bile-duct",
             "name": "Perilobular duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-biliary-terminal-bile-ductule",
             "name": "Terminal bile duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-biliary-canal-of-Hering",
             "name": "Canal of Hering",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-biliary-biliary-canaliculus",
             "name": "Biliary canaliculus",
-            "topology": "BAG",
-            "_subtypes": []
+            "topology": "BAG"
         },
         {
             "id": "lyph-digestive-salivary-excretory-duct",
             "name": "Salivary excretory duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-salivary-striated-duct",
             "name": "Salivary striated duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-salivary-intercalated-duct",
             "name": "Salivary intercalated duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-salivary-acinus",
             "name": "Salivary acinus",
-            "topology": "BAG",
-            "_subtypes": []
+            "topology": "BAG"
         },
         {
             "id": "lyph-airway-external-ear",
             "name": "External ear",
-            "topology": "BAG",
-            "_subtypes": []
+            "topology": "BAG"
         },
         {
             "id": "lyph-airway-middle-ear",
             "name": "Middle ear",
-            "topology": "BAG",
-            "_subtypes": []
+            "topology": "BAG"
         },
         {
             "id": "lyph-airway-eustachian-tube",
             "name": "Eustachian tube",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-lacrimal-conjunctiva",
             "name": "Conjunctiva",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-airway-external-nasal-mucosa",
             "name": "External nasal mucosa",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-airway-internal-nasal-mucosa",
@@ -1812,32 +1660,27 @@
                 "UBERON:0001826"
             ],
             "name": "Internal nasal mucosa",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-airway-nasopharynx",
             "name": "Nasopharynx",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-airway-oropharynx",
             "name": "Oropharynx",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-lacrimal-nasolacrimal-duct",
             "name": "Nasolacrimal duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-lacrimal-tear-gland-duct",
             "name": "Duct of tear gland",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-lacrimal-tear-gland-acinus",
@@ -1845,62 +1688,52 @@
                 "UBERON:0001817"
             ],
             "name": "Acinus of tear gland",
-            "topology": "BAG",
-            "_subtypes": []
+            "topology": "BAG"
         },
         {
             "id": "lyph-mammary-lactiferous-duct",
             "name": "Lactiferous duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-mammary-lactiferous-ampulla",
             "name": "Lactiferous ampulla",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-mammary-main-duct",
             "name": "Lactiferous main duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-mammary-extralobular-duct",
             "name": "Lactiferous extralobular duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-mammary-intralobular-duct",
             "name": "Lactiferous intralobular duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-mammary-ductule",
             "name": "Lactiferous ductule",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-mammary-acinus",
             "name": "Lactiferous acinus",
-            "topology": "BAG",
-            "_subtypes": []
+            "topology": "BAG"
         },
         {
             "id": "lyph-male-genital-acinus-of-seminal-vesicle",
             "name": "Acinus of seminal vesicle",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-male-genital-intralobular-duct-of-seminal-vesicle",
             "name": "Intralobular duct of seminal vesicle",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-male-genital-excretory-duct-of-seminal-vesicle",
@@ -1908,140 +1741,117 @@
                 "UBERON:0000998"
             ],
             "name": "Excretory duct of seminal vesicle",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-male-genital-ampulla-of-vas-deferens",
             "name": "Ampulla of vas deferens",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-male-genital-vas-deferens",
             "name": "Vas deferens",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-male-genital-efferent-ductules",
             "name": "Efferent ductules of testicle",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-male-genital-rete-testis",
             "name": "Rete testis",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-male-genital-seminiferous-tubule",
             "name": "Seminiferous tubule",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-male-genital-prostatic-ejaculatory-duct",
             "name": "Prostatic ejaculatory duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-male-genital-prostatic-tubular-duct",
             "name": "Prostatic tubular duct",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-male-genital-prostatic-alveolar-acinus",
             "name": "Prostatic alveolar acinus",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-urinary-penile-urethra",
             "name": "Penile urethra",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-urinary-female-urethra",
             "name": "Female external urethra",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-female-genital-lower-third-of-vagina",
             "name": "Lower third of vagina",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-female-genital-upper-two-thirds-of-vagina",
             "name": "Upper two thirds of vagina",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-female-genital-uterine-cervix",
             "name": "Uterine cervix",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-female-genital-uterine-body",
             "name": "Body of uterus",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-female-genital-fallopian-tube",
             "name": "Fallopian tube",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-female-genital-vulval-mucosa",
             "name": "Vulval mucosa",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-skin-perineal",
             "name": "Perineal skin",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-skin-inframammary",
             "name": "Inframammary skin",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-skin-supramammary-infracranial",
             "name": "Supramammary infracranial skin",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-skin-calvarial",
             "name": "Clavarial skin",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-skin-nasal",
             "name": "Nasal skin",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-skin-philtrum",
             "name": "Skin of philtrum",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lt-brain-segment",
@@ -2054,8 +1864,7 @@
                 "mat-CNS-cerebrospinal-fluid",
                 "mat-CNS-ependyma",
                 "mat-CNS-parenchymal-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-CNS-medulla",
@@ -2074,8 +1883,7 @@
                 2,
                 2,
                 2
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lt-CNS-nucleus",
@@ -2084,8 +1892,7 @@
             ],
             "name": "Nucleus",
             "isTemplate": true,
-            "topology": "CYST",
-            "_subtypes": []
+            "topology": "CYST"
         },
         {
             "id": "lyph-CNS-pons",
@@ -2106,8 +1913,7 @@
                 2,
                 2,
                 2
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-CNS-barringtons-nucleus",
@@ -2115,8 +1921,7 @@
                 "UBERON:0007632"
             ],
             "name": "Barringtons nucleus",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-midbrain",
@@ -2133,8 +1938,7 @@
             "internalLyphsInLayers": [
                 2,
                 2
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-CNS-ventrolateral-periaqueductal-gray",
@@ -2142,8 +1946,7 @@
                 "ILX:0775701"
             ],
             "name": "ventrolateral periaqueductal gray",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-diencephalon",
@@ -2166,8 +1969,7 @@
                 2,
                 2,
                 2
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-CNS-hypothalamus",
@@ -2177,8 +1979,7 @@
             "name": "Hypothalamus",
             "internalLyphs": [
                 "lyph-CNS-lateral-hypothalamic-area"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-CNS-medial-preoptic-area",
@@ -2186,8 +1987,7 @@
                 "UBERON:0007769"
             ],
             "name": "Medial preoptic area",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-lateral-preoptic-area",
@@ -2195,8 +1995,7 @@
                 "UBERON:0001931"
             ],
             "name": "Lateral preoptic area",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-lateral-hypothalamic-area",
@@ -2204,8 +2003,7 @@
                 "UBERON:0002430"
             ],
             "name": "Lateral hypothalamic area",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-median-preoptic-nucleus",
@@ -2213,8 +2011,7 @@
                 "UBERON:0002625"
             ],
             "name": "Median preoptic nucleus",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-cerebral-nuclei",
@@ -2231,8 +2028,7 @@
             "internalLyphsInLayers": [
                 2,
                 2
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-CNS-bed-nucleus-of-the-stria-terminalis",
@@ -2240,8 +2036,7 @@
                 "UBERON:0001880"
             ],
             "name": "Bed nucleus of the stria terminalis",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-central-nucleus-of-the-amygdala",
@@ -2249,8 +2044,7 @@
                 "UBERON:0002883"
             ],
             "name": "Central nucleus of the amygdala",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-telencephalon",
@@ -2265,8 +2059,7 @@
             ],
             "internalLyphsInLayers": [
                 2
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-CNS-nucleus-parabrachial",
@@ -2274,8 +2067,7 @@
                 "UBERON:0007634"
             ],
             "name": "Parabrachial nucleus",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-insula",
@@ -2283,8 +2075,7 @@
                 "UBERON:0002022"
             ],
             "name": "Insula",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-nucleus-ambiguus",
@@ -2292,8 +2083,7 @@
                 "UBERON:0001719"
             ],
             "name": "Nucleus ambiguus",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-nucleus-dorsal-motor-vagus",
@@ -2301,8 +2091,7 @@
                 "UBERON:0002870"
             ],
             "name": "Dorsal motor nucleus of vagus nerve",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-nucleus-tractus-solitarius",
@@ -2310,8 +2099,7 @@
                 "UBERON:0009050"
             ],
             "name": "Nucleus Tractus Solitarius",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-nucleus-paraventricular",
@@ -2319,8 +2107,7 @@
                 "UBERON:0001930"
             ],
             "name": "Paraventricular nucleus of hypothalamus",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-nucleus-retrotrapezoid",
@@ -2328,8 +2115,7 @@
                 "UBERON:0009918"
             ],
             "name": "Retrotrapezoid nucleus",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-rostral-ventrolateral-medulla",
@@ -2337,8 +2123,7 @@
                 "UBERON:0005807"
             ],
             "name": "Rostral ventrolateral medulla",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-nucleus-phrenic-C3-portion",
@@ -2346,8 +2131,7 @@
                 "ILX:0793685"
             ],
             "name": "Nucleus of phrenic nerve C3 portion",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-nucleus-phrenic-C4-portion",
@@ -2355,8 +2139,7 @@
                 "ILX:0738324"
             ],
             "name": "Nucleus of phrenic nerve C4 portion",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-nucleus-phrenic-C5-portion",
@@ -2364,8 +2147,7 @@
                 "ILX:0738325"
             ],
             "name": "Nucleus of phrenic nerve C5 portion",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lt-spinal-segment",
@@ -2389,8 +2171,7 @@
                 "mat-rex-lam-II",
                 "mat-rex-lam-I",
                 "mat-CNS-white-matter-of-spinal-cord"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-C1-spinal-segment",
@@ -2402,8 +2183,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-C2-spinal-segment",
@@ -2415,8 +2195,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-C3-spinal-segment",
@@ -2431,8 +2210,7 @@
             "supertype": "lt-spinal-segment",
             "internalLyphs": [
                 "lyph-CNS-nucleus-phrenic-C3-portion"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-C4-spinal-segment",
@@ -2447,8 +2225,7 @@
             "supertype": "lt-spinal-segment",
             "internalLyphs": [
                 "lyph-CNS-nucleus-phrenic-C4-portion"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-C5-spinal-segment",
@@ -2463,8 +2240,7 @@
             "supertype": "lt-spinal-segment",
             "internalLyphs": [
                 "lyph-CNS-nucleus-phrenic-C5-portion"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-C6-spinal-segment",
@@ -2476,8 +2252,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-C7-spinal-segment",
@@ -2489,8 +2264,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-C8-spinal-segment",
@@ -2502,8 +2276,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-T1-spinal-segment",
@@ -2515,8 +2288,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-T2-spinal-segment",
@@ -2528,8 +2300,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-T3-spinal-segment",
@@ -2541,8 +2312,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-T4-spinal-segment",
@@ -2554,8 +2324,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-T5-spinal-segment",
@@ -2567,8 +2336,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-T6-spinal-segment",
@@ -2580,8 +2348,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-T7-spinal-segment",
@@ -2593,8 +2360,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-T8-spinal-segment",
@@ -2606,8 +2372,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-T9-spinal-segment",
@@ -2619,8 +2384,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-T10-spinal-segment",
@@ -2632,8 +2396,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-T11-spinal-segment",
@@ -2645,8 +2408,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-T12-spinal-segment",
@@ -2658,8 +2420,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-T13-spinal-segment",
@@ -2672,8 +2433,7 @@
                 "vs-not-human"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-L1-spinal-segment",
@@ -2685,8 +2445,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-L2-spinal-segment",
@@ -2698,8 +2457,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-L3-spinal-segment",
@@ -2711,8 +2469,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-L4-spinal-segment",
@@ -2724,8 +2481,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-L5-spinal-segment",
@@ -2737,8 +2493,7 @@
                 "vs-mammalia"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-L6-spinal-segment",
@@ -2752,8 +2507,7 @@
                 "vs-not-rodent"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-S1-spinal-segment",
@@ -2771,8 +2525,7 @@
             ],
             "internalLyphsInLayers": [
                 2
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-S2-spinal-segment",
@@ -2790,8 +2543,7 @@
             ],
             "internalLyphsInLayers": [
                 2
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-S3-spinal-segment",
@@ -2809,8 +2561,7 @@
             ],
             "internalLyphsInLayers": [
                 2
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-S4-spinal-segment",
@@ -2829,8 +2580,7 @@
             ],
             "internalLyphsInLayers": [
                 2
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-S5-spinal-segment",
@@ -2842,8 +2592,7 @@
                 "vs-human"
             ],
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-Cx1-spinal-segment",
@@ -2852,8 +2601,7 @@
             ],
             "name": "Cx1 spinal segment",
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-Cx2-spinal-segment",
@@ -2862,8 +2610,7 @@
             ],
             "name": "Cx2 spinal segment",
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-Cx3-spinal-segment",
@@ -2872,8 +2619,7 @@
             ],
             "name": "Cx3 spinal segment",
             "topology": "TUBE",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lyph-Cx4-spinal-segment",
@@ -2882,8 +2628,7 @@
             ],
             "name": "Cx4 spinal segment",
             "topology": "BAG",
-            "supertype": "lt-spinal-segment",
-            "_subtypes": []
+            "supertype": "lt-spinal-segment"
         },
         {
             "id": "lt-ganglion-dorsal-root",
@@ -2892,8 +2637,7 @@
             ],
             "name": "Segment of dorsal root chain-ganglion",
             "isTemplate": true,
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-C2-dorsal-root-ganglion",
@@ -2902,8 +2646,7 @@
             ],
             "name": "C2 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-C3-dorsal-root-ganglion",
@@ -2912,8 +2655,7 @@
             ],
             "name": "C3 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-C4-dorsal-root-ganglion",
@@ -2922,8 +2664,7 @@
             ],
             "name": "C4 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-C5-dorsal-root-ganglion",
@@ -2932,8 +2673,7 @@
             ],
             "name": "C5 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-C6-dorsal-root-ganglion",
@@ -2942,8 +2682,7 @@
             ],
             "name": "C6 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-C7-dorsal-root-ganglion",
@@ -2952,8 +2691,7 @@
             ],
             "name": "C7 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-C8-dorsal-root-ganglion",
@@ -2962,8 +2700,7 @@
             ],
             "name": "C8 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T1-dorsal-root-ganglion",
@@ -2972,8 +2709,7 @@
             ],
             "name": "T1 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T2-dorsal-root-ganglion",
@@ -2982,8 +2718,7 @@
             ],
             "name": "T2 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T3-dorsal-root-ganglion",
@@ -2992,8 +2727,7 @@
             ],
             "name": "T3 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T4-dorsal-root-ganglion",
@@ -3002,8 +2736,7 @@
             ],
             "name": "T4 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T5-dorsal-root-ganglion",
@@ -3012,8 +2745,7 @@
             ],
             "name": "T5 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T6-dorsal-root-ganglion",
@@ -3022,8 +2754,7 @@
             ],
             "name": "T6 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T7-dorsal-root-ganglion",
@@ -3032,8 +2763,7 @@
             ],
             "name": "T7 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T8-dorsal-root-ganglion",
@@ -3042,8 +2772,7 @@
             ],
             "name": "T8 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T9-dorsal-root-ganglion",
@@ -3052,8 +2781,7 @@
             ],
             "name": "T9 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T10-dorsal-root-ganglion",
@@ -3062,8 +2790,7 @@
             ],
             "name": "T10 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T11-dorsal-root-ganglion",
@@ -3072,8 +2799,7 @@
             ],
             "name": "T11 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T12-dorsal-root-ganglion",
@@ -3082,8 +2808,7 @@
             ],
             "name": "T12 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T13-dorsal-root-ganglion",
@@ -3092,8 +2817,7 @@
             ],
             "name": "T13 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-L1-dorsal-root-ganglion",
@@ -3102,8 +2826,7 @@
             ],
             "name": "L1 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-L2-dorsal-root-ganglion",
@@ -3112,8 +2835,7 @@
             ],
             "name": "L2 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-L3-dorsal-root-ganglion",
@@ -3122,8 +2844,7 @@
             ],
             "name": "L3 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-L4-dorsal-root-ganglion",
@@ -3132,8 +2853,7 @@
             ],
             "name": "L4 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-L5-dorsal-root-ganglion",
@@ -3142,8 +2862,7 @@
             ],
             "name": "L5 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-L6-dorsal-root-ganglion",
@@ -3152,8 +2871,7 @@
             ],
             "name": "L6 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-S1-dorsal-root-ganglion",
@@ -3162,8 +2880,7 @@
             ],
             "name": "S1 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-S2-dorsal-root-ganglion",
@@ -3172,8 +2889,7 @@
             ],
             "name": "S2 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-S3-dorsal-root-ganglion",
@@ -3182,8 +2898,7 @@
             ],
             "name": "S3 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-S4-dorsal-root-ganglion",
@@ -3192,8 +2907,7 @@
             ],
             "name": "S4 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-S5-dorsal-root-ganglion",
@@ -3202,8 +2916,7 @@
             ],
             "name": "S5 dorsal root ganglion",
             "supertype": "lt-ganglion-dorsal-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lt-ventral-root",
@@ -3212,8 +2925,7 @@
             ],
             "name": "Segment of ventral root chain-ganglion",
             "isTemplate": true,
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-C1-ventral-root",
@@ -3222,8 +2934,7 @@
             ],
             "name": "C1 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-C2-ventral-root",
@@ -3232,8 +2943,7 @@
             ],
             "name": "C2 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-C3-ventral-root",
@@ -3242,8 +2952,7 @@
             ],
             "name": "C3 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-C4-ventral-root",
@@ -3252,8 +2961,7 @@
             ],
             "name": "C4 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-C5-ventral-root",
@@ -3262,8 +2970,7 @@
             ],
             "name": "C5 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-C6-ventral-root",
@@ -3272,8 +2979,7 @@
             ],
             "name": "C6 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-C7-ventral-root",
@@ -3282,8 +2988,7 @@
             ],
             "name": "C7 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-C8-ventral-root",
@@ -3292,8 +2997,7 @@
             ],
             "name": "C8 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T1-ventral-root",
@@ -3302,8 +3006,7 @@
             ],
             "name": "T1 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T2-ventral-root",
@@ -3312,8 +3015,7 @@
             ],
             "name": "T2 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T3-ventral-root",
@@ -3322,8 +3024,7 @@
             ],
             "name": "T3 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T4-ventral-root",
@@ -3332,8 +3033,7 @@
             ],
             "name": "T4 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T5-ventral-root",
@@ -3342,8 +3042,7 @@
             ],
             "name": "T5 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T6-ventral-root",
@@ -3352,8 +3051,7 @@
             ],
             "name": "T6 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T7-ventral-root",
@@ -3362,8 +3060,7 @@
             ],
             "name": "T7 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T8-ventral-root",
@@ -3372,8 +3069,7 @@
             ],
             "name": "T8 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T9-ventral-root",
@@ -3382,8 +3078,7 @@
             ],
             "name": "T9 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T10-ventral-root",
@@ -3392,8 +3087,7 @@
             ],
             "name": "T10 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T11-ventral-root",
@@ -3402,8 +3096,7 @@
             ],
             "name": "T11 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T12-ventral-root",
@@ -3412,8 +3105,7 @@
             ],
             "name": "T12 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-T13-ventral-root",
@@ -3422,8 +3114,7 @@
             ],
             "name": "T13 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-L1-ventral-root",
@@ -3432,8 +3123,7 @@
             ],
             "name": "L1 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-L2-ventral-root",
@@ -3442,8 +3132,7 @@
             ],
             "name": "L2 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-L3-ventral-root",
@@ -3452,8 +3141,7 @@
             ],
             "name": "L3 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-L4-ventral-root",
@@ -3462,8 +3150,7 @@
             ],
             "name": "L4 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-L5-ventral-root",
@@ -3472,8 +3159,7 @@
             ],
             "name": "L5 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-L6-ventral-root",
@@ -3482,8 +3168,7 @@
             ],
             "name": "L6 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-S1-ventral-root",
@@ -3492,8 +3177,7 @@
             ],
             "name": "S1 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-S2-ventral-root",
@@ -3502,8 +3186,7 @@
             ],
             "name": "S2 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-S3-ventral-root",
@@ -3512,8 +3195,7 @@
             ],
             "name": "S3 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-S4-ventral-root",
@@ -3522,8 +3204,7 @@
             ],
             "name": "S4 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-S5-ventral-root",
@@ -3532,8 +3213,7 @@
             ],
             "name": "S5 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-Cx1-ventral-root",
@@ -3542,8 +3222,7 @@
             ],
             "name": "Cx1 ventral root",
             "supertype": "lt-ventral-root",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lt-PNS-ganglion",
@@ -3552,8 +3231,7 @@
             ],
             "name": "Ganglion",
             "isTemplate": true,
-            "topology": "CYST",
-            "_subtypes": []
+            "topology": "CYST"
         },
         {
             "id": "lt-ganglion-visceral-mural",
@@ -3562,8 +3240,7 @@
             ],
             "name": "Autonomic ganglion in visceral wall",
             "isTemplate": true,
-            "supertype": "lt-PNS-ganglion",
-            "_subtypes": []
+            "supertype": "lt-PNS-ganglion"
         },
         {
             "id": "lt-sympathetic-ganglion",
@@ -3573,8 +3250,7 @@
             "name": "Sympathetic ganglion",
             "isTemplate": true,
             "supertype": "lt-PNS-ganglion",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lt-prevertebral-ganglia",
@@ -3584,8 +3260,7 @@
             "name": "Prevertebral ganglia",
             "isTemplate": true,
             "supertype": "lt-sympathetic-ganglion",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lt-paravertebral-ganglia",
@@ -3595,8 +3270,7 @@
             "name": "Paravertebral ganglia",
             "isTemplate": true,
             "supertype": "lt-sympathetic-ganglion",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-superior-cervical-ganglion",
@@ -3605,16 +3279,14 @@
             ],
             "name": "Superior cervical ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-SCG-MCG",
             "ontologyTerms": [
                 "ILX:0738292"
             ],
-            "name": "Interganglionic branch of superior cervical ganglion to middle cervical ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of superior cervical ganglion to middle cervical ganglion"
         },
         {
             "id": "lyph-middle-cervical-ganglion",
@@ -3623,16 +3295,14 @@
             ],
             "name": "Middle cervical ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-MCG-stellate",
             "ontologyTerms": [
                 "ILX:0738290"
             ],
-            "name": "Interganglionic branch of middle cervical ganglion to stellate",
-            "_subtypes": []
+            "name": "Interganglionic branch of middle cervical ganglion to stellate"
         },
         {
             "id": "lyph-stellate-ganglion",
@@ -3641,16 +3311,14 @@
             ],
             "name": "Stellate ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-cervicothoracic-T2",
             "ontologyTerms": [
                 "ILX:0793355"
             ],
-            "name": "Interganglionic branch of cervicothoracic ganglion to second thoracic ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of cervicothoracic ganglion to second thoracic ganglion"
         },
         {
             "id": "lyph-T2-sympathetic-chain-ganglion",
@@ -3659,16 +3327,14 @@
             ],
             "name": "T2 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-T2-T3",
             "ontologyTerms": [
                 "ILX:0777095"
             ],
-            "name": "Interganglionic branch of second thoracic ganglion to third thoracic ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of second thoracic ganglion to third thoracic ganglion"
         },
         {
             "id": "lyph-T3-sympathetic-chain-ganglion",
@@ -3677,16 +3343,14 @@
             ],
             "name": "T3 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-T3-T4",
             "ontologyTerms": [
                 "ILX:0777096"
             ],
-            "name": "Interganglionic branch of third thoracic ganglion to fourth thoracic ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of third thoracic ganglion to fourth thoracic ganglion"
         },
         {
             "id": "lyph-T4-sympathetic-chain-ganglion",
@@ -3695,16 +3359,14 @@
             ],
             "name": "T4 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-T4-T5",
             "ontologyTerms": [
                 "ILX:0777097"
             ],
-            "name": "Interganglionic branch of fourth thoracic ganglion to fifth thoracic ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of fourth thoracic ganglion to fifth thoracic ganglion"
         },
         {
             "id": "lyph-T5-sympathetic-chain-ganglion",
@@ -3713,16 +3375,14 @@
             ],
             "name": "T5 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-T5-T6",
             "ontologyTerms": [
                 "ILX:0777098"
             ],
-            "name": "Interganglionic branch of fifth thoracic ganglion to sixth thoracic ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of fifth thoracic ganglion to sixth thoracic ganglion"
         },
         {
             "id": "lyph-T6-sympathetic-chain-ganglion",
@@ -3731,16 +3391,14 @@
             ],
             "name": "T6 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-T6-T7",
             "ontologyTerms": [
                 "ILX:0793235"
             ],
-            "name": "Interganglionic branch of sixth thoracic ganglion to seventh thoracic ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of sixth thoracic ganglion to seventh thoracic ganglion"
         },
         {
             "id": "lyph-T7-sympathetic-chain-ganglion",
@@ -3749,16 +3407,14 @@
             ],
             "name": "T7 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-T7-T8",
             "ontologyTerms": [
                 "ILX:0793236"
             ],
-            "name": "Interganglionic branch of seventh thoracic ganglion to eighth thoracic ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of seventh thoracic ganglion to eighth thoracic ganglion"
         },
         {
             "id": "lyph-T8-sympathetic-chain-ganglion",
@@ -3767,16 +3423,14 @@
             ],
             "name": "T8 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-T8-T9",
             "ontologyTerms": [
                 "ILX:0793237"
             ],
-            "name": "Interganglionic branch of eighth thoracic ganglion to ninth thoracic ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of eighth thoracic ganglion to ninth thoracic ganglion"
         },
         {
             "id": "lyph-T9-sympathetic-chain-ganglion",
@@ -3785,16 +3439,14 @@
             ],
             "name": "T9 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-T9-T10",
             "ontologyTerms": [
                 "ILX:0793238"
             ],
-            "name": "Interganglionic branch of ninth thoracic ganglion to tenth thoracic ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of ninth thoracic ganglion to tenth thoracic ganglion"
         },
         {
             "id": "lyph-T10-sympathetic-chain-ganglion",
@@ -3803,16 +3455,14 @@
             ],
             "name": "T10 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-T10-T11",
             "ontologyTerms": [
                 "ILX:0793239"
             ],
-            "name": "Interganglionic branch of tenth thoracic ganglion to eleventh thoracic ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of tenth thoracic ganglion to eleventh thoracic ganglion"
         },
         {
             "id": "lyph-T11-sympathetic-chain-ganglion",
@@ -3821,16 +3471,14 @@
             ],
             "name": "T11 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-T11-T12",
             "ontologyTerms": [
                 "ILX:0793240"
             ],
-            "name": "Interganglionic branch of eleventh thoracic ganglion to twelfth thoracic ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of eleventh thoracic ganglion to twelfth thoracic ganglion"
         },
         {
             "id": "lyph-T12-sympathetic-chain-ganglion",
@@ -3839,16 +3487,14 @@
             ],
             "name": "T12 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-T12-T13",
             "ontologyTerms": [
                 "ILX:0777086"
             ],
-            "name": "Interganglionic branch of twelfth thoracic ganglion to thirteenth thoracic ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of twelfth thoracic ganglion to thirteenth thoracic ganglion"
         },
         {
             "id": "lyph-T13-sympathetic-chain-ganglion",
@@ -3857,16 +3503,14 @@
             ],
             "name": "T13 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-T13-L1",
             "ontologyTerms": [
                 "ILX:0777087"
             ],
-            "name": "Interganglionic branch of thirteenth thoracic ganglion to first lumbar ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of thirteenth thoracic ganglion to first lumbar ganglion"
         },
         {
             "id": "lyph-L1-sympathetic-chain-ganglion",
@@ -3875,16 +3519,14 @@
             ],
             "name": "L1 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-L1-L2",
             "ontologyTerms": [
                 "ILX:0793244"
             ],
-            "name": "Interganglionic branch of first lumbar ganglion to second lumbar ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of first lumbar ganglion to second lumbar ganglion"
         },
         {
             "id": "lyph-L2-sympathetic-chain-ganglion",
@@ -3893,16 +3535,14 @@
             ],
             "name": "L2 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-L2-L3",
             "ontologyTerms": [
                 "ILX:0793245"
             ],
-            "name": "Interganglionic branch of second lumbar ganglion to third lumbar ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of second lumbar ganglion to third lumbar ganglion"
         },
         {
             "id": "lyph-L3-sympathetic-chain-ganglion",
@@ -3911,16 +3551,14 @@
             ],
             "name": "L3 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-L3-L4",
             "ontologyTerms": [
                 "ILX:0793246"
             ],
-            "name": "Interganglionic branch of third lumbar ganglion to fourth lumbar ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of third lumbar ganglion to fourth lumbar ganglion"
         },
         {
             "id": "lyph-L4-sympathetic-chain-ganglion",
@@ -3929,16 +3567,14 @@
             ],
             "name": "L4 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-L4-L5",
             "ontologyTerms": [
                 "ILX:0793247"
             ],
-            "name": "Interganglionic branch of fourth lumbar ganglion to first sacral ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of fourth lumbar ganglion to first sacral ganglion"
         },
         {
             "id": "lyph-L5-sympathetic-chain-ganglion",
@@ -3947,16 +3583,14 @@
             ],
             "name": "L5 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-L5-L6",
             "ontologyTerms": [
                 "ILX:0793248"
             ],
-            "name": "Interganglionic branch of fifth lumbar ganglion to sixth lumbar ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of fifth lumbar ganglion to sixth lumbar ganglion"
         },
         {
             "id": "lyph-L6-sympathetic-chain-ganglion",
@@ -3965,16 +3599,14 @@
             ],
             "name": "L6 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-L6-S1",
             "ontologyTerms": [
                 "ILX:0777093"
             ],
-            "name": "Interganglionic branch of sixth lumbar ganglion to first sacral ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of sixth lumbar ganglion to first sacral ganglion"
         },
         {
             "id": "lyph-S1-sympathetic-chain-ganglion",
@@ -3983,16 +3615,14 @@
             ],
             "name": "S1 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-S1-S2",
             "ontologyTerms": [
                 "ILX:0793250"
             ],
-            "name": "Interganglionic branch of first sacral ganglion to second sacral ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of first sacral ganglion to second sacral ganglion"
         },
         {
             "id": "lyph-S2-sympathetic-chain-ganglion",
@@ -4001,16 +3631,14 @@
             ],
             "name": "S2 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-S2-S3",
             "ontologyTerms": [
                 "ILX:0793251"
             ],
-            "name": "Interganglionic branch of second sacral ganglion to third sacral ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of second sacral ganglion to third sacral ganglion"
         },
         {
             "id": "lyph-S3-sympathetic-chain-ganglion",
@@ -4019,16 +3647,14 @@
             ],
             "name": "S3 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-S3-S4",
             "ontologyTerms": [
                 "ILX:0793252"
             ],
-            "name": "Interganglionic branch of third sacral ganglion to fourth sacral ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of third sacral ganglion to fourth sacral ganglion"
         },
         {
             "id": "lyph-S4-sympathetic-chain-ganglion",
@@ -4037,16 +3663,14 @@
             ],
             "name": "S4 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-sympathetic-trunk-S4-Cx1",
             "ontologyTerms": [
                 "ILX:0793169"
             ],
-            "name": "Interganglionic branch of fourth sacral ganglion to first coccygeal ganglion",
-            "_subtypes": []
+            "name": "Interganglionic branch of fourth sacral ganglion to first coccygeal ganglion"
         },
         {
             "id": "lyph-Cx1-sympathetic-chain-ganglion",
@@ -4055,8 +3679,7 @@
             ],
             "name": "Cx1 sympathetic chain ganglion",
             "supertype": "lt-paravertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lt-white-ramus",
@@ -4066,8 +3689,7 @@
             "name": "White communicating ramus",
             "isTemplate": true,
             "topology": "TUBE",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-superior-cervical-ganglion-white-ramus",
@@ -4076,8 +3698,7 @@
             ],
             "name": "Superior cervical ganglion white ramus",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-middle-cervical-ganglion-white-ramus",
@@ -4086,8 +3707,7 @@
             ],
             "name": "Middle cervical ganglion white ramus",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-stellate-white-ramus",
@@ -4096,8 +3716,7 @@
             ],
             "name": "White communicating ramus of cervicothoracic nerve",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T2-white-ramus",
@@ -4106,8 +3725,7 @@
             ],
             "name": "White communicating ramus of second intercostal nerve",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T3-white-ramus",
@@ -4116,8 +3734,7 @@
             ],
             "name": "White communicating ramus of third intercostal nerve",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T4-white-ramus",
@@ -4126,8 +3743,7 @@
             ],
             "name": "White communicating ramus of fourth intercostal nerve",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T5-white-ramus",
@@ -4136,8 +3752,7 @@
             ],
             "name": "White communicating ramus of fifth intercostal nerve",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T6-white-ramus",
@@ -4146,8 +3761,7 @@
             ],
             "name": "White communicating ramus of sixth intercostal nerve",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T7-white-ramus",
@@ -4156,8 +3770,7 @@
             ],
             "name": "White communicating ramus of seventh intercostal nerve",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T8-white-ramus",
@@ -4166,8 +3779,7 @@
             ],
             "name": "White communicating ramus of eighth intercostal nerve",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T9-white-ramus",
@@ -4176,8 +3788,7 @@
             ],
             "name": "White communicating ramus of ninth intercostal nerve",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T10-white-ramus",
@@ -4186,8 +3797,7 @@
             ],
             "name": "White communicating ramus of tenth intercostal nerve",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T11-white-ramus",
@@ -4196,8 +3806,7 @@
             ],
             "name": "White communicating ramus of eleventh intercostal nerve",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T12-white-ramus",
@@ -4206,8 +3815,7 @@
             ],
             "name": "White communicating ramus of twelfth intercostal nerve",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T13-white-ramus",
@@ -4216,8 +3824,7 @@
             ],
             "name": "White communicating ramus of thirteen intercostal nerve",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-L1-white-ramus",
@@ -4226,8 +3833,7 @@
             ],
             "name": "White communicating ramus of first lumbar nerve",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-L2-white-ramus",
@@ -4236,8 +3842,7 @@
             ],
             "name": "White communicating ramus of second lumbar nerve",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-L3-white-ramus",
@@ -4246,8 +3851,7 @@
             ],
             "name": "White communicating ramus of third lumbar nerve",
             "supertype": "lt-white-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lt-gray-ramus",
@@ -4257,8 +3861,7 @@
             "name": "Gray communicating ramus",
             "isTemplate": true,
             "topology": "TUBE",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-superior-cervical-ganglion-grey-ramus",
@@ -4267,8 +3870,7 @@
             ],
             "name": "Gray communicating ramus of superior cervical ganglion",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-middle-cervical-ganglion-grey-ramus",
@@ -4277,8 +3879,7 @@
             ],
             "name": "Gray communicating ramus of middle cervical ganglion",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-stellate-grey-ramus",
@@ -4287,8 +3888,7 @@
             ],
             "name": "Gray communicating ramus of cervicothoracic nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T2-grey-ramus",
@@ -4297,8 +3897,7 @@
             ],
             "name": "Gray communicating ramus of second intercostal nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T3-grey-ramus",
@@ -4307,8 +3906,7 @@
             ],
             "name": "Gray communicating ramus of third intercostal nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T4-grey-ramus",
@@ -4317,8 +3915,7 @@
             ],
             "name": "Gray communicating ramus of fourth intercostal nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T5-grey-ramus",
@@ -4327,8 +3924,7 @@
             ],
             "name": "Gray communicating ramus of fifth intercostal nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T6-grey-ramus",
@@ -4337,8 +3933,7 @@
             ],
             "name": "Gray communicating ramus of sixth intercostal nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T7-grey-ramus",
@@ -4347,8 +3942,7 @@
             ],
             "name": "Gray communicating ramus of seventh intercostal nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T8-grey-ramus",
@@ -4357,8 +3951,7 @@
             ],
             "name": "Gray communicating ramus of eighth intercostal nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T9-grey-ramus",
@@ -4367,8 +3960,7 @@
             ],
             "name": "Gray communicating ramus of ninth intercostal nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T10-grey-ramus",
@@ -4377,8 +3969,7 @@
             ],
             "name": "Gray communicating ramus of tenth intercostal nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T11-grey-ramus",
@@ -4387,8 +3978,7 @@
             ],
             "name": "Gray communicating ramus of eleventh intercostal nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T12-grey-ramus",
@@ -4397,8 +3987,7 @@
             ],
             "name": "Gray communicating ramus of twelfth intercostal nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-T13-grey-ramus",
@@ -4407,8 +3996,7 @@
             ],
             "name": "Gray communicating ramus of thirteen intercostal nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-L1-grey-ramus",
@@ -4417,8 +4005,7 @@
             ],
             "name": "Gray communicating ramus of first lumbar nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-L2-grey-ramus",
@@ -4427,8 +4014,7 @@
             ],
             "name": "Gray communicating ramus of second lumbar nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-L3-grey-ramus",
@@ -4437,8 +4023,7 @@
             ],
             "name": "Gray communicating ramus of third lumbar nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-L4-grey-ramus",
@@ -4447,8 +4032,7 @@
             ],
             "name": "Gray communicating ramus of fourth lumbar nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-L5-grey-ramus",
@@ -4457,8 +4041,7 @@
             ],
             "name": "Gray communicating ramus of fifth lumbar nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-L6-grey-ramus",
@@ -4467,8 +4050,7 @@
             ],
             "name": "Gray communicating ramus of sixth lumbar nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-S1-grey-ramus",
@@ -4477,8 +4059,7 @@
             ],
             "name": "Gray communicating ramus of first sacral nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-S2-grey-ramus",
@@ -4487,8 +4068,7 @@
             ],
             "name": "Gray communicating ramus of second sacral nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-S3-grey-ramus",
@@ -4497,8 +4077,7 @@
             ],
             "name": "Gray communicating ramus of third sacral nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-S4-grey-ramus",
@@ -4507,8 +4086,7 @@
             ],
             "name": "Gray communicating ramus of fourth sacral nerve",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-Cx1-grey-ramus",
@@ -4517,8 +4095,7 @@
             ],
             "name": "Cx1 grey ramus",
             "supertype": "lt-gray-ramus",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lt-PNS-nerve",
@@ -4527,8 +4104,7 @@
             ],
             "name": "Nerve",
             "isTemplate": true,
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-PNS-nerve-superior-laryngeal",
@@ -4537,8 +4113,7 @@
             ],
             "name": "Superior laryngeal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C10N",
-            "_subtypes": []
+            "hostedBy": "too:n1C10N"
         },
         {
             "id": "lyph-PNS-nerve-inferior-laryngeal",
@@ -4547,8 +4122,7 @@
             ],
             "name": "Inferior laryngeal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C10N",
-            "_subtypes": []
+            "hostedBy": "too:n1C10N"
         },
         {
             "id": "lyph-PNS-nerve-external-branch-superior-laryngeal",
@@ -4557,8 +4131,7 @@
             ],
             "name": "External branch of superior laryngeal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C10N",
-            "_subtypes": []
+            "hostedBy": "too:n1C10N"
         },
         {
             "id": "lyph-PNS-nerve-internal-branch-superior-laryngeal",
@@ -4567,8 +4140,7 @@
             ],
             "name": "Internal branch of superior laryngeal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C10N",
-            "_subtypes": []
+            "hostedBy": "too:n1C10N"
         },
         {
             "id": "lyph-PNS-nerve-recurrent-laryngeal",
@@ -4577,8 +4149,7 @@
             ],
             "name": "Recurrent (inferior) laryngeal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C10N",
-            "_subtypes": []
+            "hostedBy": "too:n1C10N"
         },
         {
             "id": "lyph-PNS-nerve-external-branch-inferior-laryngeal",
@@ -4587,8 +4158,7 @@
             ],
             "name": "External branch of inferior (recurrent) laryngeal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C10N",
-            "_subtypes": []
+            "hostedBy": "too:n1C10N"
         },
         {
             "id": "lyph-PNS-nerve-internal-branch-inferior-laryngeal",
@@ -4597,8 +4167,7 @@
             ],
             "name": "Internal branch of inferior laryngeal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C10N",
-            "_subtypes": []
+            "hostedBy": "too:n1C10N"
         },
         {
             "id": "lyph-PNS-nerve-aortic-arch-depressor-nerve",
@@ -4607,8 +4176,7 @@
             ],
             "name": "Aortic arch depressor nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C10N",
-            "_subtypes": []
+            "hostedBy": "too:n1C10N"
         },
         {
             "id": "lyph-PNS-nerve-rami-glomi-carotici",
@@ -4617,8 +4185,7 @@
             ],
             "name": "The carotid branch of the glossopharyngeal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C10N",
-            "_subtypes": []
+            "hostedBy": "too:n1C10N"
         },
         {
             "id": "lyph-PNS-nerve-Hernings",
@@ -4627,8 +4194,7 @@
             ],
             "name": "Hernings nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C9N",
-            "_subtypes": []
+            "hostedBy": "too:n1C9N"
         },
         {
             "id": "lyph-PNS-nerve-pharyngeal-branch-glossopharyngeal",
@@ -4637,8 +4203,7 @@
             ],
             "name": "Pharyngeal branch of the Glossopharyngeal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C9N",
-            "_subtypes": []
+            "hostedBy": "too:n1C9N"
         },
         {
             "id": "lyph-PNS-nerve-internal-carotid",
@@ -4647,8 +4212,7 @@
             ],
             "name": "Internal carotid nerve plexus",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-external-carotid",
@@ -4657,8 +4221,7 @@
             ],
             "name": "External carotid nerve plexus",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-phrenic",
@@ -4667,8 +4230,7 @@
             ],
             "name": "Phrenic nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-ganglioglomerular",
@@ -4677,8 +4239,7 @@
             ],
             "name": "Ganglioglomerular nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-hypogastric",
@@ -4687,8 +4248,7 @@
             ],
             "name": "Hypogastric nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-pudendal",
@@ -4697,8 +4257,7 @@
             ],
             "name": "Pudendal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-lumbar-splanchnic",
@@ -4707,8 +4266,7 @@
             ],
             "name": "Lumbar splanchnic nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-lumbar-pelvic",
@@ -4717,8 +4275,7 @@
             ],
             "name": "Pelvic splanchnic nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-vagus-main-trunk",
@@ -4727,8 +4284,7 @@
             ],
             "name": "Trunk of Vagus nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C10N",
-            "_subtypes": []
+            "hostedBy": "too:n1C10N"
         },
         {
             "id": "lyph-PNS-nerve-glossopharyngeal-main-trunk",
@@ -4737,8 +4293,7 @@
             ],
             "name": "Main trunk of glossopharyngeal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C9N",
-            "_subtypes": []
+            "hostedBy": "too:n1C9N"
         },
         {
             "id": "lyph-PNS-nerve-hypoglossal-main-trunk",
@@ -4747,8 +4302,7 @@
             ],
             "name": "Hypoglossal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C12N",
-            "_subtypes": []
+            "hostedBy": "too:n1C12N"
         },
         {
             "id": "lyph-PNS-nerve-greater-splanchnic",
@@ -4757,8 +4311,7 @@
             ],
             "name": "Greater splanchnic nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-ganglion-atrial-intrinsic-cardiac-ganglion",
@@ -4767,8 +4320,7 @@
             ],
             "name": "Intrinsic cardiac ganglion of the atria",
             "supertype": "lt-ganglion-visceral-mural",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-PNS-ganglion-ventricular-intrinsic-cardiac-ganglion",
@@ -4777,8 +4329,7 @@
             ],
             "name": "Intrinsic cardiac ganglion of the ventricle",
             "supertype": "lt-ganglion-visceral-mural",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-PNS-ganglion-inferior-mesenteric",
@@ -4787,8 +4338,7 @@
             ],
             "name": "Inferior mesenteric ganglion",
             "supertype": "lt-prevertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-PNS-pelvic-ganglion",
@@ -4797,8 +4347,7 @@
             ],
             "name": "Pelvic ganglion",
             "supertype": "lt-prevertebral-ganglia",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-ganglion-superior-mesenteric",
@@ -4807,8 +4356,7 @@
             ],
             "name": "Superior mesenteric ganglion",
             "supertype": "lt-prevertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-PNS-ganglion-mediastinal",
@@ -4817,8 +4365,7 @@
             ],
             "name": "Mediastinal ganglion",
             "supertype": "lt-prevertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-PNS-ganglion-celiac",
@@ -4827,8 +4374,7 @@
             ],
             "name": "Celiac ganglion",
             "supertype": "lt-prevertebral-ganglia",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-ganglion-intrapancreatic",
@@ -4837,8 +4383,7 @@
             ],
             "name": "Intrapancreatic ganglion",
             "supertype": "lt-prevertebral-ganglia",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nodose-ganglion-vagus-nerve",
@@ -4847,8 +4392,7 @@
             ],
             "name": "Nodose ganglion of the Vagus nerve",
             "supertype": "lt-PNS-ganglion",
-            "hostedBy": "too:n1G",
-            "_subtypes": []
+            "hostedBy": "too:n1G"
         },
         {
             "id": "lyph-PNS-ganglion-petrosal-of-glossopharyngeal-nerve",
@@ -4857,8 +4401,7 @@
             ],
             "name": "Petrosal ganglion of the Glossopharyngeal nerve",
             "supertype": "lt-PNS-ganglion",
-            "hostedBy": "too:n1G",
-            "_subtypes": []
+            "hostedBy": "too:n1G"
         },
         {
             "id": "lt-CVS-vessel",
@@ -4866,8 +4409,7 @@
                 "ILX:0793690"
             ],
             "name": "Endothelial vessel",
-            "isTemplate": true,
-            "_subtypes": []
+            "isTemplate": true
         },
         {
             "id": "lt-CVS-blood-vessel",
@@ -4876,8 +4418,7 @@
             ],
             "name": "Blood vessel",
             "isTemplate": true,
-            "supertype": "lt-CVS-vessel",
-            "_subtypes": []
+            "supertype": "lt-CVS-vessel"
         },
         {
             "id": "lt-major-artery",
@@ -4893,8 +4434,7 @@
                 "mat-tissue-cardiovascular-vascular-media",
                 "mat-tissue-cardiovascular-vascular-adventitia"
             ],
-            "supertype": "lt-CVS-blood-vessel",
-            "_subtypes": []
+            "supertype": "lt-CVS-blood-vessel"
         },
         {
             "id": "lt-major-vein",
@@ -4909,8 +4449,7 @@
                 "mat-tissue-cardiovascular-vascular-media",
                 "mat-tissue-cardiovascular-vascular-adventitia"
             ],
-            "supertype": "lt-CVS-blood-vessel",
-            "_subtypes": []
+            "supertype": "lt-CVS-blood-vessel"
         },
         {
             "id": "lt-cardiac-chamber",
@@ -4924,8 +4463,7 @@
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-tissue-cardiovascular-myocardium"
             ],
-            "supertype": "lt-CVS-blood-vessel",
-            "_subtypes": []
+            "supertype": "lt-CVS-blood-vessel"
         },
         {
             "id": "lt-blood-capillary",
@@ -4940,8 +4478,7 @@
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-basement-membrane"
             ],
-            "supertype": "lt-CVS-blood-vessel",
-            "_subtypes": []
+            "supertype": "lt-CVS-blood-vessel"
         },
         {
             "id": "lyph-cardiovascular-inferior-vena-cava",
@@ -4949,8 +4486,7 @@
                 "UBERON:0001072"
             ],
             "name": "Inferior vena cava",
-            "supertype": "lt-major-vein",
-            "_subtypes": []
+            "supertype": "lt-major-vein"
         },
         {
             "id": "lyph-cardiovascular-superior-vena-cava",
@@ -4958,8 +4494,7 @@
                 "UBERON:0001585"
             ],
             "name": "Superior vena cava",
-            "supertype": "lt-major-vein",
-            "_subtypes": []
+            "supertype": "lt-major-vein"
         },
         {
             "id": "lyph-cardiovascular-pulmonary-vein",
@@ -4967,8 +4502,7 @@
                 "UBERON:0002016"
             ],
             "name": "Pulmonary vein",
-            "supertype": "lt-major-vein",
-            "_subtypes": []
+            "supertype": "lt-major-vein"
         },
         {
             "id": "lyph-cardiovascular-pancreatic-blood-capillary",
@@ -4976,8 +4510,7 @@
                 "ILX:0774068"
             ],
             "name": "Blood capillary vessel of pancreas",
-            "supertype": "lt-blood-capillary",
-            "_subtypes": []
+            "supertype": "lt-blood-capillary"
         },
         {
             "id": "lyph-cardiovascular-hepatic-blood-capillary",
@@ -4985,8 +4518,7 @@
                 "UBERON:0035756"
             ],
             "name": "Blood capillary vessel of liver",
-            "supertype": "lt-blood-capillary",
-            "_subtypes": []
+            "supertype": "lt-blood-capillary"
         },
         {
             "id": "lyph-cardiovascular-left-ventricle",
@@ -4994,8 +4526,7 @@
                 "UBERON:0002084"
             ],
             "name": "Left ventricle",
-            "supertype": "lt-cardiac-chamber",
-            "_subtypes": []
+            "supertype": "lt-cardiac-chamber"
         },
         {
             "id": "lyph-cardiovascular-ascending-aorta",
@@ -5003,8 +4534,7 @@
                 "UBERON:0001496"
             ],
             "name": "Ascending aorta",
-            "supertype": "lt-major-artery",
-            "_subtypes": []
+            "supertype": "lt-major-artery"
         },
         {
             "id": "lyph-cardiovascular-arch-of-aorta",
@@ -5018,8 +4548,7 @@
             ],
             "internalLyphsInLayers": [
                 3
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-cardiovascular-thoracic-aorta",
@@ -5027,8 +4556,7 @@
                 "UBERON:0001515"
             ],
             "name": "Thoracic aorta",
-            "supertype": "lt-major-artery",
-            "_subtypes": []
+            "supertype": "lt-major-artery"
         },
         {
             "id": "lyph-cardiovascular-abdominal-aorta",
@@ -5036,8 +4564,7 @@
                 "UBERON:0001516"
             ],
             "name": "Abdominal aorta",
-            "supertype": "lt-major-artery",
-            "_subtypes": []
+            "supertype": "lt-major-artery"
         },
         {
             "id": "lyph-cardiovascular-right-ventricle",
@@ -5045,8 +4572,7 @@
                 "UBERON:0002080"
             ],
             "name": "Right ventricle",
-            "supertype": "lt-cardiac-chamber",
-            "_subtypes": []
+            "supertype": "lt-cardiac-chamber"
         },
         {
             "id": "lyph-cardiovascular-left-atrium",
@@ -5054,8 +4580,7 @@
                 "UBERON:0002079"
             ],
             "name": "Left atrium",
-            "supertype": "lt-cardiac-chamber",
-            "_subtypes": []
+            "supertype": "lt-cardiac-chamber"
         },
         {
             "id": "lyph-cardiovascular-right-atrium",
@@ -5063,8 +4588,7 @@
                 "UBERON:0002078"
             ],
             "name": "Right atrium",
-            "supertype": "lt-cardiac-chamber",
-            "_subtypes": []
+            "supertype": "lt-cardiac-chamber"
         },
         {
             "id": "lyph-cardiovascular-pulmonary-trunk",
@@ -5072,8 +4596,7 @@
                 "UBERON:0002333"
             ],
             "name": "Pulmonary trunk",
-            "supertype": "lt-major-artery",
-            "_subtypes": []
+            "supertype": "lt-major-artery"
         },
         {
             "id": "lyph-cardiovascular-atrial-intrinsic-ganglion",
@@ -5082,8 +4605,7 @@
             ],
             "name": "Intrinsic ganglion of the atria",
             "supertype": "lt-ganglion-visceral-mural",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-cardiovascular-ventricular-intrinsic-ganglion",
@@ -5092,8 +4614,7 @@
             ],
             "name": "Intrinsic ganglion of the ventricle",
             "supertype": "lt-ganglion-visceral-mural",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-pulmonary-ganglion-intrinsic-tracheal",
@@ -5102,8 +4623,7 @@
             ],
             "name": "Intrinsic ganglion of the trachea",
             "supertype": "lt-ganglion-visceral-mural",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-pulmonary-ganglion-intrinsic-primary-bronchus",
@@ -5112,8 +4632,7 @@
             ],
             "name": "Intrinsic ganglion of the primary bronchus",
             "supertype": "lt-ganglion-visceral-mural",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-pulmonary-ganglion-intrinsic-primary-bronchiole",
@@ -5122,8 +4641,7 @@
             ],
             "name": "Intrinsic ganglion of the primary bronchiole",
             "supertype": "lt-ganglion-visceral-mural",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-pulmonary-ganglion-intrinsic-terminal-bronchiole",
@@ -5132,56 +4650,49 @@
             ],
             "name": "Intrinsic ganglion of the terminal bronchiole",
             "supertype": "lt-ganglion-visceral-mural",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-cardiovascular-heart-epicardium",
             "ontologyTerms": [
                 "UBERON:0002348"
             ],
-            "name": "Epicardium",
-            "_subtypes": []
+            "name": "Epicardium"
         },
         {
             "id": "lyph-cardiovascular-heart-pericardium-visceral-serous",
             "ontologyTerms": [
                 "UBERON:0002425"
             ],
-            "name": "Visceral pericardium",
-            "_subtypes": []
+            "name": "Visceral pericardium"
         },
         {
             "id": "lyph-cardiovascular-heart-pericardium-parietal-serous",
             "ontologyTerms": [
                 "UBERON:0002408"
             ],
-            "name": "Parietal pericardium",
-            "_subtypes": []
+            "name": "Parietal pericardium"
         },
         {
             "id": "lyph-cardiovascular-heart-pericardium-fluid",
             "ontologyTerms": [
                 "UBERON:0002409"
             ],
-            "name": "Pericardial fluid",
-            "_subtypes": []
+            "name": "Pericardial fluid"
         },
         {
             "id": "lyph-cardiovascular-heart-fat-layer",
             "ontologyTerms": [
                 "UBERON:0015129"
             ],
-            "name": "Epicardial fat",
-            "_subtypes": []
+            "name": "Epicardial fat"
         },
         {
             "id": "lyph-cardiovascular-heart-pericardium-fibrous",
             "ontologyTerms": [
                 "UBERON:0002359"
             ],
-            "name": "Fibrous pericardium",
-            "_subtypes": []
+            "name": "Fibrous pericardium"
         },
         {
             "id": "lyph-cardiovascular-celiac-trunk",
@@ -5189,8 +4700,7 @@
                 "UBERON:0006637"
             ],
             "name": "Celiac trunk",
-            "supertype": "lt-major-artery",
-            "_subtypes": []
+            "supertype": "lt-major-artery"
         },
         {
             "id": "lyph-cardiovascular-heart",
@@ -5205,8 +4715,7 @@
                 "mat-tissue-cardiovascular-serous-pericardium",
                 "mat-tissue-cardiovascular-fibrous-pericardium",
                 "mat-tissue-cardiovascular-epicardial-fat"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-cardiovascular-artery-superior-mesenteric",
@@ -5220,8 +4729,7 @@
             ],
             "internalLyphsInLayers": [
                 3
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-cardiovascular-artery-hepatic",
@@ -5235,8 +4743,7 @@
             ],
             "internalLyphsInLayers": [
                 3
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-ganglion-mediastinal",
@@ -5245,16 +4752,14 @@
             ],
             "name": "Mediastinal ganglion",
             "supertype": "lt-PNS-ganglion",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-baroreceptor-aortic-arch",
             "ontologyTerms": [
                 "ILX:0738316"
             ],
-            "name": "Aortic arch baroreceptors",
-            "_subtypes": []
+            "name": "Aortic arch baroreceptors"
         },
         {
             "id": "lyph-cardiovascular-artery-common-carotid",
@@ -5270,8 +4775,7 @@
             "internalLyphsInLayers": [
                 3,
                 3
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-cardiovascular-artery-internal-carotid",
@@ -5279,8 +4783,7 @@
                 "UBERON:0001532"
             ],
             "name": "Internal carotid artery",
-            "supertype": "lt-major-artery",
-            "_subtypes": []
+            "supertype": "lt-major-artery"
         },
         {
             "id": "lyph-cardiovascular-artery-splenic",
@@ -5288,8 +4791,7 @@
                 "UBERON:0001194"
             ],
             "name": "Splenic artery",
-            "supertype": "lt-major-artery",
-            "_subtypes": []
+            "supertype": "lt-major-artery"
         },
         {
             "id": "lyph-cardiovascular-artery-inferior-pancreaticoduodenal",
@@ -5297,8 +4799,7 @@
                 "UBERON:0001195"
             ],
             "name": "Inferior pancreaticoduodenal artery",
-            "supertype": "lt-major-artery",
-            "_subtypes": []
+            "supertype": "lt-major-artery"
         },
         {
             "id": "lyph-cardiovascular-vein-heptoportal",
@@ -5306,72 +4807,63 @@
                 "UBERON:0001639"
             ],
             "name": "Hepatoportal vein",
-            "supertype": "lt-major-vein",
-            "_subtypes": []
+            "supertype": "lt-major-vein"
         },
         {
             "id": "lyph-cardiovascular-carotid-body",
             "ontologyTerms": [
                 "UBERON:0001629"
             ],
-            "name": "Carotid body",
-            "_subtypes": []
+            "name": "Carotid body"
         },
         {
             "id": "lyph-cardiovascular-carotid-sinus",
             "ontologyTerms": [
                 "UBERON:0003708"
             ],
-            "name": "Carotid sinus",
-            "_subtypes": []
+            "name": "Carotid sinus"
         },
         {
             "id": "lyph-skeletal-muscle-diaphragm",
             "ontologyTerms": [
                 "UBERON:0001103"
             ],
-            "name": "Diaphragm",
-            "_subtypes": []
+            "name": "Diaphragm"
         },
         {
             "id": "lyph-muscle-intercostal-rib1-to-rib2",
             "ontologyTerms": [
                 "ILX:0738319"
             ],
-            "name": "T1-T2 intercostal muscle",
-            "_subtypes": []
+            "name": "T1-T2 intercostal muscle"
         },
         {
             "id": "lyph-laryngeal-mechanoreceptors",
             "ontologyTerms": [
                 "ILX:0738317"
             ],
-            "name": "Laryngeal mechanoreceptors",
-            "_subtypes": []
+            "name": "Laryngeal mechanoreceptors"
         },
         {
             "id": "lyph-epiglottic-mechanoreceptors",
             "ontologyTerms": [
                 "ILX:0738318"
             ],
-            "name": "Epiglottic mechanoreceptors",
-            "_subtypes": []
+            "name": "Epiglottic mechanoreceptors"
         },
         {
             "id": "lyph-pancreatic-islet-of-langerhans",
             "ontologyTerms": [
                 "UBERON:0000006"
             ],
-            "name": "Pancreatic islets of langherhans",
-            "_subtypes": []
+            "name": "Pancreatic islets of langherhans"
         },
         {
             "id": "lyph-spleen",
             "ontologyTerms": [
                 "UBERON:0002106"
             ],
-            "name": "Spleen",
-            "_subtypes": []
+            "name": "Spleen"
         },
         {
             "id": "lyph-hepatic-epithelium-of-lobule",
@@ -5385,8 +4877,7 @@
                 "matt-tissue-hepatic-lobular-epithelium",
                 "mat-basement-membrane",
                 "mat-tissue-connective-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-pancreatic-acinus",
@@ -5400,8 +4891,7 @@
                 "mat-tissue-pancreatic-acinar-epithelium",
                 "mat-basement-membrane",
                 "mat-tissue-connective-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-endocrine-gland-adrenal",
@@ -5413,8 +4903,7 @@
             "layers": [
                 "mat-adrenal-medulla",
                 "mat-adrenal-cortex"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lt-CVS-lymph-conduit",
@@ -5423,8 +4912,7 @@
             ],
             "name": "Lymph conduit",
             "isTemplate": true,
-            "supertype": "lt-CVS-vessel",
-            "_subtypes": []
+            "supertype": "lt-CVS-vessel"
         },
         {
             "id": "lt-CVS-lymphatics-lymph-node",
@@ -5433,8 +4921,7 @@
             ],
             "name": "Lymph node",
             "isTemplate": true,
-            "supertype": "lt-CVS-lymph-conduit",
-            "_subtypes": []
+            "supertype": "lt-CVS-lymph-conduit"
         },
         {
             "id": "lyph-CVS-lymphatics-lymph-node-mesenteric",
@@ -5442,8 +4929,7 @@
                 "UBERON:0002509"
             ],
             "name": "Mesenteric lymph node",
-            "supertype": "lt-CVS-lymphatics-lymph-node",
-            "_subtypes": []
+            "supertype": "lt-CVS-lymphatics-lymph-node"
         },
         {
             "id": "lyph-cell-tracheobronchial-basal-epithelial",
@@ -5451,8 +4937,7 @@
                 "CL:1000349"
             ],
             "name": "Tracheobronchial basal epithelial cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-tracheobronchial-columnar-ciliated-epithelial",
@@ -5460,8 +4945,7 @@
                 "CL:0002332"
             ],
             "name": "Ciliated cell of the tracheobronchial epithelium",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lt-airway-tracheobronchial-conduit",
@@ -5480,8 +4964,7 @@
                 "mat-tissue-tracheobronchial-submucosa",
                 "mat-tissue-tracheobronchial-cartilage",
                 "mat-tissue-tracheobronchial-adventitia"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-cell-brush-of-tracheobronchial-tree",
@@ -5489,8 +4972,7 @@
                 "CL:0002075"
             ],
             "name": "Brush cell of the tracheobronchial tree",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-male-genitourinary-urethra-transprostatic",
@@ -5506,8 +4988,7 @@
             "internalLyphs": [
                 "lyph-digestive-muscle-smooth-prostatic-generic",
                 "lyph-digestive-epithelium-prostatic-generic"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-male-genitourinary-urethra-interglandular",
@@ -5524,8 +5005,7 @@
                 "lyph-male-genitourinary-epitheliulm-seminal-vesicle-generic",
                 "lyph-male-genitourinary-muscle-coat-seminal-vesicle-generic",
                 "lyph-male-genital-excretory-duct-of-seminal-vesicle"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-male-genitourinary-urethra-spongiose-penile",
@@ -5537,8 +5017,7 @@
             "layers": [
                 "mat-fluid-urinary",
                 "mat-gastrointestinal-serosa"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-lower-third-esophagus",
@@ -5558,8 +5037,7 @@
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-muscularis-externa-of-esophagus",
                 "mat-adventitia-of-esophagus"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-suprapectinate-anal-canal",
@@ -5577,8 +5055,7 @@
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-gastrointestinal-longitudinal-muscle",
                 "mat-peritoneal-serosa-of-colon"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-penile-shaft",
@@ -5592,8 +5069,7 @@
                 "lyph-urinary-penile-urethra",
                 "lyph-urinary-penile-corpus-spongiosum",
                 "lyph-urinary-penile-corpus-cavernosum"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-female-genital-ovary",
@@ -5601,8 +5077,7 @@
                 "UBERON:0000992"
             ],
             "name": "Ovary",
-            "topology": "BAG",
-            "_subtypes": []
+            "topology": "BAG"
         },
         {
             "id": "lyph-digestive-middle-third-esophagus",
@@ -5622,8 +5097,7 @@
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-muscularis-externa-of-esophagus",
                 "mat-adventitia-of-esophagus"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-cell-gastrointestinal-slow-skeletal-muscle",
@@ -5631,8 +5105,7 @@
                 "CL:0000189"
             ],
             "name": "Gastrointestinal slow skeletal muscle cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-mesothelial-visceral-peritoneum",
@@ -5640,8 +5113,7 @@
                 "CL:1000457"
             ],
             "name": "Mesothelial cell of visceral peritoneum",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-digestive-lower-esophageal-sphincter",
@@ -5662,8 +5134,7 @@
                 "mat-muscularis-externa-of-esophagus",
                 "mat-adventitia-of-esophagus",
                 "mat-peritoneal-serosa-of-esophagus"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-pyloric-canal-and-sphincter",
@@ -5683,8 +5154,7 @@
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-gastrointestinal-longitudinal-muscle",
                 "mat-peritoneal-serosa-of-stomach"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-cell-gastrointestinal-intestinal-enteroendocrine",
@@ -5692,8 +5162,7 @@
                 "CL:1001516"
             ],
             "name": "Intestinal enteroendocrine cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-epithelial-stem",
@@ -5701,8 +5170,7 @@
                 "CL:0000036"
             ],
             "name": "Epithelial stem cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-gastrointestinal-paneth-small-intestine",
@@ -5710,8 +5178,7 @@
                 "CL:1000343"
             ],
             "name": "Paneth cell of epithelium of small intestine",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-gastrointestinal-jejunal-goblet",
@@ -5722,8 +5189,7 @@
             "layers": [
                 "null"
             ],
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-gastrointestinal-jejunal-enterocyte-of-epithelium",
@@ -5731,8 +5197,7 @@
                 "CL:1000341"
             ],
             "name": "Enterocyte of epithelium proper of jejunum",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-M-of-epithelium-proper-of-ileum",
@@ -5740,8 +5205,7 @@
                 "CL:1000358"
             ],
             "name": "M cell of epithelium proper of ileum",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-gastrointestinal-ileal-enterocyte-of-epithelium",
@@ -5749,8 +5213,7 @@
                 "CL:1000342"
             ],
             "name": "Enterocyte of epithelium proper of ileum",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-gastrointestinal-ileal-goblet",
@@ -5758,14 +5221,12 @@
                 "CL:1000326"
             ],
             "name": "ileal goblet cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-digestive-infrapectinate-anal-canal",
             "name": "Infrapectinate anal canal",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-digestive-sigmoid-colon",
@@ -5783,8 +5244,7 @@
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-gastrointestinal-longitudinal-muscle",
                 "mat-peritoneal-serosa-of-colon"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-descending-colon",
@@ -5801,8 +5261,7 @@
                 "mat-gastrointestinal-circular-muscle",
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-gastrointestinal-longitudinal-muscle"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-transverse-colon",
@@ -5820,8 +5279,7 @@
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-gastrointestinal-longitudinal-muscle",
                 "mat-peritoneal-serosa-of-colon"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-digestive-ascending-colon",
@@ -5838,8 +5296,7 @@
                 "mat-gastrointestinal-circular-muscle",
                 "mat-gastrointestinal-myenteric-plexus",
                 "mat-gastrointestinal-longitudinal-muscle"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-cell-gastrointestinal-colonic-goblet",
@@ -5847,8 +5304,7 @@
                 "CL:1000320"
             ],
             "name": "Colonic goblet cell",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-gastrointestinal-colonic-entrocyte",
@@ -5856,8 +5312,7 @@
                 "CL:0002071"
             ],
             "name": "Colonic enterocyte",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-gastrointestinal-paneth-colon",
@@ -5865,8 +5320,7 @@
                 "CL:0009009"
             ],
             "name": "Paneth cell of epithelium of colon",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-cell-fat-brown",
@@ -5874,8 +5328,7 @@
                 "CL:0000449"
             ],
             "name": "Brown adipocyte",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-skeletal-muscle-rhomboid",
@@ -5892,8 +5345,7 @@
             "internalLyphs": [
                 "lyph-fat-brown-interscapular"
             ],
-            "hostedBy": "too:n3M",
-            "_subtypes": []
+            "hostedBy": "too:n3M"
         },
         {
             "id": "lyph-cell-skeletal-muscle-fiber",
@@ -5901,8 +5353,7 @@
                 "CL:0008002"
             ],
             "name": "Smeletal muscle fiber myocyte",
-            "supertype": "lt-cell-cyst",
-            "_subtypes": []
+            "supertype": "lt-cell-cyst"
         },
         {
             "id": "lyph-fat-brown-interscapular",
@@ -5914,8 +5365,7 @@
             "layers": [
                 "mat-brown-fat",
                 "mat-tissue-connective-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-CNS-sacral-nucleus-parasympathetic-S2-portion",
@@ -5923,8 +5373,7 @@
                 "ILX:0793800"
             ],
             "name": "S2 portion of sacral parasympathetic nucleus",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-sacral-nucleus-parasympathetic-S3-portion",
@@ -5932,8 +5381,7 @@
                 "ILX:0793801"
             ],
             "name": "S3 portion of sacral parasympathetic nucleus",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-sacral-nucleus-parasympathetic-S4-portion",
@@ -5941,8 +5389,7 @@
                 "ILX:0793802"
             ],
             "name": "S4 portion of sacral parasympathetic nucleus",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-muscle-ciliary",
@@ -5954,8 +5401,7 @@
             "layers": [
                 "mat-tissue-ciliary-muscle"
             ],
-            "hostedBy": "too:n4R",
-            "_subtypes": []
+            "hostedBy": "too:n4R"
         },
         {
             "id": "lyph-muscle-sphincter-pupillary",
@@ -5967,8 +5413,7 @@
             "layers": [
                 "mat-tissue-pupillary-muscle"
             ],
-            "hostedBy": "too:n4R",
-            "_subtypes": []
+            "hostedBy": "too:n4R"
         },
         {
             "id": "lyph-gland-salivary-submandibular",
@@ -5980,8 +5425,7 @@
             "layers": [
                 "mat-salivary-fluid",
                 "mat-gland-salivary-parenchyma"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-gland-salivary-parotid",
@@ -5993,8 +5437,7 @@
             "layers": [
                 "mat-salivary-fluid",
                 "mat-gland-salivary-parenchyma"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-gland-salivary-sublingual",
@@ -6006,8 +5449,7 @@
             "layers": [
                 "mat-salivary-fluid",
                 "mat-gland-salivary-parenchyma"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-thymus",
@@ -6016,8 +5458,7 @@
             ],
             "name": "Thymus",
             "topology": "CYST",
-            "hostedBy": "too:d2T",
-            "_subtypes": []
+            "hostedBy": "too:d2T"
         },
         {
             "id": "lyph-oral-mucosa",
@@ -6029,8 +5470,7 @@
             "layers": [
                 "mat-extracellular-fluid",
                 "mat-muscoa-oral"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-urinary-proximal-sphinctered-urethra",
@@ -6047,8 +5487,7 @@
                 "mat-tissue-connective-tissue",
                 "mat-tissue-urinary-rhabdosphincter",
                 "mat-tissue-connective-tissue"
-            ],
-            "_subtypes": []
+            ]
         },
         {
             "id": "lyph-male-genital-gland-bulbourethral",
@@ -6056,8 +5495,7 @@
                 "UBERON:0002366"
             ],
             "name": "Bulbourethral gland",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-urinary-penile-corpus-spongiosum",
@@ -6065,8 +5503,7 @@
                 "UBERON:0011183"
             ],
             "name": "Corpus spongiosum",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-urinary-penile-corpus-cavernosum",
@@ -6074,8 +5511,7 @@
                 "UBERON:0004713"
             ],
             "name": "Corpus cavernosum",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-PNS-nerve-tympanic",
@@ -6084,8 +5520,7 @@
             ],
             "name": "Tympanic nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C9N",
-            "_subtypes": []
+            "hostedBy": "too:n1C9N"
         },
         {
             "id": "lyph-PNS-nerve-plexus-aortic",
@@ -6094,8 +5529,7 @@
             ],
             "name": "Aortic plexus",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-ciliary-short",
@@ -6104,8 +5538,7 @@
             ],
             "name": "Short ciliary nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n4C3N",
-            "_subtypes": []
+            "hostedBy": "too:n4C3N"
         },
         {
             "id": "lyph-PNS-nerve-ciliary-long",
@@ -6114,8 +5547,7 @@
             ],
             "name": "Long ciliary nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n4C3N",
-            "_subtypes": []
+            "hostedBy": "too:n4C3N"
         },
         {
             "id": "lyph-PNS-ganglion-ciliary",
@@ -6124,8 +5556,7 @@
             ],
             "name": "Ciliary ganglion",
             "supertype": "lt-PNS-ganglion",
-            "hostedBy": "too:n1G",
-            "_subtypes": []
+            "hostedBy": "too:n1G"
         },
         {
             "id": "lyph-PNS-nerve-lesser-splanchnic",
@@ -6134,8 +5565,7 @@
             ],
             "name": "Lesser splanchnic nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-vidian",
@@ -6144,8 +5574,7 @@
             ],
             "name": "Vidian nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-plexus-ophthalmic",
@@ -6154,8 +5583,7 @@
             ],
             "name": "Ophthalmic plexus",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-lacrimal",
@@ -6164,8 +5592,7 @@
             ],
             "name": "Lacrimal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n4C5N",
-            "_subtypes": []
+            "hostedBy": "too:n4C5N"
         },
         {
             "id": "lyph-PNS-nerve-chorda-tympani",
@@ -6174,8 +5601,7 @@
             ],
             "name": "Chorda tympani branch of facial nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n4C7N",
-            "_subtypes": []
+            "hostedBy": "too:n4C7N"
         },
         {
             "id": "lyph-PNS-nerve-nasopalatine",
@@ -6184,8 +5610,7 @@
             ],
             "name": "Nasopalatine nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n4C5N",
-            "_subtypes": []
+            "hostedBy": "too:n4C5N"
         },
         {
             "id": "lyph-PNS-ganglion-otic",
@@ -6194,8 +5619,7 @@
             ],
             "name": "Otic ganglion",
             "supertype": "lt-PNS-ganglion",
-            "hostedBy": "too:n1G",
-            "_subtypes": []
+            "hostedBy": "too:n1G"
         },
         {
             "id": "lyph-PNS-ganglion-pterygopalatine",
@@ -6204,8 +5628,7 @@
             ],
             "name": "Pterygopalatine ganglion",
             "supertype": "lt-PNS-ganglion",
-            "hostedBy": "too:n1G",
-            "_subtypes": []
+            "hostedBy": "too:n1G"
         },
         {
             "id": "lyph-PNS-nerve-lingual",
@@ -6214,8 +5637,7 @@
             ],
             "name": "Lingual nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n4C5N",
-            "_subtypes": []
+            "hostedBy": "too:n4C5N"
         },
         {
             "id": "lyph-PNS-ganglion-submandiubular",
@@ -6224,8 +5646,7 @@
             ],
             "name": "Submandiubular ganglion",
             "supertype": "lt-PNS-ganglion",
-            "hostedBy": "too:n1G",
-            "_subtypes": []
+            "hostedBy": "too:n1G"
         },
         {
             "id": "lyph-PNS-nerve-plexus-hypogastric-inferior",
@@ -6234,8 +5655,7 @@
             ],
             "name": "Inferior hypogastric nerve plexus",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-facial-main-trunk",
@@ -6244,8 +5664,7 @@
             ],
             "name": "Facial nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n4C7N",
-            "_subtypes": []
+            "hostedBy": "too:n4C7N"
         },
         {
             "id": "lyph-PNS-nerve-oculomotor-main-trunk",
@@ -6254,8 +5673,7 @@
             ],
             "name": "Oculomotor nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n4C3N",
-            "_subtypes": []
+            "hostedBy": "too:n4C3N"
         },
         {
             "id": "lyph-PNS-nerve-plexus-ganglion-hypogastric",
@@ -6264,8 +5682,7 @@
             ],
             "name": "Inferior hypogastric nerve plexus ganglion",
             "supertype": "lt-PNS-ganglion",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-PNS-nerve-plexus-prostatic",
@@ -6274,8 +5691,7 @@
             ],
             "name": "Prostatic nerve plexus",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-penile-cavernous",
@@ -6284,8 +5700,7 @@
             ],
             "name": "Penile cavernous nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-plexus-uterovaginal",
@@ -6294,8 +5709,7 @@
             ],
             "name": "Uterovaginal nerve plexus",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-clitoral-cavernous",
@@ -6304,8 +5718,7 @@
             ],
             "name": "Clitoral cavernous nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-superior-ovarian",
@@ -6314,8 +5727,7 @@
             ],
             "name": "Superior ovarian nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-plexus-ovarian",
@@ -6324,8 +5736,7 @@
             ],
             "name": "Ovarian nerve plexus",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-ganglion-ovarian-parasympathetic-nerve-plexus",
@@ -6334,8 +5745,7 @@
             ],
             "name": "Ovarian nerve plexus parasympathetic ganglion",
             "supertype": "lt-PNS-ganglion",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-pelvic-ganglion-major",
@@ -6344,8 +5754,7 @@
             ],
             "name": "Major pelvic ganglion",
             "supertype": "lt-prevertebral-ganglia",
-            "hostedBy": "too:n2G",
-            "_subtypes": []
+            "hostedBy": "too:n2G"
         },
         {
             "id": "lyph-PNS-pelvic-ganglion-accessory",
@@ -6354,8 +5763,7 @@
             ],
             "name": "Accessory pelvic ganglion",
             "supertype": "lt-prevertebral-ganglia",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-CNS-nucleus-Onuf",
@@ -6363,8 +5771,7 @@
                 "UBERON:0022278"
             ],
             "name": "Onuf's sacarl nucleus of the pudendal nerve",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-nucleus-salivatory-inferior",
@@ -6372,8 +5779,7 @@
                 "UBERON:0002872"
             ],
             "name": "Inferior salivatory nucleus",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-nucleus-salivatory-superior",
@@ -6381,8 +5787,7 @@
                 "UBERON:0002149"
             ],
             "name": "Superior salivatory nucleus",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-nucleus-oculomotor-parvocellular",
@@ -6390,8 +5795,7 @@
                 "UBERON:0002141"
             ],
             "name": "Parvocellular oculomotor nucleus",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-CNS-sacral-nucleus-parasympathetic-S1-portion",
@@ -6399,8 +5803,7 @@
                 "ILX:0793805"
             ],
             "name": "S1 portion of sacral parasympathetic nucleus",
-            "supertype": "lt-CNS-nucleus",
-            "_subtypes": []
+            "supertype": "lt-CNS-nucleus"
         },
         {
             "id": "lyph-PNS-nerve-submandibular-ganglion-to-sublingual-gland",
@@ -6409,8 +5812,7 @@
             ],
             "name": "Nerve from submandibular ganglion to sublingual gland",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n4C5N",
-            "_subtypes": []
+            "hostedBy": "too:n4C5N"
         },
         {
             "id": "lyph-PNS-nerve-submandibular-ganglion-to-oral-mucosa",
@@ -6419,8 +5821,7 @@
             ],
             "name": "Nerve  from submandibular ganglion to mouth mucosa",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n4C5N",
-            "_subtypes": []
+            "hostedBy": "too:n4C5N"
         },
         {
             "id": "lyph-PNS-nerve-submandibular-ganglion-to-submandibular-gland",
@@ -6429,8 +5830,7 @@
             ],
             "name": "Nerve from submandibular ganglion to submandibular gland",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n4C5N",
-            "_subtypes": []
+            "hostedBy": "too:n4C5N"
         },
         {
             "id": "lyph-PNS-nerve-auriculotemporal",
@@ -6439,8 +5839,7 @@
             ],
             "name": "Auriculotemporal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n4C5N",
-            "_subtypes": []
+            "hostedBy": "too:n4C5N"
         },
         {
             "id": "lyph-PNS-nerve-petrosal-lesser",
@@ -6449,8 +5848,7 @@
             ],
             "name": "Lesser petrosal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C9N",
-            "_subtypes": []
+            "hostedBy": "too:n1C9N"
         },
         {
             "id": "lyph-PNS-nerve-petrosal-deep",
@@ -6459,8 +5857,7 @@
             ],
             "name": "Deep petrosal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-zygomatic",
@@ -6469,8 +5866,7 @@
             ],
             "name": "Zygomatic nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n4C5N",
-            "_subtypes": []
+            "hostedBy": "too:n4C5N"
         },
         {
             "id": "lyph-PNS-nerve-zygomatic-communicating-branch",
@@ -6479,8 +5875,7 @@
             ],
             "name": "Communicating branch of zygomatic nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n4C5N",
-            "_subtypes": []
+            "hostedBy": "too:n4C5N"
         },
         {
             "id": "lyph-PNS-nerve-petrosal-greater",
@@ -6489,8 +5884,7 @@
             ],
             "name": "Greater petrosal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n4C7N",
-            "_subtypes": []
+            "hostedBy": "too:n4C7N"
         },
         {
             "id": "lyph-female-genital-clitoris-corpus-cavernosum",
@@ -6498,8 +5892,7 @@
                 "UBERON:0006608"
             ],
             "name": "Corpus cavernosum clitoridis",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-PNS-nerve-plexus-hypogastric-superior",
@@ -6508,8 +5901,7 @@
             ],
             "name": "Superior hypogastric nerve plexus",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-plexus-mesenteric-inferior",
@@ -6518,8 +5910,7 @@
             ],
             "name": "Inferior mesenteric nerve plexus",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-vagus",
@@ -6528,16 +5919,14 @@
             ],
             "name": "Vagus nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n1C10N",
-            "_subtypes": []
+            "hostedBy": "too:n1C10N"
         },
         {
             "id": "lyph-PNS-nerve-glossopharyngeal",
             "ontologyTerms": [
                 "UBERON:0001649"
             ],
-            "name": "Glossopharyngeal nerve",
-            "_subtypes": []
+            "name": "Glossopharyngeal nerve"
         },
         {
             "id": "lyph-PNS-nerve-spinal-generic",
@@ -6546,8 +5935,7 @@
             ],
             "name": "Generic spinal nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2R",
-            "_subtypes": []
+            "hostedBy": "too:n2R"
         },
         {
             "id": "lyph-PNS-ganglion-myenteric-generic",
@@ -6556,8 +5944,7 @@
             ],
             "name": "Generic myenteric ganglion of small intestine",
             "supertype": "lt-prevertebral-ganglia",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-mesenteric-generic",
@@ -6566,8 +5953,7 @@
             ],
             "name": "Generic mesenteric nerve",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-ganglion-complex-superior-mesenteric-celiac-generic",
@@ -6576,8 +5962,7 @@
             ],
             "name": "Generic celiac ganglion- superior mesenteric ganglion complex",
             "supertype": "lt-prevertebral-ganglia",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-PNS-nerve-postganglionic-sympathetic-fiber-generic",
@@ -6586,8 +5971,7 @@
             ],
             "name": "Generic postganglionic sympathetic fiber",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-digestive-muscle-smooth-prostatic-generic",
@@ -6595,8 +5979,7 @@
                 "UBERON:0004243"
             ],
             "name": "Generic prostate gland smooth muscle",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-PNS-nerve-postganglionic-parasympathetic-fiber-generic",
@@ -6605,8 +5988,7 @@
             ],
             "name": "Generic postganglionic parasympathetic fiber",
             "supertype": "lt-PNS-nerve",
-            "hostedBy": "too:n2N",
-            "_subtypes": []
+            "hostedBy": "too:n2N"
         },
         {
             "id": "lyph-digestive-epithelium-prostatic-generic",
@@ -6614,8 +5996,7 @@
                 "UBERON:0000428"
             ],
             "name": "Generic prostatic epithelium",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-male-genitourinary-epitheliulm-seminal-vesicle-generic",
@@ -6623,8 +6004,7 @@
                 "UBERON:0004805"
             ],
             "name": "Generic seminal vesicle epithelium",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lyph-male-genitourinary-muscle-coat-seminal-vesicle-generic",
@@ -6632,8 +6012,7 @@
                 "UBERON:0004665"
             ],
             "name": "Generic seminal vesicle muscle coat",
-            "topology": "TUBE",
-            "_subtypes": []
+            "topology": "TUBE"
         },
         {
             "id": "lt-soma-of-neuron",
@@ -6642,20 +6021,7 @@
             ],
             "name": "Soma of neuron",
             "isTemplate": true,
-            "supertype": "lt-segment-of-neuron",
-            "_subtypes": []
-        },
-        {
-            "id": "_newLyph1TEMP",
-            "name": "New lyph 1TEMP",
-            "isTemplate": true,
-            "_subtypes": []
-        },
-        {
-            "id": "_newLyph2TEMP",
-            "name": "New lyph 2",
-            "isTemplate": true,
-            "_subtypes": []
+            "supertype": "lt-segment-of-neuron"
         },
         {
             "id": "left-lyph-urinary-distal-free-ureter",
@@ -6673,7 +6039,6 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6691,7 +6056,6 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6709,7 +6073,6 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6727,7 +6090,6 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6745,7 +6107,6 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6760,7 +6121,6 @@
                 "mat-tissue-urinary-collecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6775,7 +6135,6 @@
                 "mat-tissue-urinary-collecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6790,7 +6149,6 @@
                 "mat-tissue-urinary-collecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6805,7 +6163,6 @@
                 "mat-tissue-urinary-connecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6820,7 +6177,6 @@
                 "mat-tissue-urinary-distal-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6835,7 +6191,6 @@
                 "mat-tissue-urinary-distal-macula-densa-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6850,7 +6205,6 @@
                 "mat-tissue-urinary-distal-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6865,7 +6219,6 @@
                 "mat-tissue-urinary-thin-limbs-of-Henle-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6880,7 +6233,6 @@
                 "mat-tissue-urinary-thin-limbs-of-Henle-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6895,7 +6247,6 @@
                 "mat-tissue-urinary-proximal-straight-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6910,7 +6261,6 @@
                 "mat-tissue-urinary-proximal-convoluted-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6925,7 +6275,6 @@
                 "mat-tissue-urinary-Bowmans-capsule-parietal-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6940,7 +6289,6 @@
                 "mat-tissue-urinary-Bowmans-capsule-visceral-epithelium",
                 "mat-glomerular-basement-membrane"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6959,7 +6307,6 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6977,7 +6324,6 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -6995,7 +6341,6 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -7013,7 +6358,6 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -7031,7 +6375,6 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -7046,7 +6389,6 @@
                 "mat-tissue-urinary-collecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -7061,7 +6403,6 @@
                 "mat-tissue-urinary-collecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -7076,7 +6417,6 @@
                 "mat-tissue-urinary-collecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -7091,7 +6431,6 @@
                 "mat-tissue-urinary-connecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -7106,7 +6445,6 @@
                 "mat-tissue-urinary-distal-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -7121,7 +6459,6 @@
                 "mat-tissue-urinary-distal-macula-densa-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -7136,7 +6473,6 @@
                 "mat-tissue-urinary-distal-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -7151,7 +6487,6 @@
                 "mat-tissue-urinary-thin-limbs-of-Henle-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -7166,7 +6501,6 @@
                 "mat-tissue-urinary-thin-limbs-of-Henle-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -7181,7 +6515,6 @@
                 "mat-tissue-urinary-proximal-straight-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -7196,7 +6529,6 @@
                 "mat-tissue-urinary-proximal-convoluted-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -7211,7 +6543,6 @@
                 "mat-tissue-urinary-Bowmans-capsule-parietal-epithelium",
                 "mat-basal-lamina-of-nephron"
             ],
-            "_subtypes": [],
             "_cloning": true
         },
         {
@@ -7226,7 +6557,6 @@
                 "mat-tissue-urinary-Bowmans-capsule-visceral-epithelium",
                 "mat-glomerular-basement-membrane"
             ],
-            "_subtypes": [],
             "_cloning": true
         }
     ],
@@ -10012,7 +9342,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "1ae5c8df9d938374a18f463da4b6fc75b49037f1",
+    "version": "6ae60163c6ab8c7624891817acf49270796f3908",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
-    "lastUpdated": "2025-04-25"
+    "lastUpdated": "2025-05-07"
 }
