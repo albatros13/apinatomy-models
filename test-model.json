@@ -2,7 +2,7 @@
     "name": "test-model",
     "created": "2025-03-18",
     "lastUpdated": "2025-05-07",
-    "version": "c05a1001e5e9e4856bb49e1631cd192fcce7df9b",
+    "version": "2e3fb51e77a6835f7366874afdd8152fe33c2a0a",
     "id": "test-model",
     "namespace": "nm_main",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
@@ -26,6 +26,14 @@
         {
             "id": "_newLyph5",
             "name": "New lyph 5"
+        },
+        {
+            "id": "_newLyph6",
+            "name": "New lyph 6"
+        },
+        {
+            "id": "_newLyph7",
+            "name": "New lyph 7"
         }
     ],
     "chains": [
@@ -38,6 +46,17 @@
                 "_newLyph3",
                 "_newLyph4",
                 "_newLyph5"
+            ],
+            "_class": "Chain"
+        }
+    ],
+    "coalescences": [
+        {
+            "id": "_newCoalescence1",
+            "name": "New coalescence 1",
+            "lyphs": [
+                "_newLyph6",
+                "_newLyph7"
             ]
         }
     ]
