@@ -4419,9 +4419,7 @@
             "name": "Blood vessel",
             "isTemplate": true,
             "supertype": "lt-CVS-vessel",
-            "subtypes": [
-                "_newLyph1"
-            ]
+            "subtypes": []
         },
         {
             "id": "lt-major-artery",
@@ -6573,10 +6571,6 @@
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-tissue-cardiovascular-vascular-adventitia"
             ]
-        },
-        {
-            "id": "_newLyph1",
-            "name": "New lyph 1"
         }
     ],
     "materials": [
@@ -9361,7 +9355,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "aaad9d78cbed52a6057ed68be828f2ac7464f961",
+    "version": "24a0820abbf0cc1149a2e0448c933fd33f5a1d00",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-09"
 }
