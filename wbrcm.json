@@ -8612,6 +8612,13 @@
             "materials": [
                 "mat-extracellular-material"
             ]
+        },
+        {
+            "id": "mat-fluid-hepatic-space-of-Disse",
+            "name": "Fluid in the Hepatic Space of Disse",
+            "materials": [
+                "mat-extracellular-fluid"
+            ]
         }
     ],
     "coalescences": [
@@ -9423,7 +9430,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "78c680f06f4db2c3d0aca51c3d3d60eaecd78508",
+    "version": "1e6ae3cb5acb5f977f5f22b7ba8bf89dd3a72f6a",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-09"
 }
