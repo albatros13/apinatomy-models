@@ -4428,7 +4428,7 @@
             "ontologyTerms": [
                 "UBERON:0003509"
             ],
-            "name": "Major artery",
+            "name": "Major artery (over 1cm)",
             "isTemplate": true,
             "layers": [
                 "mat-blood",
@@ -4437,7 +4437,8 @@
                 "mat-tissue-cardiovascular-vascular-media",
                 "mat-tissue-cardiovascular-vascular-adventitia"
             ],
-            "supertype": "lt-CVS-blood-vessel"
+            "supertype": "lt-CVS-blood-vessel",
+            "topology": "TUBE"
         },
         {
             "id": "lt-major-vein",
@@ -6595,6 +6596,19 @@
             "topology": "TUBE",
             "layers": [
                 "mat-blood",
+                "mat-tissue-cardiovascular-endothelium",
+                "mat-tissue-cardiovascular-vascular-smooth-muscle",
+                "mat-tissue-cardiovascular-vascular-adventitia"
+            ]
+        },
+        {
+            "id": "lt-muscular-artery",
+            "name": "lt-muscular-artery (9mm)",
+            "supertype": "lt-CVS-blood-vessel",
+            "isTemplate": true,
+            "topology": "TUBE",
+            "layers": [
+                "mat-cellular-component-of-blood",
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-tissue-cardiovascular-vascular-smooth-muscle",
                 "mat-tissue-cardiovascular-vascular-adventitia"
@@ -9383,7 +9397,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "478a6013a6699fab7888747639950d4e14af9823",
+    "version": "cad72b98bfc03740d4fda5d5710f1587dee0edc7",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-09"
 }
