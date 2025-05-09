@@ -4418,7 +4418,10 @@
             ],
             "name": "Blood vessel",
             "isTemplate": true,
-            "supertype": "lt-CVS-vessel"
+            "supertype": "lt-CVS-vessel",
+            "subtypes": [
+                "_newLyph1"
+            ]
         },
         {
             "id": "lt-major-artery",
@@ -6558,6 +6561,22 @@
                 "mat-glomerular-basement-membrane"
             ],
             "_cloning": true
+        },
+        {
+            "id": "lt-venule",
+            "name": "lt-venule",
+            "supertype": "lt-CVS-blood-vessel",
+            "isTemplate": true,
+            "topology": "TUBE",
+            "layers": [
+                "mat-blood",
+                "mat-tissue-cardiovascular-endothelium",
+                "mat-tissue-cardiovascular-vascular-adventitia"
+            ]
+        },
+        {
+            "id": "_newLyph1",
+            "name": "New lyph 1"
         }
     ],
     "materials": [
@@ -9342,7 +9361,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "6ae60163c6ab8c7624891817acf49270796f3908",
+    "version": "aaad9d78cbed52a6057ed68be828f2ac7464f961",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
-    "lastUpdated": "2025-05-07"
+    "lastUpdated": "2025-05-09"
 }
