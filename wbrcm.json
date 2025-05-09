@@ -4444,7 +4444,7 @@
             "ontologyTerms": [
                 "UBERON:0003920"
             ],
-            "name": "Major vein",
+            "name": "lt-major-vein (over 1cm)",
             "isTemplate": true,
             "layers": [
                 "mat-blood",
@@ -6564,7 +6564,7 @@
         },
         {
             "id": "lt-venule",
-            "name": "lt-venule",
+            "name": "lt-venule (50um)",
             "supertype": "lt-CVS-blood-vessel",
             "isTemplate": true,
             "topology": "TUBE",
@@ -6576,7 +6576,20 @@
         },
         {
             "id": "lt-small-vein",
-            "name": "lt-small-vein",
+            "name": "lt-small-vein (200um)",
+            "supertype": "lt-CVS-blood-vessel",
+            "isTemplate": true,
+            "topology": "TUBE",
+            "layers": [
+                "mat-blood",
+                "mat-tissue-cardiovascular-endothelium",
+                "mat-tissue-cardiovascular-vascular-smooth-muscle",
+                "mat-tissue-cardiovascular-vascular-adventitia"
+            ]
+        },
+        {
+            "id": "lt-medium-vein",
+            "name": "lt-medium-vein (9mm)",
             "supertype": "lt-CVS-blood-vessel",
             "isTemplate": true,
             "topology": "TUBE",
@@ -9370,7 +9383,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "e378b91515cd8c0267866c4ae465a073df3d982c",
+    "version": "478a6013a6699fab7888747639950d4e14af9823",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-09"
 }
