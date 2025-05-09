@@ -4419,7 +4419,9 @@
             "name": "Blood vessel",
             "isTemplate": true,
             "supertype": "lt-CVS-vessel",
-            "subtypes": []
+            "subtypes": [
+                "_newLyph1"
+            ]
         },
         {
             "id": "lt-major-artery",
@@ -6569,6 +6571,19 @@
             "layers": [
                 "mat-blood",
                 "mat-tissue-cardiovascular-endothelium",
+                "mat-tissue-cardiovascular-vascular-adventitia"
+            ]
+        },
+        {
+            "id": "lt-small-vein",
+            "name": "lt-small-vein",
+            "supertype": "lt-CVS-blood-vessel",
+            "isTemplate": true,
+            "topology": "TUBE",
+            "layers": [
+                "mat-blood",
+                "mat-tissue-cardiovascular-endothelium",
+                "mat-tissue-cardiovascular-vascular-smooth-muscle",
                 "mat-tissue-cardiovascular-vascular-adventitia"
             ]
         }
@@ -9355,7 +9370,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "24a0820abbf0cc1149a2e0448c933fd33f5a1d00",
+    "version": "e378b91515cd8c0267866c4ae465a073df3d982c",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-09"
 }
