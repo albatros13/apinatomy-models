@@ -6639,6 +6639,22 @@
                 "mat-tissue-cardiovascular-vascular-smooth-muscle",
                 "mat-tissue-cardiovascular-vascular-adventitia"
             ]
+        },
+        {
+            "id": "lyph-cell-Sinusoidal-Endothelial",
+            "name": "Sinusoidal Endothelial Cell",
+            "topology": "CYST"
+        },
+        {
+            "id": "lt-hepatic-sinusoidal-conduit",
+            "name": "lt-hepatic-sinusoidal-conduit",
+            "isTemplate": true,
+            "topology": "TUBE",
+            "layers": [
+                "mat-blood",
+                "mat-hepatic-sinusoid-wall-endothelium",
+                "mat-fluid-hepatic-space-of-Disse"
+            ]
         }
     ],
     "materials": [
@@ -8619,6 +8635,17 @@
             "materials": [
                 "mat-extracellular-fluid"
             ]
+        },
+        {
+            "id": "mat-hepatic-sinusoid-wall-endothelium",
+            "name": "Endothelial Lining of the Hepatic Sinusoid",
+            "ontologyTerms": [
+                "sinusoid",
+                "mat-hepatic-sinusoid-wall-endothelium_ontologyTerms_new_2"
+            ],
+            "materials": [
+                "lyph-cell-Sinusoidal-Endothelial"
+            ]
         }
     ],
     "coalescences": [
@@ -9430,7 +9457,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "1e6ae3cb5acb5f977f5f22b7ba8bf89dd3a72f6a",
+    "version": "6c448cbf566032ce95cc729ef641da8f3f6a599b",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-09"
 }
