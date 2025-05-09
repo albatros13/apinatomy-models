@@ -6613,6 +6613,32 @@
                 "mat-tissue-cardiovascular-vascular-smooth-muscle",
                 "mat-tissue-cardiovascular-vascular-adventitia"
             ]
+        },
+        {
+            "id": "lt-arteriole ",
+            "name": "lt-arteriole (100um)",
+            "supertype": "lt-CVS-blood-vessel",
+            "isTemplate": true,
+            "topology": "TUBE",
+            "layers": [
+                "mat-blood",
+                "mat-tissue-cardiovascular-endothelium",
+                "mat-tissue-cardiovascular-vascular-smooth-muscle",
+                "mat-tissue-cardiovascular-vascular-adventitia"
+            ]
+        },
+        {
+            "id": "lt-metarteriole",
+            "name": "lt-metarteriole (10um)",
+            "supertype": "lt-CVS-blood-vessel",
+            "isTemplate": true,
+            "topology": "TUBE",
+            "layers": [
+                "mat-blood",
+                "mat-tissue-cardiovascular-endothelium",
+                "mat-tissue-cardiovascular-vascular-smooth-muscle",
+                "mat-tissue-cardiovascular-vascular-adventitia"
+            ]
         }
     ],
     "materials": [
@@ -9397,7 +9423,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "cad72b98bfc03740d4fda5d5710f1587dee0edc7",
+    "version": "78c680f06f4db2c3d0aca51c3d3d60eaecd78508",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-09"
 }
