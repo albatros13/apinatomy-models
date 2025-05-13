@@ -4418,10 +4418,7 @@
             ],
             "name": "Blood vessel",
             "isTemplate": true,
-            "supertype": "lt-CVS-vessel",
-            "subtypes": [
-                "_newLyph1"
-            ]
+            "supertype": "lt-CVS-vessel"
         },
         {
             "id": "lt-major-artery",
@@ -9457,7 +9454,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "6c448cbf566032ce95cc729ef641da8f3f6a599b",
+    "version": "b40e0f497e55f193d0725033f3237acf4275cd28",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
-    "lastUpdated": "2025-05-09"
+    "lastUpdated": "2025-05-13"
 }
