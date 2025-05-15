@@ -4418,7 +4418,10 @@
             ],
             "name": "Blood vessel",
             "isTemplate": true,
-            "supertype": "lt-CVS-vessel"
+            "supertype": "lt-CVS-vessel",
+            "subtypes": [
+                "_newLyph1"
+            ]
         },
         {
             "id": "lt-major-artery",
@@ -6652,6 +6655,13 @@
                 "mat-hepatic-sinusoid-wall-endothelium",
                 "mat-fluid-hepatic-space-of-Disse"
             ]
+        },
+        {
+            "id": "lt-arterial",
+            "name": "lt-arterial",
+            "supertype": "lt-CVS-blood-vessel",
+            "isTemplate": true,
+            "topology": "TUBE"
         }
     ],
     "materials": [
@@ -9454,7 +9464,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "b40e0f497e55f193d0725033f3237acf4275cd28",
+    "version": "a791f7e072a6d494281a8b4b078afacb04fb5cb9",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
-    "lastUpdated": "2025-05-13"
+    "lastUpdated": "2025-05-15"
 }
