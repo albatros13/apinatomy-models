@@ -4418,7 +4418,10 @@
             ],
             "name": "Blood vessel",
             "isTemplate": true,
-            "supertype": "lt-CVS-vessel"
+            "supertype": "lt-CVS-vessel",
+            "subtypes": [
+                "_newLyph1"
+            ]
         },
         {
             "id": "lt-major-artery",
@@ -4450,7 +4453,7 @@
                 "mat-tissue-cardiovascular-vascular-media",
                 "mat-tissue-cardiovascular-vascular-adventitia"
             ],
-            "supertype": "lt-CVS-blood-vessel"
+            "supertype": "lt-venous"
         },
         {
             "id": "lt-cardiac-chamber",
@@ -6524,7 +6527,7 @@
         {
             "id": "lt-venule",
             "name": "lt-venule (50um)",
-            "supertype": "lt-CVS-blood-vessel",
+            "supertype": "lt-venous",
             "isTemplate": true,
             "topology": "TUBE",
             "layers": [
@@ -6536,7 +6539,7 @@
         {
             "id": "lt-small-vein",
             "name": "lt-small-vein (200um)",
-            "supertype": "lt-CVS-blood-vessel",
+            "supertype": "lt-venous",
             "isTemplate": true,
             "topology": "TUBE",
             "layers": [
@@ -6549,7 +6552,7 @@
         {
             "id": "lt-medium-vein",
             "name": "lt-medium-vein (9mm)",
-            "supertype": "lt-CVS-blood-vessel",
+            "supertype": "lt-venous",
             "isTemplate": true,
             "topology": "TUBE",
             "layers": [
@@ -6625,6 +6628,19 @@
                 "lt-metarteriole",
                 "lt-arteriole",
                 "lt-muscular-artery"
+            ]
+        },
+        {
+            "id": "lt-venous",
+            "name": "lt-venous",
+            "supertype": "lt-CVS-blood-vessel",
+            "isTemplate": true,
+            "topology": "TUBE",
+            "subtypes": [
+                "lt-major-vein",
+                "lt-venule",
+                "lt-small-vein",
+                "lt-medium-vein"
             ]
         }
     ],
@@ -9520,7 +9536,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "c2d27d82c0c43bdcc0120d6f642d5b36c2be4810",
+    "version": "573c056340dd1b5e49480df40983e0abd2208158",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-16"
 }
