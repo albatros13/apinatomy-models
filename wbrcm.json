@@ -8671,6 +8671,30 @@
             "materials": [
                 "mat-membrane"
             ]
+        },
+        {
+            "id": "mat-mitochondrial-matrix",
+            "name": "Mitochondrial matrix",
+            "ontologyTerms": [
+                "GO:0005759"
+            ]
+        },
+        {
+            "id": "mat-mitochondrial-inner-membrane",
+            "name": "Mitochondrial inner membrane",
+            "materials": [
+                "mat-membrane"
+            ]
+        },
+        {
+            "id": "mat-mitochondrial-outer-membrane",
+            "name": "Mitochondrial outer membrane",
+            "ontologyTerms": [
+                "GO:0005741"
+            ],
+            "materials": [
+                "mat-membrane"
+            ]
         }
     ],
     "coalescences": [
@@ -9482,7 +9506,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "6971f04e0cab0061ae5470516c1d7ad4de2dce70",
+    "version": "6451c1314391f776d68944fc298c3e42c87e300a",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-16"
 }
