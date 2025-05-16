@@ -8654,6 +8654,23 @@
             "materials": [
                 "mat-membrane"
             ]
+        },
+        {
+            "id": "mat-Golgi-lumen-content",
+            "name": "Golgi lumen content",
+            "ontologyTerms": [
+                "GO:0005796"
+            ]
+        },
+        {
+            "id": "mat-Golgi-membrane",
+            "name": "Golgi membrane",
+            "ontologyTerms": [
+                "GO:0000139"
+            ],
+            "materials": [
+                "mat-membrane"
+            ]
         }
     ],
     "coalescences": [
@@ -9465,7 +9482,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "dc5e459c9a91cab95c7abe2df7a9e5ac0f1d19cd",
+    "version": "6971f04e0cab0061ae5470516c1d7ad4de2dce70",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-16"
 }
