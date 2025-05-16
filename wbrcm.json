@@ -8695,6 +8695,13 @@
             "materials": [
                 "mat-membrane"
             ]
+        },
+        {
+            "id": "mat-lysosomal-lumen",
+            "name": "Lysosomal lumen",
+            "ontologyTerms": [
+                "GO:0043202"
+            ]
         }
     ],
     "coalescences": [
@@ -9506,7 +9513,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "6451c1314391f776d68944fc298c3e42c87e300a",
+    "version": "9b46b6ef1887f0dff9ad061b3b11fb1ef2958e9c",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-16"
 }
