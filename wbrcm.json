@@ -6848,7 +6848,8 @@
         {
             "id": "mat-extracellular-fluid",
             "ontologyTerms": [
-                "ILX:0492026"
+                "ILX:0492026",
+                "GO:0005576"
             ],
             "name": "Extracellular fluid",
             "materials": [
@@ -9419,7 +9420,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "1d57ec8318f575c59ca6ab3b029bb66981f35dbf",
+    "version": "c1b0c6d23764f02a9b484e1fb4850c967d80fb07",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-16"
 }
