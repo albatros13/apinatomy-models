@@ -5187,9 +5187,6 @@
                 "CL:1000325"
             ],
             "name": "Jejunal goblet cell",
-            "layers": [
-                "null"
-            ],
             "supertype": "lt-cell-cyst"
         },
         {
@@ -6039,8 +6036,7 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-proximal-free-ureter",
@@ -6056,8 +6052,7 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-renal-pelvis",
@@ -6073,8 +6068,7 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-major-calyx",
@@ -6090,8 +6084,7 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-minor-calyx",
@@ -6107,8 +6100,7 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-inner-medullary-collecting-duct",
@@ -6121,8 +6113,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-collecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-outer-medullary-collecting-duct",
@@ -6135,8 +6126,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-collecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-cortical-collecting-tubule",
@@ -6149,8 +6139,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-collecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-connecting-tubule",
@@ -6163,8 +6152,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-connecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-distal-convoluted-tubule",
@@ -6177,8 +6165,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-distal-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-macula-densa-portion-of-distal-tubule",
@@ -6191,8 +6178,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-distal-macula-densa-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-distal-straight-tubule",
@@ -6205,8 +6191,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-distal-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-ascending-thin-limb",
@@ -6219,8 +6204,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-thin-limbs-of-Henle-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-descending-thin-limb",
@@ -6233,8 +6217,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-thin-limbs-of-Henle-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-proximal-straight-tubule",
@@ -6247,8 +6230,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-proximal-straight-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-proximal-convoluted-tubule",
@@ -6261,8 +6243,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-proximal-convoluted-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-parietal-Bowmans-capsule",
@@ -6275,8 +6256,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-Bowmans-capsule-parietal-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "left-lyph-urinary-visceral-Bowmans-capsule",
@@ -6289,8 +6269,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-Bowmans-capsule-visceral-epithelium",
                 "mat-glomerular-basement-membrane"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-distal-free-ureter",
@@ -6307,8 +6286,7 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-proximal-free-ureter",
@@ -6324,8 +6302,7 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-renal-pelvis",
@@ -6341,8 +6318,7 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-major-calyx",
@@ -6358,8 +6334,7 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-minor-calyx",
@@ -6375,8 +6350,7 @@
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-inner-medullary-collecting-duct",
@@ -6389,8 +6363,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-collecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-outer-medullary-collecting-duct",
@@ -6403,8 +6376,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-collecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-cortical-collecting-tubule",
@@ -6417,8 +6389,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-collecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-connecting-tubule",
@@ -6431,8 +6402,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-connecting-duct-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-distal-convoluted-tubule",
@@ -6445,8 +6415,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-distal-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-macula-densa-portion-of-distal-tubule",
@@ -6459,8 +6428,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-distal-macula-densa-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-distal-straight-tubule",
@@ -6473,8 +6441,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-distal-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-ascending-thin-limb",
@@ -6487,8 +6454,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-thin-limbs-of-Henle-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-descending-thin-limb",
@@ -6501,8 +6467,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-thin-limbs-of-Henle-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-proximal-straight-tubule",
@@ -6515,8 +6480,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-proximal-straight-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-proximal-convoluted-tubule",
@@ -6529,8 +6493,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-proximal-convoluted-tubule-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-parietal-Bowmans-capsule",
@@ -6543,8 +6506,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-Bowmans-capsule-parietal-epithelium",
                 "mat-basal-lamina-of-nephron"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "right-lyph-urinary-visceral-Bowmans-capsule",
@@ -6557,8 +6519,7 @@
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-Bowmans-capsule-visceral-epithelium",
                 "mat-glomerular-basement-membrane"
-            ],
-            "_cloning": true
+            ]
         },
         {
             "id": "lt-venule",
@@ -6612,7 +6573,7 @@
             ]
         },
         {
-            "id": "lt-arteriole ",
+            "id": "lt-arteriole",
             "name": "lt-arteriole (100um)",
             "supertype": "lt-CVS-blood-vessel",
             "isTemplate": true,
@@ -9461,7 +9422,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "889f00e36f8f6f8a67346ba22685dc7262e6a445",
+    "version": "54b1875557a29553f08494f5b8d9c944c0a06698",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
-    "lastUpdated": "2025-05-15"
+    "lastUpdated": "2025-05-16"
 }
