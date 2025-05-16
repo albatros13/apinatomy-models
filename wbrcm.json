@@ -6859,7 +6859,8 @@
         {
             "id": "mat-extracellular-matrix",
             "ontologyTerms": [
-                "ILX:0104048"
+                "ILX:0104048",
+                "GO:0031012"
             ],
             "name": "Extracellular matrix"
         },
@@ -9513,7 +9514,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "9b46b6ef1887f0dff9ad061b3b11fb1ef2958e9c",
+    "version": "d5ef7504b7b5c3ca1fd59a407986c2ff822480fa",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-16"
 }
