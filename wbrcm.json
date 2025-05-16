@@ -8637,6 +8637,23 @@
             "ontologyTerms": [
                 "GO:0005654"
             ]
+        },
+        {
+            "id": "mat-endoplasmic-reticulum-lumen-content",
+            "name": "Endoplasmic reticulum lumen content",
+            "ontologyTerms": [
+                "GO:0005788"
+            ]
+        },
+        {
+            "id": "mat-endoplasmic-reticulum-membrane",
+            "name": "Endoplasmic reticulum membrane",
+            "ontologyTerms": [
+                "GO:0005789"
+            ],
+            "materials": [
+                "mat-membrane"
+            ]
         }
     ],
     "coalescences": [
@@ -9448,7 +9465,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "147c9d8f09a6cfc394e46b3a1fd8247d00c76b57",
+    "version": "dc5e459c9a91cab95c7abe2df7a9e5ac0f1d19cd",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-16"
 }
