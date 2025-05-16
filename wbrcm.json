@@ -6839,7 +6839,7 @@
             "ontologyTerms": [
                 "UBERON:0000178"
             ],
-            "name": "Blood",
+            "name": "blood",
             "materials": [
                 "mat-plasma-in-blood",
                 "mat-cellular-component-of-blood"
@@ -6897,9 +6897,13 @@
         {
             "id": "mat-plasma-membrane",
             "ontologyTerms": [
-                "SAO:1663586795"
+                "SAO:1663586795",
+                "GO:0005886"
             ],
-            "name": "Plasma membrane"
+            "name": "Plasma membrane",
+            "materials": [
+                "mat-membrane"
+            ]
         },
         {
             "id": "mat-cytoplasmic-structures",
@@ -8609,6 +8613,13 @@
             "materials": [
                 "lyph-cell-Sinusoidal-Endothelial"
             ]
+        },
+        {
+            "id": "mat-membrane",
+            "name": "Membrane",
+            "ontologyTerms": [
+                "GO:0016020"
+            ]
         }
     ],
     "coalescences": [
@@ -9420,7 +9431,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "c1b0c6d23764f02a9b484e1fb4850c967d80fb07",
+    "version": "a5390421a67878b0b5dd41171365e0972cd07231",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-16"
 }
