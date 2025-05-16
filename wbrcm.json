@@ -4434,7 +4434,7 @@
                 "mat-tissue-cardiovascular-vascular-media",
                 "mat-tissue-cardiovascular-vascular-adventitia"
             ],
-            "supertype": "lt-CVS-blood-vessel",
+            "supertype": "lt-arterial",
             "topology": "TUBE"
         },
         {
@@ -6562,7 +6562,7 @@
         {
             "id": "lt-muscular-artery",
             "name": "lt-muscular-artery (9mm)",
-            "supertype": "lt-CVS-blood-vessel",
+            "supertype": "lt-arterial",
             "isTemplate": true,
             "topology": "TUBE",
             "layers": [
@@ -6575,7 +6575,7 @@
         {
             "id": "lt-arteriole",
             "name": "lt-arteriole (100um)",
-            "supertype": "lt-CVS-blood-vessel",
+            "supertype": "lt-arterial",
             "isTemplate": true,
             "topology": "TUBE",
             "layers": [
@@ -6588,7 +6588,7 @@
         {
             "id": "lt-metarteriole",
             "name": "lt-metarteriole (10um)",
-            "supertype": "lt-CVS-blood-vessel",
+            "supertype": "lt-arterial",
             "isTemplate": true,
             "topology": "TUBE",
             "layers": [
@@ -6619,7 +6619,13 @@
             "name": "lt-arterial",
             "supertype": "lt-CVS-blood-vessel",
             "isTemplate": true,
-            "topology": "TUBE"
+            "topology": "TUBE",
+            "subtypes": [
+                "lt-major-artery",
+                "lt-metarteriole",
+                "lt-arteriole",
+                "lt-muscular-artery"
+            ]
         }
     ],
     "materials": [
@@ -9514,7 +9520,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "d5ef7504b7b5c3ca1fd59a407986c2ff822480fa",
+    "version": "c2d27d82c0c43bdcc0120d6f642d5b36c2be4810",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-16"
 }
