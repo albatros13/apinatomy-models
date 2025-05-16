@@ -8604,10 +8604,6 @@
         {
             "id": "mat-hepatic-sinusoid-wall-endothelium",
             "name": "Endothelial Lining of the Hepatic Sinusoid",
-            "ontologyTerms": [
-                "sinusoid",
-                "mat-hepatic-sinusoid-wall-endothelium_ontologyTerms_new_2"
-            ],
             "materials": [
                 "lyph-cell-Sinusoidal-Endothelial"
             ]
@@ -9422,7 +9418,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "54b1875557a29553f08494f5b8d9c944c0a06698",
+    "version": "8c4124ef68c97f64e8ebf76c73119e988e0119fb",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
     "lastUpdated": "2025-05-16"
 }
