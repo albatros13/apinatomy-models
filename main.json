@@ -2,7 +2,7 @@
     "name": "newModel-6",
     "created": "2025-05-07",
     "lastUpdated": "2025-05-19",
-    "version": "adeb04a74f904ff90c374c72e4bf011f79894638",
+    "version": "5a0d2eda4b85a414a71741cd994108e417b3ca3c",
     "id": "main",
     "namespace": "nm_main",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
@@ -37,7 +37,7 @@
             "isTemplate": true,
             "layers": [
                 "lt-bile",
-                "lt-chloragiocyte",
+                "lt-cholangiocyte",
                 "mat-basement-membrane"
             ]
         },
@@ -57,8 +57,8 @@
             "isTemplate": true
         },
         {
-            "id": "lt-hepatic-stelalte-cell",
-            "name": "New lyph 1",
+            "id": "lt-hepatic-stellate-cell",
+            "name": "Hepatic Stelalte Cell",
             "isTemplate": true
         },
         {
@@ -68,7 +68,7 @@
         },
         {
             "id": "lt-cholangiocyte",
-            "name": "Cholengiocyte",
+            "name": "Cholangiocyte",
             "isTemplate": true
         },
         {
@@ -91,11 +91,15 @@
         },
         {
             "id": "chain-endothelic-cell",
-            "name": "Endothelial Cell"
+            "name": "Endothelial Cell",
+            "lyphTemplate": "lt-endothelial-cell",
+            "numLevels": 3
         },
         {
             "id": "chain-Cholangiocyte",
-            "name": "Cholangiocyte"
+            "name": "Cholangiocyte",
+            "lyphTemplate": "lt-cholangiocyte",
+            "numLevels": 3
         },
         {
             "id": "chain-liver-sinusoidal-endothelial-cell",
