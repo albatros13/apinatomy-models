@@ -2,7 +2,7 @@
     "name": "newModel-6",
     "created": "2025-05-07",
     "lastUpdated": "2025-05-19",
-    "version": "b0f905c24f9a879b0deb172a88a1b1c61fba63af",
+    "version": "16c8610277743c7a2d03b307a92d4cbbd8e917fb",
     "id": "main",
     "namespace": "nm_main",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
@@ -22,8 +22,8 @@
     ],
     "lyphs": [
         {
-            "id": "lt-liver-sinusoildal-endothelial-cell",
-            "name": "Liver Sinusoildal Endothelial Cell",
+            "id": "lt-liver-sinusoidal-endothelial-cell",
+            "name": "Liver Sinusoidal Endothelial Cell",
             "isTemplate": true
         },
         {
