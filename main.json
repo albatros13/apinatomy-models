@@ -2,7 +2,7 @@
     "name": "newModel-6",
     "created": "2025-05-07",
     "lastUpdated": "2025-05-19",
-    "version": "4de3b3b30331dcd1f562d61937925bc878051ed4",
+    "version": "b90d0fbd2cdc968ac193704c60fb73411e704b77",
     "id": "main",
     "namespace": "nm_main",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
@@ -22,8 +22,8 @@
     ],
     "lyphs": [
         {
-            "id": "lt-chloragiocyte",
-            "name": "Chloragiocyte",
+            "id": "lt-liver-sinusoildal-endothelial-cell",
+            "name": "Liver Sinusoildal Endothelial Cell",
             "isTemplate": true
         },
         {
@@ -64,6 +64,21 @@
         {
             "id": "lt-endothelial-cell",
             "name": "Endothelial Cell",
+            "isTemplate": true
+        },
+        {
+            "id": "lt-cholangiocyte",
+            "name": "Cholengiocyte",
+            "isTemplate": true
+        },
+        {
+            "id": "lt-kupfer-cell",
+            "name": "Kupfer Cell",
+            "isTemplate": true
+        },
+        {
+            "id": "lt-hepatocyte",
+            "name": "Hepatocyte",
             "isTemplate": true
         }
     ],
