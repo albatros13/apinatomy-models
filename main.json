@@ -2,7 +2,7 @@
     "name": "newModel-6",
     "created": "2025-05-07",
     "lastUpdated": "2025-05-19",
-    "version": "16c8610277743c7a2d03b307a92d4cbbd8e917fb",
+    "version": "9b561cecf8e570a5621434efd38bd7df7a61d0cd",
     "id": "main",
     "namespace": "nm_main",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
@@ -18,6 +18,14 @@
         {
             "id": "mat-endothelium",
             "name": "Endothelium"
+        },
+        {
+            "id": "mat-bile",
+            "name": "Bile"
+        },
+        {
+            "id": "mat-cholangiocyte-epithelum",
+            "name": "Cholangiocyte epithelium"
         }
     ],
     "lyphs": [
@@ -27,58 +35,61 @@
             "isTemplate": true
         },
         {
-            "id": "lt-bile",
-            "name": "Bile",
-            "isTemplate": true
-        },
-        {
             "id": "lt-bile-duct",
             "name": "Bile Duct",
             "isTemplate": true,
             "layers": [
-                "lt-bile",
-                "lt-cholangiocyte",
+                "mat-bile",
+                "mat-cholangiocyte-epithelial",
                 "mat-basement-membrane"
             ]
         },
         {
             "id": "lt-biliary-conduit",
             "name": "Biliary Conduit",
+            "topology": "CYST",
             "isTemplate": true
         },
         {
             "id": "lt-space-od-disse",
             "name": "Space of Disse",
+            "topology": "CYST",
             "isTemplate": true
         },
         {
             "id": "lt-hepatic-cords",
             "name": "Hematic Cords",
+            "topology": "CYST",
             "isTemplate": true
         },
         {
             "id": "lt-hepatic-stellate-cell",
             "name": "Hepatic Stelalte Cell",
+            "topology": "CYST",
             "isTemplate": true
         },
         {
             "id": "lt-endothelial-cell",
             "name": "Endothelial Cell",
+            "topology": "CYST",
             "isTemplate": true
         },
         {
             "id": "lt-cholangiocyte",
             "name": "Cholangiocyte",
+            "topology": "CYST",
             "isTemplate": true
         },
         {
             "id": "lt-kupfer-cell",
             "name": "Kupfer Cell",
+            "topology": "CYST",
             "isTemplate": true
         },
         {
             "id": "lt-hepatocyte",
             "name": "Hepatocyte",
+            "topology": "CYST",
             "isTemplate": true
         }
     ],
@@ -96,13 +107,17 @@
             "numLevels": 3
         },
         {
-            "id": "chain-Cholangiocyte",
+            "id": "chain-cholangiocyte",
             "name": "Cholangiocyte",
             "lyphTemplate": "lt-cholangiocyte",
             "housingLyphs": [
-                "lt-bile",
-                "lt-cholangiocyte",
+                "mat-bile",
+                "mat-cholangiocyte-epithelum",
                 "mat-basement-membrane"
+            ],
+            "levelOntologyTerms": [
+                "ont-term-bile",
+                "ont-term-cholangiocyte"
             ]
         },
         {
