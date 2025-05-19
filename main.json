@@ -1,9 +1,78 @@
 {
     "name": "newModel-6",
     "created": "2025-05-07",
-    "lastUpdated": "2025-05-07",
-    "version": "3dbcbc38e7053b80a9f336babb9fb31abb047e50",
+    "lastUpdated": "2025-05-19",
+    "version": "4de3b3b30331dcd1f562d61937925bc878051ed4",
     "id": "main",
     "namespace": "nm_main",
-    "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758"
+    "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
+    "materials": [
+        {
+            "id": "mat-basement-membrane",
+            "name": "Basement Membrane"
+        },
+        {
+            "id": "mat-blood",
+            "name": "Blood"
+        },
+        {
+            "id": "mat-endothelium",
+            "name": "Endothelium"
+        }
+    ],
+    "lyphs": [
+        {
+            "id": "lt-chloragiocyte",
+            "name": "Chloragiocyte",
+            "isTemplate": true
+        },
+        {
+            "id": "lt-bile",
+            "name": "Bile",
+            "isTemplate": true
+        },
+        {
+            "id": "lt-bile-duct",
+            "name": "Bile Duct",
+            "isTemplate": true,
+            "layers": [
+                "lt-bile",
+                "lt-chloragiocyte",
+                "mat-basement-membrane"
+            ]
+        },
+        {
+            "id": "lt-biliary-conduit",
+            "name": "Biliary Conduit",
+            "isTemplate": true
+        },
+        {
+            "id": "lt-space-od-disse",
+            "name": "Space of Disse",
+            "isTemplate": true
+        },
+        {
+            "id": "lt-hepatic-cords",
+            "name": "Hematic Cords",
+            "isTemplate": true
+        },
+        {
+            "id": "lt-hepatic-stelalte-cell",
+            "name": "New lyph 1",
+            "isTemplate": true
+        },
+        {
+            "id": "lt-endothelial-cell",
+            "name": "Endothelial Cell",
+            "isTemplate": true
+        }
+    ],
+    "chains": [
+        {
+            "id": "chain-duodenum",
+            "name": "Duodenum",
+            "lyphTemplate": "lt-bile-duct",
+            "numLevels": 3
+        }
+    ]
 }
