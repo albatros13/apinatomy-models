@@ -2,7 +2,7 @@
     "name": "newModel-6",
     "created": "2025-05-07",
     "lastUpdated": "2025-05-19",
-    "version": "9129d77a63adadb58556bb9b94c27eb95c50c5b9",
+    "version": "49b06ec7de39faf7ac38a7a65a46f93600ddc29b",
     "id": "main",
     "namespace": "nm_main",
     "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
@@ -99,23 +99,35 @@
             "id": "chain-Cholangiocyte",
             "name": "Cholangiocyte",
             "lyphTemplate": "lt-cholangiocyte",
-            "numLevels": 3
+            "housingLyphs": [
+                "lt-bile",
+                "lt-cholangiocyte",
+                "mat-basement-membrane"
+            ]
         },
         {
             "id": "chain-liver-sinusoidal-endothelial-cell",
-            "name": "Liver Sinusoidal Endothelial Cell"
+            "name": "Liver Sinusoidal Endothelial Cell",
+            "lyphTemplate": "liver-sinusoidal-endothelial-cell",
+            "numLevels": 3
         },
         {
             "id": "chain-kupfer-cell",
-            "name": "Kupfer Cell"
+            "name": "Kupfer Cell",
+            "lyphTemplate": "lt-kupfer-cell",
+            "numLevels": 2
         },
         {
             "id": "chain-hepatocyte",
-            "name": "Hepatocyte"
+            "name": "Hepatocyte",
+            "lyphTemplate": "lt-hepatocyte",
+            "numLevels": 3
         },
         {
             "id": "chain-hepatic-stellate-cell",
-            "name": "Hepatic Stellate Sell"
+            "name": "Hepatic Stellate Sell",
+            "lyphTemplate": "lt-hepatic-stellate-cell",
+            "numLevels": 3
         }
     ]
 }
