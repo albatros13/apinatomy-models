@@ -1,11 +1,11 @@
 {
     "name": "Liver compartments",
     "created": "2025-05-07",
-    "lastUpdated": "2025-05-20",
-    "version": "99f0820a8d06c9eb4565a7e133fb0bb036d9e597",
+    "lastUpdated": "2025-05-21",
+    "version": "398bd3e4d385c66b565976a7399bf68455e359d6",
     "id": "main",
     "namespace": "nm_main",
-    "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
+    "schemaVersion": "fc389d5271538aeab3ab28cfa90d991510bdff81",
     "materials": [
         {
             "id": "mat-basement-membrane",
@@ -14,6 +14,18 @@
         {
             "id": "mat-blood",
             "name": "Blood"
+        },
+        {
+            "id": "mat-extracellular-fluid",
+            "name": "Extracellular Fluid"
+        },
+        {
+            "id": "mat-plasma-membrane",
+            "name": "Plasma membrane"
+        },
+        {
+            "id": "mat-cytosol",
+            "name": "Cytosol"
         },
         {
             "id": "mat-endothelium",
@@ -78,6 +90,11 @@
             "id": "lt-cholangiocyte",
             "name": "Cholangiocyte",
             "topology": "CYST",
+            "layers": [
+                "mat-cytosol",
+                "mat-plasma-membrane",
+                "mat-extracellular-fluid"
+            ],
             "isTemplate": true
         },
         {
@@ -118,6 +135,21 @@
             "levelOntologyTerms": [
                 "ont-term-bile",
                 "ont-term-cholangiocyte"
+            ]
+        },
+        {
+            "id": "chain-cholangiocyte-TEST",
+            "name": "Cholangiocyte-TEST",
+            "lyphTemplate": "lt-cholangiocyte",
+            "housingLyphs": [
+                "lt-bile-duct",
+                "lt-bile-duct",
+                "lt-bile-duct"
+            ],
+            "housingLayers": [
+                0,
+                1,
+                2
             ]
         },
         {
