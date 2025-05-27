@@ -6708,31 +6708,46 @@
             "id": "lyph-cardiovascular-renal-glomerulus",
             "name": "Renal Glomerulus",
             "supertype": "lt-blood-capillary",
-            "topology": "TUBE"
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0000074"
+            ]
         },
         {
             "id": "lyph-cardiovascular-renal-descending-vasa-recta",
             "name": "Renal Descending Vasa Recta",
             "supertype": "lt-blood-capillary",
-            "topology": "TUBE"
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0004726"
+            ]
         },
         {
             "id": "lyph-cardiovascular-renal-ascending-vasa-recta",
             "name": "Renal Ascending Vasa Recta",
             "supertype": "lt-blood-capillary",
-            "topology": "TUBE"
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0004726"
+            ]
         },
         {
             "id": "lyph-cardiovascular-renal-arcuate-vein",
             "name": "Renal Arcuate Vein",
             "supertype": "lt-medium-vein",
-            "topology": "TUBE"
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0004719"
+            ]
         },
         {
             "id": "lyph-cardiovascular-renal-interlobar-vein",
             "name": "Renal Interlobar Vein",
             "supertype": "lt-medium-vein",
-            "topology": "TUBE"
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0009887"
+            ]
         }
     ],
     "materials": [
@@ -9644,7 +9659,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "148554aa14fc2cf7402e94beb4001dc748683b8d",
+    "version": "ba7d62785e5e6e7fcefea9f09cf512f30cb14971",
     "schemaVersion": "fc389d5271538aeab3ab28cfa90d991510bdff81",
     "lastUpdated": "2025-05-27"
 }
