@@ -9564,6 +9564,23 @@
             ],
             "lateralOf": "chain-urinary-tail",
             "root": "n-split_urinary-intravesical-portion-of-ureter"
+        },
+        {
+            "id": "chain-renal-internal-blood-vessels",
+            "name": "Renal Internal Blood Vessels",
+            "lyphs": [
+                "lyph-cardiovascular-renal-segmental-artery",
+                "lyph-cardiovascular-renal-interlobar-artery",
+                "lyph-cardiovascular-renal-arcuate-artery",
+                "lyph-cardiovascular-renal-interlobular-artery",
+                "lyph-cardiovascular-renal-afferent-arteriole",
+                "lyph-cardiovascular-renal-glomerulus",
+                "lyph-cardiovascular-renal-efferent-arteriole",
+                "lyph-cardiovascular-renal-descending-vasa-recta",
+                "lyph-cardiovascular-renal-ascending-vasa-recta",
+                "lyph-cardiovascular-renal-arcuate-vein",
+                "lyph-cardiovascular-renal-interlobar-vein"
+            ]
         }
     ],
     "groups": [],
@@ -9627,7 +9644,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "b11ebc0687ef9b2e5290be120720bd8a8d8026b9",
+    "version": "148554aa14fc2cf7402e94beb4001dc748683b8d",
     "schemaVersion": "fc389d5271538aeab3ab28cfa90d991510bdff81",
     "lastUpdated": "2025-05-27"
 }
