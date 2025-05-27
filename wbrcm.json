@@ -9596,6 +9596,15 @@
                 "lyph-cardiovascular-renal-arcuate-vein",
                 "lyph-cardiovascular-renal-interlobar-vein"
             ]
+        },
+        {
+            "id": "chain-3-level-endothelial-cell",
+            "name": "3-level Endothelial Cell",
+            "numLevels": "3",
+            "lyphTemplate": "lt-cell-cyst",
+            "ontologyTerms": [
+                "CL:0000115"
+            ]
         }
     ],
     "groups": [],
@@ -9659,7 +9668,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "ba7d62785e5e6e7fcefea9f09cf512f30cb14971",
+    "version": "71db99c6fe6ae75f4f2de62032b43e6f98a3dce0",
     "schemaVersion": "fc389d5271538aeab3ab28cfa90d991510bdff81",
     "lastUpdated": "2025-05-27"
 }
