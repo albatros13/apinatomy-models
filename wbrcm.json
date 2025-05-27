@@ -4418,10 +4418,7 @@
             ],
             "name": "Blood vessel",
             "isTemplate": true,
-            "supertype": "lt-CVS-vessel",
-            "subtypes": [
-                "_newLyph1"
-            ]
+            "supertype": "lt-CVS-vessel"
         },
         {
             "id": "lt-major-artery",
@@ -4482,7 +4479,10 @@
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-basement-membrane"
             ],
-            "supertype": "lt-CVS-blood-vessel"
+            "supertype": "lt-CVS-blood-vessel",
+            "subtypes": [
+                "_newLyph1"
+            ]
         },
         {
             "id": "lyph-cardiovascular-inferior-vena-cava",
@@ -6560,6 +6560,9 @@
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-tissue-cardiovascular-vascular-smooth-muscle",
                 "mat-tissue-cardiovascular-vascular-adventitia"
+            ],
+            "subtypes": [
+                "_newLyph1"
             ]
         },
         {
@@ -6573,6 +6576,9 @@
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-tissue-cardiovascular-vascular-smooth-muscle",
                 "mat-tissue-cardiovascular-vascular-adventitia"
+            ],
+            "subtypes": [
+                "_newLyph1"
             ]
         },
         {
@@ -6586,6 +6592,9 @@
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-tissue-cardiovascular-vascular-smooth-muscle",
                 "mat-tissue-cardiovascular-vascular-adventitia"
+            ],
+            "subtypes": [
+                "_newLyph1"
             ]
         },
         {
@@ -6642,6 +6651,88 @@
                 "lt-small-vein",
                 "lt-medium-vein"
             ]
+        },
+        {
+            "id": "lyph-cardiovascular-renal-segmental-artery",
+            "name": "Renal Segmental Artery",
+            "supertype": "lt-muscular-artery",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:8920004"
+            ]
+        },
+        {
+            "id": "lyph-cardiovascular-renal-interlobar-artery",
+            "name": "Renal Interlobar Artery",
+            "supertype": "lt-muscular-artery",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0009885"
+            ]
+        },
+        {
+            "id": "lyph-cardiovascular-renal-arcuate-artery",
+            "name": "Renal Arcuate Artery",
+            "supertype": "lt-muscular-artery",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0001552"
+            ]
+        },
+        {
+            "id": "lyph-cardiovascular-renal-interlobular-artery",
+            "name": "Renal Interlobular Artery",
+            "supertype": "lt-muscular-artery",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0004723"
+            ]
+        },
+        {
+            "id": "lyph-cardiovascular-renal-afferent-arteriole",
+            "name": "Renal Afferent Arteriole",
+            "supertype": "lt-arteriole",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0004639"
+            ]
+        },
+        {
+            "id": "lyph-cardiovascular-renal-efferent-arteriole",
+            "name": "Renal Efferent Arteriole",
+            "supertype": "lt-arteriole",
+            "topology": "TUBE",
+            "ontologyTerms": []
+        },
+        {
+            "id": "lyph-cardiovascular-renal-glomerulus",
+            "name": "Renal Glomerulus",
+            "supertype": "lt-blood-capillary",
+            "topology": "TUBE"
+        },
+        {
+            "id": "lyph-cardiovascular-renal-descending-vasa-recta",
+            "name": "Renal Descending Vasa Recta",
+            "supertype": "lt-blood-capillary",
+            "topology": "TUBE"
+        },
+        {
+            "id": "lyph-cardiovascular-renal-ascending-vasa-recta",
+            "name": "Renal Ascending Vasa Recta",
+            "supertype": "lt-blood-capillary",
+            "topology": "TUBE"
+        },
+        {
+            "id": "lyph-cardiovascular-renal-arcuate-vein",
+            "name": "Renal Arcuate Vein",
+            "supertype": "lt-medium-vein",
+            "topology": "TUBE"
+        },
+        {
+            "id": "lyph-cardiovascular-renal-interlobar-vein",
+            "name": "Renal Interlobar Vein",
+            "supertype": "lt-medium-vein",
+            "topology": "TUBE"
         }
     ],
     "materials": [
@@ -9536,7 +9627,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "573c056340dd1b5e49480df40983e0abd2208158",
-    "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
-    "lastUpdated": "2025-05-16"
+    "version": "b11ebc0687ef9b2e5290be120720bd8a8d8026b9",
+    "schemaVersion": "fc389d5271538aeab3ab28cfa90d991510bdff81",
+    "lastUpdated": "2025-05-27"
 }
