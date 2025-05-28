@@ -1,11 +1,11 @@
 {
     "name": "Liver compartments",
     "created": "2025-05-07",
-    "lastUpdated": "2025-05-23",
-    "version": "b6af2a20d5c63f8cc5cc85ae71236038a853c3d4",
+    "lastUpdated": "2025-05-28",
+    "version": "552712ce7bde9f9d94614c00079e80cfa37bcbae",
     "id": "main",
     "namespace": "nm_main",
-    "schemaVersion": "fc389d5271538aeab3ab28cfa90d991510bdff81",
+    "schemaVersion": "7430afbd4a27510a40da608beb8bdc34c99593e4",
     "materials": [
         {
             "id": "mat-basement-membrane",
@@ -131,11 +131,7 @@
             "id": "chain-cholangiocyte",
             "name": "Cholangiocyte",
             "lyphTemplate": "lt-cholangiocyte",
-            "housingLyphs": [
-                "mat-bile",
-                "mat-cholangiocyte-epithelium",
-                "mat-basement-membrane"
-            ],
+            "housingLyphs": [],
             "levelOntologyTerms": [
                 "ont-term-bile",
                 "ont-term-cholangiocyte"
