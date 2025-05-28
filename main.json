@@ -2,7 +2,7 @@
     "name": "Liver compartments",
     "created": "2025-05-07",
     "lastUpdated": "2025-05-28",
-    "version": "552712ce7bde9f9d94614c00079e80cfa37bcbae",
+    "version": "c0af5298fdbcdad65dfd60e36c55068ff88a7b55",
     "id": "main",
     "namespace": "nm_main",
     "schemaVersion": "7430afbd4a27510a40da608beb8bdc34c99593e4",
@@ -122,44 +122,18 @@
             "numLevels": 3
         },
         {
-            "id": "chain-endothelic-cell",
-            "name": "Endothelial Cell",
-            "lyphTemplate": "lt-endothelial-cell",
-            "numLevels": 3
-        },
-        {
             "id": "chain-cholangiocyte",
             "name": "Cholangiocyte",
             "lyphTemplate": "lt-cholangiocyte",
-            "housingLyphs": [],
+            "housingLyphs": [
+                "mat-bile",
+                "mat-cholangiocyte-epithelium",
+                "mat-basement-membrane"
+            ],
             "levelOntologyTerms": [
                 "ont-term-bile",
                 "ont-term-cholangiocyte"
             ]
-        },
-        {
-            "id": "chain-liver-sinusoidal-endothelial-cell",
-            "name": "Liver Sinusoidal Endothelial Cell",
-            "lyphTemplate": "lt-liver-sinusoidal-endothelial-cell",
-            "numLevels": 3
-        },
-        {
-            "id": "chain-kupfer-cell",
-            "name": "Kupfer Cell",
-            "lyphTemplate": "lt-kupfer-cell",
-            "numLevels": 2
-        },
-        {
-            "id": "chain-hepatocyte",
-            "name": "Hepatocyte",
-            "lyphTemplate": "lt-hepatocyte",
-            "numLevels": 3
-        },
-        {
-            "id": "chain-hepatic-stellate-cell",
-            "name": "Hepatic Stellate Sell",
-            "lyphTemplate": "lt-hepatic-stellate-cell",
-            "numLevels": 3
         }
     ]
 }
