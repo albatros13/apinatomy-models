@@ -4479,10 +4479,7 @@
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-basement-membrane"
             ],
-            "supertype": "lt-CVS-blood-vessel",
-            "subtypes": [
-                "_newLyph1"
-            ]
+            "supertype": "lt-CVS-blood-vessel"
         },
         {
             "id": "lyph-cardiovascular-inferior-vena-cava",
@@ -6560,9 +6557,6 @@
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-tissue-cardiovascular-vascular-smooth-muscle",
                 "mat-tissue-cardiovascular-vascular-adventitia"
-            ],
-            "subtypes": [
-                "_newLyph1"
             ]
         },
         {
@@ -6576,9 +6570,6 @@
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-tissue-cardiovascular-vascular-smooth-muscle",
                 "mat-tissue-cardiovascular-vascular-adventitia"
-            ],
-            "subtypes": [
-                "_newLyph1"
             ]
         },
         {
@@ -6592,9 +6583,6 @@
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-tissue-cardiovascular-vascular-smooth-muscle",
                 "mat-tissue-cardiovascular-vascular-adventitia"
-            ],
-            "subtypes": [
-                "_newLyph1"
             ]
         },
         {
@@ -9668,7 +9656,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "71db99c6fe6ae75f4f2de62032b43e6f98a3dce0",
-    "schemaVersion": "fc389d5271538aeab3ab28cfa90d991510bdff81",
-    "lastUpdated": "2025-05-27"
+    "version": "ad40ee9f6675e2a596e87e6d16d3360cfaef0603",
+    "schemaVersion": "7430afbd4a27510a40da608beb8bdc34c99593e4",
+    "lastUpdated": "2025-05-29"
 }
