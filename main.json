@@ -1,11 +1,11 @@
 {
     "name": "Liver compartments",
     "created": "2025-05-07",
-    "lastUpdated": "2025-05-28",
-    "version": "7c98ae7682c86b4e1440f181d94fc5f0e5d61b5c",
+    "lastUpdated": "2025-06-03",
+    "version": "8ce1c1e76d7ee940eed11472dc2ad42f199ce13a",
     "id": "main",
     "namespace": "nm_main",
-    "schemaVersion": "7430afbd4a27510a40da608beb8bdc34c99593e4",
+    "schemaVersion": "79ebbdffbf67f63f2ff763f0c97e28e8abdc7575",
     "materials": [
         {
             "id": "mat-basement-membrane",
@@ -129,7 +129,9 @@
                 "ont-term-bile",
                 "ont-term-cholangiocyte"
             ],
-            "housingLyphTemplate": "lt-bile-duct"
+            "housingLyphTemplates": [
+                "lt-bile-duct"
+            ]
         }
     ]
 }
