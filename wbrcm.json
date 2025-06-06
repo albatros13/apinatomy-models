@@ -6568,6 +6568,7 @@
             "layers": [
                 "mat-cellular-component-of-blood",
                 "mat-tissue-cardiovascular-endothelium",
+                "mat-basement-membrane",
                 "mat-tissue-cardiovascular-vascular-smooth-muscle",
                 "mat-tissue-cardiovascular-vascular-adventitia"
             ]
@@ -6581,6 +6582,7 @@
             "layers": [
                 "mat-blood",
                 "mat-tissue-cardiovascular-endothelium",
+                "mat-basement-membrane",
                 "mat-tissue-cardiovascular-vascular-smooth-muscle",
                 "mat-tissue-cardiovascular-vascular-adventitia"
             ]
@@ -6594,6 +6596,7 @@
             "layers": [
                 "mat-blood",
                 "mat-tissue-cardiovascular-endothelium",
+                "mat-basement-membrane",
                 "mat-tissue-cardiovascular-vascular-smooth-muscle",
                 "mat-tissue-cardiovascular-vascular-adventitia"
             ]
@@ -9644,9 +9647,15 @@
             "id": "chain-endothelial-cell",
             "name": "Chain Endothelial Cell",
             "housingLyphTemplates": [
-                "lt-blood-capillary"
+                "lt-blood-capillary",
+                "lt-arteriole"
             ],
-            "lyphTemplate": "lt-cyst-cell-endothelial"
+            "lyphTemplate": "lt-cyst-cell-endothelial",
+            "numLevels": 3
+        },
+        {
+            "id": "_newChain1",
+            "name": "New chain 1"
         }
     ],
     "groups": [],
@@ -9710,7 +9719,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "33568bd2b532110a25bca2d0120f1be894c26074",
+    "version": "32da863911f72934a12f2e549a0af9a29aabd982",
     "schemaVersion": "c16375262ae5589b0012bc82da420a63664913a1",
     "lastUpdated": "2025-06-06"
 }
