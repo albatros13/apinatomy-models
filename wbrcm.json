@@ -9636,13 +9636,17 @@
             "ontologyTerms": [
                 "CL:0000115"
             ],
-            "housingLyphTemplate": "lt-muscular-artery"
+            "housingLyphTemplates": [
+                "lt-muscular-artery"
+            ]
         },
         {
-            "id": "_newChain1",
-            "name": "New chain 1",
-            "housingLyphTemplate": "lt-blood-capillary",
-            "lyphTemplate": "lt_cyst_cell_endothelial"
+            "id": "chain-endothelial-cell",
+            "name": "Chain Endothelial Cell",
+            "housingLyphTemplates": [
+                "lt-blood-capillary"
+            ],
+            "lyphTemplate": "lt-cyst-cell-endothelial"
         }
     ],
     "groups": [],
@@ -9706,7 +9710,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "c14005c1a33277715461daec21f2841120a9b91a",
-    "schemaVersion": "7430afbd4a27510a40da608beb8bdc34c99593e4",
+    "version": "ff6df8374aa66db805fd4f0a43b8b6441d483851",
+    "schemaVersion": "c16375262ae5589b0012bc82da420a63664913a1",
     "lastUpdated": "2025-06-06"
 }
