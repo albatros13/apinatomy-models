@@ -191,7 +191,12 @@
             "supertype": "wbkg:lt-major-artery"
         },
         {
-            "id": "lyph_50010931_66485_50010931_66358",
+            "id": "lyph_50010931_66485_50010931_100000177",
+            "name": "Aorta -> Celiac artery",
+            "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_50010931_100000177_50010931_66358",
             "name": "Aorta -> Superior mesenteric artery",
             "supertype": "wbkg:lt-major-artery"
         },
@@ -214,6 +219,244 @@
             "id": "lyph_50010931_66363_50010931_66364",
             "name": "Aorta -> Left renal artery",
             "supertype": "wbkg:lt-major-artery"
+        },
+        {
+            "id": "lyph_7096_7096_100000226",
+            "name": "Right atrium -> Inferior vena cava"
+        },
+        {
+            "id": "lyph_7096_100000226_100000226",
+            "name": "Inferior vena cava",
+            "supertype": "lyph-100000226"
+        },
+        {
+            "id": "lyph_100000226_100000226_66736",
+            "name": "Inferior vena cava -> Right suprarenal vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_66736_100000226_82678",
+            "name": "Inferior vena cava -> Right hepatic vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_82678_100000226_82680",
+            "name": "Inferior vena cava -> Middle hepatic vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_82680_100000226_82679",
+            "name": "Inferior vena cava -> Left hepatic vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_82679_100000226_68067",
+            "name": "Inferior vena cava -> Left inferior phrenic vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_68067_100000226_66663",
+            "name": "Inferior vena cava -> Right renal vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_66663_100000226_66664",
+            "name": "Inferior vena cava -> Left renal vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_66664_100000226_66724",
+            "name": "Inferior vena cava -> Right testicular vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_66724_100000226_100000230",
+            "name": "Inferior vena cava -> Right third lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_100000230_100000226_100000229",
+            "name": "Inferior vena cava -> Left third lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_100000229_100000226_100000228",
+            "name": "Inferior vena cava -> Right fourth lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_100000228_100000226_100000227",
+            "name": "Inferior vena cava -> Left fourth lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_100000227_100000226_66669",
+            "name": "Inferior vena cava -> Right common iliac vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_66669_100000226_66670",
+            "name": "Inferior vena cava -> Left common iliac vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_66670_100000226_66668",
+            "name": "Inferior vena cava -> Common iliac vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_66668_100000226_100000235",
+            "name": "Inferior vena cava -> Left anterior inferior phrenic vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_100000235_100000226_100000234",
+            "name": "Inferior vena cava -> Right first lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_100000234_100000226_100000233",
+            "name": "Inferior vena cava -> Left first lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_100000233_100000226_100000232",
+            "name": "Inferior vena cava -> Right second lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_100000232_100000226_100000231",
+            "name": "Inferior vena cava -> Left second lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_100000231_100000226_2000162",
+            "name": "Inferior vena cava -> Spinal tributary of right fourth lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_2000162_100000226_2000160",
+            "name": "Inferior vena cava -> Spinal tributary of left fourth lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_2000160_100000226_82682",
+            "name": "Inferior vena cava -> Intermediate hepatic vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_82682_100000226_82681",
+            "name": "Inferior vena cava -> Hepatic vein of caudate lobe"
+        },
+        {
+            "id": "lyph_100000226_82681_100000226_78118",
+            "name": "Inferior vena cava -> Spinal tributary of left third lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_78118_100000226_78117",
+            "name": "Inferior vena cava -> Spinal tributary of right third lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_78117_100000226_78115",
+            "name": "Inferior vena cava -> Spinal tributary of left second lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_78115_100000226_78114",
+            "name": "Inferior vena cava -> Spinal tributary of right second lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_78114_100000226_78112",
+            "name": "Inferior vena cava -> Spinal tributary of left first lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_78112_100000226_78111",
+            "name": "Inferior vena cava -> Spinal tributary of right first lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_78111_100000226_78085",
+            "name": "Inferior vena cava -> Dorsal tributary of left fourth lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_78085_100000226_78084",
+            "name": "Inferior vena cava -> Dorsal tributary of right fourth lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_78084_100000226_78082",
+            "name": "Inferior vena cava -> Dorsal tributary of left third lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_78082_100000226_78081",
+            "name": "Inferior vena cava -> Dorsal tributary of right third lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_78081_100000226_78079",
+            "name": "Inferior vena cava -> Dorsal tributary of left second lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_78079_100000226_78078",
+            "name": "Inferior vena cava -> Dorsal tributary of right second lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_78078_100000226_78076",
+            "name": "Inferior vena cava -> Dorsal tributary of left first lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_78076_100000226_78075",
+            "name": "Inferior vena cava -> Dorsal tributary of right first lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_78075_100000226_77876",
+            "name": "Inferior vena cava -> Hepatic vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_77876_100000226_68066",
+            "name": "Inferior vena cava -> Right inferior phrenic vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_68066_100000226_66721",
+            "name": "Inferior vena cava -> Right ovarian vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_66721_100000226_66720",
+            "name": "Inferior vena cava -> Ovarian vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_66720_100000226_66665",
+            "name": "Inferior vena cava -> Lumbar vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_100000226_66665_100000226_66662",
+            "name": "Inferior vena cava -> Renal vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_7096_100000226_7096_100001950",
+            "name": "Right atrium -> Anterior cardiac vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_7096_100001950_7096_2000138",
+            "name": "Right atrium -> Smallest cardiac vein",
+            "supertype": "wbkg:lt-major-vein"
         }
     ],
     "chains": [
@@ -258,15 +501,77 @@
                 "lyph_50010931_69375_50010931_69376",
                 "lyph_50010931_69376_50010931_66484",
                 "lyph_50010931_66484_50010931_66485",
-                "lyph_50010931_66485_50010931_66358",
+                "lyph_50010931_66485_50010931_100000177",
+                "lyph_50010931_100000177_50010931_66358",
                 "lyph_50010931_66358_50010931_50011587",
                 "lyph_50010931_50011587_50010931_50013282",
                 "lyph_50010931_50013282_50010931_66363",
                 "lyph_50010931_66363_50010931_66364"
             ]
+        },
+        {
+            "id": "chain_100000226_66665_100000226_66662",
+            "name": "Chain Inferior vena cava -> Renal vein",
+            "lyphs": [
+                "lyph_7096_7096_100000226",
+                "lyph_7096_100000226_100000226",
+                "lyph_100000226_100000226_66736",
+                "lyph_100000226_66736_100000226_82678",
+                "lyph_100000226_82678_100000226_82680",
+                "lyph_100000226_82680_100000226_82679",
+                "lyph_100000226_82679_100000226_68067",
+                "lyph_100000226_68067_100000226_66663",
+                "lyph_100000226_66663_100000226_66664",
+                "lyph_100000226_66664_100000226_66724",
+                "lyph_100000226_66724_100000226_100000230",
+                "lyph_100000226_100000230_100000226_100000229",
+                "lyph_100000226_100000229_100000226_100000228",
+                "lyph_100000226_100000228_100000226_100000227",
+                "lyph_100000226_100000227_100000226_66669",
+                "lyph_100000226_66669_100000226_66670",
+                "lyph_100000226_66670_100000226_66668",
+                "lyph_100000226_66668_100000226_100000235",
+                "lyph_100000226_100000235_100000226_100000234",
+                "lyph_100000226_100000234_100000226_100000233",
+                "lyph_100000226_100000233_100000226_100000232",
+                "lyph_100000226_100000232_100000226_100000231",
+                "lyph_100000226_100000231_100000226_2000162",
+                "lyph_100000226_2000162_100000226_2000160",
+                "lyph_100000226_2000160_100000226_82682",
+                "lyph_100000226_82682_100000226_82681",
+                "lyph_100000226_82681_100000226_78118",
+                "lyph_100000226_78118_100000226_78117",
+                "lyph_100000226_78117_100000226_78115",
+                "lyph_100000226_78115_100000226_78114",
+                "lyph_100000226_78114_100000226_78112",
+                "lyph_100000226_78112_100000226_78111",
+                "lyph_100000226_78111_100000226_78085",
+                "lyph_100000226_78085_100000226_78084",
+                "lyph_100000226_78084_100000226_78082",
+                "lyph_100000226_78082_100000226_78081",
+                "lyph_100000226_78081_100000226_78079",
+                "lyph_100000226_78079_100000226_78078",
+                "lyph_100000226_78078_100000226_78076",
+                "lyph_100000226_78076_100000226_78075",
+                "lyph_100000226_78075_100000226_77876",
+                "lyph_100000226_77876_100000226_68066",
+                "lyph_100000226_68066_100000226_66721",
+                "lyph_100000226_66721_100000226_66720",
+                "lyph_100000226_66720_100000226_66665",
+                "lyph_100000226_66665_100000226_66662"
+            ]
+        },
+        {
+            "id": "chain_7096_100001950_7096_2000138",
+            "name": "Chain Right atrium -> Smallest cardiac vein",
+            "lyphs": [
+                "lyph_7096_7096_100000226",
+                "lyph_7096_100000226_7096_100001950",
+                "lyph_7096_100001950_7096_2000138"
+            ]
         }
     ],
-    "version": "a900cd1052197927a9dad90e919ca253b5c1ed1d",
+    "version": "a122ea73a236709810b5c3e5e65571641de91487",
     "namespace": "nm_vascular",
-    "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758"
+    "schemaVersion": "c16375262ae5589b0012bc82da420a63664913a1"
 }
