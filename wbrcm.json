@@ -9645,8 +9645,8 @@
             "numLevels": 3
         },
         {
-            "id": "_newChain1",
-            "name": "New chain 1",
+            "id": "chain-smooth-muscle-cell",
+            "name": "Chain Smooth Muscle Cell",
             "lyphTemplate": "lt-cyst-cell-smooth-muscle",
             "numLevels": 3,
             "housingLyphTemplates": [
@@ -9718,7 +9718,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "451a4fcda7e05e549d7aa1666bfe157206016bcc",
+    "version": "f37368bd8cad5af062f394e7980fc8cb1ca6c12f",
     "schemaVersion": "c16375262ae5589b0012bc82da420a63664913a1",
-    "lastUpdated": "2025-06-06"
+    "lastUpdated": "2025-06-09"
 }
