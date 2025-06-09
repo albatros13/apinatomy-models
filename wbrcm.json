@@ -8954,7 +8954,6 @@
                 "lyph-urinary-bladder-dome"
             ],
             "wiredTo": "too:w-U-f3K",
-            "left": "n-split_urinary-intravesical-portion-of-ureter",
             "leaf": "n-split_urinary-intravesical-portion-of-ureter"
         },
         {
@@ -9718,7 +9717,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "f37368bd8cad5af062f394e7980fc8cb1ca6c12f",
+    "version": "a9944849ba2ccf18ddbacd7ab7f739503b41174d",
     "schemaVersion": "c16375262ae5589b0012bc82da420a63664913a1",
     "lastUpdated": "2025-06-09"
 }
