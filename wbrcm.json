@@ -9823,9 +9823,6 @@
                 "right-lyph-urinary-parietal-Bowmans-capsule",
                 "right-lyph-urinary-visceral-Bowmans-capsule"
             ],
-            "laterals": [
-                "left-chain-urinary-tail"
-            ],
             "lateralOf": "chain-urinary-tail",
             "root": "n-split_urinary-intravesical-portion-of-ureter"
         },
@@ -9911,9 +9908,6 @@
                 "right_lyph-cardiovascular-renal-arcuate-vein",
                 "right_lyph-cardiovascular-renal-interlobar-vein"
             ],
-            "laterals": [
-                "left_chain-renal-internal-blood-vessels"
-            ],
             "lateralOf": "chain-renal-internal-blood-vessels"
         }
     ],
@@ -9988,7 +9982,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "5a633ce7b696edbed63f34ca6ae1b89504ea4f7d",
+    "version": "36888777bd165d500963046b2c487ff0824e614d",
     "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
-    "lastUpdated": "2025-06-10"
+    "lastUpdated": "2025-06-11"
 }
