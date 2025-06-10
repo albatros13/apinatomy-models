@@ -512,7 +512,7 @@
         },
         {
             "id": "chain_100000226_66665_100000226_66662",
-            "name": "Chain Inferior vena cava -> Renal vein",
+            "name": "Chain Inferior vena cava -> Right testicular vein",
             "lyphs": [
                 "lyph_7096_7096_100000226",
                 "lyph_7096_100000226_100000226",
@@ -522,8 +522,23 @@
                 "lyph_100000226_82680_100000226_82679",
                 "lyph_100000226_82679_100000226_68067",
                 "lyph_100000226_68067_100000226_66663",
-                "lyph_100000226_66663_100000226_66664",
-                "lyph_100000226_66664_100000226_66724",
+                "lyph_100000226_66663_100000226_66664"
+            ],
+            "leaf": "wbkg:leaf_left_chain-renal-internal-blood-vessels"
+        },
+        {
+            "id": "chain_7096_100001950_7096_2000138",
+            "name": "Chain Right atrium -> Smallest cardiac vein",
+            "lyphs": [
+                "lyph_7096_7096_100000226",
+                "lyph_7096_100000226_7096_100001950",
+                "lyph_7096_100001950_7096_2000138"
+            ]
+        },
+        {
+            "id": "chain_100000226_66665_100000226_66662_tail",
+            "name": "Right testicular vein -> Renal vein",
+            "lyphs": [
                 "lyph_100000226_66724_100000226_100000230",
                 "lyph_100000226_100000230_100000226_100000229",
                 "lyph_100000226_100000229_100000226_100000228",
@@ -560,20 +575,22 @@
                 "lyph_100000226_66721_100000226_66720",
                 "lyph_100000226_66720_100000226_66665",
                 "lyph_100000226_66665_100000226_66662"
-            ]
-        },
-        {
-            "id": "chain_7096_100001950_7096_2000138",
-            "name": "Chain Right atrium -> Smallest cardiac vein",
-            "lyphs": [
-                "lyph_7096_7096_100000226",
-                "lyph_7096_100000226_7096_100001950",
-                "lyph_7096_100001950_7096_2000138"
-            ]
+            ],
+            "root": "leaf_100000226_66664_100000226_66724"
         }
     ],
-    "version": "0aff961c8bc18050c12b36ac2374114a15ab6e94",
+    "version": "c5282f8c1fe18757adab175f6ffb78bb3ca406b4",
     "namespace": "nm_vascular",
     "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
-    "lastUpdated": "2025-06-10"
+    "lastUpdated": "2025-06-10",
+    "groups": [
+        {
+            "id": "g-parts_chain_100000226_66665_100000226_66662",
+            "name": "Parts of Chain Inferior vena cava -> Renal vein",
+            "chains": [
+                "chain_100000226_66665_100000226_66662",
+                "chain_100000226_66665_100000226_66662_tail"
+            ]
+        }
+    ]
 }
