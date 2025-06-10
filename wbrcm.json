@@ -6782,6 +6782,222 @@
             ],
             "isTemplate": true,
             "topology": "CYST"
+        },
+        {
+            "id": "left_lyph-cardiovascular-renal-segmental-artery",
+            "name": "Left Renal Segmental Artery",
+            "supertype": "lt-muscular-artery",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:8920004"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-cardiovascular-renal-interlobar-artery",
+            "name": "Left Renal Interlobar Artery",
+            "supertype": "lt-muscular-artery",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0009885"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-cardiovascular-renal-arcuate-artery",
+            "name": "Left Renal Arcuate Artery",
+            "supertype": "lt-muscular-artery",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0001552"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-cardiovascular-renal-interlobular-artery",
+            "name": "Left Renal Interlobular Artery",
+            "supertype": "lt-muscular-artery",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0004723"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-cardiovascular-renal-afferent-arteriole",
+            "name": "Left Renal Afferent Arteriole",
+            "supertype": "lt-arteriole",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0004639"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-cardiovascular-renal-glomerulus",
+            "name": "Left Renal Glomerulus",
+            "supertype": "lt-blood-capillary",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0000074"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-cardiovascular-renal-efferent-arteriole",
+            "name": "Left Renal Efferent Arteriole",
+            "supertype": "lt-arteriole",
+            "topology": "TUBE",
+            "ontologyTerms": [],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-cardiovascular-renal-descending-vasa-recta",
+            "name": "Left Renal Descending Vasa Recta",
+            "supertype": "lt-blood-capillary",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0004726"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-cardiovascular-renal-ascending-vasa-recta",
+            "name": "Left Renal Ascending Vasa Recta",
+            "supertype": "lt-blood-capillary",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0004726"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-cardiovascular-renal-arcuate-vein",
+            "name": "Left Renal Arcuate Vein",
+            "supertype": "lt-medium-vein",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0004719"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-cardiovascular-renal-interlobar-vein",
+            "name": "Left Renal Interlobar Vein",
+            "supertype": "lt-medium-vein",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0009887"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-cardiovascular-renal-segmental-artery",
+            "name": "Right Renal Segmental Artery",
+            "supertype": "lt-muscular-artery",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:8920004"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-cardiovascular-renal-interlobar-artery",
+            "name": "Right Renal Interlobar Artery",
+            "supertype": "lt-muscular-artery",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0009885"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-cardiovascular-renal-arcuate-artery",
+            "name": "Right Renal Arcuate Artery",
+            "supertype": "lt-muscular-artery",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0001552"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-cardiovascular-renal-interlobular-artery",
+            "name": "Right Renal Interlobular Artery",
+            "supertype": "lt-muscular-artery",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0004723"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-cardiovascular-renal-afferent-arteriole",
+            "name": "Right Renal Afferent Arteriole",
+            "supertype": "lt-arteriole",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0004639"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-cardiovascular-renal-glomerulus",
+            "name": "Right Renal Glomerulus",
+            "supertype": "lt-blood-capillary",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0000074"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-cardiovascular-renal-efferent-arteriole",
+            "name": "Right Renal Efferent Arteriole",
+            "supertype": "lt-arteriole",
+            "topology": "TUBE",
+            "ontologyTerms": [],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-cardiovascular-renal-descending-vasa-recta",
+            "name": "Right Renal Descending Vasa Recta",
+            "supertype": "lt-blood-capillary",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0004726"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-cardiovascular-renal-ascending-vasa-recta",
+            "name": "Right Renal Ascending Vasa Recta",
+            "supertype": "lt-blood-capillary",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0004726"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-cardiovascular-renal-arcuate-vein",
+            "name": "Right Renal Arcuate Vein",
+            "supertype": "lt-medium-vein",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0004719"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-cardiovascular-renal-interlobar-vein",
+            "name": "Right Renal Interlobar Vein",
+            "supertype": "lt-medium-vein",
+            "topology": "TUBE",
+            "ontologyTerms": [
+                "UBERON:0009887"
+            ],
+            "_cloning": true
         }
     ],
     "materials": [
@@ -9628,6 +9844,10 @@
                 "lyph-cardiovascular-renal-ascending-vasa-recta",
                 "lyph-cardiovascular-renal-arcuate-vein",
                 "lyph-cardiovascular-renal-interlobar-vein"
+            ],
+            "laterals": [
+                "left_chain-renal-internal-blood-vessels",
+                "right_chain-renal-internal-blood-vessels"
             ]
         },
         {
@@ -9654,9 +9874,58 @@
             "housingLayers": [
                 2
             ]
+        },
+        {
+            "id": "left_chain-renal-internal-blood-vessels",
+            "name": "Left Renal Internal Blood Vessels",
+            "lyphs": [
+                "left_lyph-cardiovascular-renal-segmental-artery",
+                "left_lyph-cardiovascular-renal-interlobar-artery",
+                "left_lyph-cardiovascular-renal-arcuate-artery",
+                "left_lyph-cardiovascular-renal-interlobular-artery",
+                "left_lyph-cardiovascular-renal-afferent-arteriole",
+                "left_lyph-cardiovascular-renal-glomerulus",
+                "left_lyph-cardiovascular-renal-efferent-arteriole",
+                "left_lyph-cardiovascular-renal-descending-vasa-recta",
+                "left_lyph-cardiovascular-renal-ascending-vasa-recta",
+                "left_lyph-cardiovascular-renal-arcuate-vein",
+                "left_lyph-cardiovascular-renal-interlobar-vein"
+            ],
+            "lateralOf": "chain-renal-internal-blood-vessels"
+        },
+        {
+            "id": "right_chain-renal-internal-blood-vessels",
+            "name": "Right Renal Internal Blood Vessels",
+            "lyphs": [
+                "right_lyph-cardiovascular-renal-segmental-artery",
+                "right_lyph-cardiovascular-renal-interlobar-artery",
+                "right_lyph-cardiovascular-renal-arcuate-artery",
+                "right_lyph-cardiovascular-renal-interlobular-artery",
+                "right_lyph-cardiovascular-renal-afferent-arteriole",
+                "right_lyph-cardiovascular-renal-glomerulus",
+                "right_lyph-cardiovascular-renal-efferent-arteriole",
+                "right_lyph-cardiovascular-renal-descending-vasa-recta",
+                "right_lyph-cardiovascular-renal-ascending-vasa-recta",
+                "right_lyph-cardiovascular-renal-arcuate-vein",
+                "right_lyph-cardiovascular-renal-interlobar-vein"
+            ],
+            "laterals": [
+                "left_chain-renal-internal-blood-vessels"
+            ],
+            "lateralOf": "chain-renal-internal-blood-vessels"
         }
     ],
-    "groups": [],
+    "groups": [
+        {
+            "id": "g-parts_chain-renal-internal-blood-vessels",
+            "name": "g-parts Renal Internal Blood Vessels",
+            "chains": [
+                "chain-renal-internal-blood-vessels",
+                "left_chain-renal-internal-blood-vessels",
+                "right_chain-renal-internal-blood-vessels"
+            ]
+        }
+    ],
     "localConventions": [
         {
             "prefix": "UBERON",
@@ -9717,7 +9986,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "a9944849ba2ccf18ddbacd7ab7f739503b41174d",
-    "schemaVersion": "c16375262ae5589b0012bc82da420a63664913a1",
-    "lastUpdated": "2025-06-09"
+    "version": "e3bb657138b2eb759a666bdf2e7ffc750b149fb6",
+    "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
+    "lastUpdated": "2025-06-10"
 }
