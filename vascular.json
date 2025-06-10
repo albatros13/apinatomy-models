@@ -507,7 +507,8 @@
                 "lyph_50010931_50011587_50010931_50013282",
                 "lyph_50010931_50013282_50010931_66363",
                 "lyph_50010931_66363_50010931_66364"
-            ]
+            ],
+            "leaf": "wbkg:arterial root_left_chain-renal-internal-blood-vessels"
         },
         {
             "id": "chain_100000226_66665_100000226_66662",
@@ -571,7 +572,8 @@
             ]
         }
     ],
-    "version": "a122ea73a236709810b5c3e5e65571641de91487",
+    "version": "0aff961c8bc18050c12b36ac2374114a15ab6e94",
     "namespace": "nm_vascular",
-    "schemaVersion": "c16375262ae5589b0012bc82da420a63664913a1"
+    "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
+    "lastUpdated": "2025-06-10"
 }
