@@ -9891,7 +9891,9 @@
                 "left_lyph-cardiovascular-renal-arcuate-vein",
                 "left_lyph-cardiovascular-renal-interlobar-vein"
             ],
-            "lateralOf": "chain-renal-internal-blood-vessels"
+            "lateralOf": "chain-renal-internal-blood-vessels",
+            "root": "root_left_chain-renal-internal-blood-vessels",
+            "leaf": "leaf_left_chain-renal-internal-blood-vessels"
         },
         {
             "id": "right_chain-renal-internal-blood-vessels",
@@ -9986,7 +9988,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "e3bb657138b2eb759a666bdf2e7ffc750b149fb6",
+    "version": "5a633ce7b696edbed63f34ca6ae1b89504ea4f7d",
     "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
     "lastUpdated": "2025-06-10"
 }
