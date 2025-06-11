@@ -1204,7 +1204,8 @@
             ],
             "name": "Descending thin limb 3",
             "topology": "TUBE",
-            "layers": []
+            "layers": [],
+            "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
             "id": "lyph-urinary-proximal-straight-tubule",
@@ -7010,7 +7011,8 @@
             ],
             "name": "Descending thin limb 1",
             "topology": "TUBE",
-            "layers": []
+            "layers": [],
+            "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
             "id": "lyph-urinary-descending-thin-limb_2",
@@ -7019,7 +7021,8 @@
             ],
             "name": "Descending thin limb 2",
             "topology": "TUBE",
-            "layers": []
+            "layers": [],
+            "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
             "id": "lyph-urinary-proximal-straight-tubule_3",
@@ -7028,7 +7031,8 @@
             ],
             "name": "Proximal straight tubule 3",
             "topology": "TUBE",
-            "layers": []
+            "layers": [],
+            "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
             "id": "lyph-urinary-proximal-straight-tubule_2",
@@ -7037,7 +7041,8 @@
             ],
             "name": "Proximal straight tubule 2",
             "topology": "TUBE",
-            "layers": []
+            "layers": [],
+            "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
             "id": "lyph-urinary-proximal-straight-tubule_1",
@@ -7046,7 +7051,8 @@
             ],
             "name": "Proximal straight tubule 1",
             "topology": "TUBE",
-            "layers": []
+            "layers": [],
+            "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
             "id": "lyph-renal-Bowmans-capsule",
@@ -7054,7 +7060,8 @@
             "ontologyTerms": [
                 "UBERON:0001230"
             ],
-            "topology": "BAG"
+            "topology": "BAG",
+            "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
             "id": "lt-renal-nephron-epithelial-conduit",
@@ -9862,59 +9869,8 @@
             "laterals": [
                 "left-chain-urinary-tail",
                 "right-chain-urinary-tail"
-            ]
-        },
-        {
-            "id": "left-chain-urinary-tail",
-            "name": "Left-Urinary tree tail",
-            "lyphs": [
-                "left-lyph-urinary-distal-free-ureter",
-                "left-lyph-urinary-proximal-free-ureter",
-                "left-lyph-urinary-renal-pelvis",
-                "left-lyph-urinary-major-calyx",
-                "left-lyph-urinary-minor-calyx",
-                "left-lyph-urinary-inner-medullary-collecting-duct",
-                "left-lyph-urinary-outer-medullary-collecting-duct",
-                "left-lyph-urinary-cortical-collecting-tubule",
-                "left-lyph-urinary-connecting-tubule",
-                "left-lyph-urinary-distal-convoluted-tubule",
-                "left-lyph-urinary-macula-densa-portion-of-distal-tubule",
-                "left-lyph-urinary-distal-straight-tubule",
-                "left-lyph-urinary-ascending-thin-limb",
-                "left-lyph-urinary-descending-thin-limb",
-                "left-lyph-urinary-proximal-straight-tubule",
-                "left-lyph-urinary-proximal-convoluted-tubule",
-                "left-lyph-urinary-parietal-Bowmans-capsule",
-                "left-lyph-urinary-visceral-Bowmans-capsule"
             ],
-            "lateralOf": "chain-urinary-tail",
-            "root": "n-split_urinary-intravesical-portion-of-ureter"
-        },
-        {
-            "id": "right-chain-urinary-tail",
-            "name": "Right-Urinary tree tail",
-            "lyphs": [
-                "right-lyph-urinary-distal-free-ureter",
-                "right-lyph-urinary-proximal-free-ureter",
-                "right-lyph-urinary-renal-pelvis",
-                "right-lyph-urinary-major-calyx",
-                "right-lyph-urinary-minor-calyx",
-                "right-lyph-urinary-inner-medullary-collecting-duct",
-                "right-lyph-urinary-outer-medullary-collecting-duct",
-                "right-lyph-urinary-cortical-collecting-tubule",
-                "right-lyph-urinary-connecting-tubule",
-                "right-lyph-urinary-distal-convoluted-tubule",
-                "right-lyph-urinary-macula-densa-portion-of-distal-tubule",
-                "right-lyph-urinary-distal-straight-tubule",
-                "right-lyph-urinary-ascending-thin-limb",
-                "right-lyph-urinary-descending-thin-limb",
-                "right-lyph-urinary-proximal-straight-tubule",
-                "right-lyph-urinary-proximal-convoluted-tubule",
-                "right-lyph-urinary-parietal-Bowmans-capsule",
-                "right-lyph-urinary-visceral-Bowmans-capsule"
-            ],
-            "lateralOf": "chain-urinary-tail",
-            "root": "n-split_urinary-intravesical-portion-of-ureter"
+            "_class": "Chain"
         },
         {
             "id": "chain-renal-internal-blood-vessels",
@@ -10081,7 +10037,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "1b804d4913500216a36ab84c39e02e046885946b",
+    "version": "1c416146e289e5021d5425441bc463cd72a17c85",
     "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
     "lastUpdated": "2025-06-11"
 }
