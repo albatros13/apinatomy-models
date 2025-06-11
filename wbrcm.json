@@ -1160,7 +1160,8 @@
             ],
             "name": "Distal convoluted tubule",
             "topology": "TUBE",
-            "layers": []
+            "layers": [],
+            "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
             "id": "lyph-urinary-macula-densa-portion-of-distal-tubule",
@@ -1195,7 +1196,8 @@
             ],
             "name": "Ascending thin limb",
             "topology": "TUBE",
-            "layers": []
+            "layers": [],
+            "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
             "id": "lyph-urinary-descending-thin-limb-3",
@@ -6994,7 +6996,8 @@
             "ontologyTerms": [
                 "UBERON:0004193"
             ],
-            "topology": "TUBE"
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
             "id": "lyph-renal-medullary-ascending-thin-limb",
@@ -7002,7 +7005,8 @@
             "ontologyTerms": [
                 "UBERON:0004193"
             ],
-            "topology": "TUBE"
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
             "id": "lyph-urinary-descending-thin-limb_1",
@@ -10037,7 +10041,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "1c416146e289e5021d5425441bc463cd72a17c85",
+    "version": "605fc4014a8e1b03bdf994381a1fe0a45c81b5f2",
     "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
     "lastUpdated": "2025-06-11"
 }
