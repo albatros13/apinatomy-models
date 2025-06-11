@@ -6998,6 +6998,22 @@
                 "UBERON:0009887"
             ],
             "_cloning": true
+        },
+        {
+            "id": "lyph-renal-cortical-ascending-thin-limb",
+            "name": "Renal cortical ascending thin limb",
+            "ontologyTerms": [
+                "UBERON:0004193"
+            ],
+            "topology": "TUBE"
+        },
+        {
+            "id": "lyph-renal-medullary-ascending-thin-limb",
+            "name": "Renal medullary ascending thin limb",
+            "ontologyTerms": [
+                "UBERON:0004193"
+            ],
+            "topology": "TUBE"
         }
     ],
     "materials": [
@@ -9162,7 +9178,7 @@
         },
         {
             "id": "chain-urinary",
-            "name": "Urinary tree",
+            "name": "Urethra and bladder",
             "lyphs": [
                 "lyph-urinary-base-of-urethra",
                 "lyph-urinary-proximal-sphinctered-urethra",
@@ -9760,7 +9776,7 @@
                 "lyph-urinary-cortical-collecting-tubule",
                 "lyph-urinary-connecting-tubule",
                 "lyph-urinary-distal-convoluted-tubule",
-                "lyph-urinary-macula-densa-portion-of-distal-tubule",
+                "lyph-renal-cortical-ascending-thin-limb",
                 "lyph-urinary-distal-straight-tubule",
                 "lyph-urinary-ascending-thin-limb",
                 "lyph-urinary-descending-thin-limb",
@@ -9772,7 +9788,8 @@
             "laterals": [
                 "left-chain-urinary-tail",
                 "right-chain-urinary-tail"
-            ]
+            ],
+            "_class": "Chain"
         },
         {
             "id": "left-chain-urinary-tail",
@@ -9982,7 +9999,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "36888777bd165d500963046b2c487ff0824e614d",
+    "version": "1020b414ef5e197ac0a9e937d46a7c6aa15bc0ef",
     "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
     "lastUpdated": "2025-06-11"
 }
