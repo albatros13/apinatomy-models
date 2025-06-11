@@ -7055,6 +7055,14 @@
             "name": "Proximal straight tubule 1",
             "topology": "TUBE",
             "layers": []
+        },
+        {
+            "id": "lyph-renal-Bowmans-capsule",
+            "name": "Renal Bowmans capsule",
+            "ontologyTerms": [
+                "UBERON:0001230"
+            ],
+            "topology": "BAG"
         }
     ],
     "materials": [
@@ -9823,7 +9831,9 @@
                 "lyph-urinary-descending-thin-limb-3",
                 "lyph-urinary-descending-thin-limb_2",
                 "lyph-urinary-descending-thin-limb_1",
-                "lyph-urinary-proximal-straight-tubule",
+                "lyph-urinary-proximal-straight-tubule_3",
+                "lyph-urinary-proximal-straight-tubule_2",
+                "lyph-urinary-proximal-straight-tubule_1",
                 "lyph-urinary-parietal-Bowmans-capsule",
                 "lyph-urinary-visceral-Bowmans-capsule"
             ],
@@ -10041,7 +10051,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "b227ed14c4c5dc199b259e945c1c6a6b31526d52",
+    "version": "ebef007a001ed7477f780ede971aed7bd2661598",
     "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
     "lastUpdated": "2025-06-11"
 }
