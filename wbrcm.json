@@ -9862,8 +9862,7 @@
             "laterals": [
                 "left-chain-urinary-tail",
                 "right-chain-urinary-tail"
-            ],
-            "_class": "Chain"
+            ]
         },
         {
             "id": "left-chain-urinary-tail",
@@ -10000,6 +9999,15 @@
                 "right_lyph-cardiovascular-renal-interlobar-vein"
             ],
             "lateralOf": "chain-renal-internal-blood-vessels"
+        },
+        {
+            "id": "chain-renal-epithelial-cell",
+            "name": "Renal epithelial cell",
+            "lyphTemplate": "lt-cyst-cell-renal-epitheilial",
+            "numLevels": 3,
+            "housingLyphTemplates": [
+                "lt-renal-nephron-epithelial-conduit"
+            ]
         }
     ],
     "groups": [
@@ -10073,7 +10081,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "aee1b3a30c6eeaa31fa79a3339ae11fa238bd3c8",
+    "version": "1b804d4913500216a36ab84c39e02e046885946b",
     "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
     "lastUpdated": "2025-06-11"
 }
