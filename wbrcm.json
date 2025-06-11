@@ -7055,6 +7055,19 @@
                 "UBERON:0001230"
             ],
             "topology": "BAG"
+        },
+        {
+            "id": "lt-renal-nephron-epithelial-conduit",
+            "name": "Renal nephron epithelial conduit",
+            "ontologyTerms": [
+                "UBERON:0004211"
+            ],
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-nephron-epithelium",
+                "mat-basement-membrane"
+            ],
+            "isTemplate": true
         }
     ],
     "materials": [
@@ -9138,6 +9151,24 @@
             "ontologyTerms": [
                 "GO:0043202"
             ]
+        },
+        {
+            "id": "mat-cellular-component-of-nephron-epithelium",
+            "name": "Cellular component of nephron epithelium",
+            "ontologyTerms": [
+                "UBERON:0004211"
+            ]
+        },
+        {
+            "id": "mat-nephron-epithelium",
+            "name": "Nephron epithelium",
+            "ontologyTerms": [
+                "UBERON:0004211"
+            ],
+            "materials": [
+                "mat-cellular-component-of-nephron-epithelium",
+                "mat-extracellular-material"
+            ]
         }
     ],
     "coalescences": [
@@ -10042,7 +10073,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "cf7435088685c471070e4405425e5ec76f9a1187",
+    "version": "aee1b3a30c6eeaa31fa79a3339ae11fa238bd3c8",
     "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
     "lastUpdated": "2025-06-11"
 }
