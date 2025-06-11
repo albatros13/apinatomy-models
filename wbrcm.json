@@ -1160,11 +1160,7 @@
             ],
             "name": "Distal convoluted tubule",
             "topology": "TUBE",
-            "layers": [
-                "mat-fluid-urinary",
-                "mat-tissue-urinary-distal-tubule-epithelium",
-                "mat-basal-lamina-of-nephron"
-            ]
+            "layers": []
         },
         {
             "id": "lyph-urinary-macula-densa-portion-of-distal-tubule",
@@ -1199,11 +1195,7 @@
             ],
             "name": "Ascending thin limb",
             "topology": "TUBE",
-            "layers": [
-                "mat-fluid-urinary",
-                "mat-tissue-urinary-thin-limbs-of-Henle-epithelium",
-                "mat-basal-lamina-of-nephron"
-            ]
+            "layers": []
         },
         {
             "id": "lyph-urinary-descending-thin-limb-3",
@@ -9834,8 +9826,7 @@
                 "lyph-urinary-proximal-straight-tubule_3",
                 "lyph-urinary-proximal-straight-tubule_2",
                 "lyph-urinary-proximal-straight-tubule_1",
-                "lyph-urinary-parietal-Bowmans-capsule",
-                "lyph-urinary-visceral-Bowmans-capsule"
+                "lyph-renal-Bowmans-capsule"
             ],
             "laterals": [
                 "left-chain-urinary-tail",
@@ -10051,7 +10042,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "ebef007a001ed7477f780ede971aed7bd2661598",
+    "version": "cf7435088685c471070e4405425e5ec76f9a1187",
     "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
     "lastUpdated": "2025-06-11"
 }
