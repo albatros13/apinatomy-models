@@ -1206,17 +1206,13 @@
             ]
         },
         {
-            "id": "lyph-urinary-descending-thin-limb",
+            "id": "lyph-urinary-descending-thin-limb-3",
             "ontologyTerms": [
                 "UBERON:0005096"
             ],
-            "name": "Descending thin limb",
+            "name": "Descending thin limb 3",
             "topology": "TUBE",
-            "layers": [
-                "mat-fluid-urinary",
-                "mat-tissue-urinary-thin-limbs-of-Henle-epithelium",
-                "mat-basal-lamina-of-nephron"
-            ]
+            "layers": []
         },
         {
             "id": "lyph-urinary-proximal-straight-tubule",
@@ -7014,6 +7010,24 @@
                 "UBERON:0004193"
             ],
             "topology": "TUBE"
+        },
+        {
+            "id": "lyph-urinary-descending-thin-limb_1",
+            "ontologyTerms": [
+                "UBERON:0005096"
+            ],
+            "name": "Descending thin limb 1",
+            "topology": "TUBE",
+            "layers": []
+        },
+        {
+            "id": "lyph-urinary-descending-thin-limb_2",
+            "ontologyTerms": [
+                "UBERON:0005096"
+            ],
+            "name": "Descending thin limb 2",
+            "topology": "TUBE",
+            "layers": []
         }
     ],
     "materials": [
@@ -9777,9 +9791,11 @@
                 "lyph-urinary-connecting-tubule",
                 "lyph-urinary-distal-convoluted-tubule",
                 "lyph-renal-cortical-ascending-thin-limb",
-                "lyph-urinary-distal-straight-tubule",
+                "lyph-renal-medullary-ascending-thin-limb",
                 "lyph-urinary-ascending-thin-limb",
-                "lyph-urinary-descending-thin-limb",
+                "lyph-urinary-descending-thin-limb-3",
+                "lyph-urinary-descending-thin-limb_2",
+                "lyph-urinary-descending-thin-limb_1",
                 "lyph-urinary-proximal-straight-tubule",
                 "lyph-urinary-proximal-convoluted-tubule",
                 "lyph-urinary-parietal-Bowmans-capsule",
@@ -9788,8 +9804,7 @@
             "laterals": [
                 "left-chain-urinary-tail",
                 "right-chain-urinary-tail"
-            ],
-            "_class": "Chain"
+            ]
         },
         {
             "id": "left-chain-urinary-tail",
@@ -9999,7 +10014,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "1020b414ef5e197ac0a9e937d46a7c6aa15bc0ef",
+    "version": "b644aeaf94b27f395c7e389c13f98789e4ed0084",
     "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
     "lastUpdated": "2025-06-11"
 }
