@@ -7028,6 +7028,33 @@
             "name": "Descending thin limb 2",
             "topology": "TUBE",
             "layers": []
+        },
+        {
+            "id": "lyph-urinary-proximal-straight-tubule_3",
+            "ontologyTerms": [
+                "UBERON:0001290"
+            ],
+            "name": "Proximal straight tubule 3",
+            "topology": "TUBE",
+            "layers": []
+        },
+        {
+            "id": "lyph-urinary-proximal-straight-tubule_2",
+            "ontologyTerms": [
+                "UBERON:0001290"
+            ],
+            "name": "Proximal straight tubule 2",
+            "topology": "TUBE",
+            "layers": []
+        },
+        {
+            "id": "lyph-urinary-proximal-straight-tubule_1",
+            "ontologyTerms": [
+                "UBERON:0001290"
+            ],
+            "name": "Proximal straight tubule 1",
+            "topology": "TUBE",
+            "layers": []
         }
     ],
     "materials": [
@@ -9797,14 +9824,14 @@
                 "lyph-urinary-descending-thin-limb_2",
                 "lyph-urinary-descending-thin-limb_1",
                 "lyph-urinary-proximal-straight-tubule",
-                "lyph-urinary-proximal-convoluted-tubule",
                 "lyph-urinary-parietal-Bowmans-capsule",
                 "lyph-urinary-visceral-Bowmans-capsule"
             ],
             "laterals": [
                 "left-chain-urinary-tail",
                 "right-chain-urinary-tail"
-            ]
+            ],
+            "_class": "Chain"
         },
         {
             "id": "left-chain-urinary-tail",
@@ -10014,7 +10041,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "b644aeaf94b27f395c7e389c13f98789e4ed0084",
+    "version": "b227ed14c4c5dc199b259e945c1c6a6b31526d52",
     "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
     "lastUpdated": "2025-06-11"
 }
