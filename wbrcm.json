@@ -1160,7 +1160,6 @@
             ],
             "name": "Distal convoluted tubule",
             "topology": "TUBE",
-            "layers": [],
             "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
@@ -1196,7 +1195,6 @@
             ],
             "name": "Ascending thin limb",
             "topology": "TUBE",
-            "layers": [],
             "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
@@ -1206,7 +1204,6 @@
             ],
             "name": "Descending thin limb 3",
             "topology": "TUBE",
-            "layers": [],
             "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
@@ -7015,7 +7012,6 @@
             ],
             "name": "Descending thin limb 1",
             "topology": "TUBE",
-            "layers": [],
             "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
@@ -7025,7 +7021,6 @@
             ],
             "name": "Descending thin limb 2",
             "topology": "TUBE",
-            "layers": [],
             "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
@@ -7035,7 +7030,6 @@
             ],
             "name": "Proximal straight tubule 3",
             "topology": "TUBE",
-            "layers": [],
             "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
@@ -7045,7 +7039,6 @@
             ],
             "name": "Proximal straight tubule 2",
             "topology": "TUBE",
-            "layers": [],
             "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
@@ -7055,7 +7048,6 @@
             ],
             "name": "Proximal straight tubule 1",
             "topology": "TUBE",
-            "layers": [],
             "supertype": "lt-renal-nephron-epithelial-conduit"
         },
         {
@@ -9869,12 +9861,7 @@
                 "lyph-urinary-proximal-straight-tubule_2",
                 "lyph-urinary-proximal-straight-tubule_1",
                 "lyph-renal-Bowmans-capsule"
-            ],
-            "laterals": [
-                "left-chain-urinary-tail",
-                "right-chain-urinary-tail"
-            ],
-            "_class": "Chain"
+            ]
         },
         {
             "id": "chain-renal-internal-blood-vessels",
@@ -10041,7 +10028,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "605fc4014a8e1b03bdf994381a1fe0a45c81b5f2",
+    "version": "33582aac67009b1bb18990e3ad1666659e2a95a9",
     "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
-    "lastUpdated": "2025-06-11"
+    "lastUpdated": "2025-06-12"
 }
