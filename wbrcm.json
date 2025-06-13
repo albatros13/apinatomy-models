@@ -6571,6 +6571,510 @@
                 "mat-basement-membrane"
             ],
             "isTemplate": true
+        },
+        {
+            "id": "left_lyph-urinary-distal-free-ureter",
+            "ontologyTerms": [
+                "ILX:0793143"
+            ],
+            "name": "Left Distal free ureter",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-transitional-epithelium",
+                "mat-basement-membrane",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-connective-tissue"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-urinary-proximal-free-ureter",
+            "ontologyTerms": [
+                "ILX:0793144"
+            ],
+            "name": "Left Proximal free ureter",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-transitional-epithelium",
+                "mat-basement-membrane",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-connective-tissue"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-urinary-renal-pelvis",
+            "ontologyTerms": [
+                "UBERON:0001224"
+            ],
+            "name": "Left Renal pevis",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-transitional-epithelium",
+                "mat-basement-membrane",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-connective-tissue"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-urinary-major-calyx",
+            "ontologyTerms": [
+                "UBERON:0001226"
+            ],
+            "name": "Left Major calyx",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-transitional-epithelium",
+                "mat-basement-membrane",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-connective-tissue"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-urinary-minor-calyx",
+            "ontologyTerms": [
+                "UBERON:0001227"
+            ],
+            "name": "Left Minor calyx",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-transitional-epithelium",
+                "mat-basement-membrane",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-connective-tissue"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-urinary-inner-medullary-collecting-duct",
+            "ontologyTerms": [
+                "UBERON:0004205"
+            ],
+            "name": "Left Inner medullary collecting duct",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-collecting-duct-epithelium",
+                "mat-basal-lamina-of-nephron"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-urinary-outer-medullary-collecting-duct",
+            "ontologyTerms": [
+                "UBERON:0004204"
+            ],
+            "name": "Left Outer medullary collecting duct",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-collecting-duct-epithelium",
+                "mat-basal-lamina-of-nephron"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-urinary-cortical-collecting-tubule",
+            "ontologyTerms": [
+                "UBERON:0004203"
+            ],
+            "name": "Left Cortical collecting tubule",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-collecting-duct-epithelium",
+                "mat-basal-lamina-of-nephron"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-urinary-connecting-tubule",
+            "ontologyTerms": [
+                "UBERON:0005097"
+            ],
+            "name": "Left Connecting tubule",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-connecting-duct-epithelium",
+                "mat-basal-lamina-of-nephron"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-urinary-distal-convoluted-tubule",
+            "ontologyTerms": [
+                "UBERON:0001292"
+            ],
+            "name": "Left Distal convoluted tubule",
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-renal-cortical-ascending-thin-limb",
+            "name": "Left Renal cortical ascending thin limb",
+            "ontologyTerms": [
+                "UBERON:0004193"
+            ],
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-renal-medullary-ascending-thin-limb",
+            "name": "Left Renal medullary ascending thin limb",
+            "ontologyTerms": [
+                "UBERON:0004193"
+            ],
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-urinary-ascending-thin-limb",
+            "ontologyTerms": [
+                "UBERON:0004193"
+            ],
+            "name": "Left Ascending thin limb",
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-urinary-descending-thin-limb-3",
+            "ontologyTerms": [
+                "UBERON:0005096"
+            ],
+            "name": "Left Descending thin limb 3",
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-urinary-descending-thin-limb_2",
+            "ontologyTerms": [
+                "UBERON:0005096"
+            ],
+            "name": "Left Descending thin limb 2",
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-urinary-descending-thin-limb_1",
+            "ontologyTerms": [
+                "UBERON:0005096"
+            ],
+            "name": "Left Descending thin limb 1",
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-urinary-proximal-straight-tubule_3",
+            "ontologyTerms": [
+                "UBERON:0001290"
+            ],
+            "name": "Left Proximal straight tubule 3",
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-urinary-proximal-straight-tubule_2",
+            "ontologyTerms": [
+                "UBERON:0001290"
+            ],
+            "name": "Left Proximal straight tubule 2",
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-urinary-proximal-straight-tubule_1",
+            "ontologyTerms": [
+                "UBERON:0001290"
+            ],
+            "name": "Left Proximal straight tubule 1",
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "left_lyph-renal-Bowmans-capsule",
+            "name": "Left Renal Bowmans capsule",
+            "ontologyTerms": [
+                "UBERON:0001230"
+            ],
+            "topology": "BAG",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-distal-free-ureter",
+            "ontologyTerms": [
+                "ILX:0793143"
+            ],
+            "name": "Right Distal free ureter",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-transitional-epithelium",
+                "mat-basement-membrane",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-connective-tissue"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-proximal-free-ureter",
+            "ontologyTerms": [
+                "ILX:0793144"
+            ],
+            "name": "Right Proximal free ureter",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-transitional-epithelium",
+                "mat-basement-membrane",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-connective-tissue"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-renal-pelvis",
+            "ontologyTerms": [
+                "UBERON:0001224"
+            ],
+            "name": "Right Renal pevis",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-transitional-epithelium",
+                "mat-basement-membrane",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-connective-tissue"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-major-calyx",
+            "ontologyTerms": [
+                "UBERON:0001226"
+            ],
+            "name": "Right Major calyx",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-transitional-epithelium",
+                "mat-basement-membrane",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-connective-tissue"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-minor-calyx",
+            "ontologyTerms": [
+                "UBERON:0001227"
+            ],
+            "name": "Right Minor calyx",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-transitional-epithelium",
+                "mat-basement-membrane",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-urinary-muscularis",
+                "mat-tissue-connective-tissue"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-inner-medullary-collecting-duct",
+            "ontologyTerms": [
+                "UBERON:0004205"
+            ],
+            "name": "Right Inner medullary collecting duct",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-collecting-duct-epithelium",
+                "mat-basal-lamina-of-nephron"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-outer-medullary-collecting-duct",
+            "ontologyTerms": [
+                "UBERON:0004204"
+            ],
+            "name": "Right Outer medullary collecting duct",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-collecting-duct-epithelium",
+                "mat-basal-lamina-of-nephron"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-cortical-collecting-tubule",
+            "ontologyTerms": [
+                "UBERON:0004203"
+            ],
+            "name": "Right Cortical collecting tubule",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-collecting-duct-epithelium",
+                "mat-basal-lamina-of-nephron"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-connecting-tubule",
+            "ontologyTerms": [
+                "UBERON:0005097"
+            ],
+            "name": "Right Connecting tubule",
+            "topology": "TUBE",
+            "layers": [
+                "mat-fluid-urinary",
+                "mat-tissue-urinary-connecting-duct-epithelium",
+                "mat-basal-lamina-of-nephron"
+            ],
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-distal-convoluted-tubule",
+            "ontologyTerms": [
+                "UBERON:0001292"
+            ],
+            "name": "Right Distal convoluted tubule",
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-renal-cortical-ascending-thin-limb",
+            "name": "Right Renal cortical ascending thin limb",
+            "ontologyTerms": [
+                "UBERON:0004193"
+            ],
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-renal-medullary-ascending-thin-limb",
+            "name": "Right Renal medullary ascending thin limb",
+            "ontologyTerms": [
+                "UBERON:0004193"
+            ],
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-ascending-thin-limb",
+            "ontologyTerms": [
+                "UBERON:0004193"
+            ],
+            "name": "Right Ascending thin limb",
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-descending-thin-limb-3",
+            "ontologyTerms": [
+                "UBERON:0005096"
+            ],
+            "name": "Right Descending thin limb 3",
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-descending-thin-limb_2",
+            "ontologyTerms": [
+                "UBERON:0005096"
+            ],
+            "name": "Right Descending thin limb 2",
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-descending-thin-limb_1",
+            "ontologyTerms": [
+                "UBERON:0005096"
+            ],
+            "name": "Right Descending thin limb 1",
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-proximal-straight-tubule_3",
+            "ontologyTerms": [
+                "UBERON:0001290"
+            ],
+            "name": "Right Proximal straight tubule 3",
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-proximal-straight-tubule_2",
+            "ontologyTerms": [
+                "UBERON:0001290"
+            ],
+            "name": "Right Proximal straight tubule 2",
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-urinary-proximal-straight-tubule_1",
+            "ontologyTerms": [
+                "UBERON:0001290"
+            ],
+            "name": "Right Proximal straight tubule 1",
+            "topology": "TUBE",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
+        },
+        {
+            "id": "right_lyph-renal-Bowmans-capsule",
+            "name": "Right Renal Bowmans capsule",
+            "ontologyTerms": [
+                "UBERON:0001230"
+            ],
+            "topology": "BAG",
+            "supertype": "lt-renal-nephron-epithelial-conduit",
+            "_cloning": true
         }
     ],
     "materials": [
@@ -8728,6 +9232,17 @@
                 "lyph-primary-bronchiole",
                 "lyph-vascular-pFTU-pulmonary-smooth-muscle"
             ]
+        },
+        {
+            "id": "left-glomerular-bowmans-unit",
+            "name": "Left glomerular bowmans unit",
+            "ontologyTerms": [
+                "UBERON:0000074"
+            ],
+            "lyphs": [
+                "left_lyph-cardiovascular-renal-glomerulus",
+                "left_lyph-renal-Bowmans-capsule"
+            ]
         }
     ],
     "chains": [
@@ -9455,6 +9970,62 @@
             "housingLyphTemplates": [
                 "lt-renal-nephron-epithelial-conduit"
             ]
+        },
+        {
+            "id": "left_chain-urinary-tail",
+            "root": "n-split_urinary-intravesical-portion-of-ureter",
+            "name": "Left Urinary tree tail",
+            "lyphs": [
+                "left_lyph-urinary-distal-free-ureter",
+                "left_lyph-urinary-proximal-free-ureter",
+                "left_lyph-urinary-renal-pelvis",
+                "left_lyph-urinary-major-calyx",
+                "left_lyph-urinary-minor-calyx",
+                "left_lyph-urinary-inner-medullary-collecting-duct",
+                "left_lyph-urinary-outer-medullary-collecting-duct",
+                "left_lyph-urinary-cortical-collecting-tubule",
+                "left_lyph-urinary-connecting-tubule",
+                "left_lyph-urinary-distal-convoluted-tubule",
+                "left_lyph-renal-cortical-ascending-thin-limb",
+                "left_lyph-renal-medullary-ascending-thin-limb",
+                "left_lyph-urinary-ascending-thin-limb",
+                "left_lyph-urinary-descending-thin-limb-3",
+                "left_lyph-urinary-descending-thin-limb_2",
+                "left_lyph-urinary-descending-thin-limb_1",
+                "left_lyph-urinary-proximal-straight-tubule_3",
+                "left_lyph-urinary-proximal-straight-tubule_2",
+                "left_lyph-urinary-proximal-straight-tubule_1",
+                "left_lyph-renal-Bowmans-capsule"
+            ],
+            "lateralOf": "chain-urinary-tail"
+        },
+        {
+            "id": "right_chain-urinary-tail",
+            "root": "n-split_urinary-intravesical-portion-of-ureter",
+            "name": "Right Urinary tree tail",
+            "lyphs": [
+                "right_lyph-urinary-distal-free-ureter",
+                "right_lyph-urinary-proximal-free-ureter",
+                "right_lyph-urinary-renal-pelvis",
+                "right_lyph-urinary-major-calyx",
+                "right_lyph-urinary-minor-calyx",
+                "right_lyph-urinary-inner-medullary-collecting-duct",
+                "right_lyph-urinary-outer-medullary-collecting-duct",
+                "right_lyph-urinary-cortical-collecting-tubule",
+                "right_lyph-urinary-connecting-tubule",
+                "right_lyph-urinary-distal-convoluted-tubule",
+                "right_lyph-renal-cortical-ascending-thin-limb",
+                "right_lyph-renal-medullary-ascending-thin-limb",
+                "right_lyph-urinary-ascending-thin-limb",
+                "right_lyph-urinary-descending-thin-limb-3",
+                "right_lyph-urinary-descending-thin-limb_2",
+                "right_lyph-urinary-descending-thin-limb_1",
+                "right_lyph-urinary-proximal-straight-tubule_3",
+                "right_lyph-urinary-proximal-straight-tubule_2",
+                "right_lyph-urinary-proximal-straight-tubule_1",
+                "right_lyph-renal-Bowmans-capsule"
+            ],
+            "lateralOf": "chain-urinary-tail"
         }
     ],
     "groups": [
@@ -9465,6 +10036,15 @@
                 "chain-renal-internal-blood-vessels",
                 "left_chain-renal-internal-blood-vessels",
                 "right_chain-renal-internal-blood-vessels"
+            ]
+        },
+        {
+            "id": "g-parts_chain-urinary-tail",
+            "name": "g-parts Urinary tree tail",
+            "chains": [
+                "chain-urinary-tail",
+                "left_chain-urinary-tail",
+                "right_chain-urinary-tail"
             ]
         }
     ],
@@ -9528,7 +10108,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "9cb18eb5f203d30041e846763f5ba64a5839e59c",
+    "version": "37d6944b94c3f240cdcc7632990d690865fea2c8",
     "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
-    "lastUpdated": "2025-06-12"
+    "lastUpdated": "2025-06-13"
 }
