@@ -9180,60 +9180,6 @@
     ],
     "coalescences": [
         {
-            "id": "clsc-alveolar-sac",
-            "name": "Alveolar sac-blood vessel coalescence",
-            "ontologyTerms": [
-                "UBERON:0002169"
-            ],
-            "lyphs": [
-                "lyph-airway-pFTU-alveolus",
-                "lyph-vascular-pFTU-pulmonary-capillary"
-            ]
-        },
-        {
-            "id": "clsc-alveolar-duct",
-            "name": "Alveolar duct-blood vessel coalescence",
-            "ontologyTerms": [
-                "UBERON:0002173"
-            ],
-            "lyphs": [
-                "lyph-airway-pFTU-alveolar-duct",
-                "lyph-vascular-pFTU-pulmonary-capillary"
-            ]
-        },
-        {
-            "id": "clsc-respiratory-bronchiole-to-smooth-muscle",
-            "name": "Vascularised respiratory bronchiole",
-            "lyphs": [
-                "lyph-respiratory-bronchiole",
-                "lyph-vascular-pFTU-pulmonary-smooth-muscle"
-            ]
-        },
-        {
-            "id": "clsc-terminal-bronchiole-to-smooth-muscle",
-            "name": "Vascularised terminal bronchiole",
-            "lyphs": [
-                "lyph-terminal-bronchiole",
-                "lyph-vascular-pFTU-pulmonary-smooth-muscle"
-            ]
-        },
-        {
-            "id": "clsc-conducting-bronchiole-to-smooth-muscle",
-            "name": "Vascularised conducting bronchiole",
-            "lyphs": [
-                "lyph-conducting-bronchiole",
-                "lyph-vascular-pFTU-pulmonary-smooth-muscle"
-            ]
-        },
-        {
-            "id": "clsc-primary-bronchiole-to-smooth-muscle",
-            "name": "Vascularised primary bronchiole",
-            "lyphs": [
-                "lyph-primary-bronchiole",
-                "lyph-vascular-pFTU-pulmonary-smooth-muscle"
-            ]
-        },
-        {
             "id": "left-glomerular-bowmans-unit",
             "name": "Left glomerular bowmans unit",
             "ontologyTerms": [
@@ -10108,7 +10054,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "37d6944b94c3f240cdcc7632990d690865fea2c8",
+    "version": "eecd919c13b5853de4108f6fb1d3d4b33164bf95",
     "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
     "lastUpdated": "2025-06-13"
 }
