@@ -9189,6 +9189,18 @@
                 "left_lyph-cardiovascular-renal-glomerulus",
                 "left_lyph-renal-Bowmans-capsule"
             ]
+        },
+        {
+            "id": "left-renal-macula-densa",
+            "name": "Left renal macula densa",
+            "ontologyTerms": [
+                "UBERON:0002335"
+            ],
+            "lyphs": [
+                "left_lyph-urinary-distal-convoluted-tubule",
+                "left_lyph-cardiovascular-renal-efferent-arteriole",
+                "left_lyph-cardiovascular-renal-afferent-arteriole"
+            ]
         }
     ],
     "chains": [
@@ -10054,7 +10066,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "eecd919c13b5853de4108f6fb1d3d4b33164bf95",
+    "version": "0fb553a7b5b2aa6feb4de55ea5d80f81fcf8b265",
     "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
     "lastUpdated": "2025-06-13"
 }
