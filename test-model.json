@@ -1,11 +1,11 @@
 {
     "name": "test-model",
     "created": "2025-03-18",
-    "lastUpdated": "2025-05-07",
-    "version": "8e9f83a9e65b8387830455001d0a336121f4671e",
+    "lastUpdated": "2025-06-24",
+    "version": "22f9b69c9606758c39ba3362b00bd41f2cd2da4e",
     "id": "test-model",
     "namespace": "nm_main",
-    "schemaVersion": "79bd9f8c1e408461daa0a1018c5ec91ab6e077e3",
+    "schemaVersion": "24425f782bdb984fab28d2039a348213e99ac965",
     "lyphs": [
         {
             "id": "_newLyph1",
@@ -76,6 +76,10 @@
         {
             "id": "newMat3",
             "name": "New material 3"
+        },
+        {
+            "id": "newMat4",
+            "name": "New material 4"
         }
     ]
 }
