@@ -2,10 +2,10 @@
     "name": "test-model",
     "created": "2025-03-18",
     "lastUpdated": "2025-05-07",
-    "version": "cedf0b17eb3df780c4d9fb8be3e6321823eaceb7",
+    "version": "8e9f83a9e65b8387830455001d0a336121f4671e",
     "id": "test-model",
     "namespace": "nm_main",
-    "schemaVersion": "af95da3c4d16fede12520031736d19cfa31e9758",
+    "schemaVersion": "79bd9f8c1e408461daa0a1018c5ec91ab6e077e3",
     "lyphs": [
         {
             "id": "_newLyph1",
