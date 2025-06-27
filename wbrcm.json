@@ -71,40 +71,6 @@
             "id": "vs-cat"
         }
     ],
-    "nodes": [
-        {
-            "id": "node-airway-root",
-            "name": "Airway root"
-        },
-        {
-            "id": "node-airway-leaf",
-            "name": "Airway leaf"
-        },
-        {
-            "id": "node-urinary-root",
-            "name": "Urinary root"
-        },
-        {
-            "id": "node-urinary-leaf",
-            "name": "Urinary leaf"
-        },
-        {
-            "id": "node-intragingival-root",
-            "name": "Intragingival root"
-        },
-        {
-            "id": "node-buccogingival-root",
-            "name": "Buccogingival root"
-        },
-        {
-            "id": "node-intragingival-leaf",
-            "name": "Intragingival leaf"
-        },
-        {
-            "id": "node-buccogingival-leaf",
-            "name": "Buccogingival leaf"
-        }
-    ],
     "links": [],
     "lyphs": [
         {
@@ -10066,7 +10032,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "0fb553a7b5b2aa6feb4de55ea5d80f81fcf8b265",
-    "schemaVersion": "a14419c3eac14bfb055c2fa53395c6cce71ccaa7",
-    "lastUpdated": "2025-06-13"
+    "version": "7f6983c00cb14d22311f52463e5d103da4f10121",
+    "schemaVersion": "24425f782bdb984fab28d2039a348213e99ac965",
+    "lastUpdated": "2025-06-27"
 }
