@@ -9167,6 +9167,23 @@
                 "left_lyph-cardiovascular-renal-efferent-arteriole",
                 "left_lyph-cardiovascular-renal-afferent-arteriole"
             ]
+        },
+        {
+            "id": "right-glomerular-bowmans-unit",
+            "name": "Right glomerular bowmans unit",
+            "lyphs": [
+                "right_lyph-renal-Bowmans-capsule",
+                "right_lyph-cardiovascular-renal-glomerulus"
+            ]
+        },
+        {
+            "id": "right-renal-macula-densa",
+            "name": "Right Renal Macula Densa",
+            "lyphs": [
+                "right_lyph-urinary-distal-convoluted-tubule",
+                "right_lyph-cardiovascular-renal-efferent-arteriole",
+                "right_lyph-cardiovascular-renal-afferent-arteriole"
+            ]
         }
     ],
     "chains": [
@@ -10032,7 +10049,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "7f6983c00cb14d22311f52463e5d103da4f10121",
+    "version": "cbcfc7e0569aaea123954904b96434898af28c00",
     "schemaVersion": "24425f782bdb984fab28d2039a348213e99ac965",
     "lastUpdated": "2025-06-27"
 }
