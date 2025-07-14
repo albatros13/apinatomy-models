@@ -1,11 +1,11 @@
 {
     "name": "test-model",
     "created": "2025-03-18",
-    "lastUpdated": "2025-06-24",
-    "version": "22f9b69c9606758c39ba3362b00bd41f2cd2da4e",
+    "lastUpdated": "2025-07-15",
+    "version": "b07b1445d4d8a2bcb3686399b34c34e9d0feefe2",
     "id": "test-model",
     "namespace": "nm_main",
-    "schemaVersion": "24425f782bdb984fab28d2039a348213e99ac965",
+    "schemaVersion": "c538a8170025492450f395d1d97349de99294ade",
     "lyphs": [
         {
             "id": "_newLyph1",
@@ -46,8 +46,7 @@
                 "_newLyph3",
                 "_newLyph4",
                 "_newLyph5"
-            ],
-            "_class": "Chain"
+            ]
         }
     ],
     "coalescences": [
