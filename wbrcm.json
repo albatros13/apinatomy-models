@@ -6999,6 +6999,10 @@
             "id": "lyph-cardiovascular-terminal-arterioles-of-placenta",
             "name": "Terminal arterioles of the placenta",
             "supertype": "lt-metarteriole"
+        },
+        {
+            "id": "lyph-cardiovascular-fetal-capillaries-in-terminal-villi-of-placenta",
+            "name": "Fetal capillaries in terminal villi of placenta"
         }
     ],
     "materials": [
@@ -9933,7 +9937,8 @@
                 "lyph-cardiovascular-chorionic-artery",
                 "lyph-cardiovascular-radial-stem-placental-artery",
                 "lyph-cardiovascular-villous-arteriole-of-placenta",
-                "lyph-cardiovascular-terminal-arterioles-of-placenta"
+                "lyph-cardiovascular-terminal-arterioles-of-placenta",
+                "lyph-cardiovascular-fetal-capillaries-in-terminal-villi-of-placenta"
             ]
         }
     ],
@@ -10017,7 +10022,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "d59a0eee582873e35dcc0a050d5f75f1678a5469",
+    "version": "fa1c648dafdf296c71ea4ed5efbdeb10f56fca9f",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-07-28"
 }
