@@ -7014,6 +7014,11 @@
             "id": "lyph-cardiovascular-collecting-veins-of-placenta",
             "name": "Collecting veins of placenta",
             "supertype": "lt-small-vein"
+        },
+        {
+            "id": "lyph-cardiovascular-chorionic-vein-of-placenta",
+            "name": "Chorionic vein of placenta",
+            "supertype": "lt-medium-vein"
         }
     ],
     "materials": [
@@ -10036,7 +10041,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "26abd6a955bc68b9420acd9f4ef7c9c1258fc08b",
+    "version": "46d7ee4158f826dd683e1e293e8d3e545d494572",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-07-28"
 }
