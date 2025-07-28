@@ -7007,6 +7007,10 @@
         {
             "id": "lyph-cardiovascular-postcapillary-pacental-venule",
             "name": "Postcapillary pacental venule"
+        },
+        {
+            "id": "lyph-cardiovascular-collecting-veins-of-placenta",
+            "name": "Collecting veins of placenta"
         }
     ],
     "materials": [
@@ -9943,7 +9947,8 @@
                 "lyph-cardiovascular-villous-arteriole-of-placenta",
                 "lyph-cardiovascular-terminal-arterioles-of-placenta",
                 "lyph-cardiovascular-fetal-capillaries-in-terminal-villi-of-placenta",
-                "lyph-cardiovascular-postcapillary-pacental-venule"
+                "lyph-cardiovascular-postcapillary-pacental-venule",
+                "lyph-cardiovascular-collecting-veins-of-placenta"
             ]
         }
     ],
@@ -10027,7 +10032,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "3797a8f1fa7f8ec24ea90785597179649c3753f9",
+    "version": "9c14e436e0ab22b5db16b58725be61f8016f7d0b",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-07-28"
 }
