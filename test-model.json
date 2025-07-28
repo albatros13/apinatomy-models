@@ -1,11 +1,11 @@
 {
     "name": "test-model",
     "created": "2025-03-18",
-    "lastUpdated": "2025-07-15",
-    "version": "b07b1445d4d8a2bcb3686399b34c34e9d0feefe2",
+    "lastUpdated": "2025-07-28",
+    "version": "7403faac35e210cd7268c20ef0a21d65f02fb478",
     "id": "test-model",
     "namespace": "nm_main",
-    "schemaVersion": "c538a8170025492450f395d1d97349de99294ade",
+    "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lyphs": [
         {
             "id": "_newLyph1",
@@ -70,7 +70,10 @@
         },
         {
             "id": "newMat2",
-            "name": "New material 2"
+            "name": "New material 2",
+            "ontologyTerms": [
+                "newMat2_ontologyTerms_new_1"
+            ]
         },
         {
             "id": "newMat3",
@@ -79,6 +82,14 @@
         {
             "id": "newMat4",
             "name": "New material 4"
+        },
+        {
+            "id": "newMat25",
+            "name": "New material 25",
+            "ontologyTerms": [
+                "newMat25_ontologyTerms_new_1",
+                "newMat25_ontologyTerms_new_2"
+            ]
         }
     ]
 }
