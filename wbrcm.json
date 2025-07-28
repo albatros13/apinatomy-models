@@ -7034,6 +7034,21 @@
             "id": "lyph-cardiovascular-radial-artery-of-the-uterus",
             "name": "Radial artery of the uterus",
             "supertype": "lt-muscular-artery"
+        },
+        {
+            "id": "lyph-cardiovascular-basal-artery-of-the-uterus",
+            "name": "Basal artery of the uterus",
+            "supertype": "lt-arteriole"
+        },
+        {
+            "id": "lyph-cardiovascular-spiral-artery-of-the-uterus",
+            "name": "Spiral artery of the uterus",
+            "supertype": "lt-arteriole"
+        },
+        {
+            "id": "lyph-cardiovascular-intervillous-space-of-the-uterus",
+            "name": "Intervillous space of the uterus",
+            "supertype": "lt-blood-capillary"
         }
     ],
     "materials": [
@@ -9980,7 +9995,10 @@
             "name": "Uterine internal blood vessels",
             "lyphs": [
                 "lyph-cardiovascular-arcuate-artery-of-the-uterus",
-                "lyph-cardiovascular-radial-artery-of-the-uterus"
+                "lyph-cardiovascular-radial-artery-of-the-uterus",
+                "lyph-cardiovascular-basal-artery-of-the-uterus",
+                "lyph-cardiovascular-spiral-artery-of-the-uterus",
+                "lyph-cardiovascular-intervillous-space-of-the-uterus"
             ]
         }
     ],
@@ -10064,7 +10082,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "edd42da0d648e1a303ff7d1c560ecb546f6a4da0",
+    "version": "5f491c40ab95b2f05b937546ad511cb0fa4524c8",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-07-28"
 }
