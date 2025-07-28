@@ -9962,8 +9962,7 @@
                 "lyph-cardiovascular-fetal-capillaries-in-terminal-villi-of-placenta",
                 "lyph-cardiovascular-postcapillary-pacental-venule",
                 "lyph-cardiovascular-collecting-veins-of-placenta",
-                "lyph-cardiovascular-chorionic-vein-of-placenta",
-                "lyph-cardiovascular-umbilical-vein"
+                "lyph-cardiovascular-chorionic-vein-of-placenta"
             ]
         }
     ],
@@ -10047,7 +10046,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "9f725673957d2a9d97ba63994336224ad5ee6cd3",
+    "version": "fe02b1339c4a7290902cd5a1d373ddf6959d8c4e",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-07-28"
 }
