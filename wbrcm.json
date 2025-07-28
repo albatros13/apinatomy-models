@@ -7002,15 +7002,18 @@
         },
         {
             "id": "lyph-cardiovascular-fetal-capillaries-in-terminal-villi-of-placenta",
-            "name": "Fetal capillaries in terminal villi of placenta"
+            "name": "Fetal capillaries in terminal villi of placenta",
+            "supertype": "lt-blood-capillary"
         },
         {
             "id": "lyph-cardiovascular-postcapillary-pacental-venule",
-            "name": "Postcapillary pacental venule"
+            "name": "Postcapillary pacental venule",
+            "supertype": "lt-venule"
         },
         {
             "id": "lyph-cardiovascular-collecting-veins-of-placenta",
-            "name": "Collecting veins of placenta"
+            "name": "Collecting veins of placenta",
+            "supertype": "lt-small-vein"
         }
     ],
     "materials": [
@@ -9949,7 +9952,8 @@
                 "lyph-cardiovascular-fetal-capillaries-in-terminal-villi-of-placenta",
                 "lyph-cardiovascular-postcapillary-pacental-venule",
                 "lyph-cardiovascular-collecting-veins-of-placenta"
-            ]
+            ],
+            "_class": "Chain"
         }
     ],
     "groups": [
@@ -10032,7 +10036,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "9c14e436e0ab22b5db16b58725be61f8016f7d0b",
+    "version": "26abd6a955bc68b9420acd9f4ef7c9c1258fc08b",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-07-28"
 }
