@@ -7029,6 +7029,11 @@
             "id": "lyph-cardiovascular-arcuate-artery-of-the-uterus",
             "name": "Arcuate artery of the Uterus",
             "supertype": "lt-muscular-artery"
+        },
+        {
+            "id": "lyph-cardiovascular-radial-artery-of-the-uterus",
+            "name": "Radial artery of the uterus",
+            "supertype": "lt-muscular-artery"
         }
     ],
     "materials": [
@@ -9974,7 +9979,8 @@
             "id": "chain-uterine-internal-blood-vessels",
             "name": "Uterine internal blood vessels",
             "lyphs": [
-                "lyph-cardiovascular-arcuate-artery-of-the-uterus"
+                "lyph-cardiovascular-arcuate-artery-of-the-uterus",
+                "lyph-cardiovascular-radial-artery-of-the-uterus"
             ]
         }
     ],
@@ -10058,7 +10064,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "992978177405fc47a459d3168829d7fbbb141189",
+    "version": "edd42da0d648e1a303ff7d1c560ecb546f6a4da0",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-07-28"
 }
