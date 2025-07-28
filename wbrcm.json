@@ -6979,6 +6979,11 @@
             ],
             "topology": "BAG",
             "supertype": "lt-renal-nephron-epithelial-conduit"
+        },
+        {
+            "id": "lyph-cardiovascular-chorionic-artery",
+            "name": "Chorionic artery",
+            "supertype": "lt-muscular-artery"
         }
     ],
     "materials": [
@@ -9987,7 +9992,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "b3714fe7e69cf1ea06872f33ee5b8cb71274d64f",
-    "schemaVersion": "c538a8170025492450f395d1d97349de99294ade",
-    "lastUpdated": "2025-07-15"
+    "version": "12bb5656b99527608b7ae667dba1a5459c698a33",
+    "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
+    "lastUpdated": "2025-07-28"
 }
