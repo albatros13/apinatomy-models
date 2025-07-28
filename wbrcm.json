@@ -7049,6 +7049,16 @@
             "id": "lyph-cardiovascular-intervillous-space-of-the-uterus",
             "name": "Intervillous space of the uterus",
             "supertype": "lt-blood-capillary"
+        },
+        {
+            "id": "lyph-cardiovascular-endometrial-vein-of-the-uterus",
+            "name": "Endometrial vein of the uterus",
+            "supertype": "lt-venule"
+        },
+        {
+            "id": "lyph-cardiovascular-myometrial-vein-of-the-uterus",
+            "name": "Myometrial vein of the uterus",
+            "supertype": "lt-small-vein"
         }
     ],
     "materials": [
@@ -9998,7 +10008,9 @@
                 "lyph-cardiovascular-radial-artery-of-the-uterus",
                 "lyph-cardiovascular-basal-artery-of-the-uterus",
                 "lyph-cardiovascular-spiral-artery-of-the-uterus",
-                "lyph-cardiovascular-intervillous-space-of-the-uterus"
+                "lyph-cardiovascular-intervillous-space-of-the-uterus",
+                "lyph-cardiovascular-endometrial-vein-of-the-uterus",
+                "lyph-cardiovascular-myometrial-vein-of-the-uterus"
             ]
         }
     ],
@@ -10082,7 +10094,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "5f491c40ab95b2f05b937546ad511cb0fa4524c8",
+    "version": "b606bef0858ab5ec9657cdcbed4e3baaed8c07d7",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-07-28"
 }
