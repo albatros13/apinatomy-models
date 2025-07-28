@@ -6982,7 +6982,17 @@
         },
         {
             "id": "lyph-cardiovascular-chorionic-artery",
-            "name": "Chorionic artery",
+            "name": "Chorionic artery of placenta",
+            "supertype": "lt-muscular-artery"
+        },
+        {
+            "id": "lyph-cardiovascular-radial-stem-placental-artery",
+            "name": "Radial stem artery of placenta",
+            "supertype": "lt-muscular-artery"
+        },
+        {
+            "id": "_newLyph1",
+            "name": "New lyph 1",
             "supertype": "lt-muscular-artery"
         }
     ],
@@ -9844,7 +9854,8 @@
                 "right_lyph-cardiovascular-renal-arcuate-vein",
                 "right_lyph-cardiovascular-renal-interlobar-vein"
             ],
-            "lateralOf": "chain-renal-internal-blood-vessels"
+            "lateralOf": "chain-renal-internal-blood-vessels",
+            "_class": "Chain"
         },
         {
             "id": "chain-renal-epithelial-cell",
@@ -9992,7 +10003,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "12bb5656b99527608b7ae667dba1a5459c698a33",
+    "version": "0d86b2ead47832d26f0dc9fd8e9110081c288d66",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-07-28"
 }
