@@ -7024,6 +7024,11 @@
             "id": "lyph-cardiovascular-umbilical-vein",
             "name": "Umbilical vein",
             "supertype": "lt-major-vein"
+        },
+        {
+            "id": "lyph-cardiovascular-arcuate-artery-of-the-uterus",
+            "name": "Arcuate artery of the Uterus",
+            "supertype": "lt-muscular-artery"
         }
     ],
     "materials": [
@@ -9964,6 +9969,13 @@
                 "lyph-cardiovascular-collecting-veins-of-placenta",
                 "lyph-cardiovascular-chorionic-vein-of-placenta"
             ]
+        },
+        {
+            "id": "chain-uterine-internal-blood-vessels",
+            "name": "Uterine internal blood vessels",
+            "lyphs": [
+                "lyph-cardiovascular-arcuate-artery-of-the-uterus"
+            ]
         }
     ],
     "groups": [
@@ -10046,7 +10058,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "fe02b1339c4a7290902cd5a1d373ddf6959d8c4e",
+    "version": "992978177405fc47a459d3168829d7fbbb141189",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-07-28"
 }
