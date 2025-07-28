@@ -7003,6 +7003,10 @@
         {
             "id": "lyph-cardiovascular-fetal-capillaries-in-terminal-villi-of-placenta",
             "name": "Fetal capillaries in terminal villi of placenta"
+        },
+        {
+            "id": "lyph-cardiovascular-postcapillary-pacental-venule",
+            "name": "Postcapillary pacental venule"
         }
     ],
     "materials": [
@@ -9938,7 +9942,8 @@
                 "lyph-cardiovascular-radial-stem-placental-artery",
                 "lyph-cardiovascular-villous-arteriole-of-placenta",
                 "lyph-cardiovascular-terminal-arterioles-of-placenta",
-                "lyph-cardiovascular-fetal-capillaries-in-terminal-villi-of-placenta"
+                "lyph-cardiovascular-fetal-capillaries-in-terminal-villi-of-placenta",
+                "lyph-cardiovascular-postcapillary-pacental-venule"
             ]
         }
     ],
@@ -10022,7 +10027,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "fa1c648dafdf296c71ea4ed5efbdeb10f56fca9f",
+    "version": "3797a8f1fa7f8ec24ea90785597179649c3753f9",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-07-28"
 }
