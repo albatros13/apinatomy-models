@@ -9229,6 +9229,14 @@
                 "right_lyph-cardiovascular-renal-efferent-arteriole",
                 "right_lyph-cardiovascular-renal-afferent-arteriole"
             ]
+        },
+        {
+            "id": "coalesce-placenta-uterus",
+            "name": "Placentouterine Coalescence",
+            "lyphs": [
+                "lyph-cardiovascular-intervillous-space-of-the-placenta",
+                "lyph-cardiovascular-fetal-capillaries-in-terminal-villi-of-placenta"
+            ]
         }
     ],
     "chains": [
@@ -10025,8 +10033,7 @@
                 "lyph-cardiovascular-postcapillary-pacental-venule",
                 "lyph-cardiovascular-collecting-veins-of-placenta",
                 "lyph-cardiovascular-chorionic-vein-of-placenta"
-            ],
-            "_class": "Chain"
+            ]
         },
         {
             "id": "chain-uterine-internal-blood-vessels",
@@ -10036,6 +10043,7 @@
                 "lyph-cardiovascular-radial-artery-of-the-uterus",
                 "lyph-cardiovascular-basal-artery-of-the-uterus",
                 "lyph-cardiovascular-spiral-artery-of-the-uterus",
+                "lyph-cardiovascular-intervillous-space-of-the-placenta",
                 "lyph-cardiovascular-endometrial-vein-of-the-uterus",
                 "lyph-cardiovascular-myometrial-vein-of-the-uterus"
             ]
@@ -10121,7 +10129,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "46db3c4095cdca1014718df0e6b563259f0cc698",
+    "version": "d00c051c11ad98e6ee7773e00761fb5c465999f4",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-07-29"
 }
