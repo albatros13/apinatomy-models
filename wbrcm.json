@@ -10048,7 +10048,8 @@
                 "lyph-cardiovascular-endometrial-vein-of-the-uterus",
                 "lyph-cardiovascular-myometrial-vein-of-the-uterus"
             ],
-            "root": "root_chain-uterine-internal-blood-vessels"
+            "root": "root_chain-uterine-internal-blood-vessels",
+            "leaf": "leaf_chain-uterine-internal-blood-vessels"
         }
     ],
     "groups": [
@@ -10131,7 +10132,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "6eb92298e40c95b5f5f23c0077b9fd2888669b05",
+    "version": "62d1d3f23fe86f619af49ab318b222974ea86ad4",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-07-29"
 }
