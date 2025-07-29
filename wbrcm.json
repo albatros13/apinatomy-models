@@ -10033,7 +10033,8 @@
                 "lyph-cardiovascular-postcapillary-pacental-venule",
                 "lyph-cardiovascular-collecting-veins-of-placenta",
                 "lyph-cardiovascular-chorionic-vein-of-placenta"
-            ]
+            ],
+            "root": "root_chain-placental-internal-blood-vessels"
         },
         {
             "id": "chain-uterine-internal-blood-vessels",
@@ -10046,7 +10047,8 @@
                 "lyph-cardiovascular-intervillous-space-of-the-placenta",
                 "lyph-cardiovascular-endometrial-vein-of-the-uterus",
                 "lyph-cardiovascular-myometrial-vein-of-the-uterus"
-            ]
+            ],
+            "root": "root_chain-uterine-internal-blood-vessels"
         }
     ],
     "groups": [
@@ -10129,7 +10131,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "d00c051c11ad98e6ee7773e00761fb5c465999f4",
+    "version": "6eb92298e40c95b5f5f23c0077b9fd2888669b05",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-07-29"
 }
