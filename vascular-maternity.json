@@ -2244,7 +2244,8 @@
             "fixed": true,
             "lyphs": [
                 "lyph-70039"
-            ]
+            ],
+            "leaf": "wbkg:root_chain-uterine-internal-blood-vessels"
         },
         {
             "id": "chain_branch_18813_70039_18813_70030",
@@ -2324,7 +2325,8 @@
             "fixed": true,
             "lyphs": [
                 "lyph-70040"
-            ]
+            ],
+            "leaf": "wbkg:root_chain-uterine-internal-blood-vessels"
         },
         {
             "id": "chain_branch_18814_70040_18814_70031",
@@ -3565,8 +3567,8 @@
             ]
         }
     ],
-    "version": "769f8b214a4dfb39dd8dc2655a797c945e2ec03a",
+    "version": "94f92911631ef457a26322bc61969f2f17b9870d",
     "namespace": "nm_vascular",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
-    "lastUpdated": "2025-07-23"
+    "lastUpdated": "2025-07-29"
 }
