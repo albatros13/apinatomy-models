@@ -7065,6 +7065,14 @@
                 "mat-stroma-of-placenta",
                 "mat-basement-membrane"
             ]
+        },
+        {
+            "id": "lt-cyst-syncytiotrophoblast-cell",
+            "name": "Syncytiotrophoblast cell",
+            "isTemplate": true,
+            "ontologyTerms": [
+                "CL:0000525"
+            ]
         }
     ],
     "materials": [
@@ -10051,6 +10059,15 @@
             ],
             "root": "root_chain-uterine-internal-blood-vessels",
             "leaf": "leaf_chain-uterine-internal-blood-vessels"
+        },
+        {
+            "id": "chain-syncytiotrophoblast-cell-over-syncytiotrophoblast",
+            "name": "Syncytiotrophoblast cell over syncytiotrophoblast",
+            "lyphTemplate": "lt-cyst-syncytiotrophoblast-cell",
+            "numLevels": 4,
+            "housingLyphs": [
+                "lyph-cardiovascular-intervillous-space-of-the-placenta"
+            ]
         }
     ],
     "groups": [
@@ -10133,7 +10150,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "665b51132230446987c44fee158a674636e4301a",
+    "version": "d5182cf8ccd1e2db2c2602dc2517dfba3e82c4dc",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-07-29"
 }
