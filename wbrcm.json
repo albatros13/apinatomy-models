@@ -7054,6 +7054,17 @@
             "id": "lyph-cardiovascular-myometrial-vein-of-the-uterus",
             "name": "Myometrial vein of the uterus",
             "supertype": "lt-small-vein"
+        },
+        {
+            "id": "lyph-cardiovascular-intervillous-space-of-the-placenta",
+            "name": "Intervillous space of the placenta",
+            "layers": [
+                "mat-blood",
+                "mat-syncytiotrophoblast-of-placenta",
+                "mat-cytotrophoblast-of-placenta",
+                "mat-stroma-of-placenta",
+                "mat-basement-membrane"
+            ]
         }
     ],
     "materials": [
@@ -9155,6 +9166,27 @@
                 "mat-cellular-component-of-nephron-epithelium",
                 "mat-extracellular-material"
             ]
+        },
+        {
+            "id": "mat-syncytiotrophoblast-of-placenta",
+            "name": "Syncytiotrophoblast of placenta",
+            "ontologyTerms": [
+                "UBERON:0000371"
+            ]
+        },
+        {
+            "id": "mat-cytotrophoblast-of-placenta",
+            "name": "Cytotrophoblast of placenta",
+            "ontologyTerms": [
+                "UBERON:0000319"
+            ]
+        },
+        {
+            "id": "mat-stroma-of-placenta",
+            "name": "Stroma of placenta",
+            "ontologyTerms": [
+                "UBERON:0003891"
+            ]
         }
     ],
     "coalescences": [
@@ -10089,7 +10121,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "1d93d46a67dc9073e78d1731b70c61ef2126bc5e",
+    "version": "46db3c4095cdca1014718df0e6b563259f0cc698",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-07-29"
 }
