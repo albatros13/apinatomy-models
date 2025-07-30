@@ -1,11 +1,11 @@
 {
     "name": "Liver compartments",
     "created": "2025-05-07",
-    "lastUpdated": "2025-06-03",
-    "version": "8ce1c1e76d7ee940eed11472dc2ad42f199ce13a",
+    "lastUpdated": "2025-07-30",
+    "version": "c982cf707ff77bdf71b19d41867ea3c9696bb587",
     "id": "main",
     "namespace": "nm_main",
-    "schemaVersion": "79ebbdffbf67f63f2ff763f0c97e28e8abdc7575",
+    "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "materials": [
         {
             "id": "mat-basement-membrane",
@@ -112,25 +112,45 @@
             "name": "Hepatocyte",
             "topology": "CYST",
             "isTemplate": true
+        },
+        {
+            "id": "_newLyph1",
+            "name": "New lyph 1",
+            "isTemplate": false,
+            "supertype": "lt-bile-duct"
         }
     ],
     "chains": [
         {
             "id": "chain-duodenum",
-            "name": "Duodenum",
+            "name": "Duodenum housing lyph",
             "lyphTemplate": "lt-bile-duct",
             "numLevels": 3
         },
         {
             "id": "chain-cholangiocyte",
-            "name": "Cholangiocyte",
+            "name": "Cholangiocyte cell",
             "lyphTemplate": "lt-cholangiocyte",
             "levelOntologyTerms": [
                 "ont-term-bile",
                 "ont-term-cholangiocyte"
             ],
-            "housingLyphTemplates": [
-                "lt-bile-duct"
+            "length": 2,
+            "housingLayers": [
+                1,
+                2
+            ],
+            "numLevels": 2,
+            "housingLyphs": [
+                "_newLyph1",
+                "_newLyph1"
+            ]
+        },
+        {
+            "id": "chainWithACell",
+            "name": "Chain with a cell in first lyph",
+            "lyphs": [
+                "_newLyph1"
             ]
         }
     ]
