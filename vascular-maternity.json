@@ -258,10 +258,20 @@
             "conveys": "lnk_50010931_50013282_50010931_66363"
         },
         {
+            "id": "lyph_50010931_66363_66363",
+            "name": "Right renal artery",
+            "supertype": "wbkg:lt-muscular-artery"
+        },
+        {
             "id": "lyph_50010931_66363_50010931_66364",
             "name": "Aorta -> Left renal artery",
             "supertype": "wbkg:lt-major-artery",
             "conveys": "lnk_50010931_66363_50010931_66364"
+        },
+        {
+            "id": "lyph_50010931_66364_66364",
+            "name": "Left renal artery",
+            "supertype": "wbkg:lt-muscular-artery"
         },
         {
             "id": "lyph_50010931_66535_50010931_69383",
@@ -272,61 +282,134 @@
         {
             "id": "lyph_50010931_69383_69383",
             "name": "Right common iliac artery",
-            "supertype": "lyph-69383"
+            "supertype": "wbkg:lt-muscular-artery"
         },
         {
             "id": "lyph_69383_69383_70186",
             "name": "Right common iliac artery -> Right internal iliac artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_69383_69383_70186"
         },
         {
             "id": "lyph_69383_70186_70186",
             "name": "Right internal iliac artery",
-            "supertype": "lyph-70186"
+            "supertype": "wbkg:lt-muscular-artery"
         },
         {
             "id": "lyph_70186_70186_18813",
             "name": "Right internal iliac artery -> Anterior division of right internal iliac artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_70186_70186_18813"
         },
         {
             "id": "lyph_70186_18813_18813",
             "name": "Anterior division of right internal iliac artery",
-            "supertype": "lyph-18813"
+            "supertype": "wbkg:lt-muscular-artery"
         },
         {
             "id": "lyph_18813_18813_66641",
             "name": "Anterior division of right internal iliac artery -> Right umbilical artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18813_18813_66641"
         },
         {
             "id": "lyph_18813_66641_18813_70039",
             "name": "Anterior division of right internal iliac artery -> Right uterine artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18813_66641_18813_70039"
         },
         {
             "id": "lyph_18813_70039_18813_70030",
             "name": "Anterior division of right internal iliac artery -> Right superior vesical artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18813_70039_18813_70030"
         },
         {
             "id": "lyph_18813_70030_18813_66433",
             "name": "Anterior division of right internal iliac artery -> Right obturator artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18813_70030_18813_66433"
         },
         {
             "id": "lyph_18813_66433_18813_70033",
             "name": "Anterior division of right internal iliac artery -> Right inferior vesical artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18813_66433_18813_70033"
+        },
+        {
+            "id": "lyph_18813_70033_18813_70036",
+            "name": "Anterior division of right internal iliac artery -> Right middle rectal artery",
+            "supertype": "wbkg:lt-muscular-artery",
+            "conveys": "lnk_18813_70033_18813_70036"
+        },
+        {
+            "id": "lyph_18813_70036_18813_70042",
+            "name": "Anterior division of right internal iliac artery -> Right vaginal artery",
+            "supertype": "wbkg:lt-muscular-artery",
+            "conveys": "lnk_18813_70036_18813_70042"
+        },
+        {
+            "id": "lyph_18813_70042_18813_66431",
+            "name": "Anterior division of right internal iliac artery -> Right internal pudendal artery",
+            "supertype": "wbkg:lt-muscular-artery",
+            "conveys": "lnk_18813_70042_18813_66431"
+        },
+        {
+            "id": "lyph_18813_66431_18813_66435",
+            "name": "Anterior division of right internal iliac artery -> Right inferior gluteal artery",
+            "supertype": "wbkg:lt-muscular-artery",
+            "conveys": "lnk_18813_66431_18813_66435"
+        },
+        {
+            "id": "lyph_18813_66435_18813_66431_XXX_2",
+            "name": "Anterior division of right internal iliac artery -> Right internal pudendal artery",
+            "supertype": "wbkg:lt-muscular-artery",
+            "conveys": "lnk_18813_66435_18813_66431_XXX_2"
+        },
+        {
+            "id": "lyph_18813_66431_XXX_2_18813_66433_XXX_2",
+            "name": "Anterior division of right internal iliac artery -> Right obturator artery",
+            "supertype": "wbkg:lt-muscular-artery",
+            "conveys": "lnk_18813_66431_XXX_2_18813_66433_XXX_2"
+        },
+        {
+            "id": "lyph_18813_66433_XXX_2_18813_70033_XXX_2",
+            "name": "Anterior division of right internal iliac artery -> Right inferior vesical artery",
+            "supertype": "wbkg:lt-muscular-artery",
+            "conveys": "lnk_18813_66433_XXX_2_18813_70033_XXX_2"
+        },
+        {
+            "id": "lyph_18813_70033_XXX_2_18813_70036_XXX_2",
+            "name": "Anterior division of right internal iliac artery -> Right middle rectal artery",
+            "supertype": "wbkg:lt-muscular-artery",
+            "conveys": "lnk_18813_70033_XXX_2_18813_70036_XXX_2"
+        },
+        {
+            "id": "lyph_18813_70036_XXX_2_18813_70039_XXX_2",
+            "name": "Anterior division of right internal iliac artery -> Right uterine artery",
+            "supertype": "wbkg:lt-muscular-artery",
+            "conveys": "lnk_18813_70036_XXX_2_18813_70039_XXX_2"
+        },
+        {
+            "id": "lyph_18813_70039_XXX_2_18813_70042_XXX_2",
+            "name": "Anterior division of right internal iliac artery -> Right vaginal artery",
+            "supertype": "wbkg:lt-muscular-artery"
         },
         {
             "id": "lyph_70186_18813_70186_18816",
             "name": "Right internal iliac artery -> Posterior division of right internal iliac artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_70186_18813_70186_18816"
         },
         {
+            "id": "lyph_70186_18816_70186_18816_XXX_2",
+            "name": "Right internal iliac artery -> Posterior division of right internal iliac artery",
+            "supertype": "wbkg:lt-muscular-artery"
+        },
+        {
             "id": "lyph_69383_70186_69383_70184",
-            "name": "Right common iliac artery -> Right external iliac artery"
+            "name": "Right common iliac artery -> Right external iliac artery",
+            "supertype": "wbkg:lt-muscular-artery"
         },
         {
             "id": "lyph_50010931_69383_50010931_69384",
@@ -336,110 +419,149 @@
         {
             "id": "lyph_50010931_69384_69384",
             "name": "Left common iliac artery",
-            "supertype": "lyph-69384"
+            "supertype": "wbkg:lt-muscular-artery"
         },
         {
             "id": "lyph_69384_69384_70187",
             "name": "Left common iliac artery -> Left internal iliac artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_69384_69384_70187"
         },
         {
             "id": "lyph_69384_70187_70187",
             "name": "Left internal iliac artery",
-            "supertype": "lyph-70187"
+            "supertype": "wbkg:lt-muscular-artery"
         },
         {
             "id": "lyph_70187_70187_18814",
             "name": "Left internal iliac artery -> Anterior division of left internal iliac artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_70187_70187_18814"
         },
         {
             "id": "lyph_70187_18814_18814",
             "name": "Anterior division of left internal iliac artery",
-            "supertype": "lyph-18814"
+            "supertype": "wbkg:lt-muscular-artery"
         },
         {
             "id": "lyph_18814_18814_66642",
             "name": "Anterior division of left internal iliac artery -> Left umbilical artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18814_18814_66642"
         },
         {
             "id": "lyph_18814_66642_18814_70040",
             "name": "Anterior division of left internal iliac artery -> Left uterine artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18814_66642_18814_70040"
         },
         {
             "id": "lyph_18814_70040_18814_70031",
             "name": "Anterior division of left internal iliac artery -> Left superior vesical artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18814_70040_18814_70031"
         },
         {
             "id": "lyph_18814_70031_18814_66434",
             "name": "Anterior division of left internal iliac artery -> Left obturator artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18814_70031_18814_66434"
         },
         {
             "id": "lyph_18814_66434_18814_70034",
             "name": "Anterior division of left internal iliac artery -> Left inferior vesical artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18814_66434_18814_70034"
         },
         {
             "id": "lyph_18814_70034_18814_70037",
             "name": "Anterior division of left internal iliac artery -> Left middle rectal artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18814_70034_18814_70037"
         },
         {
             "id": "lyph_18814_70037_18814_70043",
             "name": "Anterior division of left internal iliac artery -> Left vaginal artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18814_70037_18814_70043"
         },
         {
             "id": "lyph_18814_70043_18814_66432",
             "name": "Anterior division of left internal iliac artery -> Left internal pudendal artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18814_70043_18814_66432"
         },
         {
             "id": "lyph_18814_66432_18814_66436",
             "name": "Anterior division of left internal iliac artery -> Left inferior gluteal artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18814_66432_18814_66436"
         },
         {
             "id": "lyph_18814_66436_18814_66432_XXX_2",
             "name": "Anterior division of left internal iliac artery -> Left internal pudendal artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18814_66436_18814_66432_XXX_2"
         },
         {
             "id": "lyph_18814_66432_XXX_2_18814_66434_XXX_2",
             "name": "Anterior division of left internal iliac artery -> Left obturator artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18814_66432_XXX_2_18814_66434_XXX_2"
         },
         {
             "id": "lyph_18814_66434_XXX_2_18814_70034_XXX_2",
             "name": "Anterior division of left internal iliac artery -> Left inferior vesical artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18814_66434_XXX_2_18814_70034_XXX_2"
         },
         {
             "id": "lyph_18814_70034_XXX_2_18814_70037_XXX_2",
             "name": "Anterior division of left internal iliac artery -> Left middle rectal artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18814_70034_XXX_2_18814_70037_XXX_2"
         },
         {
             "id": "lyph_18814_70037_XXX_2_18814_70040_XXX_2",
             "name": "Anterior division of left internal iliac artery -> Left uterine artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_18814_70037_XXX_2_18814_70040_XXX_2"
         },
         {
             "id": "lyph_18814_70040_XXX_2_18814_70043_XXX_2",
-            "name": "Anterior division of left internal iliac artery -> Left vaginal artery"
+            "name": "Anterior division of left internal iliac artery -> Left vaginal artery",
+            "supertype": "wbkg:lt-muscular-artery"
         },
         {
             "id": "lyph_70187_18814_70187_18817",
             "name": "Left internal iliac artery -> Posterior division of left internal iliac artery",
+            "supertype": "wbkg:lt-muscular-artery",
             "conveys": "lnk_70187_18814_70187_18817"
         },
         {
+            "id": "lyph_70187_18817_70187_18817_XXX_2",
+            "name": "Left internal iliac artery -> Posterior division of left internal iliac artery",
+            "supertype": "wbkg:lt-muscular-artery"
+        },
+        {
             "id": "lyph_69384_70187_69384_70185",
-            "name": "Left common iliac artery -> Left external iliac artery"
+            "name": "Left common iliac artery -> Left external iliac artery",
+            "supertype": "wbkg:lt-muscular-artery"
+        },
+        {
+            "id": "lyph_7096_7096_100001950",
+            "name": "Right atrium -> Anterior cardiac vein",
+            "conveys": "lnk_7096_7096_100001950"
+        },
+        {
+            "id": "lyph_7096_100001950_7096_2000138",
+            "name": "Right atrium -> Smallest cardiac vein",
+            "conveys": "lnk_7096_100001950_7096_2000138"
+        },
+        {
+            "id": "lyph_7096_2000138_7096_100000226",
+            "name": "Right atrium -> Inferior vena cava",
+            "conveys": "lnk_7096_2000138_7096_100000226"
         },
         {
             "id": "lyph_7096_100000226_100000226",
@@ -453,10 +575,29 @@
             "conveys": "lnk_100000226_100000226_100002048"
         },
         {
+            "id": "lyph_100000226_100002048_100002048",
+            "name": "ductus venosus",
+            "supertype": "lyph-100002048"
+        },
+        {
+            "id": "lyph_100002048_100001983",
+            "name": "Pars umbilicalis of left portal vein"
+        },
+        {
+            "id": "lyph_100001983_100002049",
+            "name": "Umbilical vein",
+            "supertype": "wbkg:lt-major-vein"
+        },
+        {
             "id": "lyph_100000226_100002048_100000226_66663",
             "name": "Inferior vena cava -> Right renal vein",
             "supertype": "wbkg:lt-major-vein",
             "conveys": "lnk_100000226_100002048_100000226_66663"
+        },
+        {
+            "id": "lyph_100000226_66663_66663",
+            "name": "Right renal vein",
+            "supertype": "wbkg:lt-medium-vein"
         },
         {
             "id": "lyph_100000226_66663_100000226_82679",
@@ -485,70 +626,82 @@
         {
             "id": "lyph_100000226_66670_66670",
             "name": "Left common iliac vein",
-            "supertype": "lyph-66670"
+            "supertype": "wbkg:lt-medium-vein"
         },
         {
             "id": "lyph_66670_66670_66728",
             "name": "Left common iliac vein -> Left internal iliac vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66670_66670_66728"
         },
         {
             "id": "lyph_66670_66728_66728",
             "name": "Left internal iliac vein",
-            "supertype": "lyph-66728"
+            "supertype": "wbkg:lt-medium-vein"
         },
         {
             "id": "lyph_66728_66728_100000251",
             "name": "Left internal iliac vein -> Left uterine vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66728_66728_100000251"
         },
         {
             "id": "lyph_66728_100000251_66728_100000252",
             "name": "Left internal iliac vein -> Left internal pudendal vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66728_100000251_66728_100000252"
         },
         {
             "id": "lyph_66728_100000252_66728_100000257",
             "name": "Left internal iliac vein -> Left obturator vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66728_100000252_66728_100000257"
         },
         {
             "id": "lyph_66728_100000257_66728_100000256",
             "name": "Left internal iliac vein -> Left iliolumbar vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66728_100000257_66728_100000256"
         },
         {
             "id": "lyph_66728_100000256_66728_100000255",
             "name": "Left internal iliac vein -> Left lateral sacral vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66728_100000256_66728_100000255"
         },
         {
             "id": "lyph_66728_100000255_66728_100000254",
             "name": "Left internal iliac vein -> Left vaginal vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66728_100000255_66728_100000254"
         },
         {
             "id": "lyph_66728_100000254_66728_100000253",
             "name": "Left internal iliac vein -> Left inferior vesical vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66728_100000254_66728_100000253"
         },
         {
             "id": "lyph_66728_100000253_66728_100000250",
             "name": "Left internal iliac vein -> Left middle rectal vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66728_100000253_66728_100000250"
         },
         {
             "id": "lyph_66728_100000250_66728_100000249",
             "name": "Left internal iliac vein -> Left inferior gluteal vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66728_100000250_66728_100000249"
         },
         {
             "id": "lyph_66728_100000249_66728_100000248",
-            "name": "Left internal iliac vein -> Left superior gluteal vein"
+            "name": "Left internal iliac vein -> Left superior gluteal vein",
+            "supertype": "wbkg:lt-medium-vein"
         },
         {
             "id": "lyph_66670_66728_66670_78265",
-            "name": "Left common iliac vein -> Left external iliac vein"
+            "name": "Left common iliac vein -> Left external iliac vein",
+            "supertype": "wbkg:lt-medium-vein"
         },
         {
             "id": "lyph_100000226_66670_100000226_66669",
@@ -559,61 +712,82 @@
         {
             "id": "lyph_100000226_66669_66669",
             "name": "Right common iliac vein",
-            "supertype": "lyph-66669"
+            "supertype": "wbkg:lt-medium-vein"
+        },
+        {
+            "id": "lyph_66669_66669_66727",
+            "name": "Right common iliac vein -> Right internal iliac vein",
+            "supertype": "wbkg:lt-medium-vein",
+            "conveys": "lnk_66669_66669_66727"
         },
         {
             "id": "lyph_66669_66727_66727",
             "name": "Right internal iliac vein",
-            "supertype": "lyph-66727"
+            "supertype": "wbkg:lt-medium-vein"
         },
         {
             "id": "lyph_66727_66727_100000241",
             "name": "Right internal iliac vein -> Right uterine vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66727_66727_100000241"
         },
         {
             "id": "lyph_66727_100000241_66727_100000242",
             "name": "Right internal iliac vein -> Right internal pudendal vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66727_100000241_66727_100000242"
         },
         {
             "id": "lyph_66727_100000242_66727_100000247",
             "name": "Right internal iliac vein -> Right obturator vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66727_100000242_66727_100000247"
         },
         {
             "id": "lyph_66727_100000247_66727_100000246",
             "name": "Right internal iliac vein -> Right iliolumbar vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66727_100000247_66727_100000246"
         },
         {
             "id": "lyph_66727_100000246_66727_100000245",
             "name": "Right internal iliac vein -> Right lateral sacral vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66727_100000246_66727_100000245"
         },
         {
             "id": "lyph_66727_100000245_66727_100000244",
             "name": "Right internal iliac vein -> Right vaginal vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66727_100000245_66727_100000244"
         },
         {
             "id": "lyph_66727_100000244_66727_100000243",
             "name": "Right internal iliac vein -> Right inferior vesical vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66727_100000244_66727_100000243"
         },
         {
             "id": "lyph_66727_100000243_66727_100000240",
             "name": "Right internal iliac vein -> Right middle rectal vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66727_100000243_66727_100000240"
         },
         {
             "id": "lyph_66727_100000240_66727_100000239",
             "name": "Right internal iliac vein -> Right inferior gluteal vein",
+            "supertype": "wbkg:lt-medium-vein",
             "conveys": "lnk_66727_100000240_66727_100000239"
         },
         {
             "id": "lyph_66727_100000239_66727_100000238",
-            "name": "Right internal iliac vein -> Right superior gluteal vein"
+            "name": "Right internal iliac vein -> Right superior gluteal vein",
+            "supertype": "wbkg:lt-medium-vein"
+        },
+        {
+            "id": "lyph_66669_66727_66669_78264",
+            "name": "Right common iliac vein -> Right external iliac vein",
+            "supertype": "wbkg:lt-medium-vein"
         },
         {
             "id": "lyph_100000226_66669_100000226_66668",
@@ -841,6 +1015,10 @@
             "id": "lyph_100000226_66665_100000226_66662",
             "name": "Inferior vena cava -> Renal vein",
             "supertype": "wbkg:lt-major-vein"
+        },
+        {
+            "id": "lyph_7096_100000226_7096_100001760",
+            "name": "Right atrium -> Superior vena cava"
         }
     ],
     "links": [
@@ -1202,6 +1380,69 @@
             "source": "t_18813_70030_18813_66433"
         },
         {
+            "id": "lnk_18813_70033_18813_70036",
+            "name": "Level of branch Anterior division of right internal iliac artery -> Right middle rectal artery",
+            "target": "t_18813_70033_18813_70036",
+            "length": 20,
+            "source": "t_18813_66433_18813_70033"
+        },
+        {
+            "id": "lnk_18813_70036_18813_70042",
+            "name": "Level of branch Anterior division of right internal iliac artery -> Right vaginal artery",
+            "target": "t_18813_70036_18813_70042",
+            "length": 20,
+            "source": "t_18813_70033_18813_70036"
+        },
+        {
+            "id": "lnk_18813_70042_18813_66431",
+            "name": "Level of branch Anterior division of right internal iliac artery -> Right internal pudendal artery",
+            "target": "t_18813_70042_18813_66431",
+            "length": 20,
+            "source": "t_18813_70036_18813_70042"
+        },
+        {
+            "id": "lnk_18813_66431_18813_66435",
+            "name": "Level of branch Anterior division of right internal iliac artery -> Right inferior gluteal artery",
+            "target": "t_18813_66431_18813_66435",
+            "length": 20,
+            "source": "t_18813_70042_18813_66431"
+        },
+        {
+            "id": "lnk_18813_66435_18813_66431_XXX_2",
+            "name": "Level of branch Anterior division of right internal iliac artery -> Right internal pudendal artery",
+            "target": "t_18813_66435_18813_66431_XXX_2",
+            "length": 20,
+            "source": "t_18813_66431_18813_66435"
+        },
+        {
+            "id": "lnk_18813_66431_XXX_2_18813_66433_XXX_2",
+            "name": "Level of branch Anterior division of right internal iliac artery -> Right obturator artery",
+            "target": "t_18813_66431_XXX_2_18813_66433_XXX_2",
+            "length": 20,
+            "source": "t_18813_66435_18813_66431_XXX_2"
+        },
+        {
+            "id": "lnk_18813_66433_XXX_2_18813_70033_XXX_2",
+            "name": "Level of branch Anterior division of right internal iliac artery -> Right inferior vesical artery",
+            "target": "t_18813_66433_XXX_2_18813_70033_XXX_2",
+            "length": 20,
+            "source": "t_18813_66431_XXX_2_18813_66433_XXX_2"
+        },
+        {
+            "id": "lnk_18813_70033_XXX_2_18813_70036_XXX_2",
+            "name": "Level of branch Anterior division of right internal iliac artery -> Right middle rectal artery",
+            "target": "t_18813_70033_XXX_2_18813_70036_XXX_2",
+            "length": 20,
+            "source": "t_18813_66433_XXX_2_18813_70033_XXX_2"
+        },
+        {
+            "id": "lnk_18813_70036_XXX_2_18813_70039_XXX_2",
+            "name": "Level of branch Anterior division of right internal iliac artery -> Right uterine artery",
+            "target": "t_18813_70036_XXX_2_18813_70039_XXX_2",
+            "length": 20,
+            "source": "t_18813_70033_XXX_2_18813_70036_XXX_2"
+        },
+        {
             "id": "lnk_70186_18813_70186_18816",
             "name": "Level of branch Right internal iliac artery -> Posterior division of right internal iliac artery",
             "target": "t_70186_18813_70186_18816",
@@ -1328,6 +1569,27 @@
             "source": "t_70187_70187_18814"
         },
         {
+            "id": "lnk_7096_7096_100001950",
+            "name": "Level of branch Right atrium -> Anterior cardiac vein",
+            "target": "t_7096_7096_100001950",
+            "length": 20,
+            "source": "root_chain_7096_7096_100001950"
+        },
+        {
+            "id": "lnk_7096_100001950_7096_2000138",
+            "name": "Level of branch Right atrium -> Smallest cardiac vein",
+            "target": "t_7096_100001950_7096_2000138",
+            "length": 20,
+            "source": "t_7096_7096_100001950"
+        },
+        {
+            "id": "lnk_7096_2000138_7096_100000226",
+            "name": "Level of branch Right atrium -> Inferior vena cava",
+            "target": "t_7096_2000138_7096_100000226",
+            "length": 20,
+            "source": "t_7096_100001950_7096_2000138"
+        },
+        {
             "id": "lnk_100000226_100000226_100002048",
             "name": "Level of branch Inferior vena cava -> ductus venosus",
             "target": "t_100000226_100000226_100002048",
@@ -1445,6 +1707,13 @@
             "target": "t_100000226_66670_100000226_66669",
             "length": 20,
             "source": "t_100000226_82678_100000226_66670"
+        },
+        {
+            "id": "lnk_66669_66669_66727",
+            "name": "Level of branch Right common iliac vein -> Right internal iliac vein",
+            "target": "t_66669_66669_66727",
+            "length": 20,
+            "source": "t_100000226_66669_66669"
         },
         {
             "id": "lnk_66727_66727_100000241",
@@ -2202,9 +2471,8 @@
             "root": "t_50010931_66535_50010931_69383",
             "length": 20,
             "fixed": true,
-            "lyphs": [
-                "lyph-69383"
-            ]
+            "lyphTemplate": "wbkg:lt-muscular-artery",
+            "numLevels": 1
         },
         {
             "id": "chain_branch_69383_69383_70186",
@@ -2212,9 +2480,8 @@
             "root": "t_69383_69383_70186",
             "length": 20,
             "fixed": true,
-            "lyphs": [
-                "lyph-70186"
-            ]
+            "lyphTemplate": "wbkg:lt-muscular-artery",
+            "numLevels": 1
         },
         {
             "id": "chain_branch_70186_70186_18813",
@@ -2222,9 +2489,8 @@
             "root": "t_70186_70186_18813",
             "length": 20,
             "fixed": true,
-            "lyphs": [
-                "lyph-18813"
-            ]
+            "lyphTemplate": "wbkg:lt-muscular-artery",
+            "numLevels": 1
         },
         {
             "id": "chain_branch_18813_18813_66641",
@@ -2232,9 +2498,9 @@
             "root": "t_18813_18813_66641",
             "length": 20,
             "fixed": true,
-            "lyphs": [
-                "lyph-66641"
-            ]
+            "lyphTemplate": "wbkg:lt-muscular-artery",
+            "numLevels": 1,
+            "leaf": "wbkg:root_chain-placental-internal-blood-vessels"
         },
         {
             "id": "chain_branch_18813_66641_18813_70039",
@@ -2242,9 +2508,8 @@
             "root": "t_18813_66641_18813_70039",
             "length": 20,
             "fixed": true,
-            "lyphs": [
-                "lyph-70039"
-            ],
+            "lyphTemplate": "wbkg:lt-muscular-artery",
+            "numLevels": 1,
             "leaf": "wbkg:root_chain-uterine-internal-blood-vessels"
         },
         {
@@ -2278,6 +2543,95 @@
             ]
         },
         {
+            "id": "chain_branch_18813_70033_18813_70036",
+            "name": "Branch Anterior division of right internal iliac artery -> Right middle rectal artery",
+            "root": "t_18813_70033_18813_70036",
+            "length": 20,
+            "fixed": true,
+            "lyphs": [
+                "lyph-70036"
+            ]
+        },
+        {
+            "id": "chain_branch_18813_70036_18813_70042",
+            "name": "Branch Anterior division of right internal iliac artery -> Right vaginal artery",
+            "root": "t_18813_70036_18813_70042",
+            "length": 20,
+            "fixed": true,
+            "lyphs": [
+                "lyph-70042"
+            ]
+        },
+        {
+            "id": "chain_branch_18813_70042_18813_66431",
+            "name": "Branch Anterior division of right internal iliac artery -> Right internal pudendal artery",
+            "root": "t_18813_70042_18813_66431",
+            "length": 20,
+            "fixed": true,
+            "lyphs": [
+                "lyph-66431"
+            ]
+        },
+        {
+            "id": "chain_branch_18813_66431_18813_66435",
+            "name": "Branch Anterior division of right internal iliac artery -> Right inferior gluteal artery",
+            "root": "t_18813_66431_18813_66435",
+            "length": 20,
+            "fixed": true,
+            "lyphs": [
+                "lyph-66435"
+            ]
+        },
+        {
+            "id": "chain_branch_18813_66435_18813_66431_XXX_2",
+            "name": "Branch Anterior division of right internal iliac artery -> Right internal pudendal artery",
+            "root": "t_18813_66435_18813_66431_XXX_2",
+            "length": 20,
+            "fixed": true,
+            "lyphs": [
+                "lyph-66431"
+            ]
+        },
+        {
+            "id": "chain_branch_18813_66431_XXX_2_18813_66433_XXX_2",
+            "name": "Branch Anterior division of right internal iliac artery -> Right obturator artery",
+            "root": "t_18813_66431_XXX_2_18813_66433_XXX_2",
+            "length": 20,
+            "fixed": true,
+            "lyphs": [
+                "lyph-66433"
+            ]
+        },
+        {
+            "id": "chain_branch_18813_66433_XXX_2_18813_70033_XXX_2",
+            "name": "Branch Anterior division of right internal iliac artery -> Right inferior vesical artery",
+            "root": "t_18813_66433_XXX_2_18813_70033_XXX_2",
+            "length": 20,
+            "fixed": true,
+            "lyphs": [
+                "lyph-70033"
+            ]
+        },
+        {
+            "id": "chain_branch_18813_70033_XXX_2_18813_70036_XXX_2",
+            "name": "Branch Anterior division of right internal iliac artery -> Right middle rectal artery",
+            "root": "t_18813_70033_XXX_2_18813_70036_XXX_2",
+            "length": 20,
+            "fixed": true,
+            "lyphs": [
+                "lyph-70036"
+            ]
+        },
+        {
+            "id": "chain_branch_18813_70036_XXX_2_18813_70039_XXX_2",
+            "name": "Branch Anterior division of right internal iliac artery -> Right uterine artery",
+            "root": "t_18813_70036_XXX_2_18813_70039_XXX_2",
+            "length": 20,
+            "fixed": true,
+            "lyphTemplate": "wbkg:lt-muscular-artery",
+            "numLevels": 1
+        },
+        {
             "id": "chain_branch_70186_18813_70186_18816",
             "name": "Branch Right internal iliac artery -> Posterior division of right internal iliac artery",
             "root": "t_70186_18813_70186_18816",
@@ -2293,9 +2647,8 @@
             "root": "t_69384_69384_70187",
             "length": 20,
             "fixed": true,
-            "lyphs": [
-                "lyph-70187"
-            ]
+            "lyphTemplate": "wbkg:lt-muscular-artery",
+            "numLevels": 1
         },
         {
             "id": "chain_branch_70187_70187_18814",
@@ -2303,9 +2656,8 @@
             "root": "t_70187_70187_18814",
             "length": 20,
             "fixed": true,
-            "lyphs": [
-                "lyph-18814"
-            ]
+            "lyphTemplate": "wbkg:lt-muscular-artery",
+            "numLevels": 1
         },
         {
             "id": "chain_branch_18814_18814_66642",
@@ -2313,9 +2665,9 @@
             "root": "t_18814_18814_66642",
             "length": 20,
             "fixed": true,
-            "lyphs": [
-                "lyph-66642"
-            ]
+            "lyphTemplate": "wbkg:lt-muscular-artery",
+            "numLevels": 1,
+            "leaf": "wbkg:root_chain-placental-internal-blood-vessels"
         },
         {
             "id": "chain_branch_18814_66642_18814_70040",
@@ -2323,9 +2675,8 @@
             "root": "t_18814_66642_18814_70040",
             "length": 20,
             "fixed": true,
-            "lyphs": [
-                "lyph-70040"
-            ],
+            "lyphTemplate": "wbkg:lt-muscular-artery",
+            "numLevels": 1,
             "leaf": "wbkg:root_chain-uterine-internal-blood-vessels"
         },
         {
@@ -2444,9 +2795,8 @@
             "root": "t_18814_70037_XXX_2_18814_70040_XXX_2",
             "length": 20,
             "fixed": true,
-            "lyphs": [
-                "lyph-70040"
-            ]
+            "lyphTemplate": "wbkg:lt-muscular-artery",
+            "numLevels": 1
         },
         {
             "id": "chain_branch_70187_18814_70187_18817",
@@ -2459,14 +2809,33 @@
             ]
         },
         {
-            "id": "chain_branch_100000226_100000226_100002048",
-            "name": "Branch Inferior vena cava -> ductus venosus",
-            "root": "t_100000226_100000226_100002048",
+            "id": "chain_branch_7096_7096_100001950",
+            "name": "Branch Right atrium -> Anterior cardiac vein",
+            "root": "t_7096_7096_100001950",
             "length": 20,
             "fixed": true,
             "lyphs": [
-                "lyph-100002048"
+                "lyph-100001950"
             ]
+        },
+        {
+            "id": "chain_branch_7096_100001950_7096_2000138",
+            "name": "Branch Right atrium -> Smallest cardiac vein",
+            "root": "t_7096_100001950_7096_2000138",
+            "length": 20,
+            "fixed": true,
+            "lyphs": [
+                "lyph-2000138"
+            ]
+        },
+        {
+            "id": "chain_branch_7096_2000138_7096_100000226",
+            "name": "Branch Right atrium -> Inferior vena cava",
+            "root": "t_7096_2000138_7096_100000226",
+            "length": 20,
+            "fixed": true,
+            "lyphTemplate": "wbkg:lt-major-vein",
+            "numLevels": 1
         },
         {
             "id": "chain_branch_100000226_100002048_100000226_66663",
@@ -2513,9 +2882,8 @@
             "root": "t_100000226_82678_100000226_66670",
             "length": 20,
             "fixed": true,
-            "lyphs": [
-                "lyph-66670"
-            ]
+            "lyphTemplate": "wbkg:lt-medium-vein",
+            "numLevels": 1
         },
         {
             "id": "chain_branch_66670_66670_66728",
@@ -2523,9 +2891,8 @@
             "root": "t_66670_66670_66728",
             "length": 20,
             "fixed": true,
-            "lyphs": [
-                "lyph-66728"
-            ]
+            "lyphTemplate": "wbkg:lt-medium-vein",
+            "numLevels": 1
         },
         {
             "id": "chain_branch_66728_66728_100000251",
@@ -2533,9 +2900,8 @@
             "root": "t_66728_66728_100000251",
             "length": 20,
             "fixed": true,
-            "lyphs": [
-                "lyph-100000251"
-            ],
+            "lyphTemplate": "wbkg:lt-medium-vein",
+            "numLevels": 1,
             "leaf": "wbkg:leaf_chain-uterine-internal-blood-vessels"
         },
         {
@@ -2624,9 +2990,17 @@
             "root": "t_100000226_66670_100000226_66669",
             "length": 20,
             "fixed": true,
-            "lyphs": [
-                "lyph-66669"
-            ]
+            "lyphTemplate": "wbkg:lt-medium-vein",
+            "numLevels": 1
+        },
+        {
+            "id": "chain_branch_66669_66669_66727",
+            "name": "Branch Right common iliac vein -> Right internal iliac vein",
+            "root": "t_66669_66669_66727",
+            "length": 20,
+            "fixed": true,
+            "lyphTemplate": "wbkg:lt-medium-vein",
+            "numLevels": 1
         },
         {
             "id": "chain_branch_66727_66727_100000241",
@@ -2634,9 +3008,8 @@
             "root": "t_66727_66727_100000241",
             "length": 20,
             "fixed": true,
-            "lyphs": [
-                "lyph-100000241"
-            ],
+            "lyphTemplate": "wbkg:lt-medium-vein",
+            "numLevels": 1,
             "leaf": "wbkg:leaf_chain-uterine-internal-blood-vessels"
         },
         {
@@ -3089,8 +3462,107 @@
             ]
         },
         {
-            "id": "chain_18813_66433_18813_70033",
-            "name": "Chain Anterior division of right internal iliac artery -> Right inferior vesical artery",
+            "id": "chain_50010931_66363_66363",
+            "name": "Chain Right renal artery",
+            "lyphs": [
+                "lyph_50010931_50010931_3855",
+                "lyph_50010931_3855_50010931_3802",
+                "lyph_50010931_3802_50010931_69316",
+                "lyph_50010931_69316_50010931_69326",
+                "lyph_50010931_69326_50010931_69319",
+                "lyph_50010931_69319_50010931_69334",
+                "lyph_50010931_69334_50010931_68141",
+                "lyph_50010931_68141_50010931_69332",
+                "lyph_50010931_69332_50010931_69333",
+                "lyph_50010931_69333_50010931_69342",
+                "lyph_50010931_69342_50010931_69343",
+                "lyph_50010931_69343_50010931_69345",
+                "lyph_50010931_69345_50010931_69346",
+                "lyph_50010931_69346_50010931_69348",
+                "lyph_50010931_69348_50010931_69349",
+                "lyph_50010931_69349_50010931_69351",
+                "lyph_50010931_69351_50010931_69352",
+                "lyph_50010931_69352_50010931_69354",
+                "lyph_50010931_69354_50010931_69355",
+                "lyph_50010931_69355_50010931_69357",
+                "lyph_50010931_69357_50010931_69358",
+                "lyph_50010931_69358_50010931_69360",
+                "lyph_50010931_69360_50010931_69361",
+                "lyph_50010931_69361_50010931_69363",
+                "lyph_50010931_69363_50010931_69364",
+                "lyph_50010931_69364_50010931_69339",
+                "lyph_50010931_69339_50010931_69338",
+                "lyph_50010931_69338_50010931_69366",
+                "lyph_50010931_69366_50010931_69367",
+                "lyph_50010931_69367_50010931_69369",
+                "lyph_50010931_69369_50010931_69370",
+                "lyph_50010931_69370_50010931_69372",
+                "lyph_50010931_69372_50010931_69373",
+                "lyph_50010931_69373_50010931_69375",
+                "lyph_50010931_69375_50010931_69376",
+                "lyph_50010931_69376_50010931_66484",
+                "lyph_50010931_66484_50010931_66485",
+                "lyph_50010931_66485_50010931_100000177",
+                "lyph_50010931_100000177_50010931_66358",
+                "lyph_50010931_66358_50010931_50011587",
+                "lyph_50010931_50011587_50010931_50013282",
+                "lyph_50010931_50013282_50010931_66363",
+                "lyph_50010931_66363_66363"
+            ]
+        },
+        {
+            "id": "chain_50010931_66364_66364",
+            "name": "Chain Left renal artery",
+            "lyphs": [
+                "lyph_50010931_50010931_3855",
+                "lyph_50010931_3855_50010931_3802",
+                "lyph_50010931_3802_50010931_69316",
+                "lyph_50010931_69316_50010931_69326",
+                "lyph_50010931_69326_50010931_69319",
+                "lyph_50010931_69319_50010931_69334",
+                "lyph_50010931_69334_50010931_68141",
+                "lyph_50010931_68141_50010931_69332",
+                "lyph_50010931_69332_50010931_69333",
+                "lyph_50010931_69333_50010931_69342",
+                "lyph_50010931_69342_50010931_69343",
+                "lyph_50010931_69343_50010931_69345",
+                "lyph_50010931_69345_50010931_69346",
+                "lyph_50010931_69346_50010931_69348",
+                "lyph_50010931_69348_50010931_69349",
+                "lyph_50010931_69349_50010931_69351",
+                "lyph_50010931_69351_50010931_69352",
+                "lyph_50010931_69352_50010931_69354",
+                "lyph_50010931_69354_50010931_69355",
+                "lyph_50010931_69355_50010931_69357",
+                "lyph_50010931_69357_50010931_69358",
+                "lyph_50010931_69358_50010931_69360",
+                "lyph_50010931_69360_50010931_69361",
+                "lyph_50010931_69361_50010931_69363",
+                "lyph_50010931_69363_50010931_69364",
+                "lyph_50010931_69364_50010931_69339",
+                "lyph_50010931_69339_50010931_69338",
+                "lyph_50010931_69338_50010931_69366",
+                "lyph_50010931_69366_50010931_69367",
+                "lyph_50010931_69367_50010931_69369",
+                "lyph_50010931_69369_50010931_69370",
+                "lyph_50010931_69370_50010931_69372",
+                "lyph_50010931_69372_50010931_69373",
+                "lyph_50010931_69373_50010931_69375",
+                "lyph_50010931_69375_50010931_69376",
+                "lyph_50010931_69376_50010931_66484",
+                "lyph_50010931_66484_50010931_66485",
+                "lyph_50010931_66485_50010931_100000177",
+                "lyph_50010931_100000177_50010931_66358",
+                "lyph_50010931_66358_50010931_50011587",
+                "lyph_50010931_50011587_50010931_50013282",
+                "lyph_50010931_50013282_50010931_66363",
+                "lyph_50010931_66363_50010931_66364",
+                "lyph_50010931_66364_66364"
+            ]
+        },
+        {
+            "id": "chain_18813_70039_XXX_2_18813_70042_XXX_2",
+            "name": "Chain Anterior division of right internal iliac artery -> Right vaginal artery",
             "lyphs": [
                 "lyph_50010931_50010931_3855",
                 "lyph_50010931_3855_50010931_3802",
@@ -3145,11 +3617,21 @@
                 "lyph_18813_66641_18813_70039",
                 "lyph_18813_70039_18813_70030",
                 "lyph_18813_70030_18813_66433",
-                "lyph_18813_66433_18813_70033"
+                "lyph_18813_66433_18813_70033",
+                "lyph_18813_70033_18813_70036",
+                "lyph_18813_70036_18813_70042",
+                "lyph_18813_70042_18813_66431",
+                "lyph_18813_66431_18813_66435",
+                "lyph_18813_66435_18813_66431_XXX_2",
+                "lyph_18813_66431_XXX_2_18813_66433_XXX_2",
+                "lyph_18813_66433_XXX_2_18813_70033_XXX_2",
+                "lyph_18813_70033_XXX_2_18813_70036_XXX_2",
+                "lyph_18813_70036_XXX_2_18813_70039_XXX_2",
+                "lyph_18813_70039_XXX_2_18813_70042_XXX_2"
             ]
         },
         {
-            "id": "chain_70186_18813_70186_18816",
+            "id": "chain_70186_18816_70186_18816_XXX_2",
             "name": "Chain Right internal iliac artery -> Posterior division of right internal iliac artery",
             "lyphs": [
                 "lyph_50010931_50010931_3855",
@@ -3200,7 +3682,8 @@
                 "lyph_69383_69383_70186",
                 "lyph_69383_70186_70186",
                 "lyph_70186_70186_18813",
-                "lyph_70186_18813_70186_18816"
+                "lyph_70186_18813_70186_18816",
+                "lyph_70186_18816_70186_18816_XXX_2"
             ]
         },
         {
@@ -3328,7 +3811,7 @@
             ]
         },
         {
-            "id": "chain_70187_18814_70187_18817",
+            "id": "chain_70187_18817_70187_18817_XXX_2",
             "name": "Chain Left internal iliac artery -> Posterior division of left internal iliac artery",
             "lyphs": [
                 "lyph_50010931_50010931_3855",
@@ -3380,7 +3863,8 @@
                 "lyph_69384_69384_70187",
                 "lyph_69384_70187_70187",
                 "lyph_70187_70187_18814",
-                "lyph_70187_18814_70187_18817"
+                "lyph_70187_18814_70187_18817",
+                "lyph_70187_18817_70187_18817_XXX_2"
             ]
         },
         {
@@ -3438,9 +3922,39 @@
             ]
         },
         {
+            "id": "chain_100001983_100002049",
+            "name": "Chain Umbilical vein",
+            "lyphs": [
+                "lyph_7096_7096_100001950",
+                "lyph_7096_100001950_7096_2000138",
+                "lyph_7096_2000138_7096_100000226",
+                "lyph_7096_100000226_100000226",
+                "lyph_100000226_100000226_100002048",
+                "lyph_100000226_100002048_100002048",
+                "lyph_100002048_100001983",
+                "lyph_100001983_100002049"
+            ],
+            "leaf": "wbkg:leaf_chain-placental-internal-blood-vessels"
+        },
+        {
+            "id": "chain_100000226_66663_66663",
+            "name": "Chain Right renal vein",
+            "lyphs": [
+                "lyph_7096_7096_100001950",
+                "lyph_7096_100001950_7096_2000138",
+                "lyph_7096_2000138_7096_100000226",
+                "lyph_7096_100000226_100000226",
+                "lyph_100000226_100000226_100002048",
+                "lyph_100000226_100002048_100000226_66663",
+                "lyph_100000226_66663_66663"
+            ]
+        },
+        {
             "id": "chain_66728_100000249_66728_100000248",
             "name": "Chain Left internal iliac vein -> Left superior gluteal vein",
             "lyphs": [
+                "lyph_7096_7096_100001950",
+                "lyph_7096_100001950_7096_2000138",
                 "lyph_7096_2000138_7096_100000226",
                 "lyph_7096_100000226_100000226",
                 "lyph_100000226_100000226_100002048",
@@ -3468,6 +3982,8 @@
             "id": "chain_66670_66728_66670_78265",
             "name": "Chain Left common iliac vein -> Left external iliac vein",
             "lyphs": [
+                "lyph_7096_7096_100001950",
+                "lyph_7096_100001950_7096_2000138",
                 "lyph_7096_2000138_7096_100000226",
                 "lyph_7096_100000226_100000226",
                 "lyph_100000226_100000226_100002048",
@@ -3482,9 +3998,11 @@
             ]
         },
         {
-            "id": "chain_100000226_66669_66669",
-            "name": "Chain Right common iliac vein",
+            "id": "chain_66727_100000239_66727_100000238",
+            "name": "Chain Right internal iliac vein -> Right superior gluteal vein",
             "lyphs": [
+                "lyph_7096_7096_100001950",
+                "lyph_7096_100001950_7096_2000138",
                 "lyph_7096_2000138_7096_100000226",
                 "lyph_7096_100000226_100000226",
                 "lyph_100000226_100000226_100002048",
@@ -3494,13 +4012,7 @@
                 "lyph_100000226_82680_100000226_82678",
                 "lyph_100000226_82678_100000226_66670",
                 "lyph_100000226_66670_100000226_66669",
-                "lyph_100000226_66669_66669"
-            ]
-        },
-        {
-            "id": "chain_66727_100000239_66727_100000238",
-            "name": "Chain Right internal iliac vein -> Right superior gluteal vein",
-            "lyphs": [
+                "lyph_100000226_66669_66669",
                 "lyph_66669_66669_66727",
                 "lyph_66669_66727_66727",
                 "lyph_66727_66727_100000241",
@@ -3516,9 +4028,31 @@
             ]
         },
         {
+            "id": "chain_66669_66727_66669_78264",
+            "name": "Chain Right common iliac vein -> Right external iliac vein",
+            "lyphs": [
+                "lyph_7096_7096_100001950",
+                "lyph_7096_100001950_7096_2000138",
+                "lyph_7096_2000138_7096_100000226",
+                "lyph_7096_100000226_100000226",
+                "lyph_100000226_100000226_100002048",
+                "lyph_100000226_100002048_100000226_66663",
+                "lyph_100000226_66663_100000226_82679",
+                "lyph_100000226_82679_100000226_82680",
+                "lyph_100000226_82680_100000226_82678",
+                "lyph_100000226_82678_100000226_66670",
+                "lyph_100000226_66670_100000226_66669",
+                "lyph_100000226_66669_66669",
+                "lyph_66669_66669_66727",
+                "lyph_66669_66727_66669_78264"
+            ]
+        },
+        {
             "id": "chain_100000226_66665_100000226_66662",
             "name": "Chain Inferior vena cava -> Renal vein",
             "lyphs": [
+                "lyph_7096_7096_100001950",
+                "lyph_7096_100001950_7096_2000138",
                 "lyph_7096_2000138_7096_100000226",
                 "lyph_7096_100000226_100000226",
                 "lyph_100000226_100000226_100002048",
@@ -3567,10 +4101,19 @@
                 "lyph_100000226_66720_100000226_66665",
                 "lyph_100000226_66665_100000226_66662"
             ]
+        },
+        {
+            "id": "chain_7096_100000226_7096_100001760",
+            "name": "Chain Right atrium -> Superior vena cava",
+            "lyphs": [
+                "lyph_7096_7096_100001950",
+                "lyph_7096_100001950_7096_2000138",
+                "lyph_7096_2000138_7096_100000226",
+                "lyph_7096_100000226_7096_100001760"
+            ]
         }
     ],
-    "version": "de0b7d4d296c66b9f02cbe5af62598b5bc759781",
-    "namespace": "nm_vascular",
-    "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
-    "lastUpdated": "2025-07-29"
+    "version": "7887ff01cae0473d7b34ef8aaec9c10ce12de2c8",
+    "namespace": "nm_vascular-maternity",
+    "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918"
 }
