@@ -7072,7 +7072,17 @@
             "isTemplate": true,
             "ontologyTerms": [
                 "CL:0000525"
-            ]
+            ],
+            "topology": "CYST"
+        },
+        {
+            "id": "lyph-cyst-cytotrophoblast-cell",
+            "name": "Cytotrophoblast cell",
+            "ontologyTerms": [
+                "UBERON:0000319",
+                "CL:0000523"
+            ],
+            "topology": "CYST"
         }
     ],
     "materials": [
@@ -10068,6 +10078,14 @@
             "housingLyphs": [
                 "lyph-cardiovascular-intervillous-space-of-the-placenta"
             ]
+        },
+        {
+            "id": "chain-cytotrophoblast-cell-over-syncytiotrophoblast",
+            "name": "Cytotrophoblast cell over syncytiotrophoblast",
+            "housingLyphs": [
+                "lyph-cardiovascular-intervillous-space-of-the-placenta"
+            ],
+            "numLevels": 3
         }
     ],
     "groups": [
@@ -10150,7 +10168,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "d5182cf8ccd1e2db2c2602dc2517dfba3e82c4dc",
+    "version": "ceed98884464d29ae52e4dd6c4a9c1272923e60c",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
-    "lastUpdated": "2025-07-29"
+    "lastUpdated": "2025-07-30"
 }
