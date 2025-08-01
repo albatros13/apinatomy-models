@@ -1535,10 +1535,10 @@
             "fullID": "nm_vascular:node_right-glomerular-bowmans-unit_1"
         }
     ],
-    "version": "5095a47735403a6094a2d5394b07ba3f208b794a",
+    "version": "ca5fea1d5f8247cdf4b075a74eac3c76b7e30e20",
     "namespace": "nm_vascular",
     "schemaVersion": "4135d33a4d370730c4cf54e236184835a2ecc3ad",
-    "lastUpdated": "2025-06-18",
+    "lastUpdated": "2025-08-01",
     "groups": [
         {
             "id": "group_paths_chain_50010931_66363_50010931_66364",
@@ -12040,6 +12040,7 @@
                     "source": "aV",
                     "target": "a_aV_rV_0",
                     "geometry": "spline",
+                    "color": "white",
                     "stroke": "dashed",
                     "curvature": -15
                 },
@@ -12049,6 +12050,7 @@
                     "source": "aW",
                     "target": "a_aW_rW_0",
                     "geometry": "spline",
+                    "color": "white",
                     "stroke": "dashed",
                     "curvature": 15
                 }
