@@ -7069,6 +7069,7 @@
         {
             "id": "lt-cyst-syncytiotrophoblast-cell",
             "name": "Syncytiotrophoblast cell",
+            "supertype": "lt-cyst-cell",
             "isTemplate": true,
             "ontologyTerms": [
                 "CL:0000525"
@@ -7078,6 +7079,7 @@
         {
             "id": "lyph-cyst-cytotrophoblast-cell",
             "name": "Cytotrophoblast cell",
+            "supertype": "lt-cyst-cell",
             "ontologyTerms": [
                 "UBERON:0000319",
                 "CL:0000523"
@@ -10170,7 +10172,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "d4bd85b4b500a12dc7e5dd97908458def69166cd",
+    "version": "f5e5d7d4f39c1c247b12312da8e89818e91b660b",
     "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
     "lastUpdated": "2025-08-01"
 }
