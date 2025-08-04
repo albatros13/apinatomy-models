@@ -4152,9 +4152,9 @@
             "wiredTo": "fd:wire_chain_7096_100000226_7096_100001760"
         }
     ],
-    "version": "95750d781baaf81bfd6fe024b2bc845a1e8525a1",
+    "version": "981f970753c69baae6e76624e3a068a11cc71a3a",
     "namespace": "nm_vascular-maternity",
-    "schemaVersion": "4135d33a4d370730c4cf54e236184835a2ecc3ad",
+    "schemaVersion": "0531bfbd81a6a3179dacacc2ca55f33e8515e342",
     "groups": [
         {
             "id": "group_paths_chain_69384_70187_69384_70185",
@@ -12444,6 +12444,7 @@
                     "id": "lt-cyst-syncytiotrophoblast-cell",
                     "name": "Syncytiotrophoblast cell",
                     "isTemplate": true,
+                    "supertype": "lt-cyst-cell",
                     "ontologyTerms": [
                         "CL:0000525"
                     ],
@@ -12452,6 +12453,7 @@
                 {
                     "id": "lyph-cyst-cytotrophoblast-cell",
                     "name": "Cytotrophoblast cell",
+                    "supertype": "lt-cyst-cell",
                     "ontologyTerms": [
                         "UBERON:0000319",
                         "CL:0000523"
@@ -15460,14 +15462,14 @@
                     "name": "Syncytiotrophoblast cell over syncytiotrophoblast",
                     "lyphTemplate": "lt-cyst-syncytiotrophoblast-cell",
                     "numLevels": 4,
-                    "housingLyphs": [
+                    "housingLyphTemplates": [
                         "lyph-cardiovascular-intervillous-space-of-the-placenta"
                     ]
                 },
                 {
                     "id": "chain-cytotrophoblast-cell-over-syncytiotrophoblast",
                     "name": "Cytotrophoblast cell over syncytiotrophoblast",
-                    "housingLyphs": [
+                    "housingLyphTemplates": [
                         "lyph-cardiovascular-intervillous-space-of-the-placenta"
                     ],
                     "numLevels": 3
