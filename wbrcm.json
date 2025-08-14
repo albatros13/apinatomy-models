@@ -10086,6 +10086,9 @@
         {
             "id": "chain-cytotrophoblast-cell-over-syncytiotrophoblast",
             "name": "Cytotrophoblast cell over syncytiotrophoblast",
+            "housingLayers": [
+                1
+            ],
             "housingLyphs": [
                 "lyph-cardiovascular-intervillous-space-of-the-placenta"
             ],
@@ -10172,7 +10175,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "f5e5d7d4f39c1c247b12312da8e89818e91b660b",
-    "schemaVersion": "a0dd8f4ca3cc2e80a3ddbd3a29522afb5cb2a918",
-    "lastUpdated": "2025-08-01"
+    "version": "803d57a7c04e46734ea72d2261b53c5653b1b36d",
+    "schemaVersion": "4135d33a4d370730c4cf54e236184835a2ecc3ad",
+    "lastUpdated": "2025-08-14"
 }
