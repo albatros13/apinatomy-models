@@ -7159,7 +7159,7 @@
       "id": "mat-body-liquid-xenobiotics",
       "name": "body liquid with xenobiotics",
       "materials": [
-        "mat-body-liquid", "ABCB1", "ABCC2", "ABCG2", "SLC22A6", "SLC22A8"
+        "mat-body-liquid"
       ]
     },
     {
@@ -7171,27 +7171,27 @@
     },
     {
       "id": "ABCB1",
-      "name": "Apical ABCB1",
+      "name": "ABCB1",
       "ontologyTerms": ["UNIPROT:P08183"]
     },
     {
       "id": "ABCC2",
-      "name": "Apical ABCC2",
+      "name": "ABCC2",
       "ontologyTerms": ["UNIPROT:Q92887"]
     },
     {
       "id": "ABCG2",
-      "name": "Apical ABCG2",
+      "name": "ABCG2",
       "ontologyTerms": ["UNIPROT:Q9UNQ0"]
     },
     {
       "id": "SLC22A6",
-      "name": "Basolateral SLC22A6",
+      "name": "SLC22A6",
       "ontologyTerms": ["UNIPROT:Q4U2R8"]
     },
     {
       "id": "SLC22A8",
-      "name": "Basolateral SLC22A8",
+      "name": "SLC22A8",
       "ontologyTerms": ["UNIPROT:Q8TCC7"]
     },
     {
@@ -7419,6 +7419,22 @@
       "name": "Basal lamina",
       "materials": [
         "mat-extracellular-material"
+      ]
+    },
+    {
+      "id": "mat-plasma-membrane-renal-epithelial-cell-apical",
+      "name": "Apical plasma membrane of the renal epithelial cell",
+      "materials": [
+        "mat-plasma-membrane",
+        "ABCB1", "ABCC2", "ABCG2"
+      ]
+    },
+    {
+      "id": "mat-plasma-membrane-renal-epithelial-cell-basolateral",
+      "name": "Basolateral plasma membrane of the renal epithelial cell",
+      "materials": [
+        "mat-plasma-membrane",
+        "SLC22A6", "SLC22A8"
       ]
     },
     {
