@@ -91,50 +91,6 @@
     {
       "id": "UNIPROT:Q8TCC7",
       "uri": "https://www.uniprot.org/uniprotkb/Q8TCC7"
-    },
-    {
-      "id": "GO:1990794",
-      "name": "Basolateral part of cell"
-    },
-    {
-      "id": "GO:0045177",
-      "name": "Apical part of cell"
-    },
-    {
-      "id": "GO:0097574",
-      "name": "Lateral part of cell"
-    },
-    {
-      "id": "FMA:67644",
-      "name": "Luminal surface of epithelium"
-    },
-    {
-      "id": "FMA:67642",
-      "name": "Abluminal surface of epithelium\n"
-    },
-    {
-      "id": "FMA:67241",
-      "name": "Cell body of neuron"
-    },
-    {
-      "id": "FMA:67314",
-      "name": "Dendrite"
-    },
-    {
-      "id": "FMA:67308",
-      "name": "Axon"
-    },
-    {
-      "id": "FMA:61813",
-      "name": "Axon terminal"
-    },
-    {
-      "id": "GO:0043679",
-      "name": "Axon terminus"
-    },
-    {
-      "id": "GO:0044292",
-      "name": "Dendrite terminus"
     }
   ],
   "links": [],
@@ -7151,63 +7107,6 @@
         "CL:0000523"
       ],
       "topology": "CYST"
-    },
-    {
-      "id": "lt-cyst-cell1",
-      "name": "Cell Generic 1",
-      "ontologyTerms": [
-        "CL:0000000"
-      ],
-      "isTemplate": true,
-      "topology": "CYST",
-      "layers": [
-        "mat-cytoplasm",
-        "mat-plasma-membrane-renal-epithelial-cell-apical",
-        "mat-extracellular-fluid"
-      ]
-    },
-    {
-      "id": "lt-cyst-cell2",
-      "name": "Cell Generic 2",
-      "ontologyTerms": [
-        "CL:0000000"
-      ],
-      "isTemplate": true,
-      "topology": "CYST",
-      "layers": [
-        "mat-cytoplasm",
-        "mat-plasma-membrane-renal-epithelial-cell-basolateral",
-        "mat-extracellular-fluid"
-      ]
-    },
-    {
-      "id": "lt-cyst-cell-renal-epitheilial_bag+1",
-      "name": "Cell Renal Epitheilial (BAG+) 1",
-      "isTemplate": true,
-      "topology": "BAG2",
-      "layers": [
-        "mat-cytoplasm",
-        "mat-plasma-membrane-renal-epithelial-cell-apical",
-        "mat-extracellular-fluid"
-      ]
-    },
-    {
-      "id": "lt-cyst-cell-renal-epitheilial_bag-1",
-      "name": "Cell Renal Epitheilial (BAG-) 1",
-      "isTemplate": true,
-      "topology": "BAG",
-      "layers": [
-        "mat-cytoplasm",
-        "mat-plasma-membrane-renal-epithelial-cell-basolateral",
-        "mat-extracellular-fluid"
-      ]
-    },
-    {
-      "id": "lt-cyst-cell-renal-epitheilial_tube1",
-      "name": "Cell Renal Epitheilial (TUBE) 1",
-      "isTemplate": true,
-      "topology": "TUBE",
-      "supertype": "lt-cyst-cell"
     }
   ],
   "materials": [
@@ -7219,7 +7118,7 @@
       "name": "Body fluid",
       "materials": [
         "mat-body-gas",
-        "mat-body-liquid"
+        "mat-body-liquid-xenobiotics"
       ]
     },
     {
@@ -7260,7 +7159,7 @@
       "id": "mat-body-liquid-xenobiotics",
       "name": "body liquid with xenobiotics",
       "materials": [
-        "mat-body-liquid"
+        "mat-body-fluid"
       ]
     },
     {
@@ -7273,37 +7172,27 @@
     {
       "id": "ABCB1",
       "name": "ABCB1",
-      "ontologyTerms": [
-        "UNIPROT:P08183"
-      ]
+      "ontologyTerms": ["UNIPROT:P08183"]
     },
     {
       "id": "ABCC2",
       "name": "ABCC2",
-      "ontologyTerms": [
-        "UNIPROT:Q92887"
-      ]
+      "ontologyTerms": ["UNIPROT:Q92887"]
     },
     {
       "id": "ABCG2",
       "name": "ABCG2",
-      "ontologyTerms": [
-        "UNIPROT:Q9UNQ0"
-      ]
+      "ontologyTerms": ["UNIPROT:Q9UNQ0"]
     },
     {
       "id": "SLC22A6",
       "name": "SLC22A6",
-      "ontologyTerms": [
-        "UNIPROT:Q4U2R8"
-      ]
+      "ontologyTerms": ["UNIPROT:Q4U2R8"]
     },
     {
       "id": "SLC22A8",
       "name": "SLC22A8",
-      "ontologyTerms": [
-        "UNIPROT:Q8TCC7"
-      ]
+      "ontologyTerms": ["UNIPROT:Q8TCC7"]
     },
     {
       "id": "mat-gas-oxygen",
@@ -7537,9 +7426,7 @@
       "name": "Apical plasma membrane of the renal epithelial cell",
       "materials": [
         "mat-plasma-membrane",
-        "ABCB1",
-        "ABCC2",
-        "ABCG2"
+        "ABCB1", "ABCC2", "ABCG2"
       ]
     },
     {
@@ -7547,8 +7434,7 @@
       "name": "Basolateral plasma membrane of the renal epithelial cell",
       "materials": [
         "mat-plasma-membrane",
-        "SLC22A6",
-        "SLC22A8"
+        "SLC22A6", "SLC22A8"
       ]
     },
     {
@@ -10180,11 +10066,6 @@
       "numLevels": 3,
       "housingLyphTemplates": [
         "lt-renal-nephron-epithelial-conduit"
-      ],
-      "levelOntologyTerms": [
-        "GO:0045177",
-        "GO:0097574",
-        "GO:1990794"
       ]
     },
     {
@@ -10293,15 +10174,6 @@
         "lyph-cardiovascular-intervillous-space-of-the-placenta"
       ],
       "numLevels": 3
-    },
-    {
-      "id": "chain-renal-epithelial-cell1",
-      "name": "Renal epithelial cell 1",
-      "lyphs": [
-        "lt-cyst-cell-renal-epitheilial_bag+1",
-        "lt-cyst-cell-renal-epitheilial_tube1",
-        "lt-cyst-cell-renal-epitheilial_bag-1"
-      ]
     }
   ],
   "groups": [
@@ -10388,7 +10260,7 @@
   "imports": [
     "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
   ],
-  "version": "927291c25ae1566fd09162e9f555244454b4ec19",
+  "version": "0274fd97876943ec7bb82058dc011622924db72e",
   "schemaVersion": "4135d33a4d370730c4cf54e236184835a2ecc3ad",
-  "lastUpdated": "2025-08-27"
+  "lastUpdated": "2025-08-21"
 }
