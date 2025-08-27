@@ -71,6 +71,28 @@
       "id": "vs-cat"
     }
   ],
+  "ontologyTerms": [
+    {
+      "id": "UNIPROT:P08183",
+      "uri": "https://www.uniprot.org/uniprotkb/P08183"
+    },
+    {
+      "id": "UNIPROT:Q92887",
+      "uri": "https://www.uniprot.org/uniprotkb/Q92887"
+    },
+    {
+      "id": "UNIPROT:Q9UNQ0",
+      "uri": "https://www.uniprot.org/uniprotkb/Q9UNQ0"
+    },
+    {
+      "id": "UNIPROT:Q4U2R8",
+      "uri": "https://www.uniprot.org/uniprotkb/Q4U2R8"
+    },
+    {
+      "id": "UNIPROT:Q8TCC7",
+      "uri": "https://www.uniprot.org/uniprotkb/Q8TCC7"
+    }
+  ],
   "links": [],
   "lyphs": [
     {
@@ -7134,6 +7156,45 @@
       ]
     },
     {
+      "id": "mat-body-liquid-xenobiotics",
+      "name": "body liquid with xenobiotics",
+      "materials": [
+        "mat-body-liquid", "ABCB1", "ABCC2", "ABCG2", "SLC22A6", "SLC22A8"
+      ]
+    },
+    {
+      "id": "pravastatin",
+      "name": "Pravastatin",
+      "materials": [
+        "mat-body-liquid-xenobiotics"
+      ]
+    },
+    {
+      "id": "ABCB1",
+      "name": "Apical ABCB1",
+      "ontologyTerms": ["UNIPROT:P08183"]
+    },
+    {
+      "id": "ABCC2",
+      "name": "Apical ABCC2",
+      "ontologyTerms": ["UNIPROT:Q92887"]
+    },
+    {
+      "id": "ABCG2",
+      "name": "Apical ABCG2",
+      "ontologyTerms": ["UNIPROT:Q9UNQ0"]
+    },
+    {
+      "id": "SLC22A6",
+      "name": "Basolateral SLC22A6",
+      "ontologyTerms": ["UNIPROT:Q4U2R8"]
+    },
+    {
+      "id": "SLC22A8",
+      "name": "Basolateral SLC22A8",
+      "ontologyTerms": ["UNIPROT:Q8TCC7"]
+    },
+    {
       "id": "mat-gas-oxygen",
       "ontologyTerms": [
         "CHEBI:33263"
@@ -10120,6 +10181,10 @@
     }
   ],
   "localConventions": [
+    {
+      "prefix": "UNIPROT",
+      "namespace": "https://www.uniprot.org/uniprotkb/"
+    },
     {
       "prefix": "UBERON",
       "namespace": "http://purl.obolibrary.org/obo/UBERON_"
