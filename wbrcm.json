@@ -10222,7 +10222,7 @@
             "name": "Syncytiotrophoblast cell over syncytiotrophoblast",
             "lyphTemplate": "lt-cyst-syncytiotrophoblast-cell",
             "numLevels": 4,
-            "housingLyphs": [
+            "housingLyphTemplates": [
                 "lyph-cardiovascular-intervillous-space-of-the-placenta"
             ]
         },
@@ -10232,7 +10232,7 @@
             "housingLayers": [
                 1
             ],
-            "housingLyphs": [
+            "housingLyphTemplates": [
                 "lyph-cardiovascular-intervillous-space-of-the-placenta"
             ],
             "numLevels": 3
@@ -10322,7 +10322,7 @@
     "imports": [
         "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json"
     ],
-    "version": "3b407a07a06d6a8de7e3e24eea02a731aa80126f",
-    "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
-    "lastUpdated": "2025-09-11"
+    "version": "8bc78d48bd7d928b68d4cf2717b4e9d841b67932",
+    "schemaVersion": "5294da6bbc7828db1c2475584dea02ca0a753aa9",
+    "lastUpdated": "2025-11-26"
 }
