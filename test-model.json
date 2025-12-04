@@ -1,11 +1,11 @@
 {
     "name": "test-model",
     "created": "2025-03-18",
-    "lastUpdated": "2025-07-28",
-    "version": "aa99d367b6271bfc68a220ad1d65d8481cde80a4",
+    "lastUpdated": "2025-12-04",
+    "version": "0de019edbf7725e836f550823e5d585d53146832",
     "id": "test-model",
     "namespace": "nm_main",
-    "schemaVersion": "4135d33a4d370730c4cf54e236184835a2ecc3ad",
+    "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "lyphs": [
         {
             "id": "_newLyph1",
@@ -72,7 +72,7 @@
             "id": "newMat2",
             "name": "New material 2",
             "ontologyTerms": [
-                "newMat2_ontologyTerms_new_1"
+                "UBERON:00001"
             ]
         },
         {
@@ -87,8 +87,8 @@
             "id": "newMat25",
             "name": "New material 25",
             "ontologyTerms": [
-                "newMat25_ontologyTerms_new_1",
-                "newMat25_ontologyTerms_new_2"
+                "UBERON:00002",
+                "UBERON:00003"
             ]
         }
     ]
