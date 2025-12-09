@@ -1,0 +1,987 @@
+{
+    "references": [],
+    "ontologyTerms": [
+        {
+            "id": "UNIPROT:P08183",
+            "uri": "https://www.uniprot.org/uniprotkb/P08183"
+        },
+        {
+            "id": "UNIPROT:Q92887",
+            "uri": "https://www.uniprot.org/uniprotkb/Q92887"
+        },
+        {
+            "id": "UNIPROT:Q9UNQ0",
+            "uri": "https://www.uniprot.org/uniprotkb/Q9UNQ0"
+        },
+        {
+            "id": "UNIPROT:Q4U2R8",
+            "uri": "https://www.uniprot.org/uniprotkb/Q4U2R8"
+        },
+        {
+            "id": "UNIPROT:Q8TCC7",
+            "uri": "https://www.uniprot.org/uniprotkb/Q8TCC7"
+        },
+        {
+            "id": "GO:1990794",
+            "name": "Basolateral part of cell"
+        },
+        {
+            "id": "GO:0045177",
+            "name": "Apical part of cell"
+        },
+        {
+            "id": "GO:0097574",
+            "name": "Lateral part of cell"
+        }
+    ],
+    "lyphs": [
+        {
+            "id": "lt-cell-segment",
+            "ontologyTerms": [
+                "GO:0110165"
+            ],
+            "name": "Cell segment",
+            "isTemplate": true,
+            "layers": [
+                "mat-cytoplasm",
+                "mat-plasma-membrane",
+                "mat-extracellular-material"
+            ]
+        },
+        {
+            "id": "lt-cell-bag",
+            "name": "Cell bag",
+            "isTemplate": true,
+            "topology": "BAG",
+            "supertype": "lt-cell-segment"
+        },
+        {
+            "id": "lt-cell-cyst",
+            "ontologyTerms": [
+                "SAO:1813327414"
+            ],
+            "name": "Cell",
+            "isTemplate": true,
+            "topology": "CYST",
+            "supertype": "lt-cell-segment"
+        },
+        {
+            "id": "lyph-cell-red-blood",
+            "ontologyTerms": [
+                "CL:0000232"
+            ],
+            "name": "Red blood cell",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lt-cell-white-blood",
+            "ontologyTerms": [
+                "CL:0000738"
+            ],
+            "name": "White blood cell",
+            "isTemplate": true,
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lyph-cell-macrophage",
+            "ontologyTerms": [
+                "CL:0000235"
+            ],
+            "name": "Macrophage",
+            "supertype": "lt-cell-white-blood"
+        },
+        {
+            "id": "lyph-cell-platelet",
+            "ontologyTerms": [
+                "CL:0000233"
+            ],
+            "name": "Platelet",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lyph-cell-fibroblast",
+            "ontologyTerms": [
+                "CL:0000057"
+            ],
+            "name": "Fibroblast",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lyph-cell-cardiovascular-endothelial",
+            "ontologyTerms": [
+                "ILX:0112265"
+            ],
+            "name": "Cardiovascular endothelial cell",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lyph-cell-smooth-muscle",
+            "ontologyTerms": [
+                "CL:0000192"
+            ],
+            "name": "Smooth muscle cell",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lyph-cell-vascular-smooth-muscle",
+            "ontologyTerms": [
+                "CL:0000359"
+            ],
+            "name": "Vascular smooth muscle cell",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lt-CVS-vessel",
+            "ontologyTerms": [
+                "ILX:0793690"
+            ],
+            "name": "Endothelial vessel",
+            "isTemplate": true
+        },
+        {
+            "id": "lt-CVS-blood-vessel",
+            "ontologyTerms": [
+                "UBERON:0001981"
+            ],
+            "name": "Blood vessel",
+            "isTemplate": true,
+            "supertype": "lt-CVS-vessel"
+        },
+        {
+            "id": "lt-major-artery",
+            "ontologyTerms": [
+                "UBERON:0003509"
+            ],
+            "name": "Major artery (over 1cm)",
+            "isTemplate": true,
+            "layers": [
+                "mat-blood",
+                "mat-tissue-cardiovascular-endothelium",
+                "mat-basement-membrane",
+                "mat-tissue-cardiovascular-vascular-media",
+                "mat-tissue-cardiovascular-vascular-adventitia"
+            ],
+            "topology": "TUBE",
+            "supertype": "lt-arterial"
+        },
+        {
+            "id": "lt-major-vein",
+            "ontologyTerms": [
+                "UBERON:0003920"
+            ],
+            "name": "lt-major-vein (over 1cm)",
+            "isTemplate": true,
+            "layers": [
+                "mat-blood",
+                "mat-tissue-cardiovascular-endothelium",
+                "mat-tissue-cardiovascular-vascular-media",
+                "mat-tissue-cardiovascular-vascular-adventitia"
+            ],
+            "supertype": "lt-venous"
+        },
+        {
+            "id": "lt-blood-capillary",
+            "ontologyTerms": [
+                "UBERON:0001982"
+            ],
+            "name": "Blood capillary vessel",
+            "isTemplate": true,
+            "layers": [
+                "mat-blood",
+                "mat-tissue-cardiovascular-endothelium",
+                "mat-basement-membrane"
+            ],
+            "topology": "TUBE",
+            "supertype": "lt-CVS-blood-vessel"
+        },
+        {
+            "id": "lt-small-vein",
+            "name": "lt-small-vein (200um)",
+            "isTemplate": true,
+            "layers": [
+                "mat-blood",
+                "mat-tissue-cardiovascular-endothelium",
+                "mat-tissue-cardiovascular-vascular-smooth-muscle",
+                "mat-tissue-cardiovascular-vascular-adventitia"
+            ],
+            "topology": "TUBE",
+            "supertype": "lt-venous"
+        },
+        {
+            "id": "lt-medium-vein",
+            "name": "lt-medium-vein (9mm)",
+            "isTemplate": true,
+            "layers": [
+                "mat-blood",
+                "mat-tissue-cardiovascular-endothelium",
+                "mat-tissue-cardiovascular-vascular-smooth-muscle",
+                "mat-tissue-cardiovascular-vascular-adventitia"
+            ],
+            "topology": "TUBE",
+            "supertype": "lt-venous"
+        },
+        {
+            "id": "lt-muscular-artery",
+            "name": "lt-muscular-artery (9mm)",
+            "isTemplate": true,
+            "layers": [
+                "mat-cellular-component-of-blood",
+                "mat-tissue-cardiovascular-endothelium",
+                "mat-basement-membrane",
+                "mat-tissue-cardiovascular-vascular-smooth-muscle",
+                "mat-tissue-cardiovascular-vascular-adventitia"
+            ],
+            "topology": "TUBE",
+            "supertype": "lt-arterial"
+        },
+        {
+            "id": "lt-arteriole",
+            "ontologyTerms": [
+                "UBERON:0001980"
+            ],
+            "name": "lt-arteriole (100um)",
+            "isTemplate": true,
+            "layers": [
+                "mat-blood",
+                "mat-tissue-cardiovascular-endothelium",
+                "mat-basement-membrane",
+                "mat-tissue-cardiovascular-vascular-smooth-muscle",
+                "mat-tissue-cardiovascular-vascular-adventitia"
+            ],
+            "topology": "TUBE",
+            "supertype": "lt-arterial"
+        },
+        {
+            "id": "lt-metarteriole",
+            "ontologyTerms": [
+                "FMA:63190"
+            ],
+            "name": "lt-metarteriole (10um)",
+            "isTemplate": true,
+            "layers": [
+                "mat-blood",
+                "mat-tissue-cardiovascular-endothelium",
+                "mat-basement-membrane",
+                "mat-tissue-cardiovascular-vascular-smooth-muscle",
+                "mat-tissue-cardiovascular-vascular-adventitia"
+            ],
+            "topology": "TUBE",
+            "supertype": "lt-arterial"
+        },
+        {
+            "id": "lt-arterial",
+            "name": "lt-arterial",
+            "isTemplate": true,
+            "topology": "TUBE",
+            "supertype": "lt-CVS-blood-vessel",
+            "subtypes": [
+                "lt-major-artery",
+                "lt-metarteriole",
+                "lt-arteriole",
+                "lt-muscular-artery"
+            ]
+        },
+        {
+            "id": "lt-venous",
+            "name": "lt-venous",
+            "isTemplate": true,
+            "topology": "TUBE",
+            "supertype": "lt-CVS-blood-vessel",
+            "subtypes": [
+                "lt-major-vein",
+                "lt-venule",
+                "lt-small-vein",
+                "lt-medium-vein"
+            ]
+        },
+        {
+            "id": "lt-venule",
+            "ontologyTerms": [
+                "UBERON:0001979"
+            ],
+            "name": "lt-venule (50um)",
+            "isTemplate": true,
+            "layers": [
+                "mat-blood",
+                "mat-tissue-cardiovascular-endothelium",
+                "mat-tissue-cardiovascular-vascular-adventitia"
+            ],
+            "topology": "TUBE",
+            "supertype": "lt-venous"
+        },
+        {
+            "id": "lt-cyst-cell-endothelial",
+            "ontologyTerms": [
+                "CL:0000115"
+            ],
+            "name": "Cell Endothelial",
+            "isTemplate": true,
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lt-cyst-cell-smooth-muscle",
+            "ontologyTerms": [
+                "CL:0000192"
+            ],
+            "name": "Cell Smooth Muscle",
+            "isTemplate": true,
+            "topology": "CYST",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lyph-cell-epithelial-squamous",
+            "ontologyTerms": [
+                "CL:0000076"
+            ],
+            "name": "Squamous epithelial cell",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lyph-cell-columnar-cuboidal-epithelial",
+            "ontologyTerms": [
+                "CL:0000075"
+            ],
+            "name": "Columnar or cuboidal epithelial cell",
+            "supertype": "lt-cell-cyst"
+        }
+    ],
+    "materials": [
+        {
+            "id": "mat-body-fluid",
+            "ontologyTerms": [
+                "UBERON:0006314"
+            ],
+            "name": "Body fluid",
+            "materials": [
+                "mat-body-gas",
+                "mat-body-liquid-xenobiotics"
+            ]
+        },
+        {
+            "id": "mat-body-gas",
+            "ontologyTerms": [
+                "UBERON:0034873"
+            ],
+            "name": "Body gas",
+            "materials": [
+                "mat-gas-oxygen",
+                "mat-gas-carbondioxide",
+                "mat-gas-nitrogen",
+                "mat-gas-water"
+            ]
+        },
+        {
+            "id": "mat-body-liquid",
+            "ontologyTerms": [
+                "ILX:0793131"
+            ],
+            "name": "Body liquid",
+            "materials": [
+                "mat-liquid-water",
+                "mat-aqueous-oxygen",
+                "mat-aqueous-carbondioxide",
+                "mat-aqueous-nitrogen",
+                "mat-aqueous-sodium-ion",
+                "mat-aqueous-potassium-ion",
+                "mat-aqueous-calcium-ion",
+                "mat-aqueous-chloride-ion",
+                "mat-aqueous-hydrogen-ion",
+                "mat-aqueous-hydroxide-ion",
+                "mat-aqueous-bicarbonate-ion",
+                "mat-aqueous-magnesium-ion"
+            ]
+        },
+        {
+            "id": "mat-body-liquid-xenobiotics",
+            "name": "body liquid with xenobiotics",
+            "materials": [
+                "mat-body-liquid"
+            ]
+        },
+        {
+            "id": "mat-drug-pravastatin",
+            "name": "Pravastatin",
+            "materials": [
+                "mat-body-liquid-xenobiotics"
+            ]
+        },
+        {
+            "id": "mat-protein-ABCB1",
+            "ontologyTerms": [
+                "UNIPROT:P08183"
+            ],
+            "name": "ABCB1"
+        },
+        {
+            "id": "mat-protein-ABCC2",
+            "ontologyTerms": [
+                "UNIPROT:Q92887"
+            ],
+            "name": "ABCC2"
+        },
+        {
+            "id": "mat-protein-ABCG2",
+            "ontologyTerms": [
+                "UNIPROT:Q9UNQ0"
+            ],
+            "name": "ABCG2"
+        },
+        {
+            "id": "mat-protein-SLC22A6",
+            "ontologyTerms": [
+                "UNIPROT:Q4U2R8"
+            ],
+            "name": "SLC22A6"
+        },
+        {
+            "id": "mat-protein-SLC22A8",
+            "ontologyTerms": [
+                "UNIPROT:Q8TCC7"
+            ],
+            "name": "SLC22A8"
+        },
+        {
+            "id": "mat-gas-oxygen",
+            "ontologyTerms": [
+                "CHEBI:33263"
+            ],
+            "name": "Gaseous oxygen"
+        },
+        {
+            "id": "mat-gas-carbondioxide",
+            "ontologyTerms": [
+                "CHEBI:16526"
+            ],
+            "name": "Gaseous carbon dioxide"
+        },
+        {
+            "id": "mat-gas-nitrogen",
+            "ontologyTerms": [
+                "CHEBI:33266"
+            ],
+            "name": "Gaseous nitrogen"
+        },
+        {
+            "id": "mat-gas-water",
+            "ontologyTerms": [
+                "CHEBI:15377"
+            ],
+            "name": "Water vapour"
+        },
+        {
+            "id": "mat-liquid-water",
+            "ontologyTerms": [
+                "CHEBI:15377"
+            ],
+            "name": "Liquid water"
+        },
+        {
+            "id": "mat-aqueous-oxygen",
+            "ontologyTerms": [
+                "CHEBI:33263"
+            ],
+            "name": "Aqueous oxygen"
+        },
+        {
+            "id": "mat-aqueous-carbondioxide",
+            "ontologyTerms": [
+                "CHEBI:16526"
+            ],
+            "name": "Aqueous carbon dioxide"
+        },
+        {
+            "id": "mat-aqueous-nitrogen",
+            "ontologyTerms": [
+                "CHEBI:33266"
+            ],
+            "name": "Aqueous nitrogen"
+        },
+        {
+            "id": "mat-aqueous-sodium-ion",
+            "ontologyTerms": [
+                "CHEBI:29101"
+            ],
+            "name": "Aqueous sodium ion"
+        },
+        {
+            "id": "mat-aqueous-potassium-ion",
+            "ontologyTerms": [
+                "CHEBI:29103"
+            ],
+            "name": "Aqueous potassium ion"
+        },
+        {
+            "id": "mat-aqueous-calcium-ion",
+            "ontologyTerms": [
+                "CHEBI:29108"
+            ],
+            "name": "Aqueous calcium ion"
+        },
+        {
+            "id": "mat-aqueous-chloride-ion",
+            "ontologyTerms": [
+                "CHEBI:17996"
+            ],
+            "name": "Aqueous chloride ion"
+        },
+        {
+            "id": "mat-aqueous-hydrogen-ion",
+            "ontologyTerms": [
+                "CHEBI:24636"
+            ],
+            "name": "Aqueous hydrogen ion"
+        },
+        {
+            "id": "mat-aqueous-hydroxide-ion",
+            "ontologyTerms": [
+                "CHEBI:16234"
+            ],
+            "name": "Aqueous hydroxide ion"
+        },
+        {
+            "id": "mat-aqueous-bicarbonate-ion",
+            "ontologyTerms": [
+                "CHEBI:17544"
+            ],
+            "name": "Aqueous bicarbonate ion"
+        },
+        {
+            "id": "mat-aqueous-magnesium-ion",
+            "ontologyTerms": [
+                "CHEBI:18420"
+            ],
+            "name": "Aqueous magensium ion"
+        },
+        {
+            "id": "mat-plasma-in-blood",
+            "ontologyTerms": [
+                "UBERON:0001969"
+            ],
+            "name": "Blood plasma",
+            "materials": [
+                "mat-extracellular-fluid"
+            ]
+        },
+        {
+            "id": "mat-red-cells-in-blood",
+            "name": "Red cell parenchyma of blood",
+            "materials": [
+                "lyph-cell-red-blood"
+            ]
+        },
+        {
+            "id": "mat-white-cells-in-blood",
+            "name": "White cell parenchyma of blood",
+            "materials": [
+                "lyph-cell-macrophage"
+            ]
+        },
+        {
+            "id": "mat-platelets-in-blood",
+            "name": "Platelet parenchyma of blood",
+            "materials": [
+                "lyph-cell-platelet"
+            ]
+        },
+        {
+            "id": "mat-cellular-component-of-blood",
+            "ontologyTerms": [
+                "ILX:0793696"
+            ],
+            "name": "Blood cell parenchyma",
+            "materials": [
+                "mat-red-cells-in-blood",
+                "mat-white-cells-in-blood",
+                "mat-platelets-in-blood"
+            ]
+        },
+        {
+            "id": "mat-blood",
+            "ontologyTerms": [
+                "UBERON:0000178"
+            ],
+            "name": "blood",
+            "materials": [
+                "mat-plasma-in-blood",
+                "mat-cellular-component-of-blood"
+            ]
+        },
+        {
+            "id": "mat-extracellular-fluid",
+            "ontologyTerms": [
+                "ILX:0492026",
+                "GO:0005576"
+            ],
+            "name": "Extracellular fluid",
+            "materials": [
+                "mat-body-fluid"
+            ]
+        },
+        {
+            "id": "mat-extracellular-matrix",
+            "ontologyTerms": [
+                "ILX:0104048",
+                "GO:0031012"
+            ],
+            "name": "Extracellular matrix"
+        },
+        {
+            "id": "mat-extracellular-material",
+            "ontologyTerms": [
+                "ILX:0793695"
+            ],
+            "name": "Extracellular material",
+            "materials": [
+                "mat-extracellular-fluid",
+                "mat-extracellular-matrix"
+            ]
+        },
+        {
+            "id": "mat-basement-membrane",
+            "ontologyTerms": [
+                "UBERON:0005769"
+            ],
+            "name": "Basement membrane",
+            "materials": [
+                "mat-extracellular-material"
+            ]
+        },
+        {
+            "id": "mat-basal-lamina",
+            "ontologyTerms": [
+                "ILX:0101107"
+            ],
+            "name": "Basal lamina",
+            "materials": [
+                "mat-extracellular-material"
+            ]
+        },
+        {
+            "id": "mat-plasma-membrane",
+            "ontologyTerms": [
+                "SAO:1663586795",
+                "GO:0005886"
+            ],
+            "name": "Plasma membrane",
+            "materials": [
+                "mat-membrane"
+            ]
+        },
+        {
+            "id": "mat-cytoplasmic-structures",
+            "ontologyTerms": [
+                "ILX:0490105"
+            ],
+            "name": "Cytoplasmic structures"
+        },
+        {
+            "id": "mat-cytosol",
+            "ontologyTerms": [
+                "SAO:101633890",
+                "GO:0005829"
+            ],
+            "name": "Cytosol",
+            "materials": [
+                "mat-intracellular-fluid"
+            ]
+        },
+        {
+            "id": "mat-cytoplasm",
+            "ontologyTerms": [
+                "GO:0005737"
+            ],
+            "name": "Cytoplasm",
+            "materials": [
+                "mat-cytosol",
+                "mat-cytoplasmic-structures"
+            ]
+        },
+        {
+            "id": "mat-cellular-component-of-connective-tissue",
+            "name": "Cellular component of connective tissue",
+            "materials": [
+                "lyph-cell-fibroblast",
+                "lyph-cell-macrophage"
+            ]
+        },
+        {
+            "id": "mat-tissue-connective-tissue",
+            "ontologyTerms": [
+                "UBERON:0002384"
+            ],
+            "name": "Connective tissue",
+            "materials": [
+                "mat-cellular-component-of-connective-tissue",
+                "mat-extracellular-material"
+            ]
+        },
+        {
+            "id": "mat-cellular-component-of-vascular-adventitia",
+            "name": "Cellular component of vascular adventitia",
+            "materials": [
+                "lyph-cell-fibroblast"
+            ]
+        },
+        {
+            "id": "mat-tissue-cardiovascular-vascular-adventitia",
+            "ontologyTerms": [
+                "UBERON:0005734"
+            ],
+            "name": "Vascular adventitial tissue",
+            "materials": [
+                "mat-cellular-component-of-vascular-adventitia",
+                "mat-extracellular-material"
+            ]
+        },
+        {
+            "id": "mat-cellular-component-of-vascular-endothelium",
+            "name": "Cellular component of vascular endothelium",
+            "materials": [
+                "lyph-cell-cardiovascular-endothelial"
+            ]
+        },
+        {
+            "id": "mat-tissue-cardiovascular-endothelium",
+            "ontologyTerms": [
+                "UBERON:0001986"
+            ],
+            "name": "Vascular endothelial tissue",
+            "materials": [
+                "mat-cellular-component-of-vascular-endothelium",
+                "mat-extracellular-material"
+            ]
+        },
+        {
+            "id": "mat-cellular-component-of-vascular-media",
+            "name": "Cellular component of vascular media",
+            "materials": [
+                "lyph-cell-fibroblast",
+                "lyph-cell-vascular-smooth-muscle"
+            ]
+        },
+        {
+            "id": "mat-tissue-cardiovascular-vascular-media",
+            "ontologyTerms": [
+                "UBERON:0002522"
+            ],
+            "name": "Vascular medial tissue",
+            "materials": [
+                "mat-cellular-component-of-vascular-media",
+                "mat-extracellular-material"
+            ]
+        },
+        {
+            "id": "mat-cellular-component-of-vascular-smooth-muscle",
+            "name": "Cellular component of vascular smooth muscle",
+            "materials": [
+                "lyph-cell-smooth-muscle"
+            ]
+        },
+        {
+            "id": "mat-tissue-cardiovascular-vascular-smooth-muscle",
+            "ontologyTerms": [
+                "UBERON:0004237"
+            ],
+            "name": "Vascular smooth muscle tissue",
+            "materials": [
+                "mat-cellular-component-of-vascular-smooth-muscle",
+                "mat-extracellular-material"
+            ]
+        },
+        {
+            "id": "mat-membrane",
+            "ontologyTerms": [
+                "GO:0016020"
+            ],
+            "name": "Lipid Bilayer Membrane"
+        },
+        {
+            "id": "mat-membrane-lysosomal",
+            "ontologyTerms": [
+                "GO:0005765"
+            ],
+            "name": "Lysosomal membrane",
+            "materials": [
+                "mat-membrane"
+            ]
+        },
+        {
+            "id": "mat-nucleoplasm",
+            "ontologyTerms": [
+                "GO:0005654"
+            ],
+            "name": "Nucleoplasm",
+            "materials": [
+                "mat-body-fluid"
+            ]
+        },
+        {
+            "id": "mat-endoplasmic-reticulum-lumen-content",
+            "ontologyTerms": [
+                "GO:0005788"
+            ],
+            "name": "Endoplasmic reticulum lumen content",
+            "materials": [
+                "mat-body-fluid"
+            ]
+        },
+        {
+            "id": "mat-endoplasmic-reticulum-membrane",
+            "ontologyTerms": [
+                "GO:0005789"
+            ],
+            "name": "Endoplasmic reticulum membrane",
+            "materials": [
+                "mat-membrane"
+            ]
+        },
+        {
+            "id": "mat-Golgi-lumen-content",
+            "ontologyTerms": [
+                "GO:0005796"
+            ],
+            "name": "Golgi lumen content",
+            "materials": [
+                "mat-body-fluid"
+            ]
+        },
+        {
+            "id": "mat-Golgi-membrane",
+            "ontologyTerms": [
+                "GO:0000139"
+            ],
+            "name": "Golgi membrane",
+            "materials": [
+                "mat-membrane"
+            ]
+        },
+        {
+            "id": "mat-mitochondrial-matrix",
+            "ontologyTerms": [
+                "GO:0005759"
+            ],
+            "name": "Mitochondrial matrix",
+            "materials": [
+                "mat-body-fluid"
+            ]
+        },
+        {
+            "id": "mat-mitochondrial-inner-membrane",
+            "name": "Mitochondrial inner membrane",
+            "materials": [
+                "mat-membrane"
+            ]
+        },
+        {
+            "id": "mat-mitochondrial-outer-membrane",
+            "ontologyTerms": [
+                "GO:0005741"
+            ],
+            "name": "Mitochondrial outer membrane",
+            "materials": [
+                "mat-membrane"
+            ]
+        },
+        {
+            "id": "mat-lysosomal-lumen-content",
+            "ontologyTerms": [
+                "GO:0043202"
+            ],
+            "name": "Lysosomal lumen content",
+            "materials": [
+                "mat-body-fluid"
+            ]
+        },
+        {
+            "id": "mat-endothelial-luminal-plasma-membrane",
+            "name": "Endothelial Luminal Plasma Membrane",
+            "materials": [
+                "mat-plasma-membrane"
+            ]
+        },
+        {
+            "id": "mat-intracellular-fluid",
+            "ontologyTerms": [
+                "ILX:0451171"
+            ],
+            "name": "Intracellular fluid",
+            "materials": [
+                "mat-body-fluid"
+            ]
+        },
+        {
+            "id": "mat-endothelial-abluminal-plasma-membrane",
+            "name": "Endothelial Abluminal Plasma Membrane",
+            "materials": [
+                "mat-plasma-membrane"
+            ]
+        }
+    ],
+    "coalescences": [],
+    "chains": [],
+    "groups": [],
+    "localConventions": [
+        {
+            "prefix": "UNIPROT",
+            "namespace": "https://www.uniprot.org/uniprotkb/"
+        },
+        {
+            "prefix": "UBERON",
+            "namespace": "http://purl.obolibrary.org/obo/UBERON_"
+        },
+        {
+            "prefix": "CHEBI",
+            "namespace": "http://purl.obolibrary.org/obo/CHEBI_"
+        },
+        {
+            "prefix": "FMA",
+            "namespace": "http://purl.org/sig/ont/fma/fma"
+        },
+        {
+            "prefix": "GO",
+            "namespace": "http://purl.obolibrary.org/obo/GO_"
+        },
+        {
+            "prefix": "ILX",
+            "namespace": "http://uri.interlex.org/base/ilx_"
+        },
+        {
+            "prefix": "NLX",
+            "namespace": "http://uri.neuinfo.org/nif/nifstd/nlx_"
+        },
+        {
+            "prefix": "SAO",
+            "namespace": "http://uri.neuinfo.org/nif/nifstd/sao"
+        },
+        {
+            "prefix": "PMID",
+            "namespace": "http://www.ncbi.nlm.nih.gov/pubmed/"
+        },
+        {
+            "prefix": "EMAPA",
+            "namespace": "http://purl.obolibrary.org/obo/EMAPA_"
+        },
+        {
+            "prefix": "CL",
+            "namespace": "http://purl.obolibrary.org/obo/CL_"
+        },
+        {
+            "prefix": "NCBITaxon",
+            "namespace": "http://purl.obolibrary.org/obo/NCBITaxon_"
+        },
+        {
+            "prefix": "wbkg",
+            "namespace": "https://apinatomy.org/uris/models/wbrcm/ids/"
+        },
+        {
+            "prefix": "too",
+            "namespace": "https://apinatomy.org/uris/models/too-map/ids/"
+        }
+    ],
+    "name": "core 1kgZ1Ba4jf4SwvsDRcXbamCoyUodXtaIj-KEGMMi7XSo",
+    "version": "35ac5a88c50780c4ec41a3a7afd986cb56e44586",
+    "id": "wbkgcore_v3",
+    "namespace": "core",
+    "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
+    "lastUpdated": "2025-12-09"
+}
