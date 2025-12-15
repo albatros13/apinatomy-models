@@ -66,11 +66,29 @@
             "supertype": "lt-cell-segment"
         },
         {
-            "id": "lyph-cell-red-blood",
+            "id": "lt-cell-tube",
+            "name": "Cell tube",
+            "isTemplate": true,
+            "topology": "TUBE",
+            "supertype": "lt-cell-segment"
+        },
+        {
+            "id": "lt-cell-endothelial",
             "ontologyTerms": [
-                "CL:0000232"
+                "CL:0000115"
             ],
-            "name": "Red blood cell",
+            "name": "Cell Endothelial",
+            "isTemplate": true,
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lt-cell-smooth-muscle",
+            "ontologyTerms": [
+                "CL:0000192"
+            ],
+            "name": "Cell Smooth Muscle",
+            "isTemplate": true,
+            "topology": "CYST",
             "supertype": "lt-cell-cyst"
         },
         {
@@ -80,54 +98,6 @@
             ],
             "name": "White blood cell",
             "isTemplate": true,
-            "supertype": "lt-cell-cyst"
-        },
-        {
-            "id": "lyph-cell-macrophage",
-            "ontologyTerms": [
-                "CL:0000235"
-            ],
-            "name": "Macrophage",
-            "supertype": "lt-cell-white-blood"
-        },
-        {
-            "id": "lyph-cell-platelet",
-            "ontologyTerms": [
-                "CL:0000233"
-            ],
-            "name": "Platelet",
-            "supertype": "lt-cell-cyst"
-        },
-        {
-            "id": "lyph-cell-fibroblast",
-            "ontologyTerms": [
-                "CL:0000057"
-            ],
-            "name": "Fibroblast",
-            "supertype": "lt-cell-cyst"
-        },
-        {
-            "id": "lyph-cell-cardiovascular-endothelial",
-            "ontologyTerms": [
-                "ILX:0112265"
-            ],
-            "name": "Cardiovascular endothelial cell",
-            "supertype": "lt-cell-cyst"
-        },
-        {
-            "id": "lyph-cell-smooth-muscle",
-            "ontologyTerms": [
-                "CL:0000192"
-            ],
-            "name": "Smooth muscle cell",
-            "supertype": "lt-cell-cyst"
-        },
-        {
-            "id": "lyph-cell-vascular-smooth-muscle",
-            "ontologyTerms": [
-                "CL:0000359"
-            ],
-            "name": "Vascular smooth muscle cell",
             "supertype": "lt-cell-cyst"
         },
         {
@@ -310,47 +280,84 @@
             "supertype": "lt-venous"
         },
         {
-            "id": "lt-cyst-cell",
+            "id": "lyph-cell-epithelial-squamous",
             "ontologyTerms": [
-                "CL:0000000"
+                "CL:0000076"
             ],
-            "name": "Cell Generic",
-            "isTemplate": true,
-            "layers": [
-                "mat-cytoplasm",
-                "mat-plasma-membrane",
-                "mat-extracellular-fluid"
-            ],
-            "topology": "CYST"
+            "name": "Squamous epithelial cell",
+            "supertype": "lt-cell-cyst"
         },
         {
-            "id": "lt-cyst-cell-endothelial",
+            "id": "lyph-cell-columnar-cuboidal-epithelial",
             "ontologyTerms": [
-                "CL:0000115"
+                "CL:0000075"
             ],
-            "name": "Cell Endothelial",
-            "isTemplate": true,
-            "supertype": "lt-cyst-cell"
+            "name": "Columnar or cuboidal epithelial cell",
+            "supertype": "lt-cell-cyst"
         },
         {
-            "id": "lt-cyst-cell-renal-epitheilial",
+            "id": "lyph-cell-red-blood",
             "ontologyTerms": [
-                "CL:1000449"
+                "CL:0000232"
             ],
-            "name": "Cell Renal Epitheilial",
-            "isTemplate": true,
-            "topology": "CYST",
-            "supertype": "lt-cyst-cell"
+            "name": "Red blood cell",
+            "supertype": "lt-cell-cyst"
         },
         {
-            "id": "lt-cyst-cell-smooth-muscle",
+            "id": "lyph-cell-macrophage",
+            "ontologyTerms": [
+                "CL:0000235"
+            ],
+            "name": "Macrophage",
+            "supertype": "lt-cell-white-blood"
+        },
+        {
+            "id": "lyph-cell-platelet",
+            "ontologyTerms": [
+                "CL:0000233"
+            ],
+            "name": "Platelet",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lyph-cell-fibroblast",
+            "ontologyTerms": [
+                "CL:0000057"
+            ],
+            "name": "Fibroblast",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lyph-cell-cardiovascular-endothelial",
+            "ontologyTerms": [
+                "ILX:0112265"
+            ],
+            "name": "Cardiovascular endothelial cell",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lyph-cell-smooth-muscle",
             "ontologyTerms": [
                 "CL:0000192"
             ],
-            "name": "Cell Smooth Muscle",
-            "isTemplate": true,
-            "topology": "CYST",
-            "supertype": "lt-cyst-cell"
+            "name": "Smooth muscle cell",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lyph-cell-vascular-smooth-muscle",
+            "ontologyTerms": [
+                "CL:0000359"
+            ],
+            "name": "Vascular smooth muscle cell",
+            "supertype": "lt-cell-smooth-muscle"
+        },
+        {
+            "id": "lyph-cell-skeletal-muscle",
+            "ontologyTerms": [
+                "CL:0008002"
+            ],
+            "name": "Skeletal muscle fibre",
+            "supertype": "lt-cell-cyst"
         }
     ],
     "materials": [
@@ -561,60 +568,6 @@
             "name": "Aqueous magensium ion"
         },
         {
-            "id": "mat-plasma-in-blood",
-            "ontologyTerms": [
-                "UBERON:0001969"
-            ],
-            "name": "Blood plasma",
-            "materials": [
-                "mat-extracellular-fluid"
-            ]
-        },
-        {
-            "id": "mat-red-cells-in-blood",
-            "name": "Red cell parenchyma of blood",
-            "materials": [
-                "lyph-cell-red-blood"
-            ]
-        },
-        {
-            "id": "mat-white-cells-in-blood",
-            "name": "White cell parenchyma of blood",
-            "materials": [
-                "lyph-cell-macrophage"
-            ]
-        },
-        {
-            "id": "mat-platelets-in-blood",
-            "name": "Platelet parenchyma of blood",
-            "materials": [
-                "lyph-cell-platelet"
-            ]
-        },
-        {
-            "id": "mat-cellular-component-of-blood",
-            "ontologyTerms": [
-                "ILX:0793696"
-            ],
-            "name": "Blood cell parenchyma",
-            "materials": [
-                "mat-red-cells-in-blood",
-                "mat-white-cells-in-blood",
-                "mat-platelets-in-blood"
-            ]
-        },
-        {
-            "id": "mat-blood",
-            "ontologyTerms": [
-                "UBERON:0000178"
-            ],
-            "name": "blood",
-            "materials": [
-                "mat-plasma-in-blood",
-                "mat-cellular-component-of-blood"
-            ]
-        },
-        {
             "id": "mat-extracellular-fluid",
             "ontologyTerms": [
                 "ILX:0492026",
@@ -705,7 +658,73 @@
             ]
         },
         {
+            "id": "mat-plasma-in-blood",
+            "ontologyTerms": [
+                "UBERON:0001969"
+            ],
+            "name": "Blood plasma",
+            "materials": [
+                "mat-extracellular-fluid"
+            ]
+        },
+        {
+            "id": "mat-platelets-in-blood",
+            "ontologyTerms": [
+                "CL:0000000"
+            ],
+            "name": "Platelet parenchyma of blood",
+            "materials": [
+                "lyph-cell-platelet"
+            ]
+        },
+        {
+            "id": "mat-red-cells-in-blood",
+            "ontologyTerms": [
+                "CL:0000000"
+            ],
+            "name": "Red cell parenchyma of blood",
+            "materials": [
+                "lyph-cell-red-blood"
+            ]
+        },
+        {
+            "id": "mat-white-cells-in-blood",
+            "ontologyTerms": [
+                "CL:0000000"
+            ],
+            "name": "White cell parenchyma of blood",
+            "materials": [
+                "lyph-cell-macrophage"
+            ]
+        },
+        {
+            "id": "mat-cellular-component-of-blood",
+            "ontologyTerms": [
+                "ILX:0793696"
+            ],
+            "name": "Blood cell parenchyma",
+            "materials": [
+                "mat-red-cells-in-blood",
+                "mat-white-cells-in-blood",
+                "mat-platelets-in-blood"
+            ]
+        },
+        {
+            "id": "mat-blood",
+            "ontologyTerms": [
+                "UBERON:0000178"
+            ],
+            "name": "Blood",
+            "materials": [
+                "mat-plasma-in-blood",
+                "mat-cellular-component-of-blood"
+            ]
+        },
+        {
             "id": "mat-cellular-component-of-connective-tissue",
+            "ontologyTerms": [
+                "CL:0000000"
+            ],
             "name": "Cellular component of connective tissue",
             "materials": [
                 "lyph-cell-fibroblast",
@@ -725,6 +744,9 @@
         },
         {
             "id": "mat-cellular-component-of-vascular-adventitia",
+            "ontologyTerms": [
+                "CL:0000000"
+            ],
             "name": "Cellular component of vascular adventitia",
             "materials": [
                 "lyph-cell-fibroblast"
@@ -743,6 +765,9 @@
         },
         {
             "id": "mat-cellular-component-of-vascular-endothelium",
+            "ontologyTerms": [
+                "CL:0000000"
+            ],
             "name": "Cellular component of vascular endothelium",
             "materials": [
                 "lyph-cell-cardiovascular-endothelial"
@@ -761,6 +786,9 @@
         },
         {
             "id": "mat-cellular-component-of-vascular-media",
+            "ontologyTerms": [
+                "CL:0000000"
+            ],
             "name": "Cellular component of vascular media",
             "materials": [
                 "lyph-cell-fibroblast",
@@ -780,6 +808,9 @@
         },
         {
             "id": "mat-cellular-component-of-vascular-smooth-muscle",
+            "ontologyTerms": [
+                "CL:0000000"
+            ],
             "name": "Cellular component of vascular smooth muscle",
             "materials": [
                 "lyph-cell-smooth-muscle"
@@ -793,6 +824,27 @@
             "name": "Vascular smooth muscle tissue",
             "materials": [
                 "mat-cellular-component-of-vascular-smooth-muscle",
+                "mat-extracellular-material"
+            ]
+        },
+        {
+            "id": "mat-cellular-component-of-skeletal-muscle",
+            "ontologyTerms": [
+                "CL:0000000"
+            ],
+            "name": "Cellular component of skeletal muscle",
+            "materials": [
+                "lyph-cell-skeletal-muscle"
+            ]
+        },
+        {
+            "id": "mat-tissue-skeletal-muscle",
+            "ontologyTerms": [
+                "UBERON:0001134"
+            ],
+            "name": "Skeletal muscle tissue",
+            "materials": [
+                "mat-cellular-component-of-skeletal-muscle",
                 "mat-extracellular-material"
             ]
         },
@@ -923,6 +975,13 @@
             "materials": [
                 "mat-plasma-membrane"
             ]
+        },
+        {
+            "id": "mat-endothelial-luminal-plasma-membrane",
+            "name": "Endothelial Luminal Plasma Membrane",
+            "materials": [
+                "mat-plasma-membrane"
+            ]
         }
     ],
     "coalescences": [],
@@ -986,10 +1045,9 @@
             "namespace": "https://apinatomy.org/uris/models/too-map/ids/"
         }
     ],
-    "name": "WBKG Core",
-    "version": "b373c675974817ce90e6d861fc02f476af041ac0",
     "id": "wbkg-core",
+    "name": "WBKG Core objects",
     "namespace": "core",
-    "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
-    "lastUpdated": "2025-12-08"
+    "version": "0c964b2eaf5da168f648a44198e1f8c6a443ff8a",
+    "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea"
 }
