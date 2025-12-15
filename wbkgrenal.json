@@ -1357,7 +1357,9 @@
                 "GO:0097574",
                 "GO:1990794"
             ],
-            "housingLyphs": [
+            "housingLyphs": [],
+            "lyphTemplate": "lyph-cell-urinary-bowmans-capsule-parietal-epithelial",
+            "housingLyphTemplates": [
                 "lyph-urinary-parietal-Bowmans-capsule"
             ]
         }
@@ -2416,7 +2418,7 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "9034d137e7a74620faa16d59cf7e9feda8e7fd0b",
+    "version": "4ef2bc7a6021cd70837803f4b9d30d4390461033",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "scaffolds": [],
     "lastUpdated": "2025-12-15"
