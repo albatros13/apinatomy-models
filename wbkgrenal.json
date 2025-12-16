@@ -1349,18 +1349,29 @@
             ]
         },
         {
-            "id": "chain-parietal-bowmans-capsule-podocyte ",
-            "name": "Parietal Bowmans Capsule Podocyte ",
+            "id": "chain-parietal-bowmans-capsule-epithelial ",
+            "name": "Parietal Bowmans Capsule Epithelial Cell ",
+            "housingLyphTemplates": [
+                "lyph-urinary-parietal-Bowmans-capsule"
+            ],
             "numLevels": 3,
             "levelOntologyTerms": [
                 "GO:0045177",
                 "GO:0097574",
                 "GO:1990794"
-            ],
-            "housingLyphs": [],
-            "lyphTemplate": "lyph-cell-urinary-bowmans-capsule-parietal-epithelial",
+            ]
+        },
+        {
+            "id": "chain-visceral-bowmans-capsule-podocyte ",
+            "name": "Visceral Bowmans Capsule Podocyte ",
             "housingLyphTemplates": [
-                "lyph-urinary-parietal-Bowmans-capsule"
+                "lyph-urinary-visceral-Bowmans-capsule"
+            ],
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
             ]
         }
     ],
@@ -2418,8 +2429,8 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "4ef2bc7a6021cd70837803f4b9d30d4390461033",
+    "version": "ec614e68661ce0eb1bea6075546301a2bff76484",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "scaffolds": [],
-    "lastUpdated": "2025-12-15"
+    "lastUpdated": "2025-12-16"
 }
