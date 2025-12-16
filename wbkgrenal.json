@@ -1376,6 +1376,20 @@
                 "GO:1990794"
             ],
             "lyphTemplate": "lyph-cell-urinary-podocyte"
+        },
+        {
+            "id": "chain-epithelial-cell-of-proximal-straight-tubule-1",
+            "name": "Epithelial Cell of Proximal Straight Tubule 1",
+            "lyphTemplate": "lyph-cell-urinary-proximal-tubule-segment-1-epithelial",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-proximal-straight-tubule_1"
+            ]
         }
     ],
     "groups": [
@@ -2432,7 +2446,7 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "4fa468822aca47507245da3eb4e5aeb8c8d49725",
+    "version": "7393339bb6db799817e55290e872e769da7cb4ca",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "scaffolds": [
         {
