@@ -1327,8 +1327,8 @@
                 "lyph-urinary-proximal-straight-tubule_3",
                 "lyph-urinary-proximal-straight-tubule_2",
                 "lyph-urinary-proximal-straight-tubule_1",
-                "lyph-urinary-visceral-Bowmans-capsule",
-                "lyph-urinary-parietal-Bowmans-capsule"
+                "lyph-urinary-parietal-Bowmans-capsule",
+                "lyph-urinary-visceral-Bowmans-capsule"
             ]
         },
         {
@@ -2429,7 +2429,7 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "ec614e68661ce0eb1bea6075546301a2bff76484",
+    "version": "ecc2ca5fed3306ae7bcbc4e265a04a378654a7a9",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "scaffolds": [],
     "lastUpdated": "2025-12-16"
