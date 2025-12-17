@@ -1,10 +1,4 @@
 {
-    "references": [
-        {
-            "id": "wbkg-renal",
-            "name": "WBKG Urinary objects"
-        }
-    ],
     "ontologyTerms": [
         {
             "id": "GO:1990794",
@@ -543,7 +537,7 @@
             "layers": [
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-transitional-epithelium",
-                "mat-basement-membrane",
+                "core:mat-basement-membrane",
                 "mat-tissue-urinary-muscularis",
                 "core:mat-tissue-connective-tissue"
             ],
@@ -558,7 +552,7 @@
             "layers": [
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-transitional-epithelium",
-                "mat-basement-membrane",
+                "core:mat-basement-membrane",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "core:mat-tissue-connective-tissue"
@@ -1661,7 +1655,7 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "2915d8d9425a48b3ec884fc9fbe7bdbfa2cebe71",
+    "version": "a28e5274a5f2201b00618d9dfbe180fad499e3cb",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
-    "lastUpdated": "2025-12-16"
+    "lastUpdated": "2025-12-17"
 }
