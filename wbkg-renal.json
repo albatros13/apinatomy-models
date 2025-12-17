@@ -184,7 +184,7 @@
         {
             "id": "lt-cell-urinary-cortex-collecting-tubule-epithelial",
             "ontologyTerms": [
-                "CL_1000549"
+                "CL:1000549"
             ],
             "name": "Renal cortex collecting duct epithelial cell",
             "isTemplate": true,
@@ -193,7 +193,7 @@
         {
             "id": "lt-cell-urinary-cortex-collecting-tubule-intercalated",
             "ontologyTerms": [
-                "CL_1000715"
+                "CL:1000715"
             ],
             "name": "Renal cortex collecting duct intercalated cell",
             "isTemplate": true,
@@ -202,7 +202,7 @@
         {
             "id": "lt-cell-urinary-cortex-collecting-tubule-principal",
             "ontologyTerms": [
-                "CL_1000714"
+                "CL:1000714"
             ],
             "name": "Renal cortex collecting duct principal cell",
             "isTemplate": true,
@@ -1655,7 +1655,7 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "a28e5274a5f2201b00618d9dfbe180fad499e3cb",
+    "version": "089cd3aba2d845b76c0cea1b59f07952d394544e",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "lastUpdated": "2025-12-17"
 }
