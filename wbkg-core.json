@@ -975,13 +975,6 @@
             "materials": [
                 "mat-plasma-membrane"
             ]
-        },
-        {
-            "id": "mat-endothelial-luminal-plasma-membrane",
-            "name": "Endothelial Luminal Plasma Membrane",
-            "materials": [
-                "mat-plasma-membrane"
-            ]
         }
     ],
     "coalescences": [],
@@ -1048,6 +1041,7 @@
     "id": "wbkg-core",
     "name": "WBKG Core objects",
     "namespace": "core",
-    "version": "0c964b2eaf5da168f648a44198e1f8c6a443ff8a",
-    "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea"
+    "version": "47e6ce2aebe7009530ac1796663b00550bbb0166",
+    "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
+    "lastUpdated": "2025-12-17"
 }
