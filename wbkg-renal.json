@@ -1284,7 +1284,8 @@
                 "lyph-urinary-distal-convoluted-tubule",
                 "lyph-cardiovascular-renal-efferent-arteriole",
                 "lyph-cardiovascular-renal-afferent-arteriole"
-            ]
+            ],
+            "_class": "Coalescence"
         },
         {
             "id": "coal-renal-medullary-ray",
@@ -1527,6 +1528,33 @@
                 "lyph-renal-cortical-ascending-thick-limb"
             ],
             "lyphTemplate": "lt-cell-urinary-loop-of-Henle-cortical-thick-ascending-limb-epithelial"
+        },
+        {
+            "id": "chain-epithelial-cell-in-distal-convoluted-tubule1",
+            "name": "Epithelial Cell in Distal convoluted tubule",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-distal-convoluted-tubule"
+            ],
+            "lyphTemplate": "lt-cell-urinary-distal-convoluted-tubule-epithelial"
+        },
+        {
+            "id": "chain-macula-densa-cell-in-distal-convoluted-tubule",
+            "name": "Macula Densa Cell in Distal convoluted tubule",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-distal-convoluted-tubule"
+            ]
         }
     ],
     "localConventions": [
@@ -1593,7 +1621,7 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "68b718d492d3706c653fe19b3e7930397e401327",
+    "version": "7a206d80233cf9cf37918b153d21dad609e45e23",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "lastUpdated": "2025-12-18"
 }
