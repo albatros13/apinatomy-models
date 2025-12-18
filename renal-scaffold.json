@@ -2,7 +2,7 @@
     "name": "Renal Scaffold",
     "created": "2025-12-18",
     "lastUpdated": "2025-12-18",
-    "version": "86295ec72df1852f049c0aaa49c6cf31c5368478",
+    "version": "7dbcbb32e0aac8955681bf1c3e9597089f9ed8cc",
     "id": "renal-scaffold",
     "namespace": "rs",
     "anchors": [
@@ -19,6 +19,34 @@
                 "x": 100,
                 "y": 50
             }
+        },
+        {
+            "id": "w2_s",
+            "layout": {
+                "x": -100,
+                "y": 0
+            }
+        },
+        {
+            "id": "w2_t",
+            "layout": {
+                "x": 100,
+                "y": 0
+            }
+        },
+        {
+            "id": "w3_s",
+            "layout": {
+                "x": -100,
+                "y": 0
+            }
+        },
+        {
+            "id": "w3_t",
+            "layout": {
+                "x": 100,
+                "y": 0
+            }
         }
     ],
     "wires": [
@@ -26,6 +54,16 @@
             "id": "w1",
             "source": "w1_s",
             "target": "w1_t"
+        },
+        {
+            "id": "w2",
+            "source": "w2_s",
+            "target": "w2_t"
+        },
+        {
+            "id": "w3",
+            "source": "w3_s",
+            "target": "w3_t"
         }
     ],
     "regions": [],
