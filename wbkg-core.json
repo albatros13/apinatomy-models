@@ -978,7 +978,22 @@
         }
     ],
     "coalescences": [],
-    "chains": [],
+    "chains": [
+        {
+            "id": "chainendothelial-cell-in-blood-capillary",
+            "name": "Endothelial Cell in Blood capillary vessel",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lt-blood-capillary"
+            ],
+            "lyphTemplate": "lt-cell-endothelial"
+        }
+    ],
     "groups": [],
     "localConventions": [
         {
@@ -1041,7 +1056,7 @@
     "id": "wbkg-core",
     "name": "WBKG Core objects",
     "namespace": "core",
-    "version": "47e6ce2aebe7009530ac1796663b00550bbb0166",
+    "version": "e6edfa83fb16d0620657b97e255df9ed8c26da7c",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
-    "lastUpdated": "2025-12-17"
+    "lastUpdated": "2025-12-18"
 }
