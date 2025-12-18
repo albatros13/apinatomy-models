@@ -1499,6 +1499,34 @@
                 "lyph-urinary-ascending-thin-limb"
             ],
             "lyphTemplate": "lt-cell-urinary-loop-of-Henle-thin-ascending-limb-epithelial"
+        },
+        {
+            "id": "chain-epithelial-cell-in-medullary-ascending-thick-limb",
+            "name": "Epithelial Cell in Renal medullary ascending thick limb",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-renal-medullary-ascending-thick-limb"
+            ],
+            "lyphTemplate": "lt-cell-urinary-loop-of-Henle-medullary-thick-ascending-limb-epithelial"
+        },
+        {
+            "id": "chain-epithelial-cell-in-cortical-ascending-thick-limb1",
+            "name": "Epithelial Cell in Renal cortical ascending thick limb 1",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-renal-cortical-ascending-thick-limb"
+            ],
+            "lyphTemplate": "lt-cell-urinary-loop-of-Henle-cortical-thick-ascending-limb-epithelial"
         }
     ],
     "localConventions": [
@@ -1565,7 +1593,7 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "ac295c7221255a5d8ba0c9aa7295dffe8d70e78d",
+    "version": "68b718d492d3706c653fe19b3e7930397e401327",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
-    "lastUpdated": "2025-12-17"
+    "lastUpdated": "2025-12-18"
 }
