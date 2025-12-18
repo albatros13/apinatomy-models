@@ -1349,9 +1349,9 @@
                 "lyph-urinary-descending-thin-limb-3",
                 "lyph-urinary-descending-thin-limb_2",
                 "lyph-urinary-descending-thin-limb_1",
-                "lyph-urinary-proximal-straight-tubule_3",
-                "lyph-urinary-proximal-straight-tubule_2",
-                "lyph-urinary-proximal-straight-tubule_1",
+                "lyph-urinary-proximal-tubule_s3",
+                "lyph-urinary-proximal-tubule_s2",
+                "lyph-urinary-proximal-tubule_s1",
                 "lyph-urinary-parietal-Bowmans-capsule",
                 "lyph-urinary-visceral-Bowmans-capsule"
             ]
@@ -1400,6 +1400,48 @@
                 "GO:1990794"
             ],
             "lyphTemplate": "lt-cell-urinary-podocyte"
+        },
+        {
+            "id": "chain-epithelial-cell-in-proximal-tubule_s1",
+            "name": "Epithelial Cell in Proximal Tubule Segment 1",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-proximal-tubule_s1"
+            ],
+            "lyphTemplate": "lt-cell-urinary-proximal-tubule-segment-1-epithelial"
+        },
+        {
+            "id": "chain-epithelial-cell-in-proximal-tubule_s2",
+            "name": "Epithelial Cell in Proximal Tubule Segment 2",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-proximal-tubule_s2"
+            ],
+            "lyphTemplate": "lt-cell-urinary-proximal-tubule-segment-2-epithelial"
+        },
+        {
+            "id": "chain-epithelial-cell-in-proximal-tubule_s3",
+            "name": "Epithelial Cell in Proximal Tubule Segment 3",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-proximal-tubule_s3"
+            ],
+            "lyphTemplate": "lt-cell-urinary-proximal-tubule-segment-3-epithelial"
         }
     ],
     "localConventions": [
@@ -1466,7 +1508,7 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "dc38d6a16f1fe2199565d707dadd53627e9465de",
+    "version": "524ff98a0fd0f69fb37146b44e91ca8c46c11880",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "lastUpdated": "2025-12-17"
 }
