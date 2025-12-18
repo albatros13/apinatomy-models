@@ -1326,7 +1326,6 @@
         {
             "id": "chain-urinary-common-tree",
             "name": "Urinary tree in common to both sexes",
-            "wiredTo": "wire-urinary-tree",
             "lyphs": [
                 "lyph-urinary-proximal-sphinctered-urethra",
                 "lyph-urinary-base-of-urethra",
@@ -1356,7 +1355,8 @@
                 "lyph-urinary-proximal-tubule_s1",
                 "lyph-urinary-parietal-Bowmans-capsule",
                 "lyph-urinary-visceral-Bowmans-capsule"
-            ]
+            ],
+            "wiredTo": "rs:w2"
         },
         {
             "id": "chain-renal-internal-blood-vessels",
@@ -1373,7 +1373,8 @@
                 "lyph-cardiovascular-renal-ascending-vasa-recta",
                 "lyph-cardiovascular-renal-arcuate-vein",
                 "lyph-cardiovascular-renal-interlobar-vein"
-            ]
+            ],
+            "wiredTo": "rs:w1"
         },
         {
             "id": "chain-parietal-bowmans-capsule-epithelial",
@@ -1829,9 +1830,10 @@
     "name": "WBKG Renal",
     "namespace": "renal",
     "imports": [
-        "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
+        "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json",
+        "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/renal-scaffold.json"
     ],
-    "version": "42e9affd3ceb257d8d2ac4bd0c8b8fee7c690cfb",
+    "version": "f83deaea0b3c55a313fdd069e3303b1ee8018d1d",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "lastUpdated": "2025-12-18",
     "scaffolds": []
