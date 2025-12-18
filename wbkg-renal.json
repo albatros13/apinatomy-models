@@ -1831,7 +1831,7 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "bfe404683fb0497ceb39a9ae387d527245ec4ba4",
+    "version": "42e9affd3ceb257d8d2ac4bd0c8b8fee7c690cfb",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "lastUpdated": "2025-12-18",
     "scaffolds": []
