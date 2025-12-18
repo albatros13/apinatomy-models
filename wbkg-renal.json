@@ -1555,6 +1555,62 @@
             "housingLyphTemplates": [
                 "lyph-urinary-distal-convoluted-tubule"
             ]
+        },
+        {
+            "id": "chain-alpha-intercalated-cell-in-connecting-tubule",
+            "name": "Alpha Intercalated Cell in Renal connecting tubule",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-connecting-tubule"
+            ],
+            "lyphTemplate": "lt-cell-urinary-connecting-tubule-alpha-intercalated"
+        },
+        {
+            "id": "chain-beta-intercalated-cell-in-connecting-tubule",
+            "name": "Beta Intercalated Cell in Renal connecting tubule",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-connecting-tubule"
+            ],
+            "lyphTemplate": "lt-cell-urinary-connecting-tubule-beta-intercalated"
+        },
+        {
+            "id": "chain-epithelial-cell-in-connecting-tubule",
+            "name": "Epithelial Cell in Renal connecting tubule",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-connecting-tubule"
+            ],
+            "lyphTemplate": "lt-cell-urinary-connecting-tubule-epithelial"
+        },
+        {
+            "id": "chain-principal-cell-in-connecting-tubule",
+            "name": "Principal Cell in Renal connecting tubule",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-connecting-tubule"
+            ],
+            "lyphTemplate": "lt-cell-urinary-connecting-tubule-principal"
         }
     ],
     "localConventions": [
@@ -1621,7 +1677,7 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "7a206d80233cf9cf37918b153d21dad609e45e23",
+    "version": "b6d4b54e77305b8e037c1712d795ee1cf7134626",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "lastUpdated": "2025-12-18"
 }
