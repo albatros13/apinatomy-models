@@ -1485,6 +1485,20 @@
                 "lyph-urinary-descending-thin-limb-3"
             ],
             "lyphTemplate": "lt-cell-urinary-loop-of-Henle-thin-descending-limb-epithelial"
+        },
+        {
+            "id": "chain-epithelial-cell-in-ascending-thin-limb1",
+            "name": "Epithelial Cell in Ascending thin limb of the Loop of Henle",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-ascending-thin-limb"
+            ],
+            "lyphTemplate": "lt-cell-urinary-loop-of-Henle-thin-ascending-limb-epithelial"
         }
     ],
     "localConventions": [
@@ -1551,7 +1565,7 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "c3243965cb03ec7e941513201a4a85f70be5e202",
+    "version": "ac295c7221255a5d8ba0c9aa7295dffe8d70e78d",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "lastUpdated": "2025-12-17"
 }
