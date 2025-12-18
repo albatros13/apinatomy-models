@@ -92,7 +92,7 @@
             "supertype": "core:lt-cell-cyst"
         },
         {
-            "id": "lt--cell-urinary-loop-of-Henle-thin-descending-limb-epithelial",
+            "id": "lt-cell-urinary-loop-of-Henle-thin-descending-limb-epithelial",
             "ontologyTerms": [
                 "CL:1001111"
             ],
@@ -1317,7 +1317,8 @@
                 "lyph-urinary-descending-thin-limb-3",
                 "lyph-urinary-ascending-thin-limb",
                 "lyph-renal-medullary-ascending-thick-limb"
-            ]
+            ],
+            "_class": "Coalescence"
         }
     ],
     "chains": [
@@ -1442,6 +1443,48 @@
                 "lyph-urinary-proximal-tubule_s3"
             ],
             "lyphTemplate": "lt-cell-urinary-proximal-tubule-segment-3-epithelial"
+        },
+        {
+            "id": "chain-epithelial-cell-in-descending-thin-limb_1",
+            "name": "Epithelial Cell in Descending thin limb 1",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-descending-thin-limb_1"
+            ],
+            "lyphTemplate": "lt-cell-urinary-loop-of-Henle-thin-descending-limb-epithelial"
+        },
+        {
+            "id": "chain-epithelial-cell-in-descending-thin-limb_2",
+            "name": "Epithelial Cell in Descending thin limb 2",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-descending-thin-limb_2"
+            ],
+            "lyphTemplate": "lt-cell-urinary-loop-of-Henle-thin-descending-limb-epithelial"
+        },
+        {
+            "id": "chain-epithelial-cell-in-descending-thin-limb_3",
+            "name": "Epithelial Cell in Descending thin limb 3",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-descending-thin-limb-3"
+            ],
+            "lyphTemplate": "lt-cell-urinary-loop-of-Henle-thin-descending-limb-epithelial"
         }
     ],
     "localConventions": [
@@ -1508,7 +1551,7 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "524ff98a0fd0f69fb37146b44e91ca8c46c11880",
+    "version": "c3243965cb03ec7e941513201a4a85f70be5e202",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "lastUpdated": "2025-12-17"
 }
