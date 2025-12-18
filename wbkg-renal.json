@@ -568,7 +568,7 @@
             "layers": [
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-transitional-epithelium",
-                "mat-basement-membrane",
+                "core:mat-basement-membrane",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "core:mat-tissue-connective-tissue"
@@ -584,7 +584,7 @@
             "layers": [
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-transitional-epithelium",
-                "mat-basement-membrane",
+                "core:mat-basement-membrane",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
@@ -601,7 +601,7 @@
             "layers": [
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-transitional-epithelium",
-                "mat-basement-membrane",
+                "core:mat-basement-membrane",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
@@ -618,7 +618,7 @@
             "layers": [
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-transitional-epithelium",
-                "mat-basement-membrane",
+                "core:mat-basement-membrane",
                 "mat-tissue-urinary-muscularis"
             ],
             "topology": "TUBE"
@@ -632,7 +632,7 @@
             "layers": [
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-transitional-epithelium",
-                "mat-basement-membrane",
+                "core:mat-basement-membrane",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue"
             ],
@@ -647,7 +647,7 @@
             "layers": [
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-transitional-epithelium",
-                "mat-basement-membrane",
+                "core:mat-basement-membrane",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
@@ -664,7 +664,7 @@
             "layers": [
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-transitional-epithelium",
-                "mat-basement-membrane",
+                "core:mat-basement-membrane",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
@@ -681,7 +681,7 @@
             "layers": [
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-transitional-epithelium",
-                "mat-basement-membrane",
+                "core:mat-basement-membrane",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-urinary-muscularis",
@@ -699,7 +699,7 @@
             "layers": [
                 "mat-fluid-urinary",
                 "mat-tissue-urinary-transitional-epithelium",
-                "mat-basement-membrane",
+                "core:mat-basement-membrane",
                 "mat-tissue-urinary-muscularis",
                 "mat-tissue-connective-tissue",
                 "mat-tissue-urinary-rhabdosphincter",
@@ -1831,7 +1831,8 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "d2819fba5a542f724bbae839cae79d76306a342b",
+    "version": "bfe404683fb0497ceb39a9ae387d527245ec4ba4",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
-    "lastUpdated": "2025-12-18"
+    "lastUpdated": "2025-12-18",
+    "scaffolds": []
 }
