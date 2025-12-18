@@ -1695,6 +1695,76 @@
                 "lyph-urinary-outer-medullary-collecting-duct"
             ],
             "lyphTemplate": "lt-cell-urinary-outer-medullary-collecting-tubule-principal"
+        },
+        {
+            "id": "chain-epithelial-cell-in-inner-medullary-collecting-duct",
+            "name": "Epithelial Cell in Renal inner medullary collecting duct",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-inner-medullary-collecting-duct"
+            ],
+            "lyphTemplate": "lt-cell-urinary-inner-medullary-collecting-tubule-epithelial"
+        },
+        {
+            "id": "chain-intercalated-cell-in-inner-medullary-collecting-duct",
+            "name": "Intercalated Cell in Renal inner medullary collecting duct",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-inner-medullary-collecting-duct"
+            ],
+            "lyphTemplate": "lt-cell-urinary-inner-medullary-collecting-tubule-intercalated"
+        },
+        {
+            "id": "chain-principal-cell-in-inner-medullary-collecting-duct",
+            "name": "Principal Cell in Renal inner medullary collecting duct",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-inner-medullary-collecting-duct"
+            ],
+            "lyphTemplate": "lt-cell-urinary-inner-medullary-collecting-tubule-principal"
+        },
+        {
+            "id": "chain-intercalated-cell-in-papillary-duct",
+            "name": "Intercalated Cell in Papillary duct of the kidney",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-papillary-duct"
+            ],
+            "lyphTemplate": "lt-cell-urinary-papillary-duct-intercalated"
+        },
+        {
+            "id": "chain-principal-cell-in-papillary-duct",
+            "name": "Principal Cell in Papillary duct of the kidney ",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-papillary-duct"
+            ],
+            "lyphTemplate": "lt-cell-urinary-papillary-duct-principal"
         }
     ],
     "localConventions": [
@@ -1761,7 +1831,7 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "44222e77f8cacb27717a272a95e7c85220093cb9",
+    "version": "d2819fba5a542f724bbae839cae79d76306a342b",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "lastUpdated": "2025-12-18"
 }
