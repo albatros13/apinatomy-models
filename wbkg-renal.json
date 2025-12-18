@@ -1653,6 +1653,48 @@
                 "lyph-urinary-cortical-collecting-tubule"
             ],
             "lyphTemplate": "lt-cell-urinary-cortex-collecting-tubule-principal"
+        },
+        {
+            "id": "chain-epithelial-cell-in-outer-medullary-collecting-duct",
+            "name": "Epithelial Cell in Renal outer medullary collecting duct ",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-outer-medullary-collecting-duct"
+            ],
+            "lyphTemplate": "lt-cell-urinary-outer-medullary-collecting-tubule-epithelial"
+        },
+        {
+            "id": "chain-lintercalated-cell-in-outer-medullary-collecting-duct",
+            "name": "Intercalated Cell in Renal outer medullary collecting duct",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-outer-medullary-collecting-duct"
+            ],
+            "lyphTemplate": "lt-cell-urinary-outer-medullary-collecting-tubule-intercalated"
+        },
+        {
+            "id": "chain-principal-cell-in-outer-medullary-collecting-duct",
+            "name": "Principal Cell in Renal outer medullary collecting duct",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-outer-medullary-collecting-duct"
+            ],
+            "lyphTemplate": "lt-cell-urinary-outer-medullary-collecting-tubule-principal"
         }
     ],
     "localConventions": [
@@ -1719,7 +1761,7 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "a316823d914c2ea7753f9710fc2ccbc25b578389",
+    "version": "27f2b309b8c367ffea24610d83f25fb0550852ca",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "lastUpdated": "2025-12-18"
 }
