@@ -1611,6 +1611,48 @@
                 "lyph-urinary-connecting-tubule"
             ],
             "lyphTemplate": "lt-cell-urinary-connecting-tubule-principal"
+        },
+        {
+            "id": "chain-epithelial-cell-in-cortical-collecting-tubule",
+            "name": "Epithelial Cell in Renal cortical collecting tubule",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-cortical-collecting-tubule"
+            ],
+            "lyphTemplate": "lt-cell-urinary-cortex-collecting-tubule-epithelial"
+        },
+        {
+            "id": "chain-intercalated-cell-in-cortical-collecting-tubule",
+            "name": "Intercalated Cell in Renal cortical collecting tubule",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-cortical-collecting-tubule"
+            ],
+            "lyphTemplate": "lt-cell-urinary-cortex-collecting-tubule-intercalated"
+        },
+        {
+            "id": "chain-principal-cell-in-cortical-collecting-tubule",
+            "name": "Principal Cell in Renal cortical collecting tubule",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lyph-urinary-cortical-collecting-tubule"
+            ],
+            "lyphTemplate": "lt-cell-urinary-cortex-collecting-tubule-principal"
         }
     ],
     "localConventions": [
@@ -1677,7 +1719,7 @@
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json"
     ],
-    "version": "b6d4b54e77305b8e037c1712d795ee1cf7134626",
+    "version": "a316823d914c2ea7753f9710fc2ccbc25b578389",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "lastUpdated": "2025-12-18"
 }
