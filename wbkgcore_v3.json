@@ -918,8 +918,22 @@
         }
     ],
     "coalescences": [],
-    "chains": [],
-    "groups": [],
+    "chains": [
+        {
+            "id": "chain-endothelial-cell-in-lt-blood-capillary1",
+            "name": "Endothelial Cell in Blood capillary vessel 1",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lt-blood-capillary"
+            ],
+            "lyphTemplate": "lt-cyst-cell-endothelial"
+        }
+    ],
     "localConventions": [
         {
             "prefix": "UNIPROT",
@@ -979,9 +993,10 @@
         }
     ],
     "name": "core 1kgZ1Ba4jf4SwvsDRcXbamCoyUodXtaIj-KEGMMi7XSo",
-    "version": "35ac5a88c50780c4ec41a3a7afd986cb56e44586",
+    "version": "5d9664c524fabec275013cc937547be3a99a1906",
     "id": "wbkgcore_v3",
     "namespace": "core",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
-    "lastUpdated": "2025-12-09"
+    "lastUpdated": "2025-12-19",
+    "groups": []
 }
