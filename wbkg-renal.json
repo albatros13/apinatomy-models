@@ -1284,8 +1284,7 @@
                 "lyph-urinary-distal-convoluted-tubule",
                 "lyph-cardiovascular-renal-efferent-arteriole",
                 "lyph-cardiovascular-renal-afferent-arteriole"
-            ],
-            "_class": "Coalescence"
+            ]
         },
         {
             "id": "coal-renal-medullary-ray",
@@ -1294,15 +1293,14 @@
                 "UBERON:0009883"
             ],
             "lyphs": [
-                "lyph-urinary-proximal-straight-tubule_1",
-                "lyph-urinary-proximal-straight-tubule_2",
-                "lyph-urinary-proximal-straight-tubule_3",
                 "lyph-renal-cortical-ascending-thick-limb",
                 "lyph-urinary-cortical-collecting-tubule",
                 "lyph-cardiovascular-renal-descending-vasa-recta",
-                "lyph-cardiovascular-renal-ascending-vasa-recta"
-            ],
-            "_class": "Coalescence"
+                "lyph-cardiovascular-renal-ascending-vasa-recta",
+                "lyph-urinary-proximal-tubule_s1",
+                "lyph-urinary-proximal-tubule_s2",
+                "lyph-urinary-proximal-tubule_s3"
+            ]
         },
         {
             "id": "coal-renal-bundles-of-medulla",
@@ -1318,8 +1316,7 @@
                 "lyph-urinary-descending-thin-limb-3",
                 "lyph-urinary-ascending-thin-limb",
                 "lyph-renal-medullary-ascending-thick-limb"
-            ],
-            "_class": "Coalescence"
+            ]
         }
     ],
     "chains": [
@@ -1834,7 +1831,7 @@
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json",
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/renal-scaffold.json"
     ],
-    "version": "d733cc4d3423c0597bf8cee2243d3b289c8a9f15",
+    "version": "500ac6a9341049f9743234771eb1a6ebbdcd6d4c",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
     "lastUpdated": "2025-12-19",
     "scaffolds": []
