@@ -1555,7 +1555,8 @@
             ],
             "housingLyphTemplates": [
                 "lyph-urinary-distal-convoluted-tubule"
-            ]
+            ],
+            "lyphTemplate": "lt-cell-urinary-macula-densa"
         },
         {
             "id": "chain-alpha-intercalated-cell-in-connecting-tubule",
@@ -1833,8 +1834,8 @@
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json",
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/renal-scaffold.json"
     ],
-    "version": "f83deaea0b3c55a313fdd069e3303b1ee8018d1d",
+    "version": "d733cc4d3423c0597bf8cee2243d3b289c8a9f15",
     "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
-    "lastUpdated": "2025-12-18",
+    "lastUpdated": "2025-12-19",
     "scaffolds": []
 }
