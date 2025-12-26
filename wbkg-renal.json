@@ -1828,66 +1828,11 @@
     "namespace": "renal",
     "imports": [
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json",
-        "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/renal-scaffold.json"
+        "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/renal-scaffold.json",
+        "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/snapshot_wbkg-renal_1.json"
     ],
-    "version": "2f1b9a65ec58fa88eafe330a2efd910635256255",
-    "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
-    "lastUpdated": "2025-12-23",
-    "scaffolds": [
-        {
-            "name": "Renal Scaffold",
-            "created": "2025-12-18",
-            "lastUpdated": "2025-12-18",
-            "version": "5a8c5a4d258dc12610c744fc407da86c783034d6",
-            "id": "renal-scaffold",
-            "namespace": "rs",
-            "anchors": [
-                {
-                    "id": "w1_s",
-                    "layout": {
-                        "x": -100,
-                        "y": 50
-                    }
-                },
-                {
-                    "id": "w1_t",
-                    "layout": {
-                        "x": 100,
-                        "y": 50
-                    }
-                },
-                {
-                    "id": "w2_s",
-                    "layout": {
-                        "x": -100,
-                        "y": 0
-                    }
-                },
-                {
-                    "id": "w2_t",
-                    "layout": {
-                        "x": 100,
-                        "y": 0
-                    }
-                }
-            ],
-            "wires": [
-                {
-                    "id": "w1",
-                    "source": "w1_s",
-                    "target": "w1_t"
-                },
-                {
-                    "id": "w2",
-                    "source": "w2_s",
-                    "target": "w2_t"
-                }
-            ],
-            "regions": [],
-            "components": [],
-            "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
-            "imported": true
-        }
-    ],
+    "version": "609f0522c462fe933711b651ba62d6e42c013cc6",
+    "schemaVersion": "8c86b8d4f3376833f34edf4df1e0ae8d2c2ba17a",
+    "lastUpdated": "2025-12-26",
     "groups": []
 }
