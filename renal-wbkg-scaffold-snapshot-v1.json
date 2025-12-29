@@ -1,0 +1,206 @@
+{
+    "id": "renal-wbkg-scaffold-snapshot-v1",
+    "name": "Renal assembly",
+    "description": "Assembly of a renal model with wbkg-core, scaffold, and custom snapshot",
+    "created": "2025-12-29",
+    "imports": [
+        "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkg-renal.json",
+        "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json",
+        "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/renal-scaffold.json",
+        "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/snapshot_wbkg-renal_1.json"
+    ],
+    "lastUpdated": "2025-12-29",
+    "snapshots": [
+        {
+            "id": "snapshot_wbkg-renal_1",
+            "fullID": "snapshot_wbkg-renal_1",
+            "name": "Snapshot for WBKG Renal 1",
+            "class": "Snapshot",
+            "model": "wbkg-renal",
+            "annotation": {
+                "namespace": "renal",
+                "schemaVersion": "24151efaa921c0dd431474c0760a6201ed645f06",
+                "version": "e119c8d41d78986e056fda28e876f415ad962cff",
+                "lastUpdated": "2025-12-23"
+            },
+            "states": [
+                {
+                    "id": "snapshot_wbkg-renal_1_state_0",
+                    "fullID": "snapshot_wbkg-renal_1_state_0",
+                    "class": "State",
+                    "scaffolds": [
+                        {
+                            "id": "renal-scaffold",
+                            "visibleComponents": [],
+                            "anchors": [
+                                {
+                                    "id": "w1_s",
+                                    "layout": {
+                                        "x": -1000,
+                                        "y": 500
+                                    }
+                                },
+                                {
+                                    "id": "w1_t",
+                                    "layout": {
+                                        "x": 1000,
+                                        "y": 500
+                                    }
+                                },
+                                {
+                                    "id": "w2_s",
+                                    "layout": {
+                                        "x": -1000,
+                                        "y": 0
+                                    }
+                                },
+                                {
+                                    "id": "w2_t",
+                                    "layout": {
+                                        "x": 1000,
+                                        "y": 0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "visibleGroups": [
+                        "cls_wbkg-renal",
+                        "group_chain-renal-internal-blood-vessels",
+                        "group_chain-urinary-common-tree"
+                    ],
+                    "camera": {
+                        "position": {
+                            "x": 0,
+                            "y": -100.0000000000008,
+                            "z": 1199.9999999999986
+                        },
+                        "up": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 1
+                        },
+                        "target": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    },
+                    "layout": {
+                        "showLyphs": true,
+                        "showLayers": true,
+                        "showLyphs3d": false,
+                        "showCoalescences": false,
+                        "numDimensions": 3
+                    },
+                    "showLabels": {
+                        "Wire": false,
+                        "Anchor": true,
+                        "Node": false,
+                        "Link": false,
+                        "Lyph": false,
+                        "Region": false
+                    },
+                    "labelContent": {
+                        "Wire": "id",
+                        "Anchor": "id",
+                        "Node": "id",
+                        "Link": "id",
+                        "Lyph": "id",
+                        "Region": "id"
+                    }
+                },
+                {
+                    "id": "snapshot_wbkg-renal_1_state_1",
+                    "fullID": "snapshot_wbkg-renal_1_state_1",
+                    "class": "State",
+                    "scaffolds": [
+                        {
+                            "id": "renal-scaffold",
+                            "visibleComponents": [],
+                            "anchors": [
+                                {
+                                    "id": "w1_s",
+                                    "layout": {
+                                        "x": -1000,
+                                        "y": 500
+                                    }
+                                },
+                                {
+                                    "id": "w1_t",
+                                    "layout": {
+                                        "x": 1000,
+                                        "y": 500
+                                    }
+                                },
+                                {
+                                    "id": "w2_s",
+                                    "layout": {
+                                        "x": -1000,
+                                        "y": 0
+                                    }
+                                },
+                                {
+                                    "id": "w2_t",
+                                    "layout": {
+                                        "x": 1000,
+                                        "y": 0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "visibleGroups": [
+                        "cls_wbkg-renal",
+                        "group_chain-renal-internal-blood-vessels",
+                        "group_chain-urinary-common-tree"
+                    ],
+                    "camera": {
+                        "position": {
+                            "x": 0,
+                            "y": -69.83372960937373,
+                            "z": 838.0047553124916
+                        },
+                        "up": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 1
+                        },
+                        "target": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    },
+                    "layout": {
+                        "showLyphs": true,
+                        "showLayers": true,
+                        "showLyphs3d": false,
+                        "showCoalescences": false,
+                        "numDimensions": 3
+                    },
+                    "showLabels": {
+                        "Wire": false,
+                        "Anchor": true,
+                        "Node": false,
+                        "Link": false,
+                        "Lyph": false,
+                        "Region": false
+                    },
+                    "labelContent": {
+                        "Wire": "id",
+                        "Anchor": "id",
+                        "Node": "id",
+                        "Link": "id",
+                        "Lyph": "id",
+                        "Region": "id"
+                    },
+                    "openCoalescenceNodeId": "node_coal-renal-bundles-of-medulla"
+                }
+            ],
+            "imported": true
+        }
+    ],
+    "groups": [],
+    "scaffolds": []
+}
