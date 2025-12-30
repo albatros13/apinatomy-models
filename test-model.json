@@ -59,9 +59,6 @@
             ]
         }
     ],
-    "imports": [
-        "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/snapshots/snapshot_test-model_1.json"
-    ],
     "materials": [
         {
             "id": "newMat1",
@@ -101,5 +98,8 @@
                 "newMat25"
             ]
         }
+    ],
+    "imports": [
+        "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/snapshots/snapshot_test-model_1.json"
     ]
 }
