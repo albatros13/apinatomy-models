@@ -1,8 +1,8 @@
 {
     "name": "test-model",
     "created": "2025-03-18",
-    "lastUpdated": "2025-12-29",
-    "version": "99d25d7dc69ad27acfccc1b1f90d3b8a1a8fc7f7",
+    "lastUpdated": "2025-12-30",
+    "version": "7c6580b2e53134cb4736169a91535a00d8aa523e",
     "id": "test-model",
     "namespace": "nm_main",
     "schemaVersion": "8c86b8d4f3376833f34edf4df1e0ae8d2c2ba17a",
@@ -58,6 +58,9 @@
                 "_newLyph7"
             ]
         }
+    ],
+    "imports": [
+        "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/snapshots/snapshot_test-model_1.json"
     ],
     "materials": [
         {
