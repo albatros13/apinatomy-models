@@ -1,0 +1,132 @@
+{
+  "id": "snapshot_test-model_1",
+  "fullID": "snapshot_test-model_1",
+  "name": "Snapshot for test-model 1",
+  "class": "Snapshot",
+  "model": "test-model",
+  "annotation": {
+    "namespace": "nm_main",
+    "schemaVersion": "8c86b8d4f3376833f34edf4df1e0ae8d2c2ba17a",
+    "version": "cbfc2db4a9aa1af6d9f7bb3a8ecf418a092c1f2f",
+    "created": "2025-03-18",
+    "lastUpdated": "2025-12-29"
+  },
+  "states": [
+    {
+      "id": "snapshot_test-model_1_state_0",
+      "fullID": "snapshot_test-model_1_state_0",
+      "class": "State",
+      "scaffolds": [],
+      "visibleGroups": [
+        "group_autoLinks",
+        "group_cls__newCoalescence1",
+        "cls_test-model",
+        "group__newChain1"
+      ],
+      "camera": {
+        "position": {
+          "x": -269.9141431120114,
+          "y": -207.44241702912157,
+          "z": 335.99681606843103
+        },
+        "up": {
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        "target": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "layout": {
+        "showLyphs": true,
+        "showLayers": true,
+        "showLyphs3d": false,
+        "showCoalescences": false,
+        "numDimensions": 2,
+        "coalescenceLayout": {
+          "startX": -50,
+          "baseY": 25,
+          "groupYOffset": 5,
+          "distance": 5
+        }
+      },
+      "showLabels": {
+        "Wire": false,
+        "Anchor": true,
+        "Node": false,
+        "Link": false,
+        "Lyph": false,
+        "Region": false
+      },
+      "labelContent": {
+        "Wire": "id",
+        "Anchor": "id",
+        "Node": "id",
+        "Link": "id",
+        "Lyph": "id",
+        "Region": "id"
+      }
+    },
+    {
+      "id": "snapshot_test-model_1_state_1",
+      "fullID": "snapshot_test-model_1_state_1",
+      "class": "State",
+      "scaffolds": [],
+      "visibleGroups": [
+        "group_autoLinks",
+        "group_cls__newCoalescence1",
+        "cls_test-model",
+        "group__newChain1"
+      ],
+      "camera": {
+        "position": {
+          "x": -241.09842987260689,
+          "y": -298.59475909459974,
+          "z": 404.8937202171051
+        },
+        "up": {
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        "target": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "layout": {
+        "showLyphs": true,
+        "showLayers": true,
+        "showLyphs3d": false,
+        "showCoalescences": false,
+        "numDimensions": 2,
+        "coalescenceLayout": {
+          "startX": -50,
+          "baseY": 25,
+          "groupYOffset": 5,
+          "distance": 5
+        }
+      },
+      "showLabels": {
+        "Wire": false,
+        "Anchor": true,
+        "Node": false,
+        "Link": false,
+        "Lyph": true,
+        "Region": false
+      },
+      "labelContent": {
+        "Wire": "id",
+        "Anchor": "id",
+        "Node": "id",
+        "Link": "id",
+        "Lyph": "id",
+        "Region": "id"
+      }
+    }
+  ]
+}
