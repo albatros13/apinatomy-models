@@ -7,9 +7,9 @@
   "annotation": {
     "namespace": "nm_main",
     "schemaVersion": "8c86b8d4f3376833f34edf4df1e0ae8d2c2ba17a",
-    "version": "cbfc2db4a9aa1af6d9f7bb3a8ecf418a092c1f2f",
+    "version": "021e80777385c915e5965f9925a5b48a466e1606",
     "created": "2025-03-18",
-    "lastUpdated": "2025-12-29"
+    "lastUpdated": "2025-12-30"
   },
   "states": [
     {
@@ -25,9 +25,9 @@
       ],
       "camera": {
         "position": {
-          "x": -269.9141431120114,
-          "y": -207.44241702912157,
-          "z": 335.99681606843103
+          "x": -498.22727635380227,
+          "y": -213.13903678292414,
+          "z": 132.54259622303343
         },
         "up": {
           "x": 0,
@@ -45,7 +45,7 @@
         "showLayers": true,
         "showLyphs3d": false,
         "showCoalescences": false,
-        "numDimensions": 2,
+        "numDimensions": 3,
         "coalescenceLayout": {
           "startX": -50,
           "baseY": 25,
@@ -83,9 +83,9 @@
       ],
       "camera": {
         "position": {
-          "x": -241.09842987260689,
-          "y": -298.59475909459974,
-          "z": 404.8937202171051
+          "x": 174.39649194153375,
+          "y": -100.4019265674115,
+          "z": 490.29273827448264
         },
         "up": {
           "x": 0,
@@ -116,7 +116,7 @@
         "Anchor": true,
         "Node": false,
         "Link": false,
-        "Lyph": true,
+        "Lyph": false,
         "Region": false
       },
       "labelContent": {
