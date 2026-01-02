@@ -1270,7 +1270,7 @@
             ],
             "lyphs": [
                 "lyph-cardiovascular-renal-glomerulus",
-                "lyph-urinary-parietal-Bowmans-capsule"
+                "lyph-urinary-visceral-Bowmans-capsule"
             ]
         },
         {
@@ -1830,8 +1830,8 @@
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json",
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/renal-scaffold.json"
     ],
-    "version": "73bf13530b49c59fa41a8b5079e143ab28a077e8",
-    "schemaVersion": "8c86b8d4f3376833f34edf4df1e0ae8d2c2ba17a",
-    "lastUpdated": "2025-12-29",
+    "version": "c95b3bed597e0246fb2e77c8471b6f07bdfb8fcf",
+    "schemaVersion": "0049c351555279b568bb6e68ac02a4854566aaba",
+    "lastUpdated": "2026-01-02",
     "groups": []
 }
