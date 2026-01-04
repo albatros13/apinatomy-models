@@ -932,6 +932,20 @@
                 "lt-blood-capillary"
             ],
             "lyphTemplate": "lt-cyst-cell-endothelial"
+        },
+        {
+            "id": "chain-endothelial-cell-in-arteriole",
+            "name": "Endothelial Cell in lt-arteriole (100um) ",
+            "numLevels": 3,
+            "levelOntologyTerms": [
+                "GO:0045177",
+                "GO:0097574",
+                "GO:1990794"
+            ],
+            "housingLyphTemplates": [
+                "lt-arteriole"
+            ],
+            "lyphTemplate": "lt-cyst-cell-endothelial"
         }
     ],
     "localConventions": [
@@ -993,10 +1007,10 @@
         }
     ],
     "name": "core 1kgZ1Ba4jf4SwvsDRcXbamCoyUodXtaIj-KEGMMi7XSo",
-    "version": "5d9664c524fabec275013cc937547be3a99a1906",
+    "version": "2b584e17b2a65f155092304e6791585c8241390d",
     "id": "wbkgcore_v3",
     "namespace": "core",
-    "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
-    "lastUpdated": "2025-12-19",
+    "schemaVersion": "0049c351555279b568bb6e68ac02a4854566aaba",
+    "lastUpdated": "2026-01-04",
     "groups": []
 }
