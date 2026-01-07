@@ -1535,10 +1535,10 @@
             "fullID": "nm_vascular:node_right-glomerular-bowmans-unit_1"
         }
     ],
-    "version": "f21b9f48714bce9b037c01fd0267013bd6addf20",
+    "version": "66262321b32fd55f2570c39c6630518342bdda56",
     "namespace": "nm_vascular",
-    "schemaVersion": "81774ab03c49f5fdc10d93c4c180eb507fd7a1ea",
-    "lastUpdated": "2025-06-18",
+    "schemaVersion": "2aa57adb9508d4e29ba7d160daf9a606bbf9bddb",
+    "lastUpdated": "2026-01-07",
     "groups": [
         {
             "references": [
@@ -8723,13 +8723,51 @@
                     ]
                 },
                 {
+                    "id": "lt-cyst-cell-renal-epitheilial_bag+1",
+                    "name": "Cell Renal Epitheilial (BAG+) 1",
+                    "ontologyTerms": [
+                        "CL:1000449"
+                    ],
+                    "topology": "BAG2",
+                    "isTemplate": true,
+                    "layers": [
+                        "mat-cytoplasm",
+                        "mat-plasma-membrane-renal-epithelial-cell-apical",
+                        "mat-extracellular-fluid"
+                    ]
+                },
+                {
+                    "id": "lt-cyst-cell-renal-epitheilial_bag-1",
+                    "name": "Cell Renal Epitheilial (BAG-) 1",
+                    "ontologyTerms": [
+                        "CL:1000449"
+                    ],
+                    "topology": "BAG",
+                    "isTemplate": true,
+                    "layers": [
+                        "mat-cytoplasm",
+                        "mat-plasma-membrane-renal-epithelial-cell-basolateral",
+                        "mat-extracellular-fluid"
+                    ]
+                },
+                {
+                    "id": "lt-cyst-cell-renal-epitheilial_tube1",
+                    "name": "Cell Renal Epitheilial (TUBE) 1",
+                    "supertype": "lt-cyst-cell",
+                    "ontologyTerms": [
+                        "CL:1000449"
+                    ],
+                    "isTemplate": true,
+                    "topology": "TUBE"
+                },
+                {
                     "id": "lt-cyst-cell-endothelial_bag+1",
                     "name": "Cell Endothelial (BAG+) 1",
                     "isTemplate": true,
                     "topology": "BAG2",
                     "layers": [
                         "mat-cytoplasm",
-                        "mat-plasma-membrane-renal-epithelial-cell-apical",
+                        "mat-plasma-membrane",
                         "mat-extracellular-fluid"
                     ]
                 },
@@ -11727,15 +11765,6 @@
                     "leaf": "leaf_right_chain-renal-internal-blood-vessels"
                 },
                 {
-                    "id": "chain-renal-epithelial-cell",
-                    "name": "Renal epithelial cell",
-                    "lyphTemplate": "lt-cyst-cell-renal-epitheilial",
-                    "numLevels": 3,
-                    "housingLyphTemplates": [
-                        "lt-renal-nephron-epithelial-conduit"
-                    ]
-                },
-                {
                     "id": "left_chain-urinary-tail",
                     "root": "n-split_urinary-intravesical-portion-of-ureter",
                     "name": "Left Urinary tree tail",
@@ -11857,6 +11886,18 @@
                         "lt-cyst-cell-endothelial_bag+1",
                         "lt-cyst-cell-endothelial_tube1",
                         "lt-cyst-cell-endothelial_bag-1"
+                    ]
+                },
+                {
+                    "id": "chain-renal-epithelial-cell1",
+                    "name": "Renal epithelial cell 1",
+                    "housingLyphTemplates": [
+                        "lt-renal-nephron-epithelial-conduit"
+                    ],
+                    "lyphs": [
+                        "lt-cyst-cell-renal-epitheilial_bag+1",
+                        "lt-cyst-cell-renal-epitheilial_tube1",
+                        "lt-cyst-cell-renal-epitheilial_bag-1"
                     ]
                 }
             ],
