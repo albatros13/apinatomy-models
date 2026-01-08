@@ -225,7 +225,7 @@
             "name": "lt-muscular-artery (9mm)",
             "isTemplate": true,
             "layers": [
-                "mat-cellular-component-of-blood",
+                "mat-blood",
                 "mat-tissue-cardiovascular-endothelium",
                 "mat-basement-membrane",
                 "mat-tissue-cardiovascular-vascular-smooth-muscle",
@@ -945,7 +945,8 @@
             "housingLyphTemplates": [
                 "lt-arteriole"
             ],
-            "lyphTemplate": "lt-cyst-cell-endothelial"
+            "lyphTemplate": "lt-cyst-cell-endothelial",
+            "_class": "Chain"
         }
     ],
     "localConventions": [
@@ -1007,10 +1008,10 @@
         }
     ],
     "name": "core 1kgZ1Ba4jf4SwvsDRcXbamCoyUodXtaIj-KEGMMi7XSo",
-    "version": "2b584e17b2a65f155092304e6791585c8241390d",
+    "version": "fcd982d843ee7948d6266078dfaf35f83b7b6aec",
     "id": "wbkgcore_v3",
     "namespace": "core",
-    "schemaVersion": "0049c351555279b568bb6e68ac02a4854566aaba",
-    "lastUpdated": "2026-01-04",
+    "schemaVersion": "2aa57adb9508d4e29ba7d160daf9a606bbf9bddb",
+    "lastUpdated": "2026-01-08",
     "groups": []
 }
