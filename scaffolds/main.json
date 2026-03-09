@@ -47362,13 +47362,13 @@
     }
   ],
   "name": ".json",
-  "version": "e33030963ba244f8954d8784338bb6d5c8a8d04f",
+  "version": "501dcdd1d22b8d7622298b011b85bc5936f18d28",
   "id": "main",
   "namespace": "nm_main",
   "schemaVersion": "7e67e32da1f4067ba65fdb73f3d94bfbfa212b3f",
   "materials": [
     {
-      "id": "newMat122",
+      "id": "newMat1",
       "name": "New material 1"
     }
   ],
