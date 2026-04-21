@@ -4,7 +4,7 @@
     "description": "Assembly of a renal model with wbkg-core, scaffold, and custom snapshot",
     "created": "2025-12-29",
     "imports": [
-        "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkg-renal.json",
+        "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkg-renal-v2.json",
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v4.json",
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/renal-scaffold.json",
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/snapshots/snapshot_wbkg-renal_1.json"
