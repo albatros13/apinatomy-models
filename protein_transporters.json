@@ -1,0 +1,3920 @@
+{
+    "id": "protein_transporters",
+    "name": "Protein transporters for renal model",
+    "namespace": "pro",
+    "chains": [
+        {
+            "id": "chain-protein-O00476",
+            "ontologyTerms": [
+                "UNIPROT:O00476"
+            ],
+            "lyphs": [
+                "mat-protein-O00476-cytoplasmic",
+                "mat-protein-O00476-transmembrane",
+                "mat-protein-O00476-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-O15244",
+            "ontologyTerms": [
+                "UNIPROT:O15244"
+            ],
+            "lyphs": [
+                "mat-protein-O15244-cytoplasmic",
+                "mat-protein-O15244-transmembrane",
+                "mat-protein-O15244-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-O15245",
+            "ontologyTerms": [
+                "UNIPROT:O15245"
+            ],
+            "lyphs": [
+                "mat-protein-O15245-cytoplasmic",
+                "mat-protein-O15245-transmembrane",
+                "mat-protein-O15245-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-O15438",
+            "ontologyTerms": [
+                "UNIPROT:O15438"
+            ],
+            "lyphs": [
+                "mat-protein-O15438-cytoplasmic",
+                "mat-protein-O15438-transmembrane",
+                "mat-protein-O15438-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-O15439",
+            "ontologyTerms": [
+                "UNIPROT:O15439"
+            ],
+            "lyphs": [
+                "mat-protein-O15439-cytoplasmic",
+                "mat-protein-O15439-transmembrane",
+                "mat-protein-O15439-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-O35409",
+            "ontologyTerms": [
+                "UNIPROT:O35409"
+            ],
+            "lyphs": [
+                "mat-protein-O35409-cytoplasmic",
+                "mat-protein-O35409-transmembrane",
+                "mat-protein-O35409-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-O43511",
+            "ontologyTerms": [
+                "UNIPROT:O43511"
+            ],
+            "lyphs": [
+                "mat-protein-O43511-cytoplasmic",
+                "mat-protein-O43511-transmembrane",
+                "mat-protein-O43511-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-O60669",
+            "ontologyTerms": [
+                "UNIPROT:O60669"
+            ],
+            "lyphs": [
+                "mat-protein-O60669-cytoplasmic",
+                "mat-protein-O60669-transmembrane",
+                "mat-protein-O60669-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-O75751",
+            "ontologyTerms": [
+                "UNIPROT:O75751"
+            ],
+            "lyphs": [
+                "mat-protein-O75751-cytoplasmic",
+                "mat-protein-O75751-transmembrane",
+                "mat-protein-O75751-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-O76082",
+            "ontologyTerms": [
+                "UNIPROT:O76082"
+            ],
+            "lyphs": [
+                "mat-protein-O76082-cytoplasmic",
+                "mat-protein-O76082-transmembrane",
+                "mat-protein-O76082-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-O95255",
+            "ontologyTerms": [
+                "UNIPROT:O95255"
+            ],
+            "lyphs": [
+                "mat-protein-O95255-cytoplasmic",
+                "mat-protein-O95255-transmembrane",
+                "mat-protein-O95255-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P02730",
+            "ontologyTerms": [
+                "UNIPROT:P02730"
+            ],
+            "lyphs": [
+                "mat-protein-P02730-cytoplasmic",
+                "mat-protein-P02730-transmembrane",
+                "mat-protein-P02730-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P04919",
+            "ontologyTerms": [
+                "UNIPROT:P04919"
+            ],
+            "lyphs": [
+                "mat-protein-P04919-cytoplasmic",
+                "mat-protein-P04919-transmembrane",
+                "mat-protein-P04919-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P05023",
+            "ontologyTerms": [
+                "UNIPROT:P05023"
+            ],
+            "lyphs": [
+                "mat-protein-P05023-cytoplasmic",
+                "mat-protein-P05023-transmembrane",
+                "mat-protein-P05023-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P06685",
+            "ontologyTerms": [
+                "UNIPROT:P06685"
+            ],
+            "lyphs": [
+                "mat-protein-P06685-cytoplasmic",
+                "mat-protein-P06685-transmembrane",
+                "mat-protein-P06685-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P08183",
+            "ontologyTerms": [
+                "UNIPROT:P08183"
+            ],
+            "lyphs": [
+                "mat-protein-P08183-cytoplasmic",
+                "mat-protein-P08183-transmembrane",
+                "mat-protein-P08183-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P08195",
+            "ontologyTerms": [
+                "UNIPROT:P08195"
+            ],
+            "lyphs": [
+                "mat-protein-P08195-cytoplasmic",
+                "mat-protein-P08195-transmembrane",
+                "mat-protein-P08195-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P09572",
+            "ontologyTerms": [
+                "UNIPROT:P09572"
+            ],
+            "lyphs": [
+                "mat-protein-P09572-cytoplasmic",
+                "mat-protein-P09572-transmembrane",
+                "mat-protein-P09572-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P11166",
+            "ontologyTerms": [
+                "UNIPROT:P11166"
+            ],
+            "lyphs": [
+                "mat-protein-P11166-cytoplasmic",
+                "mat-protein-P11166-transmembrane",
+                "mat-protein-P11166-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P11167",
+            "ontologyTerms": [
+                "UNIPROT:P11167"
+            ],
+            "lyphs": [
+                "mat-protein-P11167-cytoplasmic",
+                "mat-protein-P11167-transmembrane",
+                "mat-protein-P11167-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P11168",
+            "ontologyTerms": [
+                "UNIPROT:P11168"
+            ],
+            "lyphs": [
+                "mat-protein-P11168-cytoplasmic",
+                "mat-protein-P11168-transmembrane",
+                "mat-protein-P11168-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P12336",
+            "ontologyTerms": [
+                "UNIPROT:P12336"
+            ],
+            "lyphs": [
+                "mat-protein-P12336-cytoplasmic",
+                "mat-protein-P12336-transmembrane",
+                "mat-protein-P12336-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P13866",
+            "ontologyTerms": [
+                "UNIPROT:P13866"
+            ],
+            "lyphs": [
+                "mat-protein-P13866-cytoplasmic",
+                "mat-protein-P13866-transmembrane",
+                "mat-protein-P13866-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P14142",
+            "ontologyTerms": [
+                "UNIPROT:P14142"
+            ],
+            "lyphs": [
+                "mat-protein-P14142-cytoplasmic",
+                "mat-protein-P14142-transmembrane",
+                "mat-protein-P14142-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P14246",
+            "ontologyTerms": [
+                "UNIPROT:P14246"
+            ],
+            "lyphs": [
+                "mat-protein-P14246-cytoplasmic",
+                "mat-protein-P14246-transmembrane",
+                "mat-protein-P14246-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P15387",
+            "ontologyTerms": [
+                "UNIPROT:P15387"
+            ],
+            "lyphs": [
+                "mat-protein-P15387-cytoplasmic",
+                "mat-protein-P15387-transmembrane",
+                "mat-protein-P15387-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P17809",
+            "ontologyTerms": [
+                "UNIPROT:P17809"
+            ],
+            "lyphs": [
+                "mat-protein-P17809-cytoplasmic",
+                "mat-protein-P17809-transmembrane",
+                "mat-protein-P17809-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P19357",
+            "ontologyTerms": [
+                "UNIPROT:P19357"
+            ],
+            "lyphs": [
+                "mat-protein-P19357-cytoplasmic",
+                "mat-protein-P19357-transmembrane",
+                "mat-protein-P19357-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P22732",
+            "ontologyTerms": [
+                "UNIPROT:P22732"
+            ],
+            "lyphs": [
+                "mat-protein-P22732-cytoplasmic",
+                "mat-protein-P22732-transmembrane",
+                "mat-protein-P22732-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P23562",
+            "ontologyTerms": [
+                "UNIPROT:P23562"
+            ],
+            "lyphs": [
+                "mat-protein-P23562-cytoplasmic",
+                "mat-protein-P23562-transmembrane",
+                "mat-protein-P23562-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P26431",
+            "ontologyTerms": [
+                "UNIPROT:P26431"
+            ],
+            "lyphs": [
+                "mat-protein-P26431-cytoplasmic",
+                "mat-protein-P26431-transmembrane",
+                "mat-protein-P26431-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P28235",
+            "ontologyTerms": [
+                "UNIPROT:P28235"
+            ],
+            "lyphs": [
+                "mat-protein-P28235-cytoplasmic",
+                "mat-protein-P28235-transmembrane",
+                "mat-protein-P28235-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P29972",
+            "ontologyTerms": [
+                "UNIPROT:P29972"
+            ],
+            "lyphs": [
+                "mat-protein-P29972-cytoplasmic",
+                "mat-protein-P29972-transmembrane",
+                "mat-protein-P29972-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P31639",
+            "ontologyTerms": [
+                "UNIPROT:P31639"
+            ],
+            "lyphs": [
+                "mat-protein-P31639-cytoplasmic",
+                "mat-protein-P31639-transmembrane",
+                "mat-protein-P31639-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P33527",
+            "ontologyTerms": [
+                "UNIPROT:P33527"
+            ],
+            "lyphs": [
+                "mat-protein-P33527-cytoplasmic",
+                "mat-protein-P33527-transmembrane",
+                "mat-protein-P33527-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P34080",
+            "ontologyTerms": [
+                "UNIPROT:P34080"
+            ],
+            "lyphs": [
+                "mat-protein-P34080-cytoplasmic",
+                "mat-protein-P34080-transmembrane",
+                "mat-protein-P34080-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P35560",
+            "ontologyTerms": [
+                "UNIPROT:P35560"
+            ],
+            "lyphs": [
+                "mat-protein-P35560-cytoplasmic",
+                "mat-protein-P35560-transmembrane",
+                "mat-protein-P35560-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P37088",
+            "ontologyTerms": [
+                "UNIPROT:P37088"
+            ],
+            "lyphs": [
+                "mat-protein-P37088-cytoplasmic",
+                "mat-protein-P37088-transmembrane",
+                "mat-protein-P37088-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P41181",
+            "ontologyTerms": [
+                "UNIPROT:P41181"
+            ],
+            "lyphs": [
+                "mat-protein-P41181-cytoplasmic",
+                "mat-protein-P41181-transmembrane",
+                "mat-protein-P41181-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P43005",
+            "ontologyTerms": [
+                "UNIPROT:P43005"
+            ],
+            "lyphs": [
+                "mat-protein-P43005-cytoplasmic",
+                "mat-protein-P43005-transmembrane",
+                "mat-protein-P43005-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P46059",
+            "ontologyTerms": [
+                "UNIPROT:P46059"
+            ],
+            "lyphs": [
+                "mat-protein-P46059-cytoplasmic",
+                "mat-protein-P46059-transmembrane",
+                "mat-protein-P46059-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P46721",
+            "ontologyTerms": [
+                "UNIPROT:P46721"
+            ],
+            "lyphs": [
+                "mat-protein-P46721-cytoplasmic",
+                "mat-protein-P46721-transmembrane",
+                "mat-protein-P46721-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P47824",
+            "ontologyTerms": [
+                "UNIPROT:P47824"
+            ],
+            "lyphs": [
+                "mat-protein-P47824-cytoplasmic",
+                "mat-protein-P47824-transmembrane",
+                "mat-protein-P47824-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P48048",
+            "ontologyTerms": [
+                "UNIPROT:P48048"
+            ],
+            "lyphs": [
+                "mat-protein-P48048-cytoplasmic",
+                "mat-protein-P48048-transmembrane",
+                "mat-protein-P48048-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P48764",
+            "ontologyTerms": [
+                "UNIPROT:P48764"
+            ],
+            "lyphs": [
+                "mat-protein-P48764-cytoplasmic",
+                "mat-protein-P48764-transmembrane",
+                "mat-protein-P48764-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P51168",
+            "ontologyTerms": [
+                "UNIPROT:P51168"
+            ],
+            "lyphs": [
+                "mat-protein-P51168-cytoplasmic",
+                "mat-protein-P51168-transmembrane",
+                "mat-protein-P51168-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P51170",
+            "ontologyTerms": [
+                "UNIPROT:P51170"
+            ],
+            "lyphs": [
+                "mat-protein-P51170-cytoplasmic",
+                "mat-protein-P51170-transmembrane",
+                "mat-protein-P51170-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P51172",
+            "ontologyTerms": [
+                "UNIPROT:P51172"
+            ],
+            "lyphs": [
+                "mat-protein-P51172-cytoplasmic",
+                "mat-protein-P51172-transmembrane",
+                "mat-protein-P51172-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P51582",
+            "ontologyTerms": [
+                "UNIPROT:P51582"
+            ],
+            "lyphs": [
+                "mat-protein-P51582-cytoplasmic",
+                "mat-protein-P51582-transmembrane",
+                "mat-protein-P51582-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P51801",
+            "ontologyTerms": [
+                "UNIPROT:P51801"
+            ],
+            "lyphs": [
+                "mat-protein-P51801-cytoplasmic",
+                "mat-protein-P51801-transmembrane",
+                "mat-protein-P51801-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P53791",
+            "ontologyTerms": [
+                "UNIPROT:P53791"
+            ],
+            "lyphs": [
+                "mat-protein-P53791-cytoplasmic",
+                "mat-protein-P53791-transmembrane",
+                "mat-protein-P53791-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P54708",
+            "ontologyTerms": [
+                "UNIPROT:P54708"
+            ],
+            "lyphs": [
+                "mat-protein-P54708-cytoplasmic",
+                "mat-protein-P54708-transmembrane",
+                "mat-protein-P54708-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P54709",
+            "ontologyTerms": [
+                "UNIPROT:P54709"
+            ],
+            "lyphs": [
+                "mat-protein-P54709-cytoplasmic",
+                "mat-protein-P54709-transmembrane",
+                "mat-protein-P54709-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P55012",
+            "ontologyTerms": [
+                "UNIPROT:P55012"
+            ],
+            "lyphs": [
+                "mat-protein-P55012-cytoplasmic",
+                "mat-protein-P55012-transmembrane",
+                "mat-protein-P55012-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P55013",
+            "ontologyTerms": [
+                "UNIPROT:P55013"
+            ],
+            "lyphs": [
+                "mat-protein-P55013-cytoplasmic",
+                "mat-protein-P55013-transmembrane",
+                "mat-protein-P55013-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P55014",
+            "ontologyTerms": [
+                "UNIPROT:P55014"
+            ],
+            "lyphs": [
+                "mat-protein-P55014-cytoplasmic",
+                "mat-protein-P55014-transmembrane",
+                "mat-protein-P55014-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P55017",
+            "ontologyTerms": [
+                "UNIPROT:P55017"
+            ],
+            "lyphs": [
+                "mat-protein-P55017-cytoplasmic",
+                "mat-protein-P55017-transmembrane",
+                "mat-protein-P55017-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P55087",
+            "ontologyTerms": [
+                "UNIPROT:P55087"
+            ],
+            "lyphs": [
+                "mat-protein-P55087-cytoplasmic",
+                "mat-protein-P55087-transmembrane",
+                "mat-protein-P55087-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-P82251",
+            "ontologyTerms": [
+                "UNIPROT:P82251"
+            ],
+            "lyphs": [
+                "mat-protein-P82251-cytoplasmic",
+                "mat-protein-P82251-transmembrane",
+                "mat-protein-P82251-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q02013",
+            "ontologyTerms": [
+                "UNIPROT:Q02013"
+            ],
+            "lyphs": [
+                "mat-protein-Q02013-cytoplasmic",
+                "mat-protein-Q02013-transmembrane",
+                "mat-protein-Q02013-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q03717",
+            "ontologyTerms": [
+                "UNIPROT:Q03717"
+            ],
+            "lyphs": [
+                "mat-protein-Q03717-cytoplasmic",
+                "mat-protein-Q03717-transmembrane",
+                "mat-protein-Q03717-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q06495",
+            "ontologyTerms": [
+                "UNIPROT:Q06495"
+            ],
+            "lyphs": [
+                "mat-protein-Q06495-cytoplasmic",
+                "mat-protein-Q06495-transmembrane",
+                "mat-protein-Q06495-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q07837",
+            "ontologyTerms": [
+                "UNIPROT:Q07837"
+            ],
+            "lyphs": [
+                "mat-protein-Q07837-cytoplasmic",
+                "mat-protein-Q07837-transmembrane",
+                "mat-protein-Q07837-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q08357",
+            "ontologyTerms": [
+                "UNIPROT:Q08357"
+            ],
+            "lyphs": [
+                "mat-protein-Q08357-cytoplasmic",
+                "mat-protein-Q08357-transmembrane",
+                "mat-protein-Q08357-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q13183",
+            "ontologyTerms": [
+                "UNIPROT:Q13183"
+            ],
+            "lyphs": [
+                "mat-protein-Q13183-cytoplasmic",
+                "mat-protein-Q13183-transmembrane",
+                "mat-protein-Q13183-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q13621",
+            "ontologyTerms": [
+                "UNIPROT:Q13621"
+            ],
+            "lyphs": [
+                "mat-protein-Q13621-cytoplasmic",
+                "mat-protein-Q13621-transmembrane",
+                "mat-protein-Q13621-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q14916",
+            "ontologyTerms": [
+                "UNIPROT:Q14916"
+            ],
+            "lyphs": [
+                "mat-protein-Q14916-cytoplasmic",
+                "mat-protein-Q14916-transmembrane",
+                "mat-protein-Q14916-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q14973",
+            "ontologyTerms": [
+                "UNIPROT:Q14973"
+            ],
+            "lyphs": [
+                "mat-protein-Q14973-cytoplasmic",
+                "mat-protein-Q14973-transmembrane",
+                "mat-protein-Q14973-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q15849",
+            "ontologyTerms": [
+                "UNIPROT:Q15849"
+            ],
+            "lyphs": [
+                "mat-protein-Q15849-cytoplasmic",
+                "mat-protein-Q15849-transmembrane",
+                "mat-protein-Q15849-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q16348",
+            "ontologyTerms": [
+                "UNIPROT:Q16348"
+            ],
+            "lyphs": [
+                "mat-protein-Q16348-cytoplasmic",
+                "mat-protein-Q16348-transmembrane",
+                "mat-protein-Q16348-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q16651",
+            "ontologyTerms": [
+                "UNIPROT:Q16651"
+            ],
+            "lyphs": [
+                "mat-protein-Q16651-cytoplasmic",
+                "mat-protein-Q16651-transmembrane",
+                "mat-protein-Q16651-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q1EHB4",
+            "ontologyTerms": [
+                "UNIPROT:Q1EHB4"
+            ],
+            "lyphs": [
+                "mat-protein-Q1EHB4-cytoplasmic",
+                "mat-protein-Q1EHB4-transmembrane",
+                "mat-protein-Q1EHB4-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q4U2R8",
+            "ontologyTerms": [
+                "UNIPROT:Q4U2R8"
+            ],
+            "lyphs": [
+                "mat-protein-Q4U2R8-cytoplasmic",
+                "mat-protein-Q4U2R8-transmembrane",
+                "mat-protein-Q4U2R8-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q61165",
+            "ontologyTerms": [
+                "UNIPROT:Q61165"
+            ],
+            "lyphs": [
+                "mat-protein-Q61165-cytoplasmic",
+                "mat-protein-Q61165-transmembrane",
+                "mat-protein-Q61165-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q63ZE4",
+            "ontologyTerms": [
+                "UNIPROT:Q63ZE4"
+            ],
+            "lyphs": [
+                "mat-protein-Q63ZE4-cytoplasmic",
+                "mat-protein-Q63ZE4-transmembrane",
+                "mat-protein-Q63ZE4-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q64436",
+            "ontologyTerms": [
+                "UNIPROT:Q64436"
+            ],
+            "lyphs": [
+                "mat-protein-Q64436-cytoplasmic",
+                "mat-protein-Q64436-transmembrane",
+                "mat-protein-Q64436-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q695T7",
+            "ontologyTerms": [
+                "UNIPROT:Q695T7"
+            ],
+            "lyphs": [
+                "mat-protein-Q695T7-cytoplasmic",
+                "mat-protein-Q695T7-transmembrane",
+                "mat-protein-Q695T7-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q6PIE5",
+            "ontologyTerms": [
+                "UNIPROT:Q6PIE5"
+            ],
+            "lyphs": [
+                "mat-protein-Q6PIE5-cytoplasmic",
+                "mat-protein-Q6PIE5-transmembrane",
+                "mat-protein-Q6PIE5-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q6RVG2",
+            "ontologyTerms": [
+                "UNIPROT:Q6RVG2"
+            ],
+            "lyphs": [
+                "mat-protein-Q6RVG2-cytoplasmic",
+                "mat-protein-Q6RVG2-transmembrane",
+                "mat-protein-Q6RVG2-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q6ZQN7",
+            "ontologyTerms": [
+                "UNIPROT:Q6ZQN7"
+            ],
+            "lyphs": [
+                "mat-protein-Q6ZQN7-cytoplasmic",
+                "mat-protein-Q6ZQN7-transmembrane",
+                "mat-protein-Q6ZQN7-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q86VL8",
+            "ontologyTerms": [
+                "UNIPROT:Q86VL8"
+            ],
+            "lyphs": [
+                "mat-protein-Q86VL8-cytoplasmic",
+                "mat-protein-Q86VL8-transmembrane",
+                "mat-protein-Q86VL8-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q8BSY0",
+            "ontologyTerms": [
+                "UNIPROT:Q8BSY0"
+            ],
+            "lyphs": [
+                "mat-protein-Q8BSY0-cytoplasmic",
+                "mat-protein-Q8BSY0-transmembrane",
+                "mat-protein-Q8BSY0-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q8N130",
+            "ontologyTerms": [
+                "UNIPROT:Q8N130"
+            ],
+            "lyphs": [
+                "mat-protein-Q8N130-cytoplasmic",
+                "mat-protein-Q8N130-transmembrane",
+                "mat-protein-Q8N130-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q8N695",
+            "ontologyTerms": [
+                "UNIPROT:Q8N695"
+            ],
+            "lyphs": [
+                "mat-protein-Q8N695-cytoplasmic",
+                "mat-protein-Q8N695-transmembrane",
+                "mat-protein-Q8N695-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q8TCC7",
+            "ontologyTerms": [
+                "UNIPROT:Q8TCC7"
+            ],
+            "lyphs": [
+                "mat-protein-Q8TCC7-cytoplasmic",
+                "mat-protein-Q8TCC7-transmembrane",
+                "mat-protein-Q8TCC7-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q8TCC8",
+            "ontologyTerms": [
+                "UNIPROT:Q8TCC8"
+            ],
+            "lyphs": [
+                "mat-protein-Q8TCC8-cytoplasmic",
+                "mat-protein-Q8TCC8-transmembrane",
+                "mat-protein-Q8TCC8-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q8TDB8",
+            "ontologyTerms": [
+                "UNIPROT:Q8TDB8"
+            ],
+            "lyphs": [
+                "mat-protein-Q8TDB8-cytoplasmic",
+                "mat-protein-Q8TDB8-transmembrane",
+                "mat-protein-Q8TDB8-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q8VDN2",
+            "ontologyTerms": [
+                "UNIPROT:Q8VDN2"
+            ],
+            "lyphs": [
+                "mat-protein-Q8VDN2-cytoplasmic",
+                "mat-protein-Q8VDN2-transmembrane",
+                "mat-protein-Q8VDN2-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q8VHN7",
+            "ontologyTerms": [
+                "UNIPROT:Q8VHN7"
+            ],
+            "lyphs": [
+                "mat-protein-Q8VHN7-cytoplasmic",
+                "mat-protein-Q8VHN7-transmembrane",
+                "mat-protein-Q8VHN7-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q8WWT9",
+            "ontologyTerms": [
+                "UNIPROT:Q8WWT9"
+            ],
+            "lyphs": [
+                "mat-protein-Q8WWT9-cytoplasmic",
+                "mat-protein-Q8WWT9-transmembrane",
+                "mat-protein-Q8WWT9-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q92123",
+            "ontologyTerms": [
+                "UNIPROT:Q92123"
+            ],
+            "lyphs": [
+                "mat-protein-Q92123-cytoplasmic",
+                "mat-protein-Q92123-transmembrane",
+                "mat-protein-Q92123-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q92482",
+            "ontologyTerms": [
+                "UNIPROT:Q92482"
+            ],
+            "lyphs": [
+                "mat-protein-Q92482-cytoplasmic",
+                "mat-protein-Q92482-transmembrane",
+                "mat-protein-Q92482-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q924C9",
+            "ontologyTerms": [
+                "UNIPROT:Q924C9"
+            ],
+            "lyphs": [
+                "mat-protein-Q924C9-cytoplasmic",
+                "mat-protein-Q924C9-transmembrane",
+                "mat-protein-Q924C9-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q92887",
+            "ontologyTerms": [
+                "UNIPROT:Q92887"
+            ],
+            "lyphs": [
+                "mat-protein-Q92887-cytoplasmic",
+                "mat-protein-Q92887-transmembrane",
+                "mat-protein-Q92887-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q96FL8",
+            "ontologyTerms": [
+                "UNIPROT:Q96FL8"
+            ],
+            "lyphs": [
+                "mat-protein-Q96FL8-cytoplasmic",
+                "mat-protein-Q96FL8-transmembrane",
+                "mat-protein-Q96FL8-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q96RD7",
+            "ontologyTerms": [
+                "UNIPROT:Q96RD7"
+            ],
+            "lyphs": [
+                "mat-protein-Q96RD7-cytoplasmic",
+                "mat-protein-Q96RD7-transmembrane",
+                "mat-protein-Q96RD7-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q96S37",
+            "ontologyTerms": [
+                "UNIPROT:Q96S37"
+            ],
+            "lyphs": [
+                "mat-protein-Q96S37-cytoplasmic",
+                "mat-protein-Q96S37-transmembrane",
+                "mat-protein-Q96S37-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9H015",
+            "ontologyTerms": [
+                "UNIPROT:Q9H015"
+            ],
+            "lyphs": [
+                "mat-protein-Q9H015-cytoplasmic",
+                "mat-protein-Q9H015-transmembrane",
+                "mat-protein-Q9H015-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9HBJ8",
+            "ontologyTerms": [
+                "UNIPROT:Q9HBJ8"
+            ],
+            "lyphs": [
+                "mat-protein-Q9HBJ8-cytoplasmic",
+                "mat-protein-Q9HBJ8-transmembrane",
+                "mat-protein-Q9HBJ8-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9JI66",
+            "ontologyTerms": [
+                "UNIPROT:Q9JI66"
+            ],
+            "lyphs": [
+                "mat-protein-Q9JI66-cytoplasmic",
+                "mat-protein-Q9JI66-transmembrane",
+                "mat-protein-Q9JI66-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9JJX5",
+            "ontologyTerms": [
+                "UNIPROT:Q9JJX5"
+            ],
+            "lyphs": [
+                "mat-protein-Q9JJX5-cytoplasmic",
+                "mat-protein-Q9JJX5-transmembrane",
+                "mat-protein-Q9JJX5-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9JJX6",
+            "ontologyTerms": [
+                "UNIPROT:Q9JJX6"
+            ],
+            "lyphs": [
+                "mat-protein-Q9JJX6-cytoplasmic",
+                "mat-protein-Q9JJX6-transmembrane",
+                "mat-protein-Q9JJX6-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9JMA9",
+            "ontologyTerms": [
+                "UNIPROT:Q9JMA9"
+            ],
+            "lyphs": [
+                "mat-protein-Q9JMA9-cytoplasmic",
+                "mat-protein-Q9JMA9-transmembrane",
+                "mat-protein-Q9JMA9-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9NRM0",
+            "ontologyTerms": [
+                "UNIPROT:Q9NRM0"
+            ],
+            "lyphs": [
+                "mat-protein-Q9NRM0-cytoplasmic",
+                "mat-protein-Q9NRM0-transmembrane",
+                "mat-protein-Q9NRM0-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9NSA0",
+            "ontologyTerms": [
+                "UNIPROT:Q9NSA0"
+            ],
+            "lyphs": [
+                "mat-protein-Q9NSA0-cytoplasmic",
+                "mat-protein-Q9NSA0-transmembrane",
+                "mat-protein-Q9NSA0-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9UHI5",
+            "ontologyTerms": [
+                "UNIPROT:Q9UHI5"
+            ],
+            "lyphs": [
+                "mat-protein-Q9UHI5-cytoplasmic",
+                "mat-protein-Q9UHI5-transmembrane",
+                "mat-protein-Q9UHI5-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9UM01",
+            "ontologyTerms": [
+                "UNIPROT:Q9UM01"
+            ],
+            "lyphs": [
+                "mat-protein-Q9UM01-cytoplasmic",
+                "mat-protein-Q9UM01-transmembrane",
+                "mat-protein-Q9UM01-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9UNQ0",
+            "ontologyTerms": [
+                "UNIPROT:Q9UNQ0"
+            ],
+            "lyphs": [
+                "mat-protein-Q9UNQ0-cytoplasmic",
+                "mat-protein-Q9UNQ0-transmembrane",
+                "mat-protein-Q9UNQ0-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9UP95",
+            "ontologyTerms": [
+                "UNIPROT:Q9UP95"
+            ],
+            "lyphs": [
+                "mat-protein-Q9UP95-cytoplasmic",
+                "mat-protein-Q9UP95-transmembrane",
+                "mat-protein-Q9UP95-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9WU25",
+            "ontologyTerms": [
+                "UNIPROT:Q9WU25"
+            ],
+            "lyphs": [
+                "mat-protein-Q9WU25-cytoplasmic",
+                "mat-protein-Q9WU25-transmembrane",
+                "mat-protein-Q9WU25-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9Y5Y6",
+            "ontologyTerms": [
+                "UNIPROT:Q9Y5Y6"
+            ],
+            "lyphs": [
+                "mat-protein-Q9Y5Y6-cytoplasmic",
+                "mat-protein-Q9Y5Y6-transmembrane",
+                "mat-protein-Q9Y5Y6-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9Y6L6",
+            "ontologyTerms": [
+                "UNIPROT:Q9Y6L6"
+            ],
+            "lyphs": [
+                "mat-protein-Q9Y6L6-cytoplasmic",
+                "mat-protein-Q9Y6L6-transmembrane",
+                "mat-protein-Q9Y6L6-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9Y6M7",
+            "ontologyTerms": [
+                "UNIPROT:Q9Y6M7"
+            ],
+            "lyphs": [
+                "mat-protein-Q9Y6M7-cytoplasmic",
+                "mat-protein-Q9Y6M7-transmembrane",
+                "mat-protein-Q9Y6M7-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9Y6R1",
+            "ontologyTerms": [
+                "UNIPROT:Q9Y6R1"
+            ],
+            "lyphs": [
+                "mat-protein-Q9Y6R1-cytoplasmic",
+                "mat-protein-Q9Y6R1-transmembrane",
+                "mat-protein-Q9Y6R1-extracellular"
+            ]
+        },
+        {
+            "id": "chain-protein-Q9Z0S4",
+            "ontologyTerms": [
+                "UNIPROT:Q9Z0S4"
+            ],
+            "lyphs": [
+                "mat-protein-Q9Z0S4-cytoplasmic",
+                "mat-protein-Q9Z0S4-transmembrane",
+                "mat-protein-Q9Z0S4-extracellular"
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "id": "mat-protein-O00476-cytoplasmic",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-O00476-transmembrane",
+            "type": "protein-part",
+            "description": "126-146, 154-174, 218-238, 256-276, 292-314, 319-341, 357-377, 385-405"
+        },
+        {
+            "id": "mat-protein-O00476-extracellular",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-O00476",
+            "materials": [
+                "mat-protein-O00476-cytoplasmic",
+                "mat-protein-O00476-transmembrane",
+                "mat-protein-O00476-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-O15244-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-22, 172-177, 230-238, 285-348, 397-414, 463-464, 516-555"
+        },
+        {
+            "id": "mat-protein-O15244-transmembrane",
+            "type": "protein-part",
+            "description": "23-43, 151-171, 178-198, 209-229, 239-259, 264-284, 349-369, 376-396, 415-435, 442-462, 465-485, 495-515"
+        },
+        {
+            "id": "mat-protein-O15244-extracellular",
+            "type": "protein-part",
+            "description": "44-150, 199-208, 260-263, 370-375, 436-441, 486-494"
+        },
+        {
+            "id": "mat-protein-O15244",
+            "materials": [
+                "mat-protein-O15244-cytoplasmic",
+                "mat-protein-O15244-transmembrane",
+                "mat-protein-O15244-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-O15245-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-21, 171-176, 230-235, 284-347, 398-402, 453-464, 514-554"
+        },
+        {
+            "id": "mat-protein-O15245-transmembrane",
+            "type": "protein-part",
+            "description": "22-42, 150-170, 177-197, 207-229, 236-256, 263-283, 348-368, 377-397, 403-423, 432-452, 465-485, 493-513"
+        },
+        {
+            "id": "mat-protein-O15245-extracellular",
+            "type": "protein-part",
+            "description": "43-149, 198-206, 257-262, 369-376, 424-431, 486-492"
+        },
+        {
+            "id": "mat-protein-O15245",
+            "materials": [
+                "mat-protein-O15245-cytoplasmic",
+                "mat-protein-O15245-transmembrane",
+                "mat-protein-O15245-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-O15438-cytoplasmic",
+            "type": "protein-part",
+            "description": "54-73, 121-132, 193-302, 371-426, 472-533, 598-963, 1043-1085, 1129-1199, 1244-1527"
+        },
+        {
+            "id": "mat-protein-O15438-transmembrane",
+            "type": "protein-part",
+            "description": "33-53, 74-94, 100-120, 133-153, 172-192, 303-323, 350-370, 427-447, 451-471, 534-554, 577-597, 964-984, 1022-1042, 1086-1106, 1108-1128, 1200-1220, 1223-1243"
+        },
+        {
+            "id": "mat-protein-O15438-extracellular",
+            "type": "protein-part",
+            "description": "1-32, 95-99, 154-171, 324-349, 448-450, 555-576, 985-1021, 1107-1107, 1221-1222"
+        },
+        {
+            "id": "mat-protein-O15438",
+            "materials": [
+                "mat-protein-O15438-cytoplasmic",
+                "mat-protein-O15438-transmembrane",
+                "mat-protein-O15438-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-O15439-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-88, 177-210, 275-318, 391-719, 804-839, 893-949, 1015-1325"
+        },
+        {
+            "id": "mat-protein-O15439-transmembrane",
+            "type": "protein-part",
+            "description": "89-131, 137-176, 211-244, 247-274, 319-352, 357-390, 720-755, 769-803, 840-871, 874-892, 950-984, 985-1014"
+        },
+        {
+            "id": "mat-protein-O15439-extracellular",
+            "type": "protein-part",
+            "description": "132-136, 245-246, 353-356, 756-768, 872-873"
+        },
+        {
+            "id": "mat-protein-O15439",
+            "materials": [
+                "mat-protein-O15439-cytoplasmic",
+                "mat-protein-O15439-transmembrane",
+                "mat-protein-O15439-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-O35409-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-22"
+        },
+        {
+            "id": "mat-protein-O35409-transmembrane",
+            "type": "protein-part",
+            "description": "23-44"
+        },
+        {
+            "id": "mat-protein-O35409-extracellular",
+            "type": "protein-part",
+            "description": "45-752"
+        },
+        {
+            "id": "mat-protein-O35409",
+            "materials": [
+                "mat-protein-O35409-cytoplasmic",
+                "mat-protein-O35409-transmembrane",
+                "mat-protein-O35409-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-O43511-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-87, 131-135, 213-218, 285-295, 366-384, 443-448, 508-780"
+        },
+        {
+            "id": "mat-protein-O43511-transmembrane",
+            "type": "protein-part",
+            "description": "88-108, 110-130, 136-156, 192-212, 219-239, 264-284, 296-316, 345-365, 385-405, 422-442, 449-469, 487-507"
+        },
+        {
+            "id": "mat-protein-O43511-extracellular",
+            "type": "protein-part",
+            "description": "109-109, 157-191, 240-263, 317-344, 406-421, 470-486"
+        },
+        {
+            "id": "mat-protein-O43511",
+            "materials": [
+                "mat-protein-O43511-cytoplasmic",
+                "mat-protein-O43511-transmembrane",
+                "mat-protein-O43511-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-O60669-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-15, 81-89, 137-148, 195-246, 304-312, 360-373, 428-478"
+        },
+        {
+            "id": "mat-protein-O60669-transmembrane",
+            "type": "protein-part",
+            "description": "16-36, 60-80, 90-110, 116-136, 149-169, 174-194, 247-267, 283-303, 313-333, 339-359, 374-394, 407-427"
+        },
+        {
+            "id": "mat-protein-O60669-extracellular",
+            "type": "protein-part",
+            "description": "37-59, 111-115, 170-173, 268-282, 334-338, 395-406"
+        },
+        {
+            "id": "mat-protein-O60669",
+            "materials": [
+                "mat-protein-O60669-cytoplasmic",
+                "mat-protein-O60669-transmembrane",
+                "mat-protein-O60669-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-O75751-cytoplasmic",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-O75751-transmembrane",
+            "type": "protein-part",
+            "description": "21-41, 182-202, 241-261, 269-289, 381-401, 468-488, 498-518"
+        },
+        {
+            "id": "mat-protein-O75751-extracellular",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-O75751",
+            "materials": [
+                "mat-protein-O75751-cytoplasmic",
+                "mat-protein-O75751-transmembrane",
+                "mat-protein-O75751-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-O76082-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-20, 164-172, 219-232, 279-341, 395-406, 452-462"
+        },
+        {
+            "id": "mat-protein-O76082-transmembrane",
+            "type": "protein-part",
+            "description": "21-41, 143-163, 173-193, 198-218, 233-253, 258-278, 342-362, 374-394, 407-427, 431-451, 463-483, 489-509"
+        },
+        {
+            "id": "mat-protein-O76082-extracellular",
+            "type": "protein-part",
+            "description": "42-142, 194-197, 254-257, 363-373, 428-430, 484-488"
+        },
+        {
+            "id": "mat-protein-O76082",
+            "materials": [
+                "mat-protein-O76082-cytoplasmic",
+                "mat-protein-O76082-transmembrane",
+                "mat-protein-O76082-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-O95255-cytoplasmic",
+            "type": "protein-part",
+            "description": "53-72, 120-131, 189-302, 371-426, 472-533, 597-939, 1019-1061, 1105-1175, 1220-1503"
+        },
+        {
+            "id": "mat-protein-O95255-transmembrane",
+            "type": "protein-part",
+            "description": "32-52, 73-93, 99-119, 132-149, 168-188, 303-323, 350-370, 427-447, 451-471, 534-554, 576-596, 940-960, 998-1018, 1062-1082, 1084-1104, 1176-1196, 1199-1219"
+        },
+        {
+            "id": "mat-protein-O95255-extracellular",
+            "type": "protein-part",
+            "description": "1-31, 94-98, 150-167, 324-349, 448-450, 555-575, 961-997, 1083-1083, 1197-1198"
+        },
+        {
+            "id": "mat-protein-O95255",
+            "materials": [
+                "mat-protein-O95255-cytoplasmic",
+                "mat-protein-O95255-transmembrane",
+                "mat-protein-O95255-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P02730-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-403, 457-459, 507-518, 592-602, 685-700, 738-760, 801-838, 870-911"
+        },
+        {
+            "id": "mat-protein-P02730-transmembrane",
+            "type": "protein-part",
+            "description": "404-427, 436-456, 460-476, 486-506, 519-541, 571-591, 603-623, 664-684, 701-719, 720-737, 761-781, 782-800"
+        },
+        {
+            "id": "mat-protein-P02730-extracellular",
+            "type": "protein-part",
+            "description": "428-435, 477-485, 542-570, 624-663"
+        },
+        {
+            "id": "mat-protein-P02730",
+            "materials": [
+                "mat-protein-P02730-cytoplasmic",
+                "mat-protein-P02730-transmembrane",
+                "mat-protein-P02730-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P04919-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-422, 476-478, 526-537, 610-620, 703-718, 756-778, 819-856, 888-929"
+        },
+        {
+            "id": "mat-protein-P04919-transmembrane",
+            "type": "protein-part",
+            "description": "423-446, 455-475, 479-495, 505-525, 538-560, 589-609, 621-641, 682-702, 719-737, 738-755, 779-799, 800-818"
+        },
+        {
+            "id": "mat-protein-P04919-extracellular",
+            "type": "protein-part",
+            "description": "447-454, 496-504, 561-588, 642-681"
+        },
+        {
+            "id": "mat-protein-P04919",
+            "materials": [
+                "mat-protein-P04919-cytoplasmic",
+                "mat-protein-P04919-transmembrane",
+                "mat-protein-P04919-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P05023-cytoplasmic",
+            "type": "protein-part",
+            "description": "6-87, 153-288, 339-772, 824-843, 939-951, 1007-1023"
+        },
+        {
+            "id": "mat-protein-P05023-transmembrane",
+            "type": "protein-part",
+            "description": "88-108, 132-152, 289-308, 321-338, 773-792, 803-823, 844-866, 919-938, 952-970, 986-1006"
+        },
+        {
+            "id": "mat-protein-P05023-extracellular",
+            "type": "protein-part",
+            "description": "109-131, 309-320, 793-802, 867-918, 971-985"
+        },
+        {
+            "id": "mat-protein-P05023",
+            "materials": [
+                "mat-protein-P05023-cytoplasmic",
+                "mat-protein-P05023-transmembrane",
+                "mat-protein-P05023-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P06685-cytoplasmic",
+            "type": "protein-part",
+            "description": "6-87, 153-288, 339-772, 824-843, 939-951, 1007-1023"
+        },
+        {
+            "id": "mat-protein-P06685-transmembrane",
+            "type": "protein-part",
+            "description": "88-108, 132-152, 289-308, 321-338, 773-792, 803-823, 844-866, 919-938, 952-970, 986-1006"
+        },
+        {
+            "id": "mat-protein-P06685-extracellular",
+            "type": "protein-part",
+            "description": "109-131, 309-320, 793-802, 867-918, 971-985"
+        },
+        {
+            "id": "mat-protein-P06685",
+            "materials": [
+                "mat-protein-P06685-cytoplasmic",
+                "mat-protein-P06685-transmembrane",
+                "mat-protein-P06685-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P08183-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-44, 138-186, 237-292, 353-711, 778-832, 875-934, 996-1280"
+        },
+        {
+            "id": "mat-protein-P08183-transmembrane",
+            "type": "protein-part",
+            "description": "45-67, 117-137, 187-208, 216-236, 293-316, 331-352, 712-732, 757-777, 833-853, 855-874, 935-957, 974-995"
+        },
+        {
+            "id": "mat-protein-P08183-extracellular",
+            "type": "protein-part",
+            "description": "68-116, 209-215, 317-330, 733-756, 854-854, 958-973"
+        },
+        {
+            "id": "mat-protein-P08183",
+            "materials": [
+                "mat-protein-P08183-cytoplasmic",
+                "mat-protein-P08183-transmembrane",
+                "mat-protein-P08183-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P08195-cytoplasmic",
+            "type": "protein-part",
+            "description": "2-83"
+        },
+        {
+            "id": "mat-protein-P08195-transmembrane",
+            "type": "protein-part",
+            "description": "84-104"
+        },
+        {
+            "id": "mat-protein-P08195-extracellular",
+            "type": "protein-part",
+            "description": "105-529"
+        },
+        {
+            "id": "mat-protein-P08195",
+            "materials": [
+                "mat-protein-P08195-cytoplasmic",
+                "mat-protein-P08195-transmembrane",
+                "mat-protein-P08195-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P09572-cytoplasmic",
+            "type": "protein-part",
+            "description": "6-85, 151-286, 337-770, 822-841, 937-949, 1005-1021"
+        },
+        {
+            "id": "mat-protein-P09572-transmembrane",
+            "type": "protein-part",
+            "description": "86-106, 130-150, 287-306, 319-336, 771-790, 801-821, 842-864, 917-936, 950-968, 984-1004"
+        },
+        {
+            "id": "mat-protein-P09572-extracellular",
+            "type": "protein-part",
+            "description": "107-129, 307-318, 791-800, 865-916, 969-983"
+        },
+        {
+            "id": "mat-protein-P09572",
+            "materials": [
+                "mat-protein-P09572-cytoplasmic",
+                "mat-protein-P09572-transmembrane",
+                "mat-protein-P09572-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P11166-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-11, 88-90, 145-155, 207-271, 329-334, 389-401, 451-492"
+        },
+        {
+            "id": "mat-protein-P11166-transmembrane",
+            "type": "protein-part",
+            "description": "12-33, 67-87, 91-112, 121-144, 156-176, 186-206, 272-293, 307-328, 335-355, 366-388, 402-422, 430-450"
+        },
+        {
+            "id": "mat-protein-P11166-extracellular",
+            "type": "protein-part",
+            "description": "34-66, 113-120, 177-185, 294-306, 356-365, 423-429"
+        },
+        {
+            "id": "mat-protein-P11166",
+            "materials": [
+                "mat-protein-P11166-cytoplasmic",
+                "mat-protein-P11166-transmembrane",
+                "mat-protein-P11166-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P11167-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-11, 88-90, 145-155, 207-271, 329-334, 389-401, 451-492"
+        },
+        {
+            "id": "mat-protein-P11167-transmembrane",
+            "type": "protein-part",
+            "description": "12-33, 67-87, 91-112, 121-144, 156-176, 186-206, 272-293, 307-328, 335-355, 366-388, 402-422, 430-450"
+        },
+        {
+            "id": "mat-protein-P11167-extracellular",
+            "type": "protein-part",
+            "description": "34-66, 113-120, 177-185, 294-306, 356-365, 423-429"
+        },
+        {
+            "id": "mat-protein-P11167",
+            "materials": [
+                "mat-protein-P11167-cytoplasmic",
+                "mat-protein-P11167-transmembrane",
+                "mat-protein-P11167-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P11168-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-10, 120-127, 180-187, 239-303, 360-368, 422-433, 483-524"
+        },
+        {
+            "id": "mat-protein-P11168-transmembrane",
+            "type": "protein-part",
+            "description": "11-31, 99-119, 128-148, 159-179, 188-208, 218-238, 304-324, 339-359, 369-389, 401-421, 434-454, 462-482"
+        },
+        {
+            "id": "mat-protein-P11168-extracellular",
+            "type": "protein-part",
+            "description": "32-98, 149-158, 209-217, 325-338, 390-400, 455-461"
+        },
+        {
+            "id": "mat-protein-P11168",
+            "materials": [
+                "mat-protein-P11168-cytoplasmic",
+                "mat-protein-P11168-transmembrane",
+                "mat-protein-P11168-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P12336-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-10, 118-125, 178-185, 237-301, 359-365, 423-431, 481-522"
+        },
+        {
+            "id": "mat-protein-P12336-transmembrane",
+            "type": "protein-part",
+            "description": "11-31, 97-117, 126-146, 157-177, 186-206, 216-236, 302-322, 338-358, 366-386, 402-422, 432-452, 460-480"
+        },
+        {
+            "id": "mat-protein-P12336-extracellular",
+            "type": "protein-part",
+            "description": "32-96, 147-156, 207-215, 323-337, 387-401, 453-459"
+        },
+        {
+            "id": "mat-protein-P12336",
+            "materials": [
+                "mat-protein-P12336-cytoplasmic",
+                "mat-protein-P12336-transmembrane",
+                "mat-protein-P12336-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P13866-cytoplasmic",
+            "type": "protein-part",
+            "description": "48-66, 118-139, 194-202, 296-309, 407-422, 478-481, 548-644"
+        },
+        {
+            "id": "mat-protein-P13866-transmembrane",
+            "type": "protein-part",
+            "description": "25-47, 67-90, 96-117, 140-169, 177-193, 203-221, 276-295, 310-331, 376-406, 423-444, 452-477, 482-504, 526-547, 645-662"
+        },
+        {
+            "id": "mat-protein-P13866-extracellular",
+            "type": "protein-part",
+            "description": "1-24, 91-95, 170-176, 222-275, 332-375, 445-451, 505-525, 663-664"
+        },
+        {
+            "id": "mat-protein-P13866",
+            "materials": [
+                "mat-protein-P13866-cytoplasmic",
+                "mat-protein-P13866-transmembrane",
+                "mat-protein-P13866-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P14142-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-23, 102-110, 163-170, 222-286, 344-352, 406-416, 466-508"
+        },
+        {
+            "id": "mat-protein-P14142-transmembrane",
+            "type": "protein-part",
+            "description": "24-44, 81-101, 111-131, 142-162, 171-191, 201-221, 287-307, 323-343, 353-373, 385-405, 417-437, 445-465"
+        },
+        {
+            "id": "mat-protein-P14142-extracellular",
+            "type": "protein-part",
+            "description": "45-80, 132-141, 192-200, 308-322, 374-384, 438-444"
+        },
+        {
+            "id": "mat-protein-P14142",
+            "materials": [
+                "mat-protein-P14142-cytoplasmic",
+                "mat-protein-P14142-transmembrane",
+                "mat-protein-P14142-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P14246-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-10, 119-126, 179-186, 238-302, 359-367, 423-432, 482-523"
+        },
+        {
+            "id": "mat-protein-P14246-transmembrane",
+            "type": "protein-part",
+            "description": "11-31, 98-118, 127-147, 158-178, 187-207, 217-237, 303-323, 338-358, 368-388, 402-422, 433-453, 461-481"
+        },
+        {
+            "id": "mat-protein-P14246-extracellular",
+            "type": "protein-part",
+            "description": "32-97, 148-157, 208-216, 324-337, 389-401, 454-460"
+        },
+        {
+            "id": "mat-protein-P14246",
+            "materials": [
+                "mat-protein-P14246-cytoplasmic",
+                "mat-protein-P14246-transmembrane",
+                "mat-protein-P14246-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P15387-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-186, 251-259, 317-330, 421-857"
+        },
+        {
+            "id": "mat-protein-P15387-transmembrane",
+            "type": "protein-part",
+            "description": "187-208, 229-250, 260-280, 295-316, 331-351, 392-420"
+        },
+        {
+            "id": "mat-protein-P15387-extracellular",
+            "type": "protein-part",
+            "description": "209-228, 281-294, 352-364, 385-391"
+        },
+        {
+            "id": "mat-protein-P15387",
+            "materials": [
+                "mat-protein-P15387-cytoplasmic",
+                "mat-protein-P15387-transmembrane",
+                "mat-protein-P15387-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P17809-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-11, 88-90, 145-155, 207-271, 329-334, 389-401, 451-492"
+        },
+        {
+            "id": "mat-protein-P17809-transmembrane",
+            "type": "protein-part",
+            "description": "12-33, 67-87, 91-112, 121-144, 156-176, 186-206, 272-293, 307-328, 335-355, 366-388, 402-422, 430-450"
+        },
+        {
+            "id": "mat-protein-P17809-extracellular",
+            "type": "protein-part",
+            "description": "34-66, 113-120, 177-185, 294-306, 356-365, 423-429"
+        },
+        {
+            "id": "mat-protein-P17809",
+            "materials": [
+                "mat-protein-P17809-cytoplasmic",
+                "mat-protein-P17809-transmembrane",
+                "mat-protein-P17809-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P19357-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-24, 103-111, 164-171, 223-287, 345-353, 406-417, 467-509"
+        },
+        {
+            "id": "mat-protein-P19357-transmembrane",
+            "type": "protein-part",
+            "description": "25-45, 82-102, 112-132, 143-163, 172-192, 202-222, 288-308, 324-344, 354-374, 385-405, 418-438, 446-466"
+        },
+        {
+            "id": "mat-protein-P19357-extracellular",
+            "type": "protein-part",
+            "description": "46-81, 133-142, 193-201, 309-323, 375-384, 439-445"
+        },
+        {
+            "id": "mat-protein-P19357",
+            "materials": [
+                "mat-protein-P19357-cytoplasmic",
+                "mat-protein-P19357-transmembrane",
+                "mat-protein-P19357-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P22732-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-18, 92-98, 150-161, 214-277, 335-342, 395-412, 461-501"
+        },
+        {
+            "id": "mat-protein-P22732-transmembrane",
+            "type": "protein-part",
+            "description": "19-39, 69-91, 99-119, 127-149, 162-182, 193-213, 278-298, 314-334, 343-363, 372-394, 413-433, 440-460"
+        },
+        {
+            "id": "mat-protein-P22732-extracellular",
+            "type": "protein-part",
+            "description": "40-68, 120-126, 183-192, 299-313, 364-371, 434-439"
+        },
+        {
+            "id": "mat-protein-P22732",
+            "materials": [
+                "mat-protein-P22732-cytoplasmic",
+                "mat-protein-P22732-transmembrane",
+                "mat-protein-P22732-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P23562-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-420, 474-476, 524-535, 608-618, 701-716, 754-776, 817-854, 886-927"
+        },
+        {
+            "id": "mat-protein-P23562-transmembrane",
+            "type": "protein-part",
+            "description": "421-444, 453-473, 477-493, 503-523, 536-558, 587-607, 619-639, 680-700, 717-735, 736-753, 777-797, 798-816"
+        },
+        {
+            "id": "mat-protein-P23562-extracellular",
+            "type": "protein-part",
+            "description": "445-452, 494-502, 559-586, 640-679"
+        },
+        {
+            "id": "mat-protein-P23562",
+            "materials": [
+                "mat-protein-P23562-cytoplasmic",
+                "mat-protein-P23562-transmembrane",
+                "mat-protein-P23562-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P26431-cytoplasmic",
+            "type": "protein-part",
+            "description": "126-134, 181-190, 254-256, 327-332, 376-377, 443-448, 510-820"
+        },
+        {
+            "id": "mat-protein-P26431-transmembrane",
+            "type": "protein-part",
+            "description": "103-125, 135-152, 163-180, 191-219, 227-253, 257-287, 292-326, 333-345, 355-375, 378-408, 415-442, 449-473, 480-509"
+        },
+        {
+            "id": "mat-protein-P26431-extracellular",
+            "type": "protein-part",
+            "description": "1-102, 153-162, 220-226, 288-291, 346-354, 409-414, 474-479"
+        },
+        {
+            "id": "mat-protein-P26431",
+            "materials": [
+                "mat-protein-P26431-cytoplasmic",
+                "mat-protein-P26431-transmembrane",
+                "mat-protein-P26431-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P28235-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-20, 100-148, 232-333"
+        },
+        {
+            "id": "mat-protein-P28235-transmembrane",
+            "type": "protein-part",
+            "description": "21-40, 77-99, 149-171, 209-231"
+        },
+        {
+            "id": "mat-protein-P28235-extracellular",
+            "type": "protein-part",
+            "description": "41-76, 172-208"
+        },
+        {
+            "id": "mat-protein-P28235",
+            "materials": [
+                "mat-protein-P28235-cytoplasmic",
+                "mat-protein-P28235-transmembrane",
+                "mat-protein-P28235-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P29972-cytoplasmic",
+            "type": "protein-part",
+            "description": "2-11, 66-68, 83-90, 154-163, 225-269"
+        },
+        {
+            "id": "mat-protein-P29972-transmembrane",
+            "type": "protein-part",
+            "description": "12-29, 47-65, 91-109, 134-153, 164-181, 207-224"
+        },
+        {
+            "id": "mat-protein-P29972-extracellular",
+            "type": "protein-part",
+            "description": "30-46, 110-133, 182-186, 200-206"
+        },
+        {
+            "id": "mat-protein-P29972",
+            "materials": [
+                "mat-protein-P29972-cytoplasmic",
+                "mat-protein-P29972-transmembrane",
+                "mat-protein-P29972-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P31639-cytoplasmic",
+            "type": "protein-part",
+            "description": "45-63, 115-136, 296-309, 407-424, 478-482, 548-651"
+        },
+        {
+            "id": "mat-protein-P31639-transmembrane",
+            "type": "protein-part",
+            "description": "23-44, 64-85, 94-114, 137-166, 174-195, 196-217, 276-295, 310-331, 376-406, 425-446, 452-477, 483-505, 524-547, 652-670"
+        },
+        {
+            "id": "mat-protein-P31639-extracellular",
+            "type": "protein-part",
+            "description": "1-22, 86-93, 167-173, 218-275, 332-375, 447-451, 506-523, 671-672"
+        },
+        {
+            "id": "mat-protein-P31639",
+            "materials": [
+                "mat-protein-P31639-cytoplasmic",
+                "mat-protein-P31639-transmembrane",
+                "mat-protein-P31639-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P33527-cytoplasmic",
+            "type": "protein-part",
+            "description": "55-74, 122-133, 194-316, 385-440, 486-547, 612-967, 1047-1089, 1133-1203, 1248-1531"
+        },
+        {
+            "id": "mat-protein-P33527-transmembrane",
+            "type": "protein-part",
+            "description": "34-54, 75-95, 101-121, 134-154, 173-193, 317-337, 364-384, 441-461, 465-485, 548-568, 591-611, 968-988, 1026-1046, 1090-1110, 1112-1132, 1204-1224, 1227-1247"
+        },
+        {
+            "id": "mat-protein-P33527-extracellular",
+            "type": "protein-part",
+            "description": "1-33, 96-100, 155-172, 338-363, 462-464, 569-590, 989-1025, 1111-1111, 1225-1226"
+        },
+        {
+            "id": "mat-protein-P33527",
+            "materials": [
+                "mat-protein-P33527-cytoplasmic",
+                "mat-protein-P33527-transmembrane",
+                "mat-protein-P33527-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P34080-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-11, 60-64, 75-85, 149-156, 223-271"
+        },
+        {
+            "id": "mat-protein-P34080-transmembrane",
+            "type": "protein-part",
+            "description": "12-32, 41-59, 86-107, 128-148, 157-176, 202-222"
+        },
+        {
+            "id": "mat-protein-P34080-extracellular",
+            "type": "protein-part",
+            "description": "33-40, 108-127, 177-180, 194-201"
+        },
+        {
+            "id": "mat-protein-P34080",
+            "materials": [
+                "mat-protein-P34080-cytoplasmic",
+                "mat-protein-P34080-transmembrane",
+                "mat-protein-P34080-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P35560-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-77, 178-391"
+        },
+        {
+            "id": "mat-protein-P35560-transmembrane",
+            "type": "protein-part",
+            "description": "78-102, 156-177"
+        },
+        {
+            "id": "mat-protein-P35560-extracellular",
+            "type": "protein-part",
+            "description": "103-127, 147-155"
+        },
+        {
+            "id": "mat-protein-P35560",
+            "materials": [
+                "mat-protein-P35560-cytoplasmic",
+                "mat-protein-P35560-transmembrane",
+                "mat-protein-P35560-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P37088-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-85, 584-669"
+        },
+        {
+            "id": "mat-protein-P37088-transmembrane",
+            "type": "protein-part",
+            "description": "86-106, 563-583"
+        },
+        {
+            "id": "mat-protein-P37088-extracellular",
+            "type": "protein-part",
+            "description": "107-562"
+        },
+        {
+            "id": "mat-protein-P37088",
+            "materials": [
+                "mat-protein-P37088-cytoplasmic",
+                "mat-protein-P37088-transmembrane",
+                "mat-protein-P37088-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P41181-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-11, 60-64, 75-85, 149-156, 223-271"
+        },
+        {
+            "id": "mat-protein-P41181-transmembrane",
+            "type": "protein-part",
+            "description": "12-32, 41-59, 86-107, 128-148, 157-176, 202-222"
+        },
+        {
+            "id": "mat-protein-P41181-extracellular",
+            "type": "protein-part",
+            "description": "33-40, 108-127, 177-180, 194-201"
+        },
+        {
+            "id": "mat-protein-P41181",
+            "materials": [
+                "mat-protein-P41181-cytoplasmic",
+                "mat-protein-P41181-transmembrane",
+                "mat-protein-P41181-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P43005-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-18, 83-93, 230-238, 309-313, 345-353, 463-524"
+        },
+        {
+            "id": "mat-protein-P43005-transmembrane",
+            "type": "protein-part",
+            "description": "19-38, 62-82, 94-114, 206-229, 239-266, 287-308, 354-380, 441-462"
+        },
+        {
+            "id": "mat-protein-P43005-extracellular",
+            "type": "protein-part",
+            "description": "39-61, 115-205, 267-286, 381-393, 428-440"
+        },
+        {
+            "id": "mat-protein-P43005",
+            "materials": [
+                "mat-protein-P43005-cytoplasmic",
+                "mat-protein-P43005-transmembrane",
+                "mat-protein-P43005-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P46059-cytoplasmic",
+            "type": "protein-part",
+            "description": "75-82, 140-161, 220-276, 349-361, 606-619, 667-708"
+        },
+        {
+            "id": "mat-protein-P46059-transmembrane",
+            "type": "protein-part",
+            "description": "1-21, 54-74, 83-103, 119-139, 162-182, 199-219, 277-297, 328-348, 362-382, 585-605, 620-640, 646-666"
+        },
+        {
+            "id": "mat-protein-P46059-extracellular",
+            "type": "protein-part",
+            "description": "22-53, 104-118, 183-198, 298-327, 383-584, 641-645"
+        },
+        {
+            "id": "mat-protein-P46059",
+            "materials": [
+                "mat-protein-P46059-cytoplasmic",
+                "mat-protein-P46059-transmembrane",
+                "mat-protein-P46059-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P46721-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-20, 81-86, 185-203, 268-311, 378-381, 537-545, 624-670"
+        },
+        {
+            "id": "mat-protein-P46721-transmembrane",
+            "type": "protein-part",
+            "description": "21-40, 60-80, 87-111, 156-184, 204-224, 243-267, 312-333, 354-377, 382-405, 514-536, 546-571, 606-623"
+        },
+        {
+            "id": "mat-protein-P46721-extracellular",
+            "type": "protein-part",
+            "description": "41-59, 112-155, 225-242, 334-353, 406-513, 572-605"
+        },
+        {
+            "id": "mat-protein-P46721",
+            "materials": [
+                "mat-protein-P46721-cytoplasmic",
+                "mat-protein-P46721-transmembrane",
+                "mat-protein-P46721-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P47824-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-28, 359-399"
+        },
+        {
+            "id": "mat-protein-P47824-transmembrane",
+            "type": "protein-part",
+            "description": "29-50, 339-358"
+        },
+        {
+            "id": "mat-protein-P47824-extracellular",
+            "type": "protein-part",
+            "description": "51-338"
+        },
+        {
+            "id": "mat-protein-P47824",
+            "materials": [
+                "mat-protein-P47824-cytoplasmic",
+                "mat-protein-P47824-transmembrane",
+                "mat-protein-P47824-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P48048-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-77, 178-391"
+        },
+        {
+            "id": "mat-protein-P48048-transmembrane",
+            "type": "protein-part",
+            "description": "78-102, 156-177"
+        },
+        {
+            "id": "mat-protein-P48048-extracellular",
+            "type": "protein-part",
+            "description": "103-127, 147-155"
+        },
+        {
+            "id": "mat-protein-P48048",
+            "materials": [
+                "mat-protein-P48048-cytoplasmic",
+                "mat-protein-P48048-transmembrane",
+                "mat-protein-P48048-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P48764-cytoplasmic",
+            "type": "protein-part",
+            "description": "75-82, 130-132, 204-205, 280-281, 324-330, 390-402, 468-834"
+        },
+        {
+            "id": "mat-protein-P48764-transmembrane",
+            "type": "protein-part",
+            "description": "52-74, 83-102, 112-129, 133-168, 182-203, 206-237, 245-279, 282-304, 307-323, 331-359, 368-389, 403-426, 434-467"
+        },
+        {
+            "id": "mat-protein-P48764-extracellular",
+            "type": "protein-part",
+            "description": "26-51, 103-111, 169-181, 238-244, 305-306, 360-367, 427-433"
+        },
+        {
+            "id": "mat-protein-P48764",
+            "materials": [
+                "mat-protein-P48764-cytoplasmic",
+                "mat-protein-P48764-transmembrane",
+                "mat-protein-P48764-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P51168-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-50, 554-640"
+        },
+        {
+            "id": "mat-protein-P51168-transmembrane",
+            "type": "protein-part",
+            "description": "51-71, 533-553"
+        },
+        {
+            "id": "mat-protein-P51168-extracellular",
+            "type": "protein-part",
+            "description": "72-532"
+        },
+        {
+            "id": "mat-protein-P51168",
+            "materials": [
+                "mat-protein-P51168-cytoplasmic",
+                "mat-protein-P51168-transmembrane",
+                "mat-protein-P51168-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P51170-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-55, 563-649"
+        },
+        {
+            "id": "mat-protein-P51170-transmembrane",
+            "type": "protein-part",
+            "description": "56-76, 542-562"
+        },
+        {
+            "id": "mat-protein-P51170-extracellular",
+            "type": "protein-part",
+            "description": "77-541"
+        },
+        {
+            "id": "mat-protein-P51170",
+            "materials": [
+                "mat-protein-P51170-cytoplasmic",
+                "mat-protein-P51170-transmembrane",
+                "mat-protein-P51170-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P51172-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-250, 716-802"
+        },
+        {
+            "id": "mat-protein-P51172-transmembrane",
+            "type": "protein-part",
+            "description": "251-271, 695-715"
+        },
+        {
+            "id": "mat-protein-P51172-extracellular",
+            "type": "protein-part",
+            "description": "272-694"
+        },
+        {
+            "id": "mat-protein-P51172",
+            "materials": [
+                "mat-protein-P51172-cytoplasmic",
+                "mat-protein-P51172-transmembrane",
+                "mat-protein-P51172-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P51582-cytoplasmic",
+            "type": "protein-part",
+            "description": "62-72, 132-154, 223-246, 310-365"
+        },
+        {
+            "id": "mat-protein-P51582-transmembrane",
+            "type": "protein-part",
+            "description": "35-61, 73-95, 113-131, 155-174, 197-222, 247-269, 288-309"
+        },
+        {
+            "id": "mat-protein-P51582-extracellular",
+            "type": "protein-part",
+            "description": "1-34, 96-112, 175-196, 270-287"
+        },
+        {
+            "id": "mat-protein-P51582",
+            "materials": [
+                "mat-protein-P51582-cytoplasmic",
+                "mat-protein-P51582-transmembrane",
+                "mat-protein-P51582-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P51801-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-50, 521-687"
+        },
+        {
+            "id": "mat-protein-P51801-transmembrane",
+            "type": "protein-part",
+            "description": "51-82, 91-111, 141-160, 161-180, 236-255, 282-310, 325-342, 400-420, 421-440, 500-520"
+        },
+        {
+            "id": "mat-protein-P51801-extracellular",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-P51801",
+            "materials": [
+                "mat-protein-P51801-cytoplasmic",
+                "mat-protein-P51801-transmembrane",
+                "mat-protein-P51801-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P53791-cytoplasmic",
+            "type": "protein-part",
+            "description": "48-66, 118-139, 194-202, 296-309, 407-422, 478-481, 548-644"
+        },
+        {
+            "id": "mat-protein-P53791-transmembrane",
+            "type": "protein-part",
+            "description": "25-47, 67-90, 96-117, 140-169, 177-193, 203-221, 276-295, 310-331, 376-406, 423-444, 452-477, 482-504, 526-547, 645-662"
+        },
+        {
+            "id": "mat-protein-P53791-extracellular",
+            "type": "protein-part",
+            "description": "1-24, 91-95, 170-176, 222-275, 332-375, 445-451, 505-525, 663-664"
+        },
+        {
+            "id": "mat-protein-P53791",
+            "materials": [
+                "mat-protein-P53791-cytoplasmic",
+                "mat-protein-P53791-transmembrane",
+                "mat-protein-P53791-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P54708-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-99, 165-300, 351-784, 836-855, 951-964, 1020-1036"
+        },
+        {
+            "id": "mat-protein-P54708-transmembrane",
+            "type": "protein-part",
+            "description": "100-120, 144-164, 301-320, 333-350, 785-804, 815-835, 856-878, 931-950, 965-983, 999-1019"
+        },
+        {
+            "id": "mat-protein-P54708-extracellular",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-P54708",
+            "materials": [
+                "mat-protein-P54708-cytoplasmic",
+                "mat-protein-P54708-transmembrane",
+                "mat-protein-P54708-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P54709-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-35"
+        },
+        {
+            "id": "mat-protein-P54709-transmembrane",
+            "type": "protein-part",
+            "description": "36-56"
+        },
+        {
+            "id": "mat-protein-P54709-extracellular",
+            "type": "protein-part",
+            "description": "57-279"
+        },
+        {
+            "id": "mat-protein-P54709",
+            "materials": [
+                "mat-protein-P54709-cytoplasmic",
+                "mat-protein-P54709-transmembrane",
+                "mat-protein-P54709-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P55012-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-279, 330-360, 423-425, 498-512, 617-644, 685-707, 739-1205"
+        },
+        {
+            "id": "mat-protein-P55012-transmembrane",
+            "type": "protein-part",
+            "description": "280-309, 310-329, 361-388, 399-422, 426-447, 480-497, 513-534, 592-616, 645-665, 666-684, 708-725, 726-738"
+        },
+        {
+            "id": "mat-protein-P55012-extracellular",
+            "type": "protein-part",
+            "description": "389-398, 448-479, 535-591"
+        },
+        {
+            "id": "mat-protein-P55012",
+            "materials": [
+                "mat-protein-P55012-cytoplasmic",
+                "mat-protein-P55012-transmembrane",
+                "mat-protein-P55012-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P55013-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-258, 309-339, 402-404, 477-491, 597-624, 665-687, 719-1191"
+        },
+        {
+            "id": "mat-protein-P55013-transmembrane",
+            "type": "protein-part",
+            "description": "259-288, 289-308, 340-367, 378-401, 405-426, 459-476, 492-513, 572-596, 625-645, 646-664, 688-705, 706-718"
+        },
+        {
+            "id": "mat-protein-P55013-extracellular",
+            "type": "protein-part",
+            "description": "368-377, 427-458, 514-571"
+        },
+        {
+            "id": "mat-protein-P55013",
+            "materials": [
+                "mat-protein-P55013-cytoplasmic",
+                "mat-protein-P55013-transmembrane",
+                "mat-protein-P55013-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P55014-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-173, 219-255, 320-323, 397-413, 627-1095"
+        },
+        {
+            "id": "mat-protein-P55014-transmembrane",
+            "type": "protein-part",
+            "description": "174-194, 198-218, 256-276, 299-319, 324-344, 376-396, 414-434, 547-567, 568-588, 606-626"
+        },
+        {
+            "id": "mat-protein-P55014-extracellular",
+            "type": "protein-part",
+            "description": "195-197, 277-298, 345-375, 435-546, 589-605"
+        },
+        {
+            "id": "mat-protein-P55014",
+            "materials": [
+                "mat-protein-P55014-cytoplasmic",
+                "mat-protein-P55014-transmembrane",
+                "mat-protein-P55014-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P55017-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-137, 190-220, 361-371, 478-507, 545-567, 600-1021"
+        },
+        {
+            "id": "mat-protein-P55017-transmembrane",
+            "type": "protein-part",
+            "description": "138-167, 168-189, 221-243, 256-280, 281-303, 339-360, 372-393, 454-477, 508-522, 528-544, 568-587, 588-599"
+        },
+        {
+            "id": "mat-protein-P55017-extracellular",
+            "type": "protein-part",
+            "description": "244-255, 304-338, 394-453, 523-527"
+        },
+        {
+            "id": "mat-protein-P55017",
+            "materials": [
+                "mat-protein-P55017-cytoplasmic",
+                "mat-protein-P55017-transmembrane",
+                "mat-protein-P55017-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P55087-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-36, 90-93, 102-115, 177-184, 253-323"
+        },
+        {
+            "id": "mat-protein-P55087-transmembrane",
+            "type": "protein-part",
+            "description": "37-57, 70-89, 116-136, 156-176, 185-205, 232-252"
+        },
+        {
+            "id": "mat-protein-P55087-extracellular",
+            "type": "protein-part",
+            "description": "58-69, 137-155, 206-208, 223-231"
+        },
+        {
+            "id": "mat-protein-P55087",
+            "materials": [
+                "mat-protein-P55087-cytoplasmic",
+                "mat-protein-P55087-transmembrane",
+                "mat-protein-P55087-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-P82251-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-31, 85-110, 239-251, 326-351, 392-410, 451-487"
+        },
+        {
+            "id": "mat-protein-P82251-transmembrane",
+            "type": "protein-part",
+            "description": "32-55, 63-84, 111-137, 148-169, 170-193, 218-238, 252-274, 303-325, 352-370, 371-391, 411-431, 435-450"
+        },
+        {
+            "id": "mat-protein-P82251-extracellular",
+            "type": "protein-part",
+            "description": "56-62, 138-147, 194-217, 275-302, 432-434"
+        },
+        {
+            "id": "mat-protein-P82251",
+            "materials": [
+                "mat-protein-P82251-cytoplasmic",
+                "mat-protein-P82251-transmembrane",
+                "mat-protein-P82251-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q02013-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-11, 66-68, 83-90, 154-163, 225-269"
+        },
+        {
+            "id": "mat-protein-Q02013-transmembrane",
+            "type": "protein-part",
+            "description": "12-29, 47-65, 91-109, 134-153, 164-181, 207-224"
+        },
+        {
+            "id": "mat-protein-Q02013-extracellular",
+            "type": "protein-part",
+            "description": "30-46, 110-133, 182-186, 200-206"
+        },
+        {
+            "id": "mat-protein-Q02013",
+            "materials": [
+                "mat-protein-Q02013-cytoplasmic",
+                "mat-protein-Q02013-transmembrane",
+                "mat-protein-Q02013-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q03717-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-186, 251-259, 317-330, 421-857"
+        },
+        {
+            "id": "mat-protein-Q03717-transmembrane",
+            "type": "protein-part",
+            "description": "187-208, 229-250, 260-280, 295-316, 331-351, 392-420"
+        },
+        {
+            "id": "mat-protein-Q03717-extracellular",
+            "type": "protein-part",
+            "description": "209-228, 281-294, 352-364, 385-391"
+        },
+        {
+            "id": "mat-protein-Q03717",
+            "materials": [
+                "mat-protein-Q03717-cytoplasmic",
+                "mat-protein-Q03717-transmembrane",
+                "mat-protein-Q03717-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q06495-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-103, 164-165, 371-412, 488-513, 562-639"
+        },
+        {
+            "id": "mat-protein-Q06495-transmembrane",
+            "type": "protein-part",
+            "description": "104-125, 146-163, 166-185, 348-370, 413-436, 467-487, 514-534, 540-561"
+        },
+        {
+            "id": "mat-protein-Q06495-extracellular",
+            "type": "protein-part",
+            "description": "126-145, 186-347, 437-466, 535-539"
+        },
+        {
+            "id": "mat-protein-Q06495",
+            "materials": [
+                "mat-protein-Q06495-cytoplasmic",
+                "mat-protein-Q06495-transmembrane",
+                "mat-protein-Q06495-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q07837-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-87"
+        },
+        {
+            "id": "mat-protein-Q07837-transmembrane",
+            "type": "protein-part",
+            "description": "88-108"
+        },
+        {
+            "id": "mat-protein-Q07837-extracellular",
+            "type": "protein-part",
+            "description": "109-685"
+        },
+        {
+            "id": "mat-protein-Q07837",
+            "materials": [
+                "mat-protein-Q07837-cytoplasmic",
+                "mat-protein-Q07837-transmembrane",
+                "mat-protein-Q07837-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q08357-cytoplasmic",
+            "type": "protein-part",
+            "description": "27-46, 108-109, 164-190, 235-482, 552-571, 610-621"
+        },
+        {
+            "id": "mat-protein-Q08357-transmembrane",
+            "type": "protein-part",
+            "description": "6-26, 47-67, 87-107, 110-130, 143-163, 191-211, 214-234, 483-503, 531-551, 572-586, 594-609, 622-642"
+        },
+        {
+            "id": "mat-protein-Q08357-extracellular",
+            "type": "protein-part",
+            "description": "1-5, 68-86, 131-142, 212-213, 504-530, 587-593, 643-652"
+        },
+        {
+            "id": "mat-protein-Q08357",
+            "materials": [
+                "mat-protein-Q08357-cytoplasmic",
+                "mat-protein-Q08357-transmembrane",
+                "mat-protein-Q08357-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q13183-cytoplasmic",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-Q13183-transmembrane",
+            "type": "protein-part",
+            "description": "13-33, 53-73, 86-106, 114-134, 221-241, 274-294, 324-344, 371-391, 450-470, 482-502, 511-531, 545-565"
+        },
+        {
+            "id": "mat-protein-Q13183-extracellular",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-Q13183",
+            "materials": [
+                "mat-protein-Q13183-cytoplasmic",
+                "mat-protein-Q13183-transmembrane",
+                "mat-protein-Q13183-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q13621-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-177, 223-259, 324-327, 401-417, 631-1099"
+        },
+        {
+            "id": "mat-protein-Q13621-transmembrane",
+            "type": "protein-part",
+            "description": "178-198, 202-222, 260-280, 303-323, 328-348, 380-400, 418-438, 551-571, 572-592, 610-630"
+        },
+        {
+            "id": "mat-protein-Q13621-extracellular",
+            "type": "protein-part",
+            "description": "199-201, 281-302, 349-379, 439-550, 593-609"
+        },
+        {
+            "id": "mat-protein-Q13621",
+            "materials": [
+                "mat-protein-Q13621-cytoplasmic",
+                "mat-protein-Q13621-transmembrane",
+                "mat-protein-Q13621-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q14916-cytoplasmic",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-Q14916-transmembrane",
+            "type": "protein-part",
+            "description": "81-101, 119-139, 178-198, 200-220, 257-277, 301-321, 339-359, 365-385, 401-421, 433-453"
+        },
+        {
+            "id": "mat-protein-Q14916-extracellular",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-Q14916",
+            "materials": [
+                "mat-protein-Q14916-cytoplasmic",
+                "mat-protein-Q14916-transmembrane",
+                "mat-protein-Q14916-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q14973-cytoplasmic",
+            "type": "protein-part",
+            "description": "45-47, 113-115, 180-183, 244-247, 312-349"
+        },
+        {
+            "id": "mat-protein-Q14973-transmembrane",
+            "type": "protein-part",
+            "description": "23-44, 48-83, 87-112, 116-142, 157-179, 184-217, 220-243, 248-273, 281-311"
+        },
+        {
+            "id": "mat-protein-Q14973-extracellular",
+            "type": "protein-part",
+            "description": "1-22, 84-86, 143-156, 218-219, 274-280"
+        },
+        {
+            "id": "mat-protein-Q14973",
+            "materials": [
+                "mat-protein-Q14973-cytoplasmic",
+                "mat-protein-Q14973-transmembrane",
+                "mat-protein-Q14973-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q15849-cytoplasmic",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-Q15849-transmembrane",
+            "type": "protein-part",
+            "description": "151-170, 176-196, 204-224, 233-253, 272-291, 302-322, 346-366, 370-390, 392-412, 600-620, 638-658, 666-686, 695-715, 764-784, 803-823, 832-852, 854-874"
+        },
+        {
+            "id": "mat-protein-Q15849-extracellular",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-Q15849",
+            "materials": [
+                "mat-protein-Q15849-cytoplasmic",
+                "mat-protein-Q15849-transmembrane",
+                "mat-protein-Q15849-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q16348-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-57, 105-113, 161-183, 239-295, 365-380, 633-643, 696-729"
+        },
+        {
+            "id": "mat-protein-Q16348-transmembrane",
+            "type": "protein-part",
+            "description": "58-78, 84-104, 114-134, 140-160, 184-204, 218-238, 296-316, 344-364, 381-401, 612-632, 644-664, 675-695"
+        },
+        {
+            "id": "mat-protein-Q16348-extracellular",
+            "type": "protein-part",
+            "description": "79-83, 135-139, 205-217, 317-343, 402-611, 665-674"
+        },
+        {
+            "id": "mat-protein-Q16348",
+            "materials": [
+                "mat-protein-Q16348-cytoplasmic",
+                "mat-protein-Q16348-transmembrane",
+                "mat-protein-Q16348-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q16651-cytoplasmic",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-Q16651-transmembrane",
+            "type": "protein-part",
+            "description": "320-340"
+        },
+        {
+            "id": "mat-protein-Q16651-extracellular",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-Q16651",
+            "materials": [
+                "mat-protein-Q16651-cytoplasmic",
+                "mat-protein-Q16651-transmembrane",
+                "mat-protein-Q16651-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q1EHB4-cytoplasmic",
+            "type": "protein-part",
+            "description": "31-47, 104-128, 179-180, 257-275, 343-385, 433-437, 526-618"
+        },
+        {
+            "id": "mat-protein-Q1EHB4-transmembrane",
+            "type": "protein-part",
+            "description": "10-30, 48-68, 83-103, 129-149, 158-178, 181-201, 236-256, 276-296, 322-342, 386-406, 412-432, 438-458, 505-525"
+        },
+        {
+            "id": "mat-protein-Q1EHB4-extracellular",
+            "type": "protein-part",
+            "description": "1-9, 69-82, 150-157, 202-235, 297-321, 407-411, 459-504"
+        },
+        {
+            "id": "mat-protein-Q1EHB4",
+            "materials": [
+                "mat-protein-Q1EHB4-cytoplasmic",
+                "mat-protein-Q1EHB4-transmembrane",
+                "mat-protein-Q1EHB4-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q4U2R8-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-9, 157-164, 214-224, 270-337, 390-395, 447-455, 506-563"
+        },
+        {
+            "id": "mat-protein-Q4U2R8-transmembrane",
+            "type": "protein-part",
+            "description": "10-30, 136-156, 165-187, 191-213, 225-245, 249-269, 338-358, 369-389, 396-416, 426-446, 456-475, 485-505"
+        },
+        {
+            "id": "mat-protein-Q4U2R8-extracellular",
+            "type": "protein-part",
+            "description": "31-135, 188-190, 246-248, 359-368, 417-425, 476-484"
+        },
+        {
+            "id": "mat-protein-Q4U2R8",
+            "materials": [
+                "mat-protein-Q4U2R8-cytoplasmic",
+                "mat-protein-Q4U2R8-transmembrane",
+                "mat-protein-Q4U2R8-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q61165-cytoplasmic",
+            "type": "protein-part",
+            "description": "126-134, 181-190, 254-256, 327-332, 376-377, 443-448, 510-820"
+        },
+        {
+            "id": "mat-protein-Q61165-transmembrane",
+            "type": "protein-part",
+            "description": "103-125, 135-152, 163-180, 191-219, 227-253, 257-287, 292-326, 333-345, 355-375, 378-408, 415-442, 449-473, 480-509"
+        },
+        {
+            "id": "mat-protein-Q61165-extracellular",
+            "type": "protein-part",
+            "description": "1-102, 153-162, 220-226, 288-291, 346-354, 409-414, 474-479"
+        },
+        {
+            "id": "mat-protein-Q61165",
+            "materials": [
+                "mat-protein-Q61165-cytoplasmic",
+                "mat-protein-Q61165-transmembrane",
+                "mat-protein-Q61165-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q63ZE4-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-15, 167-193, 252-259, 371-377, 428-436, 494-495"
+        },
+        {
+            "id": "mat-protein-Q63ZE4-transmembrane",
+            "type": "protein-part",
+            "description": "16-36, 146-166, 194-214, 231-251, 260-280, 350-370, 378-398, 407-427, 437-457, 473-493, 496-516"
+        },
+        {
+            "id": "mat-protein-Q63ZE4-extracellular",
+            "type": "protein-part",
+            "description": "37-145, 215-230, 281-349, 399-406, 458-472, 517-541"
+        },
+        {
+            "id": "mat-protein-Q63ZE4",
+            "materials": [
+                "mat-protein-Q63ZE4-cytoplasmic",
+                "mat-protein-Q63ZE4-transmembrane",
+                "mat-protein-Q63ZE4-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q64436-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-97, 163-298, 349-782, 834-853, 949-962, 1018-1034"
+        },
+        {
+            "id": "mat-protein-Q64436-transmembrane",
+            "type": "protein-part",
+            "description": "98-118, 142-162, 299-318, 331-348, 783-802, 813-833, 854-876, 929-948, 963-981, 997-1017"
+        },
+        {
+            "id": "mat-protein-Q64436-extracellular",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-Q64436",
+            "materials": [
+                "mat-protein-Q64436-cytoplasmic",
+                "mat-protein-Q64436-transmembrane",
+                "mat-protein-Q64436-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q695T7-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-41, 89-120, 214-221, 290-304, 435-456, 512-531, 603-634"
+        },
+        {
+            "id": "mat-protein-Q695T7-transmembrane",
+            "type": "protein-part",
+            "description": "42-62, 68-88, 121-141, 193-213, 222-242, 269-289, 305-325, 414-434, 457-477, 491-511, 532-552, 582-602"
+        },
+        {
+            "id": "mat-protein-Q695T7-extracellular",
+            "type": "protein-part",
+            "description": "63-67, 142-192, 243-268, 326-413, 478-490, 553-581"
+        },
+        {
+            "id": "mat-protein-Q695T7",
+            "materials": [
+                "mat-protein-Q695T7-cytoplasmic",
+                "mat-protein-Q695T7-transmembrane",
+                "mat-protein-Q695T7-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q6PIE5-cytoplasmic",
+            "type": "protein-part",
+            "description": "6-85, 151-286, 337-769, 821-840, 936-948, 1004-1020"
+        },
+        {
+            "id": "mat-protein-Q6PIE5-transmembrane",
+            "type": "protein-part",
+            "description": "86-106, 130-150, 287-306, 319-336, 770-789, 800-820, 841-863, 916-935, 949-967, 983-1003"
+        },
+        {
+            "id": "mat-protein-Q6PIE5-extracellular",
+            "type": "protein-part",
+            "description": "107-129, 307-318, 790-799, 864-915, 968-982"
+        },
+        {
+            "id": "mat-protein-Q6PIE5",
+            "materials": [
+                "mat-protein-Q6PIE5-cytoplasmic",
+                "mat-protein-Q6PIE5-transmembrane",
+                "mat-protein-Q6PIE5-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q6RVG2-cytoplasmic",
+            "type": "protein-part",
+            "description": "500-507, 587-595, 709-731, 800-824, 903-904, 984-1092"
+        },
+        {
+            "id": "mat-protein-Q6RVG2-transmembrane",
+            "type": "protein-part",
+            "description": "479-499, 508-528, 566-586, 596-616, 688-708, 732-752, 779-799, 825-845, 882-902, 905-925, 963-983"
+        },
+        {
+            "id": "mat-protein-Q6RVG2-extracellular",
+            "type": "protein-part",
+            "description": "1-478, 529-565, 617-687, 753-778, 846-881, 926-962"
+        },
+        {
+            "id": "mat-protein-Q6RVG2",
+            "materials": [
+                "mat-protein-Q6RVG2-cytoplasmic",
+                "mat-protein-Q6RVG2-transmembrane",
+                "mat-protein-Q6RVG2-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q6ZQN7-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-105, 167-172, 255-274, 337-377, 444-447, 604-612, 691-724"
+        },
+        {
+            "id": "mat-protein-Q6ZQN7-transmembrane",
+            "type": "protein-part",
+            "description": "106-126, 146-166, 173-197, 224-254, 275-295, 312-336, 378-399, 420-443, 448-471, 581-603, 613-638, 673-690"
+        },
+        {
+            "id": "mat-protein-Q6ZQN7-extracellular",
+            "type": "protein-part",
+            "description": "127-145, 198-223, 296-311, 400-419, 472-580, 639-672"
+        },
+        {
+            "id": "mat-protein-Q6ZQN7",
+            "materials": [
+                "mat-protein-Q6ZQN7-cytoplasmic",
+                "mat-protein-Q6ZQN7-transmembrane",
+                "mat-protein-Q6ZQN7-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q86VL8-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-33, 88-119, 175-219, 270-289, 349-368, 424-442, 488-578"
+        },
+        {
+            "id": "mat-protein-Q86VL8-transmembrane",
+            "type": "protein-part",
+            "description": "34-54, 67-87, 120-140, 154-174, 220-240, 249-269, 290-309, 328-348, 369-389, 403-423, 443-463, 467-487, 579-599"
+        },
+        {
+            "id": "mat-protein-Q86VL8-extracellular",
+            "type": "protein-part",
+            "description": "55-66, 141-153, 241-248, 310-327, 390-402, 464-466, 600-602"
+        },
+        {
+            "id": "mat-protein-Q86VL8",
+            "materials": [
+                "mat-protein-Q86VL8-cytoplasmic",
+                "mat-protein-Q86VL8-transmembrane",
+                "mat-protein-Q86VL8-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q8BSY0-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-62"
+        },
+        {
+            "id": "mat-protein-Q8BSY0-transmembrane",
+            "type": "protein-part",
+            "description": "63-83"
+        },
+        {
+            "id": "mat-protein-Q8BSY0-extracellular",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-Q8BSY0",
+            "materials": [
+                "mat-protein-Q8BSY0-cytoplasmic",
+                "mat-protein-Q8BSY0-transmembrane",
+                "mat-protein-Q8BSY0-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q8N130-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-76, 133-188, 344-367, 467-485, 532-599"
+        },
+        {
+            "id": "mat-protein-Q8N130-transmembrane",
+            "type": "protein-part",
+            "description": "77-97, 112-132, 189-209, 323-343, 368-388, 446-466, 486-506, 511-531"
+        },
+        {
+            "id": "mat-protein-Q8N130-extracellular",
+            "type": "protein-part",
+            "description": "98-111, 210-322, 389-445, 507-510"
+        },
+        {
+            "id": "mat-protein-Q8N130",
+            "materials": [
+                "mat-protein-Q8N130-cytoplasmic",
+                "mat-protein-Q8N130-transmembrane",
+                "mat-protein-Q8N130-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q8N695-cytoplasmic",
+            "type": "protein-part",
+            "description": "31-51, 105-132, 183-189, 261-279, 360-389, 437-439, 540-610"
+        },
+        {
+            "id": "mat-protein-Q8N695-transmembrane",
+            "type": "protein-part",
+            "description": "10-30, 52-72, 84-104, 133-153, 162-182, 190-210, 240-260, 280-300, 337-359, 390-410, 416-436, 440-460, 519-539"
+        },
+        {
+            "id": "mat-protein-Q8N695-extracellular",
+            "type": "protein-part",
+            "description": "1-9, 73-83, 154-161, 211-239, 301-336, 411-415, 461-518"
+        },
+        {
+            "id": "mat-protein-Q8N695",
+            "materials": [
+                "mat-protein-Q8N695-cytoplasmic",
+                "mat-protein-Q8N695-transmembrane",
+                "mat-protein-Q8N695-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q8TCC7-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-9, 145-154, 198-212, 258-327, 376-386, 433-471"
+        },
+        {
+            "id": "mat-protein-Q8TCC7-transmembrane",
+            "type": "protein-part",
+            "description": "10-30, 124-144, 155-175, 177-197, 213-233, 237-257, 328-348, 355-375, 387-407, 412-432, 472-492"
+        },
+        {
+            "id": "mat-protein-Q8TCC7-extracellular",
+            "type": "protein-part",
+            "description": "31-123, 176-176, 234-236, 349-354, 408-411, 493-542"
+        },
+        {
+            "id": "mat-protein-Q8TCC7",
+            "materials": [
+                "mat-protein-Q8TCC7-cytoplasmic",
+                "mat-protein-Q8TCC7-transmembrane",
+                "mat-protein-Q8TCC7-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q8TCC8-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-15, 165-177, 225-233, 281-350, 400-407, 458-469, 517-553"
+        },
+        {
+            "id": "mat-protein-Q8TCC8-transmembrane",
+            "type": "protein-part",
+            "description": "16-36, 144-164, 178-198, 204-224, 234-254, 260-280, 351-369, 379-399, 408-428, 437-457, 470-490, 496-516"
+        },
+        {
+            "id": "mat-protein-Q8TCC8-extracellular",
+            "type": "protein-part",
+            "description": "37-143, 199-203, 255-259, 370-378, 429-436, 491-495"
+        },
+        {
+            "id": "mat-protein-Q8TCC8",
+            "materials": [
+                "mat-protein-Q8TCC8-cytoplasmic",
+                "mat-protein-Q8TCC8-transmembrane",
+                "mat-protein-Q8TCC8-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q8TDB8-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-29, 110-117, 170-177, 229-293, 350-358, 414-423, 473-520"
+        },
+        {
+            "id": "mat-protein-Q8TDB8-transmembrane",
+            "type": "protein-part",
+            "description": "30-50, 89-109, 118-138, 149-169, 178-198, 208-228, 294-314, 329-349, 359-379, 393-413, 424-444, 452-472"
+        },
+        {
+            "id": "mat-protein-Q8TDB8-extracellular",
+            "type": "protein-part",
+            "description": "51-88, 139-148, 199-207, 315-328, 380-392, 445-451"
+        },
+        {
+            "id": "mat-protein-Q8TDB8",
+            "materials": [
+                "mat-protein-Q8TDB8-cytoplasmic",
+                "mat-protein-Q8TDB8-transmembrane",
+                "mat-protein-Q8TDB8-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q8VDN2-cytoplasmic",
+            "type": "protein-part",
+            "description": "6-96, 151-291, 341-775, 825-849, 937-952, 1001-1023"
+        },
+        {
+            "id": "mat-protein-Q8VDN2-transmembrane",
+            "type": "protein-part",
+            "description": "97-117, 130-150, 292-312, 320-340, 776-798, 802-824, 850-872, 916-936, 953-973, 980-1000"
+        },
+        {
+            "id": "mat-protein-Q8VDN2-extracellular",
+            "type": "protein-part",
+            "description": "118-129, 313-319, 799-801, 873-915, 974-979"
+        },
+        {
+            "id": "mat-protein-Q8VDN2",
+            "materials": [
+                "mat-protein-Q8VDN2-cytoplasmic",
+                "mat-protein-Q8VDN2-transmembrane",
+                "mat-protein-Q8VDN2-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q8VHN7-cytoplasmic",
+            "type": "protein-part",
+            "description": "5923-5932, 5995-6003, 6074-6097, 6148-6298"
+        },
+        {
+            "id": "mat-protein-Q8VHN7-transmembrane",
+            "type": "protein-part",
+            "description": "5902-5922, 5933-5953, 5974-5994, 6004-6024, 6053-6073, 6098-6118, 6127-6147"
+        },
+        {
+            "id": "mat-protein-Q8VHN7-extracellular",
+            "type": "protein-part",
+            "description": "29-5901, 5954-5973, 6025-6052, 6119-6126"
+        },
+        {
+            "id": "mat-protein-Q8VHN7",
+            "materials": [
+                "mat-protein-Q8VHN7-cytoplasmic",
+                "mat-protein-Q8VHN7-transmembrane",
+                "mat-protein-Q8VHN7-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q8WWT9-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-14, 55-58, 121-123, 163-218, 335-339, 391-417, 537-540"
+        },
+        {
+            "id": "mat-protein-Q8WWT9-transmembrane",
+            "type": "protein-part",
+            "description": "15-33, 36-54, 59-72, 78-120, 219-266, 275-334, 340-357, 378-390, 418-459, 506-536, 541-571"
+        },
+        {
+            "id": "mat-protein-Q8WWT9-extracellular",
+            "type": "protein-part",
+            "description": "34-35, 73-77, 267-274, 358-377, 460-463, 502-505, 572-602"
+        },
+        {
+            "id": "mat-protein-Q8WWT9",
+            "materials": [
+                "mat-protein-Q8WWT9-cytoplasmic",
+                "mat-protein-Q8WWT9-transmembrane",
+                "mat-protein-Q8WWT9-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q92123-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-89, 155-290, 341-774, 826-845, 941-953, 1009-1025"
+        },
+        {
+            "id": "mat-protein-Q92123-transmembrane",
+            "type": "protein-part",
+            "description": "90-110, 134-154, 291-310, 323-340, 775-794, 805-825, 846-868, 921-940, 954-972, 988-1008"
+        },
+        {
+            "id": "mat-protein-Q92123-extracellular",
+            "type": "protein-part",
+            "description": "111-133, 311-322, 795-804, 869-920, 973-987"
+        },
+        {
+            "id": "mat-protein-Q92123",
+            "materials": [
+                "mat-protein-Q92123-cytoplasmic",
+                "mat-protein-Q92123-transmembrane",
+                "mat-protein-Q92123-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q92482-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-24, 75-78, 93-100, 178-189, 265-292"
+        },
+        {
+            "id": "mat-protein-Q92482-transmembrane",
+            "type": "protein-part",
+            "description": "25-42, 57-74, 101-121, 160-177, 190-206, 243-264"
+        },
+        {
+            "id": "mat-protein-Q92482-extracellular",
+            "type": "protein-part",
+            "description": "43-56, 122-159, 207-210, 225-242"
+        },
+        {
+            "id": "mat-protein-Q92482",
+            "materials": [
+                "mat-protein-Q92482-cytoplasmic",
+                "mat-protein-Q92482-transmembrane",
+                "mat-protein-Q92482-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q924C9-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-71, 115-124, 198-201, 272-278, 357-367, 426-462"
+        },
+        {
+            "id": "mat-protein-Q924C9-transmembrane",
+            "type": "protein-part",
+            "description": "72-92, 94-114, 125-145, 177-197, 202-222, 251-271, 279-299, 336-356, 368-388, 405-425, 463-483"
+        },
+        {
+            "id": "mat-protein-Q924C9-extracellular",
+            "type": "protein-part",
+            "description": "93-93, 146-176, 223-250, 300-335, 389-404, 484-757"
+        },
+        {
+            "id": "mat-protein-Q924C9",
+            "materials": [
+                "mat-protein-Q924C9-cytoplasmic",
+                "mat-protein-Q924C9-transmembrane",
+                "mat-protein-Q924C9-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q92887-cytoplasmic",
+            "type": "protein-part",
+            "description": "49-68, 115-126, 187-313, 382-437, 483-544, 609-971, 1055-1097, 1141-1211, 1256-1545"
+        },
+        {
+            "id": "mat-protein-Q92887-transmembrane",
+            "type": "protein-part",
+            "description": "28-48, 69-89, 94-114, 127-147, 166-186, 314-334, 361-381, 438-458, 462-482, 545-565, 588-608, 972-992, 1034-1054, 1098-1118, 1120-1140, 1212-1232, 1235-1255"
+        },
+        {
+            "id": "mat-protein-Q92887-extracellular",
+            "type": "protein-part",
+            "description": "1-27, 90-93, 148-165, 335-360, 459-461, 566-587, 993-1033, 1119-1119, 1233-1234"
+        },
+        {
+            "id": "mat-protein-Q92887",
+            "materials": [
+                "mat-protein-Q92887-cytoplasmic",
+                "mat-protein-Q92887-transmembrane",
+                "mat-protein-Q92887-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q96FL8-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-37, 94-123, 174-176, 238-256, 317-336, 392-408, 459-546"
+        },
+        {
+            "id": "mat-protein-Q96FL8-transmembrane",
+            "type": "protein-part",
+            "description": "38-58, 73-93, 124-144, 153-173, 177-197, 217-237, 257-276, 296-316, 337-357, 371-391, 409-429, 438-458, 547-567"
+        },
+        {
+            "id": "mat-protein-Q96FL8-extracellular",
+            "type": "protein-part",
+            "description": "59-72, 145-152, 198-216, 277-295, 358-370, 430-437, 568-570"
+        },
+        {
+            "id": "mat-protein-Q96FL8",
+            "materials": [
+                "mat-protein-Q96FL8-cytoplasmic",
+                "mat-protein-Q96FL8-transmembrane",
+                "mat-protein-Q96FL8-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q96RD7-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-40, 128-217, 288-426"
+        },
+        {
+            "id": "mat-protein-Q96RD7-transmembrane",
+            "type": "protein-part",
+            "description": "41-61, 107-127, 218-238, 267-287"
+        },
+        {
+            "id": "mat-protein-Q96RD7-extracellular",
+            "type": "protein-part",
+            "description": "62-106, 239-266"
+        },
+        {
+            "id": "mat-protein-Q96RD7",
+            "materials": [
+                "mat-protein-Q96RD7-cytoplasmic",
+                "mat-protein-Q96RD7-transmembrane",
+                "mat-protein-Q96RD7-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q96S37-cytoplasmic",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-Q96S37-transmembrane",
+            "type": "protein-part",
+            "description": "9-29, 146-166, 174-194, 195-215, 232-252, 260-280, 351-371, 378-398, 407-427, 435-455, 466-486, 495-515"
+        },
+        {
+            "id": "mat-protein-Q96S37-extracellular",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-Q96S37",
+            "materials": [
+                "mat-protein-Q96S37-cytoplasmic",
+                "mat-protein-Q96S37-transmembrane",
+                "mat-protein-Q96S37-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9H015-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-20, 163-171, 219-232, 279-337, 393-399, 448-460, 508-551"
+        },
+        {
+            "id": "mat-protein-Q9H015-transmembrane",
+            "type": "protein-part",
+            "description": "21-41, 142-162, 172-192, 198-218, 233-253, 258-278, 338-358, 372-392, 400-420, 427-447, 461-481, 487-507"
+        },
+        {
+            "id": "mat-protein-Q9H015-extracellular",
+            "type": "protein-part",
+            "description": "42-141, 193-197, 254-257, 359-371, 421-426, 482-486"
+        },
+        {
+            "id": "mat-protein-Q9H015",
+            "materials": [
+                "mat-protein-Q9H015-cytoplasmic",
+                "mat-protein-Q9H015-transmembrane",
+                "mat-protein-Q9H015-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9HBJ8-cytoplasmic",
+            "type": "protein-part",
+            "description": "163-222"
+        },
+        {
+            "id": "mat-protein-Q9HBJ8-transmembrane",
+            "type": "protein-part",
+            "description": "142-162"
+        },
+        {
+            "id": "mat-protein-Q9HBJ8-extracellular",
+            "type": "protein-part",
+            "description": "15-141"
+        },
+        {
+            "id": "mat-protein-Q9HBJ8",
+            "materials": [
+                "mat-protein-Q9HBJ8-cytoplasmic",
+                "mat-protein-Q9HBJ8-transmembrane",
+                "mat-protein-Q9HBJ8-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9JI66-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-466, 521-521, 572-585, 711-725, 808-819, 856-877, 919-960, 987-1079"
+        },
+        {
+            "id": "mat-protein-Q9JI66-transmembrane",
+            "type": "protein-part",
+            "description": "467-491, 502-520, 522-542, 551-571, 586-609, 693-710, 726-745, 780-807, 820-836, 838-855, 878-894, 902-918"
+        },
+        {
+            "id": "mat-protein-Q9JI66-extracellular",
+            "type": "protein-part",
+            "description": "492-501, 543-550, 610-692, 746-779, 837-837, 895-901"
+        },
+        {
+            "id": "mat-protein-Q9JI66",
+            "materials": [
+                "mat-protein-Q9JI66-cytoplasmic",
+                "mat-protein-Q9JI66-transmembrane",
+                "mat-protein-Q9JI66-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9JJX5-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-33, 360-388"
+        },
+        {
+            "id": "mat-protein-Q9JJX5-transmembrane",
+            "type": "protein-part",
+            "description": "34-54, 339-359"
+        },
+        {
+            "id": "mat-protein-Q9JJX5-extracellular",
+            "type": "protein-part",
+            "description": "55-338"
+        },
+        {
+            "id": "mat-protein-Q9JJX5",
+            "materials": [
+                "mat-protein-Q9JJX5-cytoplasmic",
+                "mat-protein-Q9JJX5-transmembrane",
+                "mat-protein-Q9JJX5-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9JJX6-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-33, 360-388"
+        },
+        {
+            "id": "mat-protein-Q9JJX6-transmembrane",
+            "type": "protein-part",
+            "description": "34-54, 339-359"
+        },
+        {
+            "id": "mat-protein-Q9JJX6-extracellular",
+            "type": "protein-part",
+            "description": "55-338"
+        },
+        {
+            "id": "mat-protein-Q9JJX6",
+            "materials": [
+                "mat-protein-Q9JJX6-cytoplasmic",
+                "mat-protein-Q9JJX6-transmembrane",
+                "mat-protein-Q9JJX6-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9JMA9-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-44, 580-638"
+        },
+        {
+            "id": "mat-protein-Q9JMA9-transmembrane",
+            "type": "protein-part",
+            "description": "45-65, 72-92, 110-130, 231-251, 257-277, 311-331, 344-364, 395-415, 453-473, 476-496, 524-544, 559-579"
+        },
+        {
+            "id": "mat-protein-Q9JMA9-extracellular",
+            "type": "protein-part",
+            "description": "131-230"
+        },
+        {
+            "id": "mat-protein-Q9JMA9",
+            "materials": [
+                "mat-protein-Q9JMA9-cytoplasmic",
+                "mat-protein-Q9JMA9-transmembrane",
+                "mat-protein-Q9JMA9-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9NRM0-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-51, 129-140, 193-200, 253-316, 376-381, 437-451, 500-540"
+        },
+        {
+            "id": "mat-protein-Q9NRM0-transmembrane",
+            "type": "protein-part",
+            "description": "52-72, 108-128, 141-161, 172-192, 201-221, 232-252, 317-337, 355-375, 382-402, 416-436, 452-472, 479-499"
+        },
+        {
+            "id": "mat-protein-Q9NRM0-extracellular",
+            "type": "protein-part",
+            "description": "73-107, 162-171, 222-231, 338-354, 403-415, 473-478"
+        },
+        {
+            "id": "mat-protein-Q9NRM0",
+            "materials": [
+                "mat-protein-Q9NRM0-cytoplasmic",
+                "mat-protein-Q9NRM0-transmembrane",
+                "mat-protein-Q9NRM0-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9NSA0-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-10, 164-174, 222-231, 278-346, 400-402, 452-463, 512-550"
+        },
+        {
+            "id": "mat-protein-Q9NSA0-transmembrane",
+            "type": "protein-part",
+            "description": "11-31, 143-163, 175-195, 201-221, 232-252, 257-277, 347-367, 379-399, 403-423, 431-451, 464-484, 491-511"
+        },
+        {
+            "id": "mat-protein-Q9NSA0-extracellular",
+            "type": "protein-part",
+            "description": "32-142, 196-200, 253-256, 368-378, 424-430, 485-490"
+        },
+        {
+            "id": "mat-protein-Q9NSA0",
+            "materials": [
+                "mat-protein-Q9NSA0-cytoplasmic",
+                "mat-protein-Q9NSA0-transmembrane",
+                "mat-protein-Q9NSA0-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9UHI5-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-44, 96-116, 179-181, 253-265, 339-364, 409-423, 467-535"
+        },
+        {
+            "id": "mat-protein-Q9UHI5-transmembrane",
+            "type": "protein-part",
+            "description": "45-65, 74-95, 117-149, 158-178, 182-210, 231-252, 266-287, 313-338, 365-382, 387-408, 424-446, 447-466"
+        },
+        {
+            "id": "mat-protein-Q9UHI5-extracellular",
+            "type": "protein-part",
+            "description": "66-73, 150-157, 211-230, 288-312, 383-386"
+        },
+        {
+            "id": "mat-protein-Q9UHI5",
+            "materials": [
+                "mat-protein-Q9UHI5-cytoplasmic",
+                "mat-protein-Q9UHI5-transmembrane",
+                "mat-protein-Q9UHI5-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9UM01-cytoplasmic",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-Q9UM01-transmembrane",
+            "type": "protein-part",
+            "description": "37-57, 69-89, 107-127, 133-153, 160-180, 186-206, 222-242, 259-279, 304-324, 383-403, 416-436, 441-461"
+        },
+        {
+            "id": "mat-protein-Q9UM01-extracellular",
+            "type": "protein-part",
+            "description": ""
+        },
+        {
+            "id": "mat-protein-Q9UM01",
+            "materials": [
+                "mat-protein-Q9UM01-cytoplasmic",
+                "mat-protein-Q9UM01-transmembrane",
+                "mat-protein-Q9UM01-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9UNQ0-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-395, 450-477, 528-535, 652-655"
+        },
+        {
+            "id": "mat-protein-Q9UNQ0-transmembrane",
+            "type": "protein-part",
+            "description": "396-416, 429-449, 478-498, 507-527, 536-556, 631-651"
+        },
+        {
+            "id": "mat-protein-Q9UNQ0-extracellular",
+            "type": "protein-part",
+            "description": "417-428, 499-506, 557-630"
+        },
+        {
+            "id": "mat-protein-Q9UNQ0",
+            "materials": [
+                "mat-protein-Q9UNQ0-cytoplasmic",
+                "mat-protein-Q9UNQ0-transmembrane",
+                "mat-protein-Q9UNQ0-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9UP95-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-119, 173-196, 441-450, 532-554, 599-612, 652-1085"
+        },
+        {
+            "id": "mat-protein-Q9UP95-transmembrane",
+            "type": "protein-part",
+            "description": "120-141, 150-172, 197-225, 249-271, 272-297, 420-440, 451-473, 505-531, 555-575, 576-598, 613-635, 636-651"
+        },
+        {
+            "id": "mat-protein-Q9UP95-extracellular",
+            "type": "protein-part",
+            "description": "142-149, 226-248, 298-419, 474-504"
+        },
+        {
+            "id": "mat-protein-Q9UP95",
+            "materials": [
+                "mat-protein-Q9UP95-cytoplasmic",
+                "mat-protein-Q9UP95-transmembrane",
+                "mat-protein-Q9UP95-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9WU25-cytoplasmic",
+            "type": "protein-part",
+            "description": "52-63, 123-143, 206-272, 330-466"
+        },
+        {
+            "id": "mat-protein-Q9WU25-transmembrane",
+            "type": "protein-part",
+            "description": "26-51, 64-89, 100-122, 144-168, 182-205, 273-297, 305-329"
+        },
+        {
+            "id": "mat-protein-Q9WU25-extracellular",
+            "type": "protein-part",
+            "description": "1-25, 90-99, 169-181, 298-304"
+        },
+        {
+            "id": "mat-protein-Q9WU25",
+            "materials": [
+                "mat-protein-Q9WU25-cytoplasmic",
+                "mat-protein-Q9WU25-transmembrane",
+                "mat-protein-Q9WU25-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9Y5Y6-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-55"
+        },
+        {
+            "id": "mat-protein-Q9Y5Y6-transmembrane",
+            "type": "protein-part",
+            "description": "56-76"
+        },
+        {
+            "id": "mat-protein-Q9Y5Y6-extracellular",
+            "type": "protein-part",
+            "description": "77-855"
+        },
+        {
+            "id": "mat-protein-Q9Y5Y6",
+            "materials": [
+                "mat-protein-Q9Y5Y6-cytoplasmic",
+                "mat-protein-Q9Y5Y6-transmembrane",
+                "mat-protein-Q9Y5Y6-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9Y6L6-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-28, 89-94, 198-216, 281-331, 398-401, 561-569, 648-691"
+        },
+        {
+            "id": "mat-protein-Q9Y6L6-transmembrane",
+            "type": "protein-part",
+            "description": "29-48, 68-88, 95-119, 169-197, 217-237, 256-280, 332-353, 374-397, 402-425, 538-560, 570-595, 630-647"
+        },
+        {
+            "id": "mat-protein-Q9Y6L6-extracellular",
+            "type": "protein-part",
+            "description": "49-67, 120-168, 238-255, 354-373, 426-537, 596-629"
+        },
+        {
+            "id": "mat-protein-Q9Y6L6",
+            "materials": [
+                "mat-protein-Q9Y6L6-cytoplasmic",
+                "mat-protein-Q9Y6L6-transmembrane",
+                "mat-protein-Q9Y6L6-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9Y6M7-cytoplasmic",
+            "type": "protein-part",
+            "description": "630-637, 717-725, 839-861, 930-954, 1033-1034, 1114-1214"
+        },
+        {
+            "id": "mat-protein-Q9Y6M7-transmembrane",
+            "type": "protein-part",
+            "description": "609-629, 638-658, 696-716, 726-746, 818-838, 862-882, 909-929, 955-975, 1012-1032, 1035-1055, 1093-1113"
+        },
+        {
+            "id": "mat-protein-Q9Y6M7-extracellular",
+            "type": "protein-part",
+            "description": "1-608, 659-695, 747-817, 883-908, 976-1011, 1056-1092"
+        },
+        {
+            "id": "mat-protein-Q9Y6M7",
+            "materials": [
+                "mat-protein-Q9Y6M7-cytoplasmic",
+                "mat-protein-Q9Y6M7-transmembrane",
+                "mat-protein-Q9Y6M7-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9Y6R1-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-466, 521-521, 572-585, 711-725, 808-819, 856-877, 919-960, 987-1079"
+        },
+        {
+            "id": "mat-protein-Q9Y6R1-transmembrane",
+            "type": "protein-part",
+            "description": "467-491, 502-520, 522-542, 551-571, 586-609, 693-710, 726-745, 780-807, 820-836, 838-855, 878-894, 902-918"
+        },
+        {
+            "id": "mat-protein-Q9Y6R1-extracellular",
+            "type": "protein-part",
+            "description": "492-501, 543-550, 610-692, 746-779, 837-837, 895-901"
+        },
+        {
+            "id": "mat-protein-Q9Y6R1",
+            "materials": [
+                "mat-protein-Q9Y6R1-cytoplasmic",
+                "mat-protein-Q9Y6R1-transmembrane",
+                "mat-protein-Q9Y6R1-extracellular"
+            ]
+        },
+        {
+            "id": "mat-protein-Q9Z0S4-cytoplasmic",
+            "type": "protein-part",
+            "description": "1-8, 102-118, 187-211"
+        },
+        {
+            "id": "mat-protein-Q9Z0S4-transmembrane",
+            "type": "protein-part",
+            "description": "9-29, 81-101, 119-139, 166-186"
+        },
+        {
+            "id": "mat-protein-Q9Z0S4-extracellular",
+            "type": "protein-part",
+            "description": "30-80, 140-165"
+        },
+        {
+            "id": "mat-protein-Q9Z0S4",
+            "materials": [
+                "mat-protein-Q9Z0S4-cytoplasmic",
+                "mat-protein-Q9Z0S4-transmembrane",
+                "mat-protein-Q9Z0S4-extracellular"
+            ]
+        }
+    ],
+    "lastUpdated": "2026-04-21"
+}
