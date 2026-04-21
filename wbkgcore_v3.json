@@ -343,6 +343,48 @@
             ],
             "name": "Columnar or cuboidal epithelial cell",
             "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lt-cyst-cell-endothelial_bag+1",
+            "name": "Cell Endothelial (BAG+) 1",
+            "isTemplate": true,
+            "topology": "BAG2",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lt-cyst-cell-endothelial_bag-1",
+            "name": "Cell Endothelial (BAG-) 1",
+            "isTemplate": true,
+            "topology": "BAG",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lt-cyst-cell-endothelial_tube1",
+            "name": "Cell Endothelial (TUBE) 1",
+            "isTemplate": true,
+            "topology": "TUBE",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lt-cyst-cell-endothelial_bag+2",
+            "name": "Cell Endothelial (BAG+) 2",
+            "isTemplate": true,
+            "topology": "BAG2",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lt-cyst-cell-endothelial_bag-2",
+            "name": "Cell Endothelial (BAG-) 2",
+            "isTemplate": true,
+            "topology": "BAG",
+            "supertype": "lt-cell-cyst"
+        },
+        {
+            "id": "lt-cyst-cell-endothelial_tube2",
+            "name": "Cell Endothelial (TUBE) 2",
+            "isTemplate": true,
+            "topology": "TUBE",
+            "supertype": "lt-cell-cyst"
         }
     ],
     "materials": [
@@ -945,8 +987,27 @@
             "housingLyphTemplates": [
                 "lt-arteriole"
             ],
-            "lyphTemplate": "lt-cyst-cell-endothelial",
-            "_class": "Chain"
+            "lyphTemplate": "lt-cyst-cell-endothelial"
+        },
+        {
+            "id": "chain-endothelial-cell-in-lt-blood-capillary11",
+            "name": "Endothelial Cell in Blood capillary vessel 1 1",
+            "lyphs": [
+                "lt-cyst-cell-endothelial_bag+1",
+                "lt-cyst-cell-endothelial_tube1",
+                "lt-cyst-cell-endothelial_bag-1"
+            ],
+            "specializationOf": "chain-endothelial-cell-in-lt-blood-capillary1"
+        },
+        {
+            "id": "chain-endothelial-cell-in-arteriole1",
+            "name": "Endothelial Cell in lt-arteriole (100um)  1",
+            "lyphs": [
+                "lt-cyst-cell-endothelial_bag+2",
+                "lt-cyst-cell-endothelial_tube2",
+                "lt-cyst-cell-endothelial_bag-2"
+            ],
+            "specializationOf": "chain-endothelial-cell-in-arteriole"
         }
     ],
     "localConventions": [
@@ -1008,10 +1069,10 @@
         }
     ],
     "name": "core 1kgZ1Ba4jf4SwvsDRcXbamCoyUodXtaIj-KEGMMi7XSo",
-    "version": "fcd982d843ee7948d6266078dfaf35f83b7b6aec",
+    "version": "6dd8c522cda8be87983b234f08638a0cfae41e96",
     "id": "wbkgcore_v3",
     "namespace": "core",
-    "schemaVersion": "2aa57adb9508d4e29ba7d160daf9a606bbf9bddb",
-    "lastUpdated": "2026-01-08",
+    "schemaVersion": "7e67e32da1f4067ba65fdb73f3d94bfbfa212b3f",
+    "lastUpdated": "2026-04-21",
     "groups": []
 }
