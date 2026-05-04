@@ -27733,7 +27733,10 @@
     {
       "id": "w_1181",
       "source": "a_736",
-      "target": "a_761"
+      "target": "a_761",
+      "reversed": false,
+      "stratifiedRegion": "w_1181_st972",
+      "stratification": "st972"
     },
     {
       "id": "w_1182",
@@ -56591,6 +56594,12 @@
         "mat-serratus-posterior-inferior",
         "mat-deep-fascia",
         "mat-rib"
+      ],
+      "subtypes": [
+        "w_1181_st972"
+      ],
+      "axisWires": [
+        "w_1181"
       ]
     },
     {
