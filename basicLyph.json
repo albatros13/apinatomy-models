@@ -1,0 +1,76 @@
+{
+    "id": "basicLyph",
+    "name": "Basic lyph",
+    "description": "Demo model to show 2d visualization of a lyph",
+    "author": "Natallia Kokash",
+    "imports": [
+        "https://raw.githubusercontent.com/open-physiology/apinatomy-models/master/models/too-map/source/too-map.json",
+        "https://raw.githubusercontent.com/open-physiology/open-physiology-viewer/master/test/data/wbkg.json",
+        "https://api.github.com/repositories/100824100/contents/test/scaffolds/nonExistingModel.json"
+    ],
+    "nodes": [
+        {
+            "id": "c",
+            "layout": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        {
+            "id": "d",
+            "layout": {
+                "x": 0,
+                "y": 50,
+                "z": 0
+            }
+        }
+    ],
+    "links": [
+        {
+            "id": "lnk1",
+            "source": "c",
+            "target": "d",
+            "length": 30,
+            "conveyingLyph": "lyph1"
+        }
+    ],
+    "lyphs": [
+        {
+            "id": "lyph1",
+            "topology": "BAG",
+            "supertype": "lyph4",
+            "create3d": true,
+            "scale": {
+                "width": 40,
+                "height": 60
+            }
+        },
+        {
+            "id": "lyph4",
+            "isTemplate": true,
+            "color": "#ccc",
+            "layers": [
+                "lyph5",
+                "lyph6",
+                "lyph7"
+            ]
+        },
+        {
+            "id": "lyph5",
+            "isTemplate": true
+        },
+        {
+            "id": "lyph6",
+            "isTemplate": true
+        },
+        {
+            "id": "lyph7",
+            "isTemplate": true
+        }
+    ],
+    "version": "d9d6b97a528ca8684332dddc94a50e480b3ccdf4",
+    "namespace": "nm_basicLyph",
+    "schemaVersion": "58679667aad8cb17a392ef9adf2f74996442d90b",
+    "lastUpdated": "2026-05-05"
+}
