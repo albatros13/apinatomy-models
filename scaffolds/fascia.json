@@ -27683,7 +27683,10 @@
     {
       "id": "w_1171",
       "source": "a_733",
-      "target": "a_748"
+      "target": "a_748",
+      "reversed": false,
+      "stratifiedRegion": "w_1171_st1",
+      "stratification": "st1"
     },
     {
       "id": "w_1172",
@@ -27831,7 +27834,8 @@
     {
       "id": "w_1200",
       "source": "a_743",
-      "target": "a_763"
+      "target": "a_763",
+      "reversed": false
     },
     {
       "id": "w_1201",
@@ -47849,6 +47853,14 @@
         "mat-dermis",
         "mat-epidermis",
         "mat-outside-air"
+      ],
+      "subtypes": [
+        "w_1171_st1",
+        "w_1200_st1"
+      ],
+      "axisWires": [
+        "w_1171",
+        "w_1200"
       ]
     },
     {
@@ -58161,7 +58173,7 @@
     }
   ],
   "name": ".json",
-  "version": "8c05764d77817c06bed5391edf002536d1031664",
+  "version": "1e37cbcd3b70b42db323f13a27d78eac5f94123f",
   "id": "fascia",
   "namespace": "fascia",
   "schemaVersion": "58679667aad8cb17a392ef9adf2f74996442d90b",
