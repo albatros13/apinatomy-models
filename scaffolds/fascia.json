@@ -28452,7 +28452,10 @@
         {
             "id": "w_1188",
             "source": "a_739",
-            "target": "a_740"
+            "target": "a_740",
+            "reversed": false,
+            "stratifiedRegion": "w_1188_st19",
+            "stratification": "st19"
         },
         {
             "id": "w_1189",
@@ -28467,22 +28470,34 @@
         {
             "id": "w_1191",
             "source": "a_740",
-            "target": "a_741"
+            "target": "a_741",
+            "reversed": false,
+            "stratifiedRegion": "w_1191_st25",
+            "stratification": "st25"
         },
         {
             "id": "w_1192",
             "source": "a_740",
-            "target": "a_754"
+            "target": "a_754",
+            "reversed": false,
+            "stratifiedRegion": "w_1192_st51",
+            "stratification": "st51"
         },
         {
             "id": "w_1193",
             "source": "a_741",
-            "target": "a_742"
+            "target": "a_742",
+            "reversed": false,
+            "stratifiedRegion": "w_1193_st19",
+            "stratification": "st19"
         },
         {
             "id": "w_1194",
             "source": "a_741",
-            "target": "a_758"
+            "target": "a_758",
+            "reversed": false,
+            "stratifiedRegion": "w_1194_st51",
+            "stratification": "st51"
         },
         {
             "id": "w_1195",
@@ -41770,6 +41785,14 @@
                 "mat-intervertebral-disk-of-fifth-lumbar-vertebra",
                 "mat-deep-fascia",
                 "mat-psoas-muscle"
+            ],
+            "subtypes": [
+                "w_1193_st19",
+                "w_1188_st19"
+            ],
+            "axisWires": [
+                "w_1193",
+                "w_1188"
             ]
         },
         {
@@ -41824,6 +41847,12 @@
                 "mat-endo-abdominal-fascia",
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-fifth-lumbar-vertebra"
+            ],
+            "subtypes": [
+                "w_1191_st25"
+            ],
+            "axisWires": [
+                "w_1191"
             ]
         },
         {
@@ -42082,6 +42111,14 @@
                 "mat-psoas-muscle",
                 "mat-deep-fascia",
                 "mat-endo-abdominal-fascia"
+            ],
+            "subtypes": [
+                "w_1194_st51",
+                "w_1192_st51"
+            ],
+            "axisWires": [
+                "w_1194",
+                "w_1192"
             ]
         },
         {
