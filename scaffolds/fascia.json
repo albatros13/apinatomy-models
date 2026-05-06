@@ -28352,9 +28352,7 @@
             "id": "w_1171",
             "source": "a_733",
             "target": "a_748",
-            "reversed": false,
-            "stratifiedRegion": "w_1171_st18",
-            "stratification": "st18"
+            "reversed": false
         },
         {
             "id": "w_1172",
@@ -41709,9 +41707,7 @@
             "subtypes": [
                 "w_1171_st18"
             ],
-            "axisWires": [
-                "w_1171"
-            ]
+            "axisWires": []
         },
         {
             "id": "st19",
