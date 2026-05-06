@@ -28540,7 +28540,10 @@
         {
             "id": "w_1204",
             "source": "a_744",
-            "target": "a_755"
+            "target": "a_755",
+            "reversed": false,
+            "stratifiedRegion": "w_1204_st16",
+            "stratification": "st16"
         },
         {
             "id": "w_1205",
@@ -28600,17 +28603,26 @@
         {
             "id": "w_1216",
             "source": "a_750",
-            "target": "a_774"
+            "target": "a_774",
+            "reversed": false,
+            "stratifiedRegion": "w_1216_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_1217",
             "source": "a_751",
-            "target": "a_752"
+            "target": "a_752",
+            "reversed": false,
+            "stratifiedRegion": "w_1217_st27",
+            "stratification": "st27"
         },
         {
             "id": "w_1218",
             "source": "a_752",
-            "target": "a_767"
+            "target": "a_767",
+            "reversed": false,
+            "stratifiedRegion": "w_1218_st12",
+            "stratification": "st12"
         },
         {
             "id": "w_1219",
@@ -28699,7 +28711,10 @@
         {
             "id": "w_1234",
             "source": "a_767",
-            "target": "a_776"
+            "target": "a_776",
+            "reversed": false,
+            "stratifiedRegion": "w_1234_st8",
+            "stratification": "st8"
         },
         {
             "id": "w_1235",
@@ -28719,7 +28734,10 @@
         {
             "id": "w_1238",
             "source": "a_775",
-            "target": "a_776"
+            "target": "a_776",
+            "reversed": false,
+            "stratifiedRegion": "w_1238_st15",
+            "stratification": "st15"
         },
         {
             "id": "w_1239",
@@ -41652,6 +41670,12 @@
                 "mat-ilium-bone",
                 "mat-deep-fascia",
                 "mat-longissimus-muscle"
+            ],
+            "subtypes": [
+                "w_1234_st8"
+            ],
+            "axisWires": [
+                "w_1234"
             ]
         },
         {
@@ -41661,6 +41685,12 @@
                 "mat-multifidus-muscle",
                 "mat-deep-fascia",
                 "mat-longissimus-muscle"
+            ],
+            "subtypes": [
+                "w_1216_st9"
+            ],
+            "axisWires": [
+                "w_1216"
             ]
         },
         {
@@ -41688,6 +41718,12 @@
                 "mat-sacro-iliac-joint",
                 "mat-deep-fascia",
                 "mat-longissimus-muscle"
+            ],
+            "subtypes": [
+                "w_1218_st12"
+            ],
+            "axisWires": [
+                "w_1218"
             ]
         },
         {
@@ -41723,6 +41759,12 @@
                 "mat-longissimus-muscle",
                 "mat-deep-fascia",
                 "mat-deep-adipose-tissue"
+            ],
+            "subtypes": [
+                "w_1238_st15"
+            ],
+            "axisWires": [
+                "w_1238"
             ]
         },
         {
@@ -41732,6 +41774,12 @@
                 "mat-multifidus-muscle",
                 "mat-deep-fascia",
                 "mat-multifidus-muscle"
+            ],
+            "subtypes": [
+                "w_1204_st16"
+            ],
+            "axisWires": [
+                "w_1204"
             ]
         },
         {
@@ -41845,6 +41893,12 @@
                 "mat-sacral-bone",
                 "mat-deep-fascia",
                 "mat-longissimus-muscle"
+            ],
+            "subtypes": [
+                "w_1217_st27"
+            ],
+            "axisWires": [
+                "w_1217"
             ]
         },
         {
