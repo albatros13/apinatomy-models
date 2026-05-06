@@ -28333,22 +28333,34 @@
         {
             "id": "w_1168",
             "source": "a_733",
-            "target": "a_745"
+            "target": "a_745",
+            "reversed": false,
+            "stratifiedRegion": "w_1168_st34",
+            "stratification": "st34"
         },
         {
             "id": "w_1169",
             "source": "a_733",
-            "target": "a_746"
+            "target": "a_746",
+            "reversed": false,
+            "stratifiedRegion": "w_1169_st34",
+            "stratification": "st34"
         },
         {
             "id": "w_1170",
             "source": "a_733",
-            "target": "a_747"
+            "target": "a_747",
+            "reversed": false,
+            "stratifiedRegion": "w_1170_st35",
+            "stratification": "st35"
         },
         {
             "id": "w_1171",
             "source": "a_733",
-            "target": "a_748"
+            "target": "a_748",
+            "reversed": false,
+            "stratifiedRegion": "w_1171_st35",
+            "stratification": "st35"
         },
         {
             "id": "w_1172",
@@ -28512,12 +28524,18 @@
         {
             "id": "w_1202",
             "source": "a_744",
-            "target": "a_750"
+            "target": "a_750",
+            "reversed": false,
+            "stratifiedRegion": "w_1202_st17",
+            "stratification": "st17"
         },
         {
             "id": "w_1203",
             "source": "a_744",
-            "target": "a_751"
+            "target": "a_751",
+            "reversed": false,
+            "stratifiedRegion": "w_1203_st17",
+            "stratification": "st17"
         },
         {
             "id": "w_1204",
@@ -28607,12 +28625,18 @@
         {
             "id": "w_1221",
             "source": "a_755",
-            "target": "a_774"
+            "target": "a_774",
+            "reversed": false,
+            "stratifiedRegion": "w_1221_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_1222",
             "source": "a_755",
-            "target": "a_775"
+            "target": "a_775",
+            "reversed": false,
+            "stratifiedRegion": "w_1222_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_1223",
@@ -41611,6 +41635,14 @@
                 "mat-multifidus-muscle",
                 "mat-deep-fascia",
                 "mat-deep-adipose-tissue"
+            ],
+            "subtypes": [
+                "w_1222_st7",
+                "w_1221_st7"
+            ],
+            "axisWires": [
+                "w_1222",
+                "w_1221"
             ]
         },
         {
@@ -41709,6 +41741,14 @@
                 "mat-multifidus-muscle",
                 "mat-deep-fascia",
                 "mat-fifth-lumbar-vertebra"
+            ],
+            "subtypes": [
+                "w_1202_st17",
+                "w_1203_st17"
+            ],
+            "axisWires": [
+                "w_1202",
+                "w_1203"
             ]
         },
         {
@@ -41868,6 +41908,14 @@
                 "mat-deep-adipose-tissue",
                 "mat-deep-fascia",
                 "mat-rectus-abdominis-muscle"
+            ],
+            "subtypes": [
+                "w_1169_st34",
+                "w_1168_st34"
+            ],
+            "axisWires": [
+                "w_1169",
+                "w_1168"
             ]
         },
         {
@@ -41877,6 +41925,14 @@
                 "mat-endo-abdominal-fascia",
                 "mat-deep-fascia",
                 "mat-rectus-abdominis-muscle"
+            ],
+            "subtypes": [
+                "w_1170_st35",
+                "w_1171_st35"
+            ],
+            "axisWires": [
+                "w_1170",
+                "w_1171"
             ]
         },
         {
