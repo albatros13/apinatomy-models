@@ -28378,7 +28378,10 @@
         {
             "id": "w_1174",
             "source": "a_734",
-            "target": "a_735"
+            "target": "a_735",
+            "reversed": false,
+            "stratifiedRegion": "w_1174_st3",
+            "stratification": "st3"
         },
         {
             "id": "w_1175",
@@ -28444,7 +28447,10 @@
         {
             "id": "w_1186",
             "source": "a_738",
-            "target": "a_752"
+            "target": "a_752",
+            "reversed": false,
+            "stratifiedRegion": "w_1186_st11",
+            "stratification": "st11"
         },
         {
             "id": "w_1187",
@@ -28601,7 +28607,10 @@
         {
             "id": "w_1212",
             "source": "a_749",
-            "target": "a_753"
+            "target": "a_753",
+            "reversed": false,
+            "stratifiedRegion": "w_1212_st11",
+            "stratification": "st11"
         },
         {
             "id": "w_1213",
@@ -28692,7 +28701,10 @@
         {
             "id": "w_1226",
             "source": "a_759",
-            "target": "a_766"
+            "target": "a_766",
+            "reversed": false,
+            "stratifiedRegion": "w_1226_st3",
+            "stratification": "st3"
         },
         {
             "id": "w_1227",
@@ -41641,6 +41653,14 @@
                 "mat-gluteus-medius",
                 "mat-deep-fascia",
                 "mat-ilium-bone"
+            ],
+            "subtypes": [
+                "w_1174_st3",
+                "w_1226_st3"
+            ],
+            "axisWires": [
+                "w_1174",
+                "w_1226"
             ]
         },
         {
@@ -41741,6 +41761,14 @@
                 "mat-sacro-iliac-joint",
                 "mat-deep-fascia",
                 "mat-sacral-bone"
+            ],
+            "subtypes": [
+                "w_1186_st11",
+                "w_1212_st11"
+            ],
+            "axisWires": [
+                "w_1186",
+                "w_1212"
             ]
         },
         {
