@@ -28411,7 +28411,9 @@
             "id": "w_1181",
             "source": "a_736",
             "target": "a_761",
-            "reversed": false
+            "reversed": false,
+            "stratifiedRegion": "w_1181_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_1182",
@@ -28525,7 +28527,10 @@
         {
             "id": "w_1199",
             "source": "a_743",
-            "target": "a_760"
+            "target": "a_760",
+            "reversed": false,
+            "stratifiedRegion": "w_1199_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_1200",
@@ -41888,6 +41893,14 @@
                 "mat-abdominal-external-oblique-muscle",
                 "mat-deep-fascia",
                 "mat-deep-adipose-tissue"
+            ],
+            "subtypes": [
+                "w_1199_st28",
+                "w_1181_st28"
+            ],
+            "axisWires": [
+                "w_1199",
+                "w_1181"
             ]
         },
         {
