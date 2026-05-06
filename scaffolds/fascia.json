@@ -28554,12 +28554,18 @@
         {
             "id": "w_1202",
             "source": "a_744",
-            "target": "a_750"
+            "target": "a_750",
+            "reversed": false,
+            "stratifiedRegion": "w_1202_st17",
+            "stratification": "st17"
         },
         {
             "id": "w_1203",
             "source": "a_744",
-            "target": "a_751"
+            "target": "a_751",
+            "reversed": false,
+            "stratifiedRegion": "w_1203_st17",
+            "stratification": "st17"
         },
         {
             "id": "w_1204",
@@ -41824,6 +41830,14 @@
                 "mat-multifidus-muscle",
                 "mat-deep-fascia",
                 "mat-fifth-lumbar-vertebra"
+            ],
+            "subtypes": [
+                "w_1203_st17",
+                "w_1202_st17"
+            ],
+            "axisWires": [
+                "w_1203",
+                "w_1202"
             ]
         },
         {
