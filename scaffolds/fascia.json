@@ -662,7 +662,7 @@
         }
     ],
     "name": "Fascia",
-    "version": "4bdaec8cce8e0b1ff54120088f246c85cccef434",
+    "version": "94a5d398f7c25688c6b0aed6301314d30fa3eab0",
     "id": "fascia",
     "namespace": "fascia",
     "lastUpdated": "2026-05-06",
@@ -28353,7 +28353,10 @@
         {
             "id": "w_1172",
             "source": "a_733",
-            "target": "a_755"
+            "target": "a_755",
+            "reversed": false,
+            "stratifiedRegion": "w_1172_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_1173",
@@ -28388,7 +28391,10 @@
         {
             "id": "w_1179",
             "source": "a_735",
-            "target": "a_764"
+            "target": "a_764",
+            "reversed": false,
+            "stratifiedRegion": "w_1179_st13",
+            "stratification": "st13"
         },
         {
             "id": "w_1180",
@@ -28448,7 +28454,10 @@
         {
             "id": "w_1191",
             "source": "a_740",
-            "target": "a_741"
+            "target": "a_741",
+            "reversed": false,
+            "stratifiedRegion": "w_1191_st25",
+            "stratification": "st25"
         },
         {
             "id": "w_1192",
@@ -28628,7 +28637,10 @@
         {
             "id": "w_1227",
             "source": "a_759",
-            "target": "a_773"
+            "target": "a_773",
+            "reversed": false,
+            "stratifiedRegion": "w_1227_st13",
+            "stratification": "st13"
         },
         {
             "id": "w_1228",
@@ -41548,6 +41560,12 @@
                 "mat-deep-adipose-tissue",
                 "mat-superficial-fascia",
                 "mat-superfical-adipose-tissue"
+            ],
+            "subtypes": [
+                "w_1172_st2"
+            ],
+            "axisWires": [
+                "w_1172"
             ]
         },
         {
@@ -41647,6 +41665,14 @@
                 "mat-gluteus-medius",
                 "mat-deep-fascia",
                 "mat-deep-adipose-tissue"
+            ],
+            "subtypes": [
+                "w_1179_st13",
+                "w_1227_st13"
+            ],
+            "axisWires": [
+                "w_1179",
+                "w_1227"
             ]
         },
         {
@@ -41755,6 +41781,12 @@
                 "mat-endo-abdominal-fascia",
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-fifth-lumbar-vertebra"
+            ],
+            "subtypes": [
+                "w_1191_st25"
+            ],
+            "axisWires": [
+                "w_1191"
             ]
         },
         {
