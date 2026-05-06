@@ -662,7 +662,7 @@
         }
     ],
     "name": ".json",
-    "version": "c8e2408a16d9b98f3da99fe5d18d72dcfdb55f04",
+    "version": "4d7002289d120d88ce2764c6cfe1eb139c61a0c7",
     "id": "fascia",
     "namespace": "fascia",
     "schemaVersion": "58679667aad8cb17a392ef9adf2f74996442d90b",
@@ -41550,9 +41550,7 @@
             "subtypes": [
                 "w_1171_st1"
             ],
-            "axisWires": [
-                "w_1171"
-            ]
+            "axisWires": []
         },
         {
             "id": "st2",
