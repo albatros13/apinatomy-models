@@ -662,7 +662,7 @@
         }
     ],
     "name": ".json",
-    "version": "40428aee6988075feb001b537064e36e6203ba51",
+    "version": "ad9190a401db504d3df5b9a40544d67a7cd56352",
     "id": "fascia",
     "namespace": "fascia",
     "schemaVersion": "58679667aad8cb17a392ef9adf2f74996442d90b",
@@ -28333,24 +28333,34 @@
         {
             "id": "w_1168",
             "source": "a_733",
-            "target": "a_745"
+            "target": "a_745",
+            "reversed": false,
+            "stratifiedRegion": "w_1168_st34",
+            "stratification": "st34"
         },
         {
             "id": "w_1169",
             "source": "a_733",
-            "target": "a_746"
+            "target": "a_746",
+            "reversed": false,
+            "stratifiedRegion": "w_1169_st34",
+            "stratification": "st34"
         },
         {
             "id": "w_1170",
             "source": "a_733",
             "target": "a_747",
-            "reversed": false
+            "reversed": false,
+            "stratifiedRegion": "w_1170_st35",
+            "stratification": "st35"
         },
         {
             "id": "w_1171",
             "source": "a_733",
             "target": "a_748",
-            "reversed": false
+            "reversed": false,
+            "stratifiedRegion": "w_1171_st35",
+            "stratification": "st35"
         },
         {
             "id": "w_1172",
@@ -28411,7 +28421,10 @@
         {
             "id": "w_1183",
             "source": "a_737",
-            "target": "a_754"
+            "target": "a_754",
+            "reversed": false,
+            "stratifiedRegion": "w_1183_st26",
+            "stratification": "st26"
         },
         {
             "id": "w_1184",
@@ -41780,10 +41793,12 @@
                 "mat-iliacus-muscle"
             ],
             "subtypes": [
-                "w_1197_st26"
+                "w_1197_st26",
+                "w_1183_st26"
             ],
             "axisWires": [
-                "w_1197"
+                "w_1197",
+                "w_1183"
             ]
         },
         {
@@ -41856,6 +41871,14 @@
                 "mat-deep-adipose-tissue",
                 "mat-deep-fascia",
                 "mat-rectus-abdominis-muscle"
+            ],
+            "subtypes": [
+                "w_1169_st34",
+                "w_1168_st34"
+            ],
+            "axisWires": [
+                "w_1169",
+                "w_1168"
             ]
         },
         {
@@ -41865,6 +41888,14 @@
                 "mat-endo-abdominal-fascia",
                 "mat-deep-fascia",
                 "mat-rectus-abdominis-muscle"
+            ],
+            "subtypes": [
+                "w_1170_st35",
+                "w_1171_st35"
+            ],
+            "axisWires": [
+                "w_1170",
+                "w_1171"
             ]
         },
         {
