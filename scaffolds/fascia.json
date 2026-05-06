@@ -662,7 +662,7 @@
         }
     ],
     "name": "Fascia",
-    "version": "25098180f5a5ab979795380a99c70ef6363894cb",
+    "version": "4bdaec8cce8e0b1ff54120088f246c85cccef434",
     "id": "fascia",
     "namespace": "fascia",
     "lastUpdated": "2026-05-06",
@@ -42164,24 +42164,6 @@
         },
         {
             "id": "st71",
-            "name": "Spinal cord | Spinal meningeal cluster | Longissimus muscle",
-            "strata": [
-                "mat-spinal-cord",
-                "mat-spinal-meningeal-cluster",
-                "mat-longissimus-muscle"
-            ]
-        },
-        {
-            "id": "st72",
-            "name": "Spinal cord | Spinal meningeal cluster | Psoas muscle",
-            "strata": [
-                "mat-spinal-cord",
-                "mat-spinal-meningeal-cluster",
-                "mat-psoas-muscle"
-            ]
-        },
-        {
-            "id": "st73",
             "name": "Deep adipose tissue | Deep fascia | Latissimus dorsi muscle",
             "strata": [
                 "mat-deep-adipose-tissue",
@@ -42190,7 +42172,7 @@
             ]
         },
         {
-            "id": "st74",
+            "id": "st72",
             "name": "Abdominal external oblique muscle | Deep fascia | Latissimus dorsi muscle",
             "strata": [
                 "mat-abdominal-external-oblique-muscle",
@@ -42199,7 +42181,7 @@
             ]
         },
         {
-            "id": "st75",
+            "id": "st73",
             "name": "Abdominal internal oblique muscle | Deep fascia | Latissimus dorsi muscle",
             "strata": [
                 "mat-abdominal-internal-oblique-muscle",
@@ -42208,7 +42190,7 @@
             ]
         },
         {
-            "id": "st76",
+            "id": "st74",
             "name": "Third lumbar vertebra | Deep fascia | Psoas muscle",
             "strata": [
                 "mat-third-lumbar-vertebra",
@@ -42217,7 +42199,7 @@
             ]
         },
         {
-            "id": "st77",
+            "id": "st75",
             "name": "Endo-abdominal fascia | Deep fascia | Third lumbar vertebra",
             "strata": [
                 "mat-endo-abdominal-fascia",
@@ -42226,7 +42208,7 @@
             ]
         },
         {
-            "id": "st78",
+            "id": "st76",
             "name": "Quadratus lumborum muscle | Deep fascia | Latissimus dorsi muscle",
             "strata": [
                 "mat-quadratus-lumborum-muscle",
@@ -42235,7 +42217,7 @@
             ]
         },
         {
-            "id": "st79",
+            "id": "st77",
             "name": "Multifidus muscle | Deep fascia | Second lumbar vertebra",
             "strata": [
                 "mat-multifidus-muscle",
@@ -42244,7 +42226,7 @@
             ]
         },
         {
-            "id": "st80",
+            "id": "st78",
             "name": "Transversus abdominis muscle | Deep fascia | Rectus abdominis muscle",
             "strata": [
                 "mat-transversus-abdominis-muscle",
@@ -42253,16 +42235,7 @@
             ]
         },
         {
-            "id": "st81",
-            "name": "Spinal cord | Spinal meningeal cluster | Multifidus muscle",
-            "strata": [
-                "mat-spinal-cord",
-                "mat-spinal-meningeal-cluster",
-                "mat-multifidus-muscle"
-            ]
-        },
-        {
-            "id": "st82",
+            "id": "st79",
             "name": "Latissimus dorsi muscle | Deep fascia | Lateral raphe of thoracolumbar fascia",
             "strata": [
                 "mat-latissimus-dorsi-muscle",
@@ -42271,7 +42244,7 @@
             ]
         },
         {
-            "id": "st83",
+            "id": "st80",
             "name": "Quadratus lumborum muscle | Deep fascia | Third lumbar vertebra",
             "strata": [
                 "mat-quadratus-lumborum-muscle",
@@ -42280,7 +42253,7 @@
             ]
         },
         {
-            "id": "st84",
+            "id": "st81",
             "name": "Transversus abdominis muscle | Deep fascia | Deep adipose tissue",
             "strata": [
                 "mat-transversus-abdominis-muscle",
@@ -42289,7 +42262,7 @@
             ]
         },
         {
-            "id": "st85",
+            "id": "st82",
             "name": "Intervertebral disk of second lumbar vertebra | Deep fascia | Psoas muscle",
             "strata": [
                 "mat-intervertebral-disk-of-second-lumbar-vertebra",
@@ -42298,7 +42271,7 @@
             ]
         },
         {
-            "id": "st86",
+            "id": "st83",
             "name": "Endo-abdominal fascia | Deep fascia | Intervertebral disk of second lumbar vertebra",
             "strata": [
                 "mat-endo-abdominal-fascia",
@@ -42307,7 +42280,7 @@
             ]
         },
         {
-            "id": "st87",
+            "id": "st84",
             "name": "Spinal cord | Spinal meningeal cluster | Second lumbar vertebra",
             "strata": [
                 "mat-spinal-cord",
@@ -42316,7 +42289,7 @@
             ]
         },
         {
-            "id": "st88",
+            "id": "st85",
             "name": "Spinal cord | Spinal meningeal cluster | Intervertebral disk of second lumbar vertebra",
             "strata": [
                 "mat-spinal-cord",
@@ -42325,7 +42298,7 @@
             ]
         },
         {
-            "id": "st89",
+            "id": "st86",
             "name": "Quadratus lumborum muscle | Deep fascia | Second lumbar vertebra",
             "strata": [
                 "mat-quadratus-lumborum-muscle",
@@ -42334,7 +42307,7 @@
             ]
         },
         {
-            "id": "st90",
+            "id": "st87",
             "name": "Abdominal external oblique muscle | Deep fascia | Rib",
             "strata": [
                 "mat-abdominal-external-oblique-muscle",
@@ -42343,7 +42316,7 @@
             ]
         },
         {
-            "id": "st91",
+            "id": "st88",
             "name": "Abdominal internal oblique muscle | Deep fascia | Rib",
             "strata": [
                 "mat-abdominal-internal-oblique-muscle",
@@ -42352,7 +42325,7 @@
             ]
         },
         {
-            "id": "st92",
+            "id": "st89",
             "name": "Transversus abdominis muscle | Deep fascia | Rib",
             "strata": [
                 "mat-transversus-abdominis-muscle",
@@ -42361,7 +42334,7 @@
             ]
         },
         {
-            "id": "st93",
+            "id": "st90",
             "name": "Endo-abdominal fascia | Deep fascia | Rib",
             "strata": [
                 "mat-endo-abdominal-fascia",
@@ -42370,7 +42343,7 @@
             ]
         },
         {
-            "id": "st94",
+            "id": "st91",
             "name": "Latissimus dorsi muscle | Deep fascia | Rib",
             "strata": [
                 "mat-latissimus-dorsi-muscle",
@@ -42379,7 +42352,7 @@
             ]
         },
         {
-            "id": "st95",
+            "id": "st92",
             "name": "Psoas muscle | Deep fascia | Second lumbar vertebra",
             "strata": [
                 "mat-psoas-muscle",
@@ -42388,16 +42361,7 @@
             ]
         },
         {
-            "id": "st96",
-            "name": "Second lumbar vertebra | Deep fascia | Psoas muscle",
-            "strata": [
-                "mat-second-lumbar-vertebra",
-                "mat-deep-fascia",
-                "mat-psoas-muscle"
-            ]
-        },
-        {
-            "id": "st97",
+            "id": "st93",
             "name": "Endo-abdominal fascia | Deep fascia | Second lumbar vertebra",
             "strata": [
                 "mat-endo-abdominal-fascia",
@@ -42406,7 +42370,7 @@
             ]
         },
         {
-            "id": "st98",
+            "id": "st94",
             "name": "Abdominal internal oblique muscle | Deep fascia | Lateral raphe of thoracolumbar fascia",
             "strata": [
                 "mat-abdominal-internal-oblique-muscle",
@@ -42415,7 +42379,7 @@
             ]
         },
         {
-            "id": "st99",
+            "id": "st95",
             "name": "Longissimus muscle | Deep fascia | Latissimus dorsi muscle",
             "strata": [
                 "mat-longissimus-muscle",
@@ -42424,16 +42388,7 @@
             ]
         },
         {
-            "id": "st100",
-            "name": "Psoas muscle | Deep fascia | Longissimus muscle",
-            "strata": [
-                "mat-psoas-muscle",
-                "mat-deep-fascia",
-                "mat-longissimus-muscle"
-            ]
-        },
-        {
-            "id": "st101",
+            "id": "st96",
             "name": "Second lumbar vertebra | Deep fascia | Longissimus muscle",
             "strata": [
                 "mat-second-lumbar-vertebra",
@@ -42442,7 +42397,7 @@
             ]
         },
         {
-            "id": "st102",
+            "id": "st97",
             "name": "Second lumbar vertebra | Deep fascia | Right crus of diaphragm",
             "strata": [
                 "mat-second-lumbar-vertebra",
@@ -42451,7 +42406,7 @@
             ]
         },
         {
-            "id": "st103",
+            "id": "st98",
             "name": "Endo-abdominal fascia | Deep fascia | Right crus of diaphragm",
             "strata": [
                 "mat-endo-abdominal-fascia",
@@ -42460,7 +42415,7 @@
             ]
         },
         {
-            "id": "st104",
+            "id": "st99",
             "name": "Multifidus muscle | Deep fascia | First lumbar vertebra",
             "strata": [
                 "mat-multifidus-muscle",
@@ -42469,7 +42424,7 @@
             ]
         },
         {
-            "id": "st105",
+            "id": "st100",
             "name": "Intervertebral disk of first lumbar vertebra | Deep fascia | Psoas muscle",
             "strata": [
                 "mat-intervertebral-disk-of-first-lumbar-vertebra",
@@ -42478,7 +42433,7 @@
             ]
         },
         {
-            "id": "st106",
+            "id": "st101",
             "name": "Endo-abdominal fascia | Deep fascia | Intervertebral disk of first lumbar vertebra",
             "strata": [
                 "mat-endo-abdominal-fascia",
@@ -42487,7 +42442,7 @@
             ]
         },
         {
-            "id": "st107",
+            "id": "st102",
             "name": "Spinal cord | Spinal meningeal cluster | Intervertebral disk of first lumbar vertebra",
             "strata": [
                 "mat-spinal-cord",
@@ -42496,7 +42451,7 @@
             ]
         },
         {
-            "id": "st108",
+            "id": "st103",
             "name": "Spinal cord | Spinal meningeal cluster | First lumbar vertebra",
             "strata": [
                 "mat-spinal-cord",
@@ -42505,7 +42460,7 @@
             ]
         },
         {
-            "id": "st109",
+            "id": "st104",
             "name": "First lumbar vertebra | Deep fascia | Longissimus muscle",
             "strata": [
                 "mat-first-lumbar-vertebra",
@@ -42514,7 +42469,7 @@
             ]
         },
         {
-            "id": "st110",
+            "id": "st105",
             "name": "Intervertebral disk of first lumbar vertebra | Deep fascia | Right crus of diaphragm",
             "strata": [
                 "mat-intervertebral-disk-of-first-lumbar-vertebra",
@@ -42523,7 +42478,7 @@
             ]
         },
         {
-            "id": "st111",
+            "id": "st106",
             "name": "Intervertebral disk of first lumbar vertebra | Deep fascia | Left crus of diaphragm",
             "strata": [
                 "mat-intervertebral-disk-of-first-lumbar-vertebra",
@@ -42532,7 +42487,7 @@
             ]
         },
         {
-            "id": "st112",
+            "id": "st107",
             "name": "Endo-abdominal fascia | Deep fascia | Left crus of diaphragm",
             "strata": [
                 "mat-endo-abdominal-fascia",
@@ -42541,7 +42496,7 @@
             ]
         },
         {
-            "id": "st113",
+            "id": "st108",
             "name": "First lumbar vertebra | Deep fascia | Psoas muscle",
             "strata": [
                 "mat-first-lumbar-vertebra",
@@ -42550,7 +42505,7 @@
             ]
         },
         {
-            "id": "st114",
+            "id": "st109",
             "name": "Endo-abdominal fascia | Deep fascia | First lumbar vertebra",
             "strata": [
                 "mat-endo-abdominal-fascia",
@@ -42559,7 +42514,7 @@
             ]
         },
         {
-            "id": "st115",
+            "id": "st110",
             "name": "Diaphragm | Deep fascia | Lateral raphe of thoracolumbar fascia",
             "strata": [
                 "mat-diaphragm",
@@ -42568,7 +42523,7 @@
             ]
         },
         {
-            "id": "st116",
+            "id": "st111",
             "name": "Quadratus lumborum muscle | Deep fascia | Rib",
             "strata": [
                 "mat-quadratus-lumborum-muscle",
@@ -42577,7 +42532,7 @@
             ]
         },
         {
-            "id": "st117",
+            "id": "st112",
             "name": "Longissimus muscle | Deep fascia | Rib",
             "strata": [
                 "mat-longissimus-muscle",
@@ -42586,7 +42541,7 @@
             ]
         },
         {
-            "id": "st118",
+            "id": "st113",
             "name": "Abdominal internal oblique muscle | Deep fascia | Diaphragm",
             "strata": [
                 "mat-abdominal-internal-oblique-muscle",
@@ -42595,7 +42550,7 @@
             ]
         },
         {
-            "id": "st119",
+            "id": "st114",
             "name": "Endo-abdominal fascia | Deep fascia | Diaphragm",
             "strata": [
                 "mat-endo-abdominal-fascia",
@@ -42604,7 +42559,7 @@
             ]
         },
         {
-            "id": "st120",
+            "id": "st115",
             "name": "First lumbar vertebra | Deep fascia | Right crus of diaphragm",
             "strata": [
                 "mat-first-lumbar-vertebra",
@@ -42613,7 +42568,7 @@
             ]
         },
         {
-            "id": "st121",
+            "id": "st116",
             "name": "First lumbar vertebra | Deep fascia | Left crus of diaphragm",
             "strata": [
                 "mat-first-lumbar-vertebra",
@@ -42622,7 +42577,7 @@
             ]
         },
         {
-            "id": "st122",
+            "id": "st117",
             "name": "Diaphragm | Deep fascia | Transversus abdominis muscle",
             "strata": [
                 "mat-diaphragm",
@@ -42631,16 +42586,7 @@
             ]
         },
         {
-            "id": "st123",
-            "name": "Diaphragm | Deep fascia | Endo-abdominal fascia",
-            "strata": [
-                "mat-diaphragm",
-                "mat-deep-fascia",
-                "mat-endo-abdominal-fascia"
-            ]
-        },
-        {
-            "id": "st124",
+            "id": "st118",
             "name": "Deep adipose tissue | Deep fascia | Rib",
             "strata": [
                 "mat-deep-adipose-tissue",
@@ -42649,7 +42595,7 @@
             ]
         },
         {
-            "id": "st125",
+            "id": "st119",
             "name": "Diaphragm | Deep fascia | Rib",
             "strata": [
                 "mat-diaphragm",
@@ -42658,7 +42604,7 @@
             ]
         },
         {
-            "id": "st126",
+            "id": "st120",
             "name": "Multifidus muscle | Deep fascia | Twelfth thoracic vertebra",
             "strata": [
                 "mat-multifidus-muscle",
@@ -42667,7 +42613,7 @@
             ]
         },
         {
-            "id": "st127",
+            "id": "st121",
             "name": "Endo-abdominal fascia | Deep fascia | Intervertebral disk of twelfth thoracic vertebra",
             "strata": [
                 "mat-endo-abdominal-fascia",
@@ -42676,7 +42622,7 @@
             ]
         },
         {
-            "id": "st128",
+            "id": "st122",
             "name": "Spinal cord | Spinal meningeal cluster | Twelfth thoracic vertebra",
             "strata": [
                 "mat-spinal-cord",
@@ -42685,7 +42631,7 @@
             ]
         },
         {
-            "id": "st129",
+            "id": "st123",
             "name": "Spinal cord | Spinal meningeal cluster | Intervertebral disk of twelfth thoracic vertebra",
             "strata": [
                 "mat-spinal-cord",
@@ -42694,7 +42640,7 @@
             ]
         },
         {
-            "id": "st130",
+            "id": "st124",
             "name": "Spinal cord | Spinal meningeal cluster | Right crus of diaphragm",
             "strata": [
                 "mat-spinal-cord",
@@ -42703,7 +42649,7 @@
             ]
         },
         {
-            "id": "st131",
+            "id": "st125",
             "name": "Spinal cord | Spinal meningeal cluster | Left crus of diaphragm",
             "strata": [
                 "mat-spinal-cord",
@@ -42712,7 +42658,7 @@
             ]
         },
         {
-            "id": "st132",
+            "id": "st126",
             "name": "Rectus abdominis muscle | Deep fascia | Rib",
             "strata": [
                 "mat-rectus-abdominis-muscle",
@@ -42721,7 +42667,7 @@
             ]
         },
         {
-            "id": "st133",
+            "id": "st127",
             "name": "Intervertebral disk of twelfth thoracic vertebra | Deep fascia | Right crus of diaphragm",
             "strata": [
                 "mat-intervertebral-disk-of-twelfth-thoracic-vertebra",
@@ -42730,7 +42676,7 @@
             ]
         },
         {
-            "id": "st134",
+            "id": "st128",
             "name": "Intervertebral disk of twelfth thoracic vertebra | Deep fascia | Left crus of diaphragm",
             "strata": [
                 "mat-intervertebral-disk-of-twelfth-thoracic-vertebra",
@@ -42739,7 +42685,7 @@
             ]
         },
         {
-            "id": "st135",
+            "id": "st129",
             "name": "Endo-abdominal fascia | Deep fascia | Twelfth thoracic vertebra",
             "strata": [
                 "mat-endo-abdominal-fascia",
@@ -42748,7 +42694,7 @@
             ]
         },
         {
-            "id": "st136",
+            "id": "st130",
             "name": "Twelfth thoracic vertebra | Deep fascia | Right crus of diaphragm",
             "strata": [
                 "mat-twelfth-thoracic-vertebra",
@@ -42757,7 +42703,7 @@
             ]
         },
         {
-            "id": "st137",
+            "id": "st131",
             "name": "Twelfth thoracic vertebra | Deep fascia | Left crus of diaphragm",
             "strata": [
                 "mat-twelfth-thoracic-vertebra",
@@ -42766,7 +42712,7 @@
             ]
         },
         {
-            "id": "st138",
+            "id": "st132",
             "name": "Multifidus muscle | Deep fascia | Eleventh thoracic vertebra",
             "strata": [
                 "mat-multifidus-muscle",
@@ -42775,7 +42721,7 @@
             ]
         },
         {
-            "id": "st139",
+            "id": "st133",
             "name": "Diaphragm | Deep fascia | Rectus abdominis muscle",
             "strata": [
                 "mat-diaphragm",
@@ -42784,7 +42730,7 @@
             ]
         },
         {
-            "id": "st140",
+            "id": "st134",
             "name": "Xiphisternum | Deep fascia | Rectus abdominis muscle",
             "strata": [
                 "mat-xiphisternum",
@@ -42793,7 +42739,7 @@
             ]
         },
         {
-            "id": "st141",
+            "id": "st135",
             "name": "Xiphisternum | Deep fascia | Endo-abdominal fascia",
             "strata": [
                 "mat-xiphisternum",
@@ -42802,7 +42748,7 @@
             ]
         },
         {
-            "id": "st142",
+            "id": "st136",
             "name": "Spinal cord | Spinal meningeal cluster | Intervertebral disk of eleventh thoracic vertebra",
             "strata": [
                 "mat-spinal-cord",
@@ -42811,7 +42757,7 @@
             ]
         },
         {
-            "id": "st143",
+            "id": "st137",
             "name": "Spinal cord | Spinal meningeal cluster | Eleventh thoracic vertebra",
             "strata": [
                 "mat-spinal-cord",
@@ -42820,7 +42766,7 @@
             ]
         },
         {
-            "id": "st144",
+            "id": "st138",
             "name": "Serratus anterior | Deep fascia | Latissimus dorsi muscle",
             "strata": [
                 "mat-serratus-anterior",
@@ -42829,7 +42775,7 @@
             ]
         },
         {
-            "id": "st145",
+            "id": "st139",
             "name": "Serratus posterior inferior | Deep fascia | Latissimus dorsi muscle",
             "strata": [
                 "mat-serratus-posterior-inferior",
@@ -42838,7 +42784,7 @@
             ]
         },
         {
-            "id": "st146",
+            "id": "st140",
             "name": "Serratus anterior | Deep fascia | Abdominal internal oblique muscle",
             "strata": [
                 "mat-serratus-anterior",
@@ -42847,7 +42793,7 @@
             ]
         },
         {
-            "id": "st147",
+            "id": "st141",
             "name": "Serratus posterior inferior | Deep fascia | Abdominal internal oblique muscle",
             "strata": [
                 "mat-serratus-posterior-inferior",
@@ -42856,7 +42802,7 @@
             ]
         },
         {
-            "id": "st148",
+            "id": "st142",
             "name": "Serratus anterior | Deep fascia | Rib",
             "strata": [
                 "mat-serratus-anterior",
@@ -42865,7 +42811,7 @@
             ]
         },
         {
-            "id": "st149",
+            "id": "st143",
             "name": "Serratus posterior inferior | Deep fascia | Rib",
             "strata": [
                 "mat-serratus-posterior-inferior",
@@ -42874,7 +42820,7 @@
             ]
         },
         {
-            "id": "st150",
+            "id": "st144",
             "name": "Intervertebral disk of eleventh thoracic vertebra | Deep fascia | Right crus of diaphragm",
             "strata": [
                 "mat-intervertebral-disk-of-eleventh-thoracic-vertebra",
@@ -42883,7 +42829,7 @@
             ]
         },
         {
-            "id": "st151",
+            "id": "st145",
             "name": "Intervertebral disk of eleventh thoracic vertebra | Deep fascia | Left crus of diaphragm",
             "strata": [
                 "mat-intervertebral-disk-of-eleventh-thoracic-vertebra",
@@ -42892,7 +42838,7 @@
             ]
         },
         {
-            "id": "st152",
+            "id": "st146",
             "name": "Left crus of diaphragm | Deep fascia | Right crus of diaphragm",
             "strata": [
                 "mat-left-crus-of-diaphragm",
@@ -42901,7 +42847,7 @@
             ]
         },
         {
-            "id": "st153",
+            "id": "st147",
             "name": "Eleventh thoracic vertebra | Deep fascia | Right crus of diaphragm",
             "strata": [
                 "mat-eleventh-thoracic-vertebra",
@@ -42910,7 +42856,7 @@
             ]
         },
         {
-            "id": "st154",
+            "id": "st148",
             "name": "Eleventh thoracic vertebra | Deep fascia | Left crus of diaphragm",
             "strata": [
                 "mat-eleventh-thoracic-vertebra",
@@ -42919,7 +42865,7 @@
             ]
         },
         {
-            "id": "st155",
+            "id": "st149",
             "name": "Xiphisternum | Deep fascia | Diaphragm",
             "strata": [
                 "mat-xiphisternum",
@@ -42928,7 +42874,7 @@
             ]
         },
         {
-            "id": "st156",
+            "id": "st150",
             "name": "Endo-abdominal fascia | Deep fascia | Eleventh thoracic vertebra",
             "strata": [
                 "mat-endo-abdominal-fascia",
@@ -42937,7 +42883,7 @@
             ]
         },
         {
-            "id": "st157",
+            "id": "st151",
             "name": "Serratus anterior | Deep fascia | Deep adipose tissue",
             "strata": [
                 "mat-serratus-anterior",
@@ -42946,7 +42892,7 @@
             ]
         },
         {
-            "id": "st158",
+            "id": "st152",
             "name": "Lung | Deep fascia | Right crus of diaphragm",
             "strata": [
                 "mat-lung",
@@ -42955,7 +42901,7 @@
             ]
         },
         {
-            "id": "st159",
+            "id": "st153",
             "name": "Lung | Deep fascia | Left crus of diaphragm",
             "strata": [
                 "mat-lung",
@@ -42964,7 +42910,7 @@
             ]
         },
         {
-            "id": "st160",
+            "id": "st154",
             "name": "Longissimus muscle | Deep fascia | Lung",
             "strata": [
                 "mat-longissimus-muscle",
@@ -42973,7 +42919,7 @@
             ]
         },
         {
-            "id": "st161",
+            "id": "st155",
             "name": "Multifidus muscle | Deep fascia | Tenth thoracic vertebra",
             "strata": [
                 "mat-multifidus-muscle",
@@ -42982,7 +42928,7 @@
             ]
         },
         {
-            "id": "st162",
+            "id": "st156",
             "name": "Endo-abdominal fascia | Deep fascia | Intervertebral disk of tenth thoracic vertebra",
             "strata": [
                 "mat-endo-abdominal-fascia",
@@ -42991,7 +42937,7 @@
             ]
         },
         {
-            "id": "st163",
+            "id": "st157",
             "name": "Spinal cord | Spinal meningeal cluster | Intervertebral disk of tenth thoracic vertebra",
             "strata": [
                 "mat-spinal-cord",
@@ -43000,7 +42946,7 @@
             ]
         },
         {
-            "id": "st164",
+            "id": "st158",
             "name": "Spinal cord | Spinal meningeal cluster | Tenth thoracic vertebra",
             "strata": [
                 "mat-spinal-cord",
@@ -43009,7 +42955,7 @@
             ]
         },
         {
-            "id": "st165",
+            "id": "st159",
             "name": "Spinal cord | Spinal meningeal cluster | Lung",
             "strata": [
                 "mat-spinal-cord",
@@ -43018,7 +42964,7 @@
             ]
         },
         {
-            "id": "st166",
+            "id": "st160",
             "name": "Lung | Deep fascia | Rib",
             "strata": [
                 "mat-lung",
@@ -43027,7 +42973,7 @@
             ]
         },
         {
-            "id": "st167",
+            "id": "st161",
             "name": "Lung | Deep fascia | Diaphragm",
             "strata": [
                 "mat-lung",
@@ -43036,7 +42982,7 @@
             ]
         },
         {
-            "id": "st168",
+            "id": "st162",
             "name": "Multifidus muscle | Deep fascia | Trapezius muscle",
             "strata": [
                 "mat-multifidus-muscle",
@@ -43045,7 +42991,7 @@
             ]
         },
         {
-            "id": "st169",
+            "id": "st163",
             "name": "Longissimus muscle | Deep fascia | Trapezius muscle",
             "strata": [
                 "mat-longissimus-muscle",
@@ -43054,7 +43000,7 @@
             ]
         },
         {
-            "id": "st170",
+            "id": "st164",
             "name": "Deep adipose tissue | Deep fascia | Trapezius muscle",
             "strata": [
                 "mat-deep-adipose-tissue",
@@ -43063,7 +43009,7 @@
             ]
         },
         {
-            "id": "st171",
+            "id": "st165",
             "name": "Rib | Deep fascia | Pectoralis major",
             "strata": [
                 "mat-rib",
@@ -43072,7 +43018,7 @@
             ]
         },
         {
-            "id": "st172",
+            "id": "st166",
             "name": "Deep adipose tissue | Deep fascia | Pectoralis major",
             "strata": [
                 "mat-deep-adipose-tissue",
@@ -43081,7 +43027,7 @@
             ]
         },
         {
-            "id": "st173",
+            "id": "st167",
             "name": "Abdominal external oblique muscle | Deep fascia | Pectoralis major",
             "strata": [
                 "mat-abdominal-external-oblique-muscle",
@@ -43090,7 +43036,7 @@
             ]
         },
         {
-            "id": "st174",
+            "id": "st168",
             "name": "Abdominal internal oblique muscle | Deep fascia | Pectoralis major",
             "strata": [
                 "mat-abdominal-internal-oblique-muscle",
@@ -43099,7 +43045,7 @@
             ]
         },
         {
-            "id": "st175",
+            "id": "st169",
             "name": "Endo-abdominal fascia | Deep fascia | Tenth thoracic vertebra",
             "strata": [
                 "mat-endo-abdominal-fascia",
@@ -43108,7 +43054,7 @@
             ]
         },
         {
-            "id": "st176",
+            "id": "st170",
             "name": "Serratus anterior | Deep fascia | Pectoralis major",
             "strata": [
                 "mat-serratus-anterior",
@@ -43117,7 +43063,7 @@
             ]
         },
         {
-            "id": "st177",
+            "id": "st171",
             "name": "Multifidus muscle | Deep fascia | Ninth thoracic vertebra",
             "strata": [
                 "mat-multifidus-muscle",
@@ -43126,7 +43072,7 @@
             ]
         },
         {
-            "id": "st178",
+            "id": "st172",
             "name": "Xiphisternum | Deep fascia | Deep adipose tissue",
             "strata": [
                 "mat-xiphisternum",
@@ -43135,7 +43081,7 @@
             ]
         },
         {
-            "id": "st179",
+            "id": "st173",
             "name": "Xiphisternum | Deep fascia | Rib",
             "strata": [
                 "mat-xiphisternum",
@@ -43144,7 +43090,7 @@
             ]
         },
         {
-            "id": "st180",
+            "id": "st174",
             "name": "Endo-abdominal fascia | Deep fascia | Intervertebral disk of ninth thoracic vertebra",
             "strata": [
                 "mat-endo-abdominal-fascia",
@@ -43153,7 +43099,7 @@
             ]
         },
         {
-            "id": "st181",
+            "id": "st175",
             "name": "Lung | Deep fascia | Intervertebral disk of ninth thoracic vertebra",
             "strata": [
                 "mat-lung",
@@ -43162,7 +43108,7 @@
             ]
         },
         {
-            "id": "st182",
+            "id": "st176",
             "name": "Spinal cord | Spinal meningeal cluster | Intervertebral disk of ninth thoracic vertebra",
             "strata": [
                 "mat-spinal-cord",
@@ -43171,7 +43117,7 @@
             ]
         },
         {
-            "id": "st183",
+            "id": "st177",
             "name": "Spinal cord | Spinal meningeal cluster | Ninth thoracic vertebra",
             "strata": [
                 "mat-spinal-cord",
@@ -43180,7 +43126,7 @@
             ]
         },
         {
-            "id": "st184",
+            "id": "st178",
             "name": "Spinal cord | Spinal meningeal cluster | Rib",
             "strata": [
                 "mat-spinal-cord",
@@ -43189,7 +43135,7 @@
             ]
         },
         {
-            "id": "st185",
+            "id": "st179",
             "name": "Diaphragm | Deep fascia | Endothoracic fascia",
             "strata": [
                 "mat-diaphragm",
@@ -43198,7 +43144,7 @@
             ]
         },
         {
-            "id": "st186",
+            "id": "st180",
             "name": "Xiphisternum | Deep fascia | Endothoracic fascia",
             "strata": [
                 "mat-xiphisternum",
@@ -43207,7 +43153,7 @@
             ]
         },
         {
-            "id": "st187",
+            "id": "st181",
             "name": "Endothoracic fascia | Deep fascia | Ninth thoracic vertebra",
             "strata": [
                 "mat-endothoracic-fascia",
@@ -43216,7 +43162,7 @@
             ]
         },
         {
-            "id": "st188",
+            "id": "st182",
             "name": "Xiphisternum | Deep fascia | Pectoralis major",
             "strata": [
                 "mat-xiphisternum",
@@ -43225,7 +43171,7 @@
             ]
         },
         {
-            "id": "st189",
+            "id": "st183",
             "name": "Lung | Deep fascia | Ninth thoracic vertebra",
             "strata": [
                 "mat-lung",
@@ -43234,7 +43180,7 @@
             ]
         },
         {
-            "id": "st190",
+            "id": "st184",
             "name": "Spinal cord | Spinal meningeal cluster | Endothoracic fascia",
             "strata": [
                 "mat-spinal-cord",
@@ -43243,7 +43189,7 @@
             ]
         },
         {
-            "id": "st191",
+            "id": "st185",
             "name": "Trapezius muscle | Deep fascia | Latissimus dorsi muscle",
             "strata": [
                 "mat-trapezius-muscle",
@@ -43252,7 +43198,7 @@
             ]
         },
         {
-            "id": "st192",
+            "id": "st186",
             "name": "Multifidus muscle | Deep fascia | Eighth thoracic vertebra",
             "strata": [
                 "mat-multifidus-muscle",
@@ -43261,7 +43207,7 @@
             ]
         },
         {
-            "id": "st193",
+            "id": "st187",
             "name": "Endothoracic fascia | Deep fascia | Intervertebral disk of eighth thoracic vertebra",
             "strata": [
                 "mat-endothoracic-fascia",
@@ -43270,7 +43216,7 @@
             ]
         },
         {
-            "id": "st194",
+            "id": "st188",
             "name": "Lung | Deep fascia | Intervertebral disk of eighth thoracic vertebra",
             "strata": [
                 "mat-lung",
@@ -43279,7 +43225,7 @@
             ]
         },
         {
-            "id": "st195",
+            "id": "st189",
             "name": "Spinal cord | Spinal meningeal cluster | Intervertebral disk of eighth thoracic vertebra",
             "strata": [
                 "mat-spinal-cord",
@@ -43288,7 +43234,7 @@
             ]
         },
         {
-            "id": "st196",
+            "id": "st190",
             "name": "Spinal cord | Spinal meningeal cluster | Eighth thoracic vertebra",
             "strata": [
                 "mat-spinal-cord",
@@ -43297,7 +43243,7 @@
             ]
         },
         {
-            "id": "st197",
+            "id": "st191",
             "name": "Endothoracic fascia | Deep fascia | Eighth thoracic vertebra",
             "strata": [
                 "mat-endothoracic-fascia",
@@ -43306,7 +43252,7 @@
             ]
         },
         {
-            "id": "st198",
+            "id": "st192",
             "name": "Lung | Deep fascia | Eighth thoracic vertebra",
             "strata": [
                 "mat-lung",
@@ -43315,16 +43261,7 @@
             ]
         },
         {
-            "id": "st199",
-            "name": "Lung | Deep fascia | Longissimus muscle",
-            "strata": [
-                "mat-lung",
-                "mat-deep-fascia",
-                "mat-longissimus-muscle"
-            ]
-        },
-        {
-            "id": "st200",
+            "id": "st193",
             "name": "Multifidus muscle | Deep fascia | Seventh thoracic vertebra",
             "strata": [
                 "mat-multifidus-muscle",
@@ -43333,7 +43270,7 @@
             ]
         },
         {
-            "id": "st201",
+            "id": "st194",
             "name": "Endothoracic fascia | Deep fascia | Intervertebral disk of seventh thoracic vertebra",
             "strata": [
                 "mat-endothoracic-fascia",
@@ -43342,7 +43279,7 @@
             ]
         },
         {
-            "id": "st202",
+            "id": "st195",
             "name": "Lung | Deep fascia | Intervertebral disk of seventh thoracic vertebra",
             "strata": [
                 "mat-lung",
@@ -43351,7 +43288,7 @@
             ]
         },
         {
-            "id": "st203",
+            "id": "st196",
             "name": "Spinal cord | Spinal meningeal cluster | Intervertebral disk of seventh thoracic vertebra",
             "strata": [
                 "mat-spinal-cord",
@@ -43360,7 +43297,7 @@
             ]
         },
         {
-            "id": "st204",
+            "id": "st197",
             "name": "Spinal cord | Spinal meningeal cluster | Seventh thoracic vertebra",
             "strata": [
                 "mat-spinal-cord",
