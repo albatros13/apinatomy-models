@@ -28380,12 +28380,18 @@
         {
             "id": "w_1175",
             "source": "a_734",
-            "target": "a_764"
+            "target": "a_764",
+            "reversed": false,
+            "stratifiedRegion": "w_1175_st4",
+            "stratification": "st4"
         },
         {
             "id": "w_1176",
             "source": "a_734",
-            "target": "a_776"
+            "target": "a_776",
+            "reversed": false,
+            "stratifiedRegion": "w_1176_st5",
+            "stratification": "st5"
         },
         {
             "id": "w_1177",
@@ -28400,7 +28406,10 @@
         {
             "id": "w_1179",
             "source": "a_735",
-            "target": "a_764"
+            "target": "a_764",
+            "reversed": false,
+            "stratifiedRegion": "w_1179_st13",
+            "stratification": "st13"
         },
         {
             "id": "w_1180",
@@ -28679,12 +28688,18 @@
         {
             "id": "w_1227",
             "source": "a_759",
-            "target": "a_773"
+            "target": "a_773",
+            "reversed": false,
+            "stratifiedRegion": "w_1227_st13",
+            "stratification": "st13"
         },
         {
             "id": "w_1228",
             "source": "a_764",
-            "target": "a_776"
+            "target": "a_776",
+            "reversed": false,
+            "stratifiedRegion": "w_1228_st14",
+            "stratification": "st14"
         },
         {
             "id": "w_1229",
@@ -28702,12 +28717,18 @@
         {
             "id": "w_1231",
             "source": "a_766",
-            "target": "a_772"
+            "target": "a_772",
+            "reversed": false,
+            "stratifiedRegion": "w_1231_st5",
+            "stratification": "st5"
         },
         {
             "id": "w_1232",
             "source": "a_766",
-            "target": "a_773"
+            "target": "a_773",
+            "reversed": false,
+            "stratifiedRegion": "w_1232_st4",
+            "stratification": "st4"
         },
         {
             "id": "w_1233",
@@ -28725,7 +28746,10 @@
         {
             "id": "w_1235",
             "source": "a_772",
-            "target": "a_773"
+            "target": "a_773",
+            "reversed": false,
+            "stratifiedRegion": "w_1235_st14",
+            "stratification": "st14"
         },
         {
             "id": "w_1236",
@@ -41627,6 +41651,14 @@
                 "mat-gluteus-maximus",
                 "mat-deep-fascia",
                 "mat-gluteus-medius"
+            ],
+            "subtypes": [
+                "w_1232_st4",
+                "w_1175_st4"
+            ],
+            "axisWires": [
+                "w_1232",
+                "w_1175"
             ]
         },
         {
@@ -41636,6 +41668,14 @@
                 "mat-gluteus-maximus",
                 "mat-deep-fascia",
                 "mat-ilium-bone"
+            ],
+            "subtypes": [
+                "w_1176_st5",
+                "w_1231_st5"
+            ],
+            "axisWires": [
+                "w_1176",
+                "w_1231"
             ]
         },
         {
@@ -41732,6 +41772,14 @@
                 "mat-gluteus-medius",
                 "mat-deep-fascia",
                 "mat-deep-adipose-tissue"
+            ],
+            "subtypes": [
+                "w_1179_st13",
+                "w_1227_st13"
+            ],
+            "axisWires": [
+                "w_1179",
+                "w_1227"
             ]
         },
         {
@@ -41741,6 +41789,14 @@
                 "mat-gluteus-maximus",
                 "mat-deep-fascia",
                 "mat-deep-adipose-tissue"
+            ],
+            "subtypes": [
+                "w_1228_st14",
+                "w_1235_st14"
+            ],
+            "axisWires": [
+                "w_1228",
+                "w_1235"
             ]
         },
         {
