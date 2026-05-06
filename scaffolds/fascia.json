@@ -662,7 +662,7 @@
         }
     ],
     "name": ".json",
-    "version": "c18931b2b0d543f82fadc4a99d8f22c900f439a0",
+    "version": "40428aee6988075feb001b537064e36e6203ba51",
     "id": "fascia",
     "namespace": "fascia",
     "schemaVersion": "58679667aad8cb17a392ef9adf2f74996442d90b",
@@ -28344,9 +28344,7 @@
             "id": "w_1170",
             "source": "a_733",
             "target": "a_747",
-            "reversed": false,
-            "stratifiedRegion": "w_1170_st95",
-            "stratification": "st95"
+            "reversed": false
         },
         {
             "id": "w_1171",
@@ -28403,9 +28401,7 @@
             "id": "w_1181",
             "source": "a_736",
             "target": "a_761",
-            "reversed": false,
-            "stratifiedRegion": "w_1181_st972",
-            "stratification": "st972"
+            "reversed": false
         },
         {
             "id": "w_1182",
@@ -28485,7 +28481,10 @@
         {
             "id": "w_1197",
             "source": "a_743",
-            "target": "a_758"
+            "target": "a_758",
+            "reversed": false,
+            "stratifiedRegion": "w_1197_st26",
+            "stratification": "st26"
         },
         {
             "id": "w_1198",
@@ -41779,6 +41778,12 @@
                 "mat-endo-abdominal-fascia",
                 "mat-deep-fascia",
                 "mat-iliacus-muscle"
+            ],
+            "subtypes": [
+                "w_1197_st26"
+            ],
+            "axisWires": [
+                "w_1197"
             ]
         },
         {
@@ -42404,9 +42409,7 @@
             "subtypes": [
                 "w_1170_st95"
             ],
-            "axisWires": [
-                "w_1170"
-            ]
+            "axisWires": []
         },
         {
             "id": "st96",
@@ -50303,9 +50306,7 @@
             "subtypes": [
                 "w_1181_st972"
             ],
-            "axisWires": [
-                "w_1181"
-            ]
+            "axisWires": []
         },
         {
             "id": "st973",
