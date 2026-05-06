@@ -662,7 +662,7 @@
         }
     ],
     "name": ".json",
-    "version": "4d7002289d120d88ce2764c6cfe1eb139c61a0c7",
+    "version": "c18931b2b0d543f82fadc4a99d8f22c900f439a0",
     "id": "fascia",
     "namespace": "fascia",
     "schemaVersion": "58679667aad8cb17a392ef9adf2f74996442d90b",
@@ -28352,7 +28352,9 @@
             "id": "w_1171",
             "source": "a_733",
             "target": "a_748",
-            "reversed": false
+            "reversed": false,
+            "stratifiedRegion": "w_1171_st18",
+            "stratification": "st18"
         },
         {
             "id": "w_1172",
@@ -41703,6 +41705,12 @@
                 "mat-iliacus-muscle",
                 "mat-deep-fascia",
                 "mat-psoas-muscle"
+            ],
+            "subtypes": [
+                "w_1171_st18"
+            ],
+            "axisWires": [
+                "w_1171"
             ]
         },
         {
