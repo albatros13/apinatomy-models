@@ -28386,12 +28386,18 @@
         {
             "id": "w_1175",
             "source": "a_734",
-            "target": "a_764"
+            "target": "a_764",
+            "reversed": false,
+            "stratifiedRegion": "w_1175_st4",
+            "stratification": "st4"
         },
         {
             "id": "w_1176",
             "source": "a_734",
-            "target": "a_776"
+            "target": "a_776",
+            "reversed": false,
+            "stratifiedRegion": "w_1176_st5",
+            "stratification": "st5"
         },
         {
             "id": "w_1177",
@@ -28735,7 +28741,10 @@
         {
             "id": "w_1228",
             "source": "a_764",
-            "target": "a_776"
+            "target": "a_776",
+            "reversed": false,
+            "stratifiedRegion": "w_1228_st14",
+            "stratification": "st14"
         },
         {
             "id": "w_1229",
@@ -28745,17 +28754,26 @@
         {
             "id": "w_1230",
             "source": "a_765",
-            "target": "a_772"
+            "target": "a_772",
+            "reversed": false,
+            "stratifiedRegion": "w_1230_st8",
+            "stratification": "st8"
         },
         {
             "id": "w_1231",
             "source": "a_766",
-            "target": "a_772"
+            "target": "a_772",
+            "reversed": false,
+            "stratifiedRegion": "w_1231_st5",
+            "stratification": "st5"
         },
         {
             "id": "w_1232",
             "source": "a_766",
-            "target": "a_773"
+            "target": "a_773",
+            "reversed": false,
+            "stratifiedRegion": "w_1232_st4",
+            "stratification": "st4"
         },
         {
             "id": "w_1233",
@@ -28773,12 +28791,18 @@
         {
             "id": "w_1235",
             "source": "a_772",
-            "target": "a_773"
+            "target": "a_773",
+            "reversed": false,
+            "stratifiedRegion": "w_1235_st14",
+            "stratification": "st14"
         },
         {
             "id": "w_1236",
             "source": "a_772",
-            "target": "a_774"
+            "target": "a_774",
+            "reversed": false,
+            "stratifiedRegion": "w_1236_st15",
+            "stratification": "st15"
         },
         {
             "id": "w_1237",
@@ -41688,6 +41712,14 @@
                 "mat-gluteus-maximus",
                 "mat-deep-fascia",
                 "mat-gluteus-medius"
+            ],
+            "subtypes": [
+                "w_1232_st4",
+                "w_1175_st4"
+            ],
+            "axisWires": [
+                "w_1232",
+                "w_1175"
             ]
         },
         {
@@ -41697,6 +41729,14 @@
                 "mat-gluteus-maximus",
                 "mat-deep-fascia",
                 "mat-ilium-bone"
+            ],
+            "subtypes": [
+                "w_1176_st5",
+                "w_1231_st5"
+            ],
+            "axisWires": [
+                "w_1176",
+                "w_1231"
             ]
         },
         {
@@ -41742,10 +41782,12 @@
                 "mat-longissimus-muscle"
             ],
             "subtypes": [
-                "w_1234_st8"
+                "w_1234_st8",
+                "w_1230_st8"
             ],
             "axisWires": [
-                "w_1234"
+                "w_1234",
+                "w_1230"
             ]
         },
         {
@@ -41828,6 +41870,14 @@
                 "mat-gluteus-maximus",
                 "mat-deep-fascia",
                 "mat-deep-adipose-tissue"
+            ],
+            "subtypes": [
+                "w_1235_st14",
+                "w_1228_st14"
+            ],
+            "axisWires": [
+                "w_1235",
+                "w_1228"
             ]
         },
         {
@@ -41839,10 +41889,12 @@
                 "mat-deep-adipose-tissue"
             ],
             "subtypes": [
-                "w_1238_st15"
+                "w_1238_st15",
+                "w_1236_st15"
             ],
             "axisWires": [
-                "w_1238"
+                "w_1238",
+                "w_1236"
             ]
         },
         {
