@@ -28429,7 +28429,10 @@
         {
             "id": "w_1183",
             "source": "a_737",
-            "target": "a_754"
+            "target": "a_754",
+            "reversed": false,
+            "stratifiedRegion": "w_1183_st26",
+            "stratification": "st26"
         },
         {
             "id": "w_1184",
@@ -28476,7 +28479,10 @@
         {
             "id": "w_1190",
             "source": "a_739",
-            "target": "a_771"
+            "target": "a_771",
+            "reversed": false,
+            "stratifiedRegion": "w_1190_st21",
+            "stratification": "st21"
         },
         {
             "id": "w_1191",
@@ -28521,12 +28527,18 @@
         {
             "id": "w_1196",
             "source": "a_742",
-            "target": "a_770"
+            "target": "a_770",
+            "reversed": false,
+            "stratifiedRegion": "w_1196_st21",
+            "stratification": "st21"
         },
         {
             "id": "w_1197",
             "source": "a_743",
-            "target": "a_758"
+            "target": "a_758",
+            "reversed": false,
+            "stratifiedRegion": "w_1197_st26",
+            "stratification": "st26"
         },
         {
             "id": "w_1198",
@@ -41915,6 +41927,14 @@
                 "mat-sacral-bone",
                 "mat-deep-fascia",
                 "mat-lumbosacral-ligament"
+            ],
+            "subtypes": [
+                "w_1190_st21",
+                "w_1196_st21"
+            ],
+            "axisWires": [
+                "w_1190",
+                "w_1196"
             ]
         },
         {
@@ -41982,6 +42002,14 @@
                 "mat-endo-abdominal-fascia",
                 "mat-deep-fascia",
                 "mat-iliacus-muscle"
+            ],
+            "subtypes": [
+                "w_1183_st26",
+                "w_1197_st26"
+            ],
+            "axisWires": [
+                "w_1183",
+                "w_1197"
             ]
         },
         {
