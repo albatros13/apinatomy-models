@@ -662,7 +662,7 @@
         }
     ],
     "name": "Fascia",
-    "version": "94a5d398f7c25688c6b0aed6301314d30fa3eab0",
+    "version": "dcf55b9ae305617085b959f99f7e03db3875f1f7",
     "id": "fascia",
     "namespace": "fascia",
     "lastUpdated": "2026-05-06",
@@ -28468,7 +28468,10 @@
         {
             "id": "w_1189",
             "source": "a_739",
-            "target": "a_756"
+            "target": "a_756",
+            "reversed": false,
+            "stratifiedRegion": "w_1189_st22",
+            "stratification": "st22"
         },
         {
             "id": "w_1190",
@@ -28510,7 +28513,10 @@
         {
             "id": "w_1195",
             "source": "a_742",
-            "target": "a_757"
+            "target": "a_757",
+            "reversed": false,
+            "stratifiedRegion": "w_1195_st22",
+            "stratification": "st22"
         },
         {
             "id": "w_1196",
@@ -41918,6 +41924,14 @@
                 "mat-psoas-muscle",
                 "mat-deep-fascia",
                 "mat-lumbosacral-ligament"
+            ],
+            "subtypes": [
+                "w_1195_st22",
+                "w_1189_st22"
+            ],
+            "axisWires": [
+                "w_1195",
+                "w_1189"
             ]
         },
         {
