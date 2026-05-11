@@ -603,7 +603,7 @@
         }
     ],
     "name": ".json",
-    "version": "5315e845b93e5795c86733ed224c96efef08b534",
+    "version": "d2bbcd12adee48618383de45846db4853578c7f6",
     "id": "main",
     "namespace": "nm_main",
     "schemaVersion": "58679667aad8cb17a392ef9adf2f74996442d90b",
@@ -41504,14 +41504,6 @@
                 "mat-gluteus-maximus",
                 "mat-deep-fascia",
                 "mat-gluteus-medius"
-            ]
-        },
-        {
-            "id": "st5",
-            "strata": [
-                "mat-gluteus-maximus",
-                "mat-deep-fascia",
-                "mat-ilium-bone"
             ]
         },
         {
