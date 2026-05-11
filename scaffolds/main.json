@@ -603,7 +603,7 @@
         }
     ],
     "name": ".json",
-    "version": "d2bbcd12adee48618383de45846db4853578c7f6",
+    "version": "138ea6642e2be5c4ff76dea64374dd94cc9c5802",
     "id": "main",
     "namespace": "nm_main",
     "schemaVersion": "58679667aad8cb17a392ef9adf2f74996442d90b",
@@ -41507,6 +41507,14 @@
             ]
         },
         {
+            "id": "st5",
+            "strata": [
+                "mat-gluteus-maximus",
+                "mat-deep-fascia",
+                "mat-ilium-bone"
+            ]
+        },
+        {
             "id": "st6",
             "strata": [
                 "mat-ilium-bone",
@@ -41566,14 +41574,6 @@
             "id": "st14",
             "strata": [
                 "mat-gluteus-maximus",
-                "mat-deep-fascia",
-                "mat-deep-adipose-tissue"
-            ]
-        },
-        {
-            "id": "st15",
-            "strata": [
-                "mat-longissimus-muscle",
                 "mat-deep-fascia",
                 "mat-deep-adipose-tissue"
             ]
