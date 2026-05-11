@@ -662,7 +662,7 @@
         }
     ],
     "name": "Fascia",
-    "version": "dcf55b9ae305617085b959f99f7e03db3875f1f7",
+    "version": "54d9c19d9a4237f729b73b8a4e4004e6271740fd",
     "id": "fascia",
     "namespace": "fascia",
     "lastUpdated": "2026-05-06",
@@ -28678,7 +28678,10 @@
         {
             "id": "w_1219",
             "source": "a_753",
-            "target": "a_765"
+            "target": "a_765",
+            "reversed": false,
+            "stratifiedRegion": "w_1219_st12",
+            "stratification": "st12"
         },
         {
             "id": "w_1220",
@@ -28749,7 +28752,10 @@
         {
             "id": "w_1229",
             "source": "a_765",
-            "target": "a_768"
+            "target": "a_768",
+            "reversed": false,
+            "stratifiedRegion": "w_1229_st10",
+            "stratification": "st10"
         },
         {
             "id": "w_1230",
@@ -28778,7 +28784,10 @@
         {
             "id": "w_1233",
             "source": "a_767",
-            "target": "a_769"
+            "target": "a_769",
+            "reversed": false,
+            "stratifiedRegion": "w_1233_st10",
+            "stratification": "st10"
         },
         {
             "id": "w_1234",
@@ -41812,6 +41821,14 @@
                 "mat-sacro-iliac-joint",
                 "mat-deep-fascia",
                 "mat-ilium-bone"
+            ],
+            "subtypes": [
+                "w_1233_st10",
+                "w_1229_st10"
+            ],
+            "axisWires": [
+                "w_1233",
+                "w_1229"
             ]
         },
         {
@@ -41840,10 +41857,12 @@
                 "mat-longissimus-muscle"
             ],
             "subtypes": [
-                "w_1218_st12"
+                "w_1218_st12",
+                "w_1219_st12"
             ],
             "axisWires": [
-                "w_1218"
+                "w_1218",
+                "w_1219"
             ]
         },
         {
