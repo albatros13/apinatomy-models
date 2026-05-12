@@ -662,7 +662,7 @@
         }
     ],
     "name": "Fascia",
-    "version": "51f1b72f044ea2eee05bea129591a209b3b4b1b2",
+    "version": "f67437703f29dcf1381f53c5a47231501c43a5f3",
     "id": "fascia",
     "namespace": "fascia",
     "lastUpdated": "2026-05-06",
@@ -22498,17 +22498,26 @@
         {
             "id": "w_1",
             "source": "a_1",
-            "target": "a_4"
+            "target": "a_4",
+            "reversed": false,
+            "stratifiedRegion": "w_1_st60",
+            "stratification": "st60"
         },
         {
             "id": "w_2",
             "source": "a_1",
-            "target": "a_28"
+            "target": "a_28",
+            "reversed": false,
+            "stratifiedRegion": "w_2_st24",
+            "stratification": "st24"
         },
         {
             "id": "w_3",
             "source": "a_1",
-            "target": "a_37"
+            "target": "a_37",
+            "reversed": false,
+            "stratifiedRegion": "w_3_st59",
+            "stratification": "st59"
         },
         {
             "id": "w_4",
@@ -22528,12 +22537,18 @@
         {
             "id": "w_7",
             "source": "a_3",
-            "target": "a_13"
+            "target": "a_13",
+            "reversed": false,
+            "stratifiedRegion": "w_7_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_8",
             "source": "a_3",
-            "target": "a_22"
+            "target": "a_22",
+            "reversed": false,
+            "stratifiedRegion": "w_8_st34",
+            "stratification": "st34"
         },
         {
             "id": "w_9",
@@ -22548,7 +22563,10 @@
         {
             "id": "w_11",
             "source": "a_3",
-            "target": "a_32"
+            "target": "a_32",
+            "reversed": false,
+            "stratifiedRegion": "w_11_st34",
+            "stratification": "st34"
         },
         {
             "id": "w_12",
@@ -22563,17 +22581,26 @@
         {
             "id": "w_14",
             "source": "a_4",
-            "target": "a_5"
+            "target": "a_5",
+            "reversed": false,
+            "stratifiedRegion": "w_14_st59",
+            "stratification": "st59"
         },
         {
             "id": "w_15",
             "source": "a_4",
-            "target": "a_27"
+            "target": "a_27",
+            "reversed": false,
+            "stratifiedRegion": "w_15_st24",
+            "stratification": "st24"
         },
         {
             "id": "w_16",
             "source": "a_5",
-            "target": "a_27"
+            "target": "a_27",
+            "reversed": false,
+            "stratifiedRegion": "w_16_st62",
+            "stratification": "st62"
         },
         {
             "id": "w_17",
@@ -22588,7 +22615,10 @@
         {
             "id": "w_19",
             "source": "a_6",
-            "target": "a_27"
+            "target": "a_27",
+            "reversed": false,
+            "stratifiedRegion": "w_19_st49",
+            "stratification": "st49"
         },
         {
             "id": "w_20",
@@ -22703,7 +22733,10 @@
         {
             "id": "w_42",
             "source": "a_15",
-            "target": "a_28"
+            "target": "a_28",
+            "reversed": false,
+            "stratifiedRegion": "w_42_st49",
+            "stratification": "st49"
         },
         {
             "id": "w_43",
@@ -22778,7 +22811,10 @@
         {
             "id": "w_57",
             "source": "a_28",
-            "target": "a_37"
+            "target": "a_37",
+            "reversed": false,
+            "stratifiedRegion": "w_57_st62",
+            "stratification": "st62"
         },
         {
             "id": "w_58",
@@ -42079,14 +42115,16 @@
                 "w_1300_st2",
                 "w_1243_st2",
                 "w_1047_st2",
-                "w_1109_st2"
+                "w_1109_st2",
+                "w_7_st2"
             ],
             "axisWires": [
                 "w_1172",
                 "w_1300",
                 "w_1243",
                 "w_1047",
-                "w_1109"
+                "w_1109",
+                "w_7"
             ]
         },
         {
@@ -42502,7 +42540,9 @@
                 "w_1098_st24",
                 "w_1095_st24",
                 "w_1151_st24",
-                "w_1148_st24"
+                "w_1148_st24",
+                "w_15_st24",
+                "w_2_st24"
             ],
             "axisWires": [
                 "w_1192",
@@ -42510,7 +42550,9 @@
                 "w_1098",
                 "w_1095",
                 "w_1151",
-                "w_1148"
+                "w_1148",
+                "w_15",
+                "w_2"
             ]
         },
         {
@@ -42661,7 +42703,9 @@
                 "w_1061_st34",
                 "w_1058_st34",
                 "w_1113_st34",
-                "w_1110_st34"
+                "w_1110_st34",
+                "w_8_st34",
+                "w_11_st34"
             ],
             "axisWires": [
                 "w_1169",
@@ -42672,7 +42716,9 @@
                 "w_1061",
                 "w_1058",
                 "w_1113",
-                "w_1110"
+                "w_1110",
+                "w_8",
+                "w_11"
             ]
         },
         {
@@ -42925,13 +42971,17 @@
                 "w_1096_st49",
                 "w_1073_st49",
                 "w_1152_st49",
-                "w_1149_st49"
+                "w_1149_st49",
+                "w_19_st49",
+                "w_42_st49"
             ],
             "axisWires": [
                 "w_1096",
                 "w_1073",
                 "w_1152",
-                "w_1149"
+                "w_1149",
+                "w_19",
+                "w_42"
             ]
         },
         {
@@ -43119,11 +43169,15 @@
             ],
             "subtypes": [
                 "w_1163_st59",
-                "w_1160_st59"
+                "w_1160_st59",
+                "w_3_st59",
+                "w_14_st59"
             ],
             "axisWires": [
                 "w_1163",
-                "w_1160"
+                "w_1160",
+                "w_3",
+                "w_14"
             ]
         },
         {
@@ -43135,10 +43189,12 @@
                 "mat-fourth-lumbar-vertebra"
             ],
             "subtypes": [
-                "w_1165_st60"
+                "w_1165_st60",
+                "w_1_st60"
             ],
             "axisWires": [
-                "w_1165"
+                "w_1165",
+                "w_1"
             ]
         },
         {
@@ -43160,11 +43216,15 @@
             ],
             "subtypes": [
                 "w_1153_st62",
-                "w_1150_st62"
+                "w_1150_st62",
+                "w_16_st62",
+                "w_57_st62"
             ],
             "axisWires": [
                 "w_1153",
-                "w_1150"
+                "w_1150",
+                "w_16",
+                "w_57"
             ]
         },
         {
