@@ -28992,7 +28992,10 @@
         {
             "id": "w_1262",
             "source": "a_786",
-            "target": "a_806"
+            "target": "a_806",
+            "reversed": false,
+            "stratifiedRegion": "w_1262_st8",
+            "stratification": "st8"
         },
         {
             "id": "w_1263",
@@ -29002,7 +29005,10 @@
         {
             "id": "w_1264",
             "source": "a_787",
-            "target": "a_805"
+            "target": "a_805",
+            "reversed": false,
+            "stratifiedRegion": "w_1264_st8",
+            "stratification": "st8"
         },
         {
             "id": "w_1265",
@@ -29066,7 +29072,10 @@
         {
             "id": "w_1275",
             "source": "a_794",
-            "target": "a_795"
+            "target": "a_795",
+            "reversed": false,
+            "stratifiedRegion": "w_1275_st16",
+            "stratification": "st16"
         },
         {
             "id": "w_1276",
@@ -29087,12 +29096,18 @@
         {
             "id": "w_1278",
             "source": "a_795",
-            "target": "a_796"
+            "target": "a_796",
+            "reversed": false,
+            "stratifiedRegion": "w_1278_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_1279",
             "source": "a_795",
-            "target": "a_797"
+            "target": "a_797",
+            "reversed": false,
+            "stratifiedRegion": "w_1279_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_1280",
@@ -29110,7 +29125,10 @@
         {
             "id": "w_1282",
             "source": "a_796",
-            "target": "a_806"
+            "target": "a_806",
+            "reversed": false,
+            "stratifiedRegion": "w_1282_st15",
+            "stratification": "st15"
         },
         {
             "id": "w_1283",
@@ -29128,7 +29146,10 @@
         {
             "id": "w_1285",
             "source": "a_797",
-            "target": "a_805"
+            "target": "a_805",
+            "reversed": false,
+            "stratifiedRegion": "w_1285_st15",
+            "stratification": "st15"
         },
         {
             "id": "w_1286",
@@ -41922,13 +41943,17 @@
                 "w_1222_st7",
                 "w_1221_st7",
                 "w_1325_st7",
-                "w_1326_st7"
+                "w_1326_st7",
+                "w_1279_st7",
+                "w_1278_st7"
             ],
             "axisWires": [
                 "w_1222",
                 "w_1221",
                 "w_1325",
-                "w_1326"
+                "w_1326",
+                "w_1279",
+                "w_1278"
             ]
         },
         {
@@ -41943,13 +41968,17 @@
                 "w_1234_st8",
                 "w_1230_st8",
                 "w_1353_st8",
-                "w_1340_st8"
+                "w_1340_st8",
+                "w_1262_st8",
+                "w_1264_st8"
             ],
             "axisWires": [
                 "w_1234",
                 "w_1230",
                 "w_1353",
-                "w_1340"
+                "w_1340",
+                "w_1262",
+                "w_1264"
             ]
         },
         {
@@ -42072,13 +42101,17 @@
                 "w_1238_st15",
                 "w_1236_st15",
                 "w_1336_st15",
-                "w_1338_st15"
+                "w_1338_st15",
+                "w_1285_st15",
+                "w_1282_st15"
             ],
             "axisWires": [
                 "w_1238",
                 "w_1236",
                 "w_1336",
-                "w_1338"
+                "w_1338",
+                "w_1285",
+                "w_1282"
             ]
         },
         {
@@ -42090,10 +42123,12 @@
                 "mat-multifidus-muscle"
             ],
             "subtypes": [
-                "w_1204_st16"
+                "w_1204_st16",
+                "w_1275_st16"
             ],
             "axisWires": [
-                "w_1204"
+                "w_1204",
+                "w_1275"
             ]
         },
         {
