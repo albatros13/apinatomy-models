@@ -29190,7 +29190,10 @@
         {
             "id": "w_1304",
             "source": "a_815",
-            "target": "a_851"
+            "target": "a_851",
+            "reversed": false,
+            "stratifiedRegion": "w_1304_st45",
+            "stratification": "st45"
         },
         {
             "id": "w_1305",
@@ -29296,22 +29299,34 @@
         {
             "id": "w_1324",
             "source": "a_825",
-            "target": "a_832"
+            "target": "a_832",
+            "reversed": false,
+            "stratifiedRegion": "w_1324_st50",
+            "stratification": "st50"
         },
         {
             "id": "w_1325",
             "source": "a_825",
-            "target": "a_833"
+            "target": "a_833",
+            "reversed": false,
+            "stratifiedRegion": "w_1325_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_1326",
             "source": "a_825",
-            "target": "a_834"
+            "target": "a_834",
+            "reversed": false,
+            "stratifiedRegion": "w_1326_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_1327",
             "source": "a_825",
-            "target": "a_835"
+            "target": "a_835",
+            "reversed": false,
+            "stratifiedRegion": "w_1327_st50",
+            "stratification": "st50"
         },
         {
             "id": "w_1328",
@@ -29346,7 +29361,10 @@
         {
             "id": "w_1334",
             "source": "a_832",
-            "target": "a_833"
+            "target": "a_833",
+            "reversed": false,
+            "stratifiedRegion": "w_1334_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_1335",
@@ -29364,7 +29382,10 @@
         {
             "id": "w_1337",
             "source": "a_834",
-            "target": "a_835"
+            "target": "a_835",
+            "reversed": false,
+            "stratifiedRegion": "w_1337_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_1338",
@@ -29382,12 +29403,18 @@
         {
             "id": "w_1340",
             "source": "a_836",
-            "target": "a_843"
+            "target": "a_843",
+            "reversed": false,
+            "stratifiedRegion": "w_1340_st8",
+            "stratification": "st8"
         },
         {
             "id": "w_1341",
             "source": "a_836",
-            "target": "a_846"
+            "target": "a_846",
+            "reversed": false,
+            "stratifiedRegion": "w_1341_st45",
+            "stratification": "st45"
         },
         {
             "id": "w_1342",
@@ -29459,7 +29486,10 @@
         {
             "id": "w_1353",
             "source": "a_844",
-            "target": "a_851"
+            "target": "a_851",
+            "reversed": false,
+            "stratifiedRegion": "w_1353_st8",
+            "stratification": "st8"
         },
         {
             "id": "w_1354",
@@ -41837,11 +41867,15 @@
             ],
             "subtypes": [
                 "w_1222_st7",
-                "w_1221_st7"
+                "w_1221_st7",
+                "w_1325_st7",
+                "w_1326_st7"
             ],
             "axisWires": [
                 "w_1222",
-                "w_1221"
+                "w_1221",
+                "w_1325",
+                "w_1326"
             ]
         },
         {
@@ -41854,11 +41888,15 @@
             ],
             "subtypes": [
                 "w_1234_st8",
-                "w_1230_st8"
+                "w_1230_st8",
+                "w_1353_st8",
+                "w_1340_st8"
             ],
             "axisWires": [
                 "w_1234",
-                "w_1230"
+                "w_1230",
+                "w_1353",
+                "w_1340"
             ]
         },
         {
@@ -41870,10 +41908,14 @@
                 "mat-longissimus-muscle"
             ],
             "subtypes": [
-                "w_1216_st9"
+                "w_1216_st9",
+                "w_1334_st9",
+                "w_1337_st9"
             ],
             "axisWires": [
-                "w_1216"
+                "w_1216",
+                "w_1334",
+                "w_1337"
             ]
         },
         {
@@ -42408,12 +42450,16 @@
             "subtypes": [
                 "w_1198_st45",
                 "w_1177_st45",
-                "w_1305_st45"
+                "w_1305_st45",
+                "w_1304_st45",
+                "w_1341_st45"
             ],
             "axisWires": [
                 "w_1198",
                 "w_1177",
-                "w_1305"
+                "w_1305",
+                "w_1304",
+                "w_1341"
             ]
         },
         {
@@ -42459,6 +42505,14 @@
                 "mat-multifidus-muscle",
                 "mat-deep-fascia",
                 "mat-fourth-lumbar-vertebra"
+            ],
+            "subtypes": [
+                "w_1327_st50",
+                "w_1324_st50"
+            ],
+            "axisWires": [
+                "w_1327",
+                "w_1324"
             ]
         },
         {
