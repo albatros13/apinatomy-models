@@ -28260,7 +28260,10 @@
         {
             "id": "w_1127",
             "source": "a_701",
-            "target": "a_721"
+            "target": "a_721",
+            "reversed": false,
+            "stratifiedRegion": "w_1127_st15",
+            "stratification": "st15"
         },
         {
             "id": "w_1128",
@@ -28290,7 +28293,10 @@
         {
             "id": "w_1133",
             "source": "a_704",
-            "target": "a_722"
+            "target": "a_722",
+            "reversed": false,
+            "stratifiedRegion": "w_1133_st15",
+            "stratification": "st15"
         },
         {
             "id": "w_1134",
@@ -28303,22 +28309,34 @@
         {
             "id": "w_1135",
             "source": "a_706",
-            "target": "a_714"
+            "target": "a_714",
+            "reversed": false,
+            "stratifiedRegion": "w_1135_st50",
+            "stratification": "st50"
         },
         {
             "id": "w_1136",
             "source": "a_706",
-            "target": "a_715"
+            "target": "a_715",
+            "reversed": false,
+            "stratifiedRegion": "w_1136_st50",
+            "stratification": "st50"
         },
         {
             "id": "w_1137",
             "source": "a_706",
-            "target": "a_721"
+            "target": "a_721",
+            "reversed": false,
+            "stratifiedRegion": "w_1137_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_1138",
             "source": "a_706",
-            "target": "a_722"
+            "target": "a_722",
+            "reversed": false,
+            "stratifiedRegion": "w_1138_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_1139",
@@ -28404,7 +28422,10 @@
         {
             "id": "w_1154",
             "source": "a_714",
-            "target": "a_715"
+            "target": "a_715",
+            "reversed": false,
+            "stratifiedRegion": "w_1154_st53",
+            "stratification": "st53"
         },
         {
             "id": "w_1155",
@@ -28437,12 +28458,18 @@
         {
             "id": "w_1160",
             "source": "a_716",
-            "target": "a_720"
+            "target": "a_720",
+            "reversed": false,
+            "stratifiedRegion": "w_1160_st59",
+            "stratification": "st59"
         },
         {
             "id": "w_1161",
             "source": "a_716",
-            "target": "a_726"
+            "target": "a_726",
+            "reversed": false,
+            "stratifiedRegion": "w_1161_st57",
+            "stratification": "st57"
         },
         {
             "id": "w_1162",
@@ -28452,12 +28479,18 @@
         {
             "id": "w_1163",
             "source": "a_718",
-            "target": "a_719"
+            "target": "a_719",
+            "reversed": false,
+            "stratifiedRegion": "w_1163_st59",
+            "stratification": "st59"
         },
         {
             "id": "w_1164",
             "source": "a_718",
-            "target": "a_725"
+            "target": "a_725",
+            "reversed": false,
+            "stratifiedRegion": "w_1164_st57",
+            "stratification": "st57"
         },
         {
             "id": "w_1165",
@@ -42098,7 +42131,9 @@
                 "w_1279_st7",
                 "w_1278_st7",
                 "w_1044_st7",
-                "w_1045_st7"
+                "w_1045_st7",
+                "w_1137_st7",
+                "w_1138_st7"
             ],
             "axisWires": [
                 "w_1222",
@@ -42108,7 +42143,9 @@
                 "w_1279",
                 "w_1278",
                 "w_1044",
-                "w_1045"
+                "w_1045",
+                "w_1137",
+                "w_1138"
             ]
         },
         {
@@ -42264,7 +42301,9 @@
                 "w_1285_st15",
                 "w_1282_st15",
                 "w_1087_st15",
-                "w_1082_st15"
+                "w_1082_st15",
+                "w_1127_st15",
+                "w_1133_st15"
             ],
             "axisWires": [
                 "w_1238",
@@ -42274,7 +42313,9 @@
                 "w_1285",
                 "w_1282",
                 "w_1087",
-                "w_1082"
+                "w_1082",
+                "w_1127",
+                "w_1133"
             ]
         },
         {
@@ -42851,13 +42892,17 @@
                 "w_1327_st50",
                 "w_1324_st50",
                 "w_1043_st50",
-                "w_1046_st50"
+                "w_1046_st50",
+                "w_1136_st50",
+                "w_1135_st50"
             ],
             "axisWires": [
                 "w_1327",
                 "w_1324",
                 "w_1043",
-                "w_1046"
+                "w_1046",
+                "w_1136",
+                "w_1135"
             ]
         },
         {
@@ -42902,11 +42947,13 @@
             ],
             "subtypes": [
                 "w_1103_st53",
-                "w_1159_st53"
+                "w_1159_st53",
+                "w_1154_st53"
             ],
             "axisWires": [
                 "w_1103",
-                "w_1159"
+                "w_1159",
+                "w_1154"
             ]
         },
         {
@@ -42968,11 +43015,15 @@
             ],
             "subtypes": [
                 "w_1050_st57",
-                "w_1104_st57"
+                "w_1104_st57",
+                "w_1164_st57",
+                "w_1161_st57"
             ],
             "axisWires": [
                 "w_1050",
-                "w_1104"
+                "w_1104",
+                "w_1164",
+                "w_1161"
             ]
         },
         {
@@ -42999,6 +43050,14 @@
                 "mat-fourth-lumbar-vertebra",
                 "mat-deep-fascia",
                 "mat-psoas-muscle"
+            ],
+            "subtypes": [
+                "w_1163_st59",
+                "w_1160_st59"
+            ],
+            "axisWires": [
+                "w_1163",
+                "w_1160"
             ]
         },
         {
