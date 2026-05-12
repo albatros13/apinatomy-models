@@ -662,7 +662,7 @@
         }
     ],
     "name": "Fascia",
-    "version": "54d9c19d9a4237f729b73b8a4e4004e6271740fd",
+    "version": "645c550d6637fabb3e59c8b5ee9029a4b4236e96",
     "id": "fascia",
     "namespace": "fascia",
     "lastUpdated": "2026-05-06",
@@ -28549,7 +28549,10 @@
         {
             "id": "w_1198",
             "source": "a_743",
-            "target": "a_759"
+            "target": "a_759",
+            "reversed": false,
+            "stratifiedRegion": "w_1198_st45",
+            "stratification": "st45"
         },
         {
             "id": "w_1199",
@@ -28611,7 +28614,10 @@
         {
             "id": "w_1208",
             "source": "a_747",
-            "target": "a_761"
+            "target": "a_761",
+            "reversed": false,
+            "stratifiedRegion": "w_1208_st33",
+            "stratification": "st33"
         },
         {
             "id": "w_1209",
@@ -42150,6 +42156,12 @@
                 "mat-abdominal-internal-oblique-muscle",
                 "mat-deep-fascia",
                 "mat-deep-adipose-tissue"
+            ],
+            "subtypes": [
+                "w_1208_st33"
+            ],
+            "axisWires": [
+                "w_1208"
             ]
         },
         {
@@ -42274,6 +42286,12 @@
                 "mat-ilium-bone",
                 "mat-deep-fascia",
                 "mat-deep-adipose-tissue"
+            ],
+            "subtypes": [
+                "w_1198_st45"
+            ],
+            "axisWires": [
+                "w_1198"
             ]
         },
         {
