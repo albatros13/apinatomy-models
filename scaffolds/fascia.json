@@ -22841,12 +22841,18 @@
         {
             "id": "w_54",
             "source": "a_24",
-            "target": "a_33"
+            "target": "a_33",
+            "reversed": false,
+            "stratifiedRegion": "w_54_st67",
+            "stratification": "st67"
         },
         {
             "id": "w_55",
             "source": "a_24",
-            "target": "a_34"
+            "target": "a_34",
+            "reversed": false,
+            "stratifiedRegion": "w_55_st67",
+            "stratification": "st67"
         },
         {
             "id": "w_56",
@@ -22877,12 +22883,18 @@
         {
             "id": "w_60",
             "source": "a_33",
-            "target": "a_35"
+            "target": "a_35",
+            "reversed": false,
+            "stratifiedRegion": "w_60_st50",
+            "stratification": "st50"
         },
         {
             "id": "w_61",
             "source": "a_34",
-            "target": "a_36"
+            "target": "a_36",
+            "reversed": false,
+            "stratifiedRegion": "w_61_st50",
+            "stratification": "st50"
         },
         {
             "id": "w_62",
@@ -43075,7 +43087,9 @@
                 "w_1043_st50",
                 "w_1046_st50",
                 "w_1136_st50",
-                "w_1135_st50"
+                "w_1135_st50",
+                "w_60_st50",
+                "w_61_st50"
             ],
             "axisWires": [
                 "w_1327",
@@ -43083,7 +43097,9 @@
                 "w_1043",
                 "w_1046",
                 "w_1136",
-                "w_1135"
+                "w_1135",
+                "w_60",
+                "w_61"
             ]
         },
         {
@@ -43373,6 +43389,14 @@
                 "mat-multifidus-muscle",
                 "mat-spinal-meningeal-cluster",
                 "mat-spinal-cord"
+            ],
+            "subtypes": [
+                "w_55_st67",
+                "w_54_st67"
+            ],
+            "axisWires": [
+                "w_55",
+                "w_54"
             ]
         },
         {
