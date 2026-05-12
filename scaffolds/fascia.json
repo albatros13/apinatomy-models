@@ -29369,7 +29369,10 @@
         {
             "id": "w_1335",
             "source": "a_832",
-            "target": "a_842"
+            "target": "a_842",
+            "reversed": false,
+            "stratifiedRegion": "w_1335_st44",
+            "stratification": "st44"
         },
         {
             "id": "w_1336",
@@ -29398,7 +29401,10 @@
         {
             "id": "w_1339",
             "source": "a_835",
-            "target": "a_841"
+            "target": "a_841",
+            "reversed": false,
+            "stratifiedRegion": "w_1339_st44",
+            "stratification": "st44"
         },
         {
             "id": "w_1340",
@@ -29461,7 +29467,10 @@
         {
             "id": "w_1348",
             "source": "a_841",
-            "target": "a_842"
+            "target": "a_842",
+            "reversed": false,
+            "stratifiedRegion": "w_1348_st37",
+            "stratification": "st37"
         },
         {
             "id": "w_1349",
@@ -42344,10 +42353,12 @@
                 "mat-fifth-lumbar-vertebra"
             ],
             "subtypes": [
-                "w_1343_st37"
+                "w_1343_st37",
+                "w_1348_st37"
             ],
             "axisWires": [
-                "w_1343"
+                "w_1343",
+                "w_1348"
             ]
         },
         {
@@ -42437,6 +42448,14 @@
                 "mat-longissimus-muscle",
                 "mat-deep-fascia",
                 "mat-fifth-lumbar-vertebra"
+            ],
+            "subtypes": [
+                "w_1335_st44",
+                "w_1339_st44"
+            ],
+            "axisWires": [
+                "w_1335",
+                "w_1339"
             ]
         },
         {
