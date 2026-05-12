@@ -22527,12 +22527,18 @@
         {
             "id": "w_5",
             "source": "a_2",
-            "target": "a_30"
+            "target": "a_30",
+            "reversed": false,
+            "stratifiedRegion": "w_5_st46",
+            "stratification": "st46"
         },
         {
             "id": "w_6",
             "source": "a_2",
-            "target": "a_36"
+            "target": "a_36",
+            "reversed": false,
+            "stratifiedRegion": "w_6_st69",
+            "stratification": "st69"
         },
         {
             "id": "w_7",
@@ -22623,7 +22629,10 @@
         {
             "id": "w_20",
             "source": "a_7",
-            "target": "a_8"
+            "target": "a_8",
+            "reversed": false,
+            "stratifiedRegion": "w_20_st48",
+            "stratification": "st48"
         },
         {
             "id": "w_21",
@@ -22638,47 +22647,74 @@
         {
             "id": "w_23",
             "source": "a_8",
-            "target": "a_9"
+            "target": "a_9",
+            "reversed": false,
+            "stratifiedRegion": "w_23_st58",
+            "stratification": "st58"
         },
         {
             "id": "w_24",
             "source": "a_8",
-            "target": "a_30"
+            "target": "a_30",
+            "reversed": false,
+            "stratifiedRegion": "w_24_st55",
+            "stratification": "st55"
         },
         {
             "id": "w_25",
             "source": "a_9",
-            "target": "a_13"
+            "target": "a_13",
+            "reversed": false,
+            "stratifiedRegion": "w_25_st15",
+            "stratification": "st15"
         },
         {
             "id": "w_26",
             "source": "a_9",
-            "target": "a_30"
+            "target": "a_30",
+            "reversed": false,
+            "stratifiedRegion": "w_26_st56",
+            "stratification": "st56"
         },
         {
             "id": "w_27",
             "source": "a_10",
-            "target": "a_11"
+            "target": "a_11",
+            "reversed": false,
+            "stratifiedRegion": "w_27_st58",
+            "stratification": "st58"
         },
         {
             "id": "w_28",
             "source": "a_10",
-            "target": "a_13"
+            "target": "a_13",
+            "reversed": false,
+            "stratifiedRegion": "w_28_st15",
+            "stratification": "st15"
         },
         {
             "id": "w_29",
             "source": "a_10",
-            "target": "a_29"
+            "target": "a_29",
+            "reversed": false,
+            "stratifiedRegion": "w_29_st56",
+            "stratification": "st56"
         },
         {
             "id": "w_30",
             "source": "a_11",
-            "target": "a_12"
+            "target": "a_12",
+            "reversed": false,
+            "stratifiedRegion": "w_30_st48",
+            "stratification": "st48"
         },
         {
             "id": "w_31",
             "source": "a_11",
-            "target": "a_29"
+            "target": "a_29",
+            "reversed": false,
+            "stratifiedRegion": "w_31_st55",
+            "stratification": "st55"
         },
         {
             "id": "w_32",
@@ -22693,7 +22729,10 @@
         {
             "id": "w_34",
             "source": "a_13",
-            "target": "a_24"
+            "target": "a_24",
+            "reversed": false,
+            "stratifiedRegion": "w_34_st66",
+            "stratification": "st66"
         },
         {
             "id": "w_35",
@@ -22703,12 +22742,18 @@
         {
             "id": "w_36",
             "source": "a_13",
-            "target": "a_693"
+            "target": "a_693",
+            "reversed": false,
+            "stratifiedRegion": "w_36_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_37",
             "source": "a_13",
-            "target": "a_694"
+            "target": "a_694",
+            "reversed": false,
+            "stratifiedRegion": "w_37_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_38",
@@ -22819,7 +22864,10 @@
         {
             "id": "w_58",
             "source": "a_29",
-            "target": "a_37"
+            "target": "a_37",
+            "reversed": false,
+            "stratifiedRegion": "w_58_st46",
+            "stratification": "st46"
         },
         {
             "id": "w_59",
@@ -22839,17 +22887,26 @@
         {
             "id": "w_62",
             "source": "a_35",
-            "target": "a_37"
+            "target": "a_37",
+            "reversed": false,
+            "stratifiedRegion": "w_62_st69",
+            "stratification": "st69"
         },
         {
             "id": "w_63",
             "source": "a_35",
-            "target": "a_693"
+            "target": "a_693",
+            "reversed": false,
+            "stratifiedRegion": "w_63_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_64",
             "source": "a_36",
-            "target": "a_694"
+            "target": "a_694",
+            "reversed": false,
+            "stratifiedRegion": "w_64_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_65",
@@ -42213,7 +42270,9 @@
                 "w_1044_st7",
                 "w_1045_st7",
                 "w_1137_st7",
-                "w_1138_st7"
+                "w_1138_st7",
+                "w_36_st7",
+                "w_37_st7"
             ],
             "axisWires": [
                 "w_1222",
@@ -42225,7 +42284,9 @@
                 "w_1044",
                 "w_1045",
                 "w_1137",
-                "w_1138"
+                "w_1138",
+                "w_36",
+                "w_37"
             ]
         },
         {
@@ -42270,7 +42331,9 @@
                 "w_1074_st9",
                 "w_1089_st9",
                 "w_1156_st9",
-                "w_1158_st9"
+                "w_1158_st9",
+                "w_63_st9",
+                "w_64_st9"
             ],
             "axisWires": [
                 "w_1216",
@@ -42281,7 +42344,9 @@
                 "w_1074",
                 "w_1089",
                 "w_1156",
-                "w_1158"
+                "w_1158",
+                "w_63",
+                "w_64"
             ]
         },
         {
@@ -42387,7 +42452,9 @@
                 "w_1087_st15",
                 "w_1082_st15",
                 "w_1127_st15",
-                "w_1133_st15"
+                "w_1133_st15",
+                "w_25_st15",
+                "w_28_st15"
             ],
             "axisWires": [
                 "w_1238",
@@ -42399,7 +42466,9 @@
                 "w_1087",
                 "w_1082",
                 "w_1127",
-                "w_1133"
+                "w_1133",
+                "w_25",
+                "w_28"
             ]
         },
         {
@@ -42920,13 +42989,17 @@
                 "w_1088_st46",
                 "w_1083_st46",
                 "w_1128_st46",
-                "w_1131_st46"
+                "w_1131_st46",
+                "w_5_st46",
+                "w_58_st46"
             ],
             "axisWires": [
                 "w_1088",
                 "w_1083",
                 "w_1128",
-                "w_1131"
+                "w_1131",
+                "w_5",
+                "w_58"
             ]
         },
         {
@@ -42950,13 +43023,17 @@
                 "w_1077_st48",
                 "w_1071_st48",
                 "w_1121_st48",
-                "w_1134_st48"
+                "w_1134_st48",
+                "w_30_st48",
+                "w_20_st48"
             ],
             "axisWires": [
                 "w_1077",
                 "w_1071",
                 "w_1121",
-                "w_1134"
+                "w_1134",
+                "w_30",
+                "w_20"
             ]
         },
         {
@@ -43087,13 +43164,17 @@
                 "w_1080_st55",
                 "w_1085_st55",
                 "w_1125_st55",
-                "w_1130_st55"
+                "w_1130_st55",
+                "w_31_st55",
+                "w_24_st55"
             ],
             "axisWires": [
                 "w_1080",
                 "w_1085",
                 "w_1125",
-                "w_1130"
+                "w_1130",
+                "w_31",
+                "w_24"
             ]
         },
         {
@@ -43108,13 +43189,17 @@
                 "w_1086_st56",
                 "w_1081_st56",
                 "w_1126_st56",
-                "w_1129_st56"
+                "w_1129_st56",
+                "w_29_st56",
+                "w_26_st56"
             ],
             "axisWires": [
                 "w_1086",
                 "w_1081",
                 "w_1126",
-                "w_1129"
+                "w_1129",
+                "w_29",
+                "w_26"
             ]
         },
         {
@@ -43150,13 +43235,17 @@
                 "w_1079_st58",
                 "w_1084_st58",
                 "w_1124_st58",
-                "w_1132_st58"
+                "w_1132_st58",
+                "w_27_st58",
+                "w_23_st58"
             ],
             "axisWires": [
                 "w_1079",
                 "w_1084",
                 "w_1124",
-                "w_1132"
+                "w_1132",
+                "w_27",
+                "w_23"
             ]
         },
         {
@@ -43269,6 +43358,12 @@
                 "mat-multifidus-muscle",
                 "mat-deep-fascia",
                 "mat-third-lumbar-vertebra"
+            ],
+            "subtypes": [
+                "w_34_st66"
+            ],
+            "axisWires": [
+                "w_34"
             ]
         },
         {
@@ -43299,11 +43394,15 @@
             ],
             "subtypes": [
                 "w_1093_st69",
-                "w_1075_st69"
+                "w_1075_st69",
+                "w_6_st69",
+                "w_62_st69"
             ],
             "axisWires": [
                 "w_1093",
-                "w_1075"
+                "w_1075",
+                "w_6",
+                "w_62"
             ]
         },
         {
