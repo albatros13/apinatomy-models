@@ -662,7 +662,7 @@
         }
     ],
     "name": "Fascia",
-    "version": "645c550d6637fabb3e59c8b5ee9029a4b4236e96",
+    "version": "3991cfc59550e7dc32c68b29ed9cd766f5fd77f1",
     "id": "fascia",
     "namespace": "fascia",
     "lastUpdated": "2026-05-06",
@@ -29167,7 +29167,10 @@
         {
             "id": "w_1300",
             "source": "a_814",
-            "target": "a_825"
+            "target": "a_825",
+            "reversed": false,
+            "stratifiedRegion": "w_1300_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_1301",
@@ -29192,7 +29195,10 @@
         {
             "id": "w_1305",
             "source": "a_816",
-            "target": "a_824"
+            "target": "a_824",
+            "reversed": false,
+            "stratifiedRegion": "w_1305_st45",
+            "stratification": "st45"
         },
         {
             "id": "w_1306",
@@ -29262,7 +29268,10 @@
         {
             "id": "w_1319",
             "source": "a_823",
-            "target": "a_847"
+            "target": "a_847",
+            "reversed": false,
+            "stratifiedRegion": "w_1319_st39",
+            "stratification": "st39"
         },
         {
             "id": "w_1320",
@@ -29347,7 +29356,10 @@
         {
             "id": "w_1336",
             "source": "a_833",
-            "target": "a_836"
+            "target": "a_836",
+            "reversed": false,
+            "stratifiedRegion": "w_1336_st15",
+            "stratification": "st15"
         },
         {
             "id": "w_1337",
@@ -29357,7 +29369,10 @@
         {
             "id": "w_1338",
             "source": "a_834",
-            "target": "a_851"
+            "target": "a_851",
+            "reversed": false,
+            "stratifiedRegion": "w_1338_st15",
+            "stratification": "st15"
         },
         {
             "id": "w_1339",
@@ -29377,12 +29392,18 @@
         {
             "id": "w_1342",
             "source": "a_837",
-            "target": "a_838"
+            "target": "a_838",
+            "reversed": false,
+            "stratifiedRegion": "w_1342_st40",
+            "stratification": "st40"
         },
         {
             "id": "w_1343",
             "source": "a_837",
-            "target": "a_840"
+            "target": "a_840",
+            "reversed": false,
+            "stratifiedRegion": "w_1343_st37",
+            "stratification": "st37"
         },
         {
             "id": "w_1344",
@@ -29392,12 +29413,18 @@
         {
             "id": "w_1345",
             "source": "a_838",
-            "target": "a_839"
+            "target": "a_839",
+            "reversed": false,
+            "stratifiedRegion": "w_1345_st41",
+            "stratification": "st41"
         },
         {
             "id": "w_1346",
             "source": "a_839",
-            "target": "a_840"
+            "target": "a_840",
+            "reversed": false,
+            "stratifiedRegion": "w_1346_st40",
+            "stratification": "st40"
         },
         {
             "id": "w_1347",
@@ -41724,10 +41751,12 @@
                 "mat-superfical-adipose-tissue"
             ],
             "subtypes": [
-                "w_1172_st2"
+                "w_1172_st2",
+                "w_1300_st2"
             ],
             "axisWires": [
-                "w_1172"
+                "w_1172",
+                "w_1300"
             ]
         },
         {
@@ -41942,11 +41971,15 @@
             ],
             "subtypes": [
                 "w_1238_st15",
-                "w_1236_st15"
+                "w_1236_st15",
+                "w_1336_st15",
+                "w_1338_st15"
             ],
             "axisWires": [
                 "w_1238",
-                "w_1236"
+                "w_1236",
+                "w_1336",
+                "w_1338"
             ]
         },
         {
@@ -42267,6 +42300,12 @@
                 "mat-spinal-cord",
                 "mat-spinal-meningeal-cluster",
                 "mat-fifth-lumbar-vertebra"
+            ],
+            "subtypes": [
+                "w_1343_st37"
+            ],
+            "axisWires": [
+                "w_1343"
             ]
         },
         {
@@ -42291,6 +42330,12 @@
                 "mat-ilium-bone",
                 "mat-deep-fascia",
                 "mat-abdominal-external-oblique-muscle"
+            ],
+            "subtypes": [
+                "w_1319_st39"
+            ],
+            "axisWires": [
+                "w_1319"
             ]
         },
         {
@@ -42300,6 +42345,14 @@
                 "mat-fifth-lumbar-vertebra",
                 "mat-deep-fascia",
                 "mat-psoas-muscle"
+            ],
+            "subtypes": [
+                "w_1342_st40",
+                "w_1346_st40"
+            ],
+            "axisWires": [
+                "w_1342",
+                "w_1346"
             ]
         },
         {
@@ -42309,6 +42362,12 @@
                 "mat-endo-abdominal-fascia",
                 "mat-deep-fascia",
                 "mat-fifth-lumbar-vertebra"
+            ],
+            "subtypes": [
+                "w_1345_st41"
+            ],
+            "axisWires": [
+                "w_1345"
             ]
         },
         {
@@ -42348,11 +42407,13 @@
             ],
             "subtypes": [
                 "w_1198_st45",
-                "w_1177_st45"
+                "w_1177_st45",
+                "w_1305_st45"
             ],
             "axisWires": [
                 "w_1198",
-                "w_1177"
+                "w_1177",
+                "w_1305"
             ]
         },
         {
