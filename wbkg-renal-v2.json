@@ -1884,7 +1884,7 @@
                 "lt-cell-urinary-bowmans-capsule-parietal-epithelial_tube1",
                 "lt-cell-urinary-bowmans-capsule-parietal-epithelial_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-parietal-Bowmans-capsule"
             ]
         },
@@ -1896,7 +1896,7 @@
                 "lt-cell-urinary-podocyte_tube1",
                 "lt-cell-urinary-podocyte_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-visceral-Bowmans-capsule"
             ]
         },
@@ -1908,7 +1908,7 @@
                 "lt-cell-urinary-proximal-tubule-segment-1-epithelial_tube1",
                 "lt-cell-urinary-proximal-tubule-segment-1-epithelial_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-proximal-tubule_s1"
             ]
         },
@@ -1920,7 +1920,7 @@
                 "lt-cell-urinary-proximal-tubule-segment-2-epithelial_tube1",
                 "lt-cell-urinary-proximal-tubule-segment-2-epithelial_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-proximal-tubule_s2"
             ]
         },
@@ -1932,7 +1932,7 @@
                 "lt-cell-urinary-proximal-tubule-segment-3-epithelial_tube1",
                 "lt-cell-urinary-proximal-tubule-segment-3-epithelial_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-proximal-tubule_s3"
             ]
         },
@@ -1944,7 +1944,7 @@
                 "lt-cell-urinary-loop-of-Henle-thin-descending-limb-epithelial_tube1",
                 "lt-cell-urinary-loop-of-Henle-thin-descending-limb-epithelial_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-descending-thin-limb_1"
             ]
         },
@@ -1956,7 +1956,7 @@
                 "lt-cell-urinary-loop-of-Henle-thin-descending-limb-epithelial_tube2",
                 "lt-cell-urinary-loop-of-Henle-thin-descending-limb-epithelial_bag-2"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-descending-thin-limb_2"
             ]
         },
@@ -1968,7 +1968,7 @@
                 "lt-cell-urinary-loop-of-Henle-thin-descending-limb-epithelial_tube3",
                 "lt-cell-urinary-loop-of-Henle-thin-descending-limb-epithelial_bag-3"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-descending-thin-limb-3"
             ]
         },
@@ -1980,7 +1980,7 @@
                 "lt-cell-urinary-loop-of-Henle-thin-ascending-limb-epithelial_tube1",
                 "lt-cell-urinary-loop-of-Henle-thin-ascending-limb-epithelial_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-ascending-thin-limb"
             ]
         },
@@ -1992,7 +1992,7 @@
                 "lt-cell-urinary-loop-of-Henle-medullary-thick-ascending-limb-epithelial_tube1",
                 "lt-cell-urinary-loop-of-Henle-medullary-thick-ascending-limb-epithelial_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-renal-medullary-ascending-thick-limb"
             ]
         },
@@ -2004,7 +2004,7 @@
                 "lt-cell-urinary-loop-of-Henle-cortical-thick-ascending-limb-epithelial_tube1",
                 "lt-cell-urinary-loop-of-Henle-cortical-thick-ascending-limb-epithelial_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-renal-cortical-ascending-thick-limb"
             ]
         },
@@ -2016,7 +2016,7 @@
                 "lt-cell-urinary-distal-convoluted-tubule-epithelial_tube1",
                 "lt-cell-urinary-distal-convoluted-tubule-epithelial_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-distal-convoluted-tubule"
             ]
         },
@@ -2028,7 +2028,7 @@
                 "lt-cell-urinary-macula-densa_tube1",
                 "lt-cell-urinary-macula-densa_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-distal-convoluted-tubule"
             ]
         },
@@ -2040,7 +2040,7 @@
                 "lt-cell-urinary-connecting-tubule-alpha-intercalated_tube1",
                 "lt-cell-urinary-connecting-tubule-alpha-intercalated_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-connecting-tubule"
             ]
         },
@@ -2052,7 +2052,7 @@
                 "lt-cell-urinary-connecting-tubule-beta-intercalated_tube1",
                 "lt-cell-urinary-connecting-tubule-beta-intercalated_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-connecting-tubule"
             ]
         },
@@ -2064,7 +2064,7 @@
                 "lt-cell-urinary-connecting-tubule-epithelial_tube1",
                 "lt-cell-urinary-connecting-tubule-epithelial_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-connecting-tubule"
             ]
         },
@@ -2076,7 +2076,7 @@
                 "lt-cell-urinary-connecting-tubule-principal_tube1",
                 "lt-cell-urinary-connecting-tubule-principal_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-connecting-tubule"
             ]
         },
@@ -2088,7 +2088,7 @@
                 "lt-cell-urinary-cortex-collecting-tubule-epithelial_tube1",
                 "lt-cell-urinary-cortex-collecting-tubule-epithelial_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-cortical-collecting-tubule"
             ]
         },
@@ -2100,7 +2100,7 @@
                 "lt-cell-urinary-cortex-collecting-tubule-intercalated_tube1",
                 "lt-cell-urinary-cortex-collecting-tubule-intercalated_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-cortical-collecting-tubule"
             ]
         },
@@ -2112,7 +2112,7 @@
                 "lt-cell-urinary-cortex-collecting-tubule-principal_tube1",
                 "lt-cell-urinary-cortex-collecting-tubule-principal_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-cortical-collecting-tubule"
             ]
         },
@@ -2124,7 +2124,7 @@
                 "lt-cell-urinary-outer-medullary-collecting-tubule-epithelial_tube1",
                 "lt-cell-urinary-outer-medullary-collecting-tubule-epithelial_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-outer-medullary-collecting-duct"
             ]
         },
@@ -2136,7 +2136,7 @@
                 "lt-cell-urinary-outer-medullary-collecting-tubule-intercalated_tube1",
                 "lt-cell-urinary-outer-medullary-collecting-tubule-intercalated_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-outer-medullary-collecting-duct"
             ]
         },
@@ -2148,7 +2148,7 @@
                 "lt-cell-urinary-outer-medullary-collecting-tubule-principal_tube1",
                 "lt-cell-urinary-outer-medullary-collecting-tubule-principal_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-outer-medullary-collecting-duct"
             ]
         },
@@ -2160,7 +2160,7 @@
                 "lt-cell-urinary-inner-medullary-collecting-tubule-epithelial_tube1",
                 "lt-cell-urinary-inner-medullary-collecting-tubule-epithelial_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-inner-medullary-collecting-duct"
             ]
         },
@@ -2172,7 +2172,7 @@
                 "lt-cell-urinary-inner-medullary-collecting-tubule-intercalated_tube1",
                 "lt-cell-urinary-inner-medullary-collecting-tubule-intercalated_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-inner-medullary-collecting-duct"
             ]
         },
@@ -2184,7 +2184,7 @@
                 "lt-cell-urinary-inner-medullary-collecting-tubule-principal_tube1",
                 "lt-cell-urinary-inner-medullary-collecting-tubule-principal_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-inner-medullary-collecting-duct"
             ]
         },
@@ -2196,7 +2196,7 @@
                 "lt-cell-urinary-papillary-duct-intercalated_tube1",
                 "lt-cell-urinary-papillary-duct-intercalated_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-papillary-duct"
             ]
         },
@@ -2208,7 +2208,7 @@
                 "lt-cell-urinary-papillary-duct-principal_tube1",
                 "lt-cell-urinary-papillary-duct-principal_bag-1"
             ],
-            "housingLyphTemplates": [
+            "housingLyphs": [
                 "lyph-urinary-papillary-duct"
             ]
         }
@@ -2278,7 +2278,7 @@
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v3.json",
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/renal-scaffold.json"
     ],
-    "version": "aab8142779d0fdad1374ebce728b9aa917217fed",
+    "version": "9a8ea90e52673b1bb88ec03ecf28f2ee4512f069",
     "schemaVersion": "1bd5544231800cd01f5532800b83a39cd68f7b18",
     "lastUpdated": "2026-04-21",
     "groups": [],
