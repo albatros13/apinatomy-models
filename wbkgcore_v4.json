@@ -968,6 +968,9 @@
                 "lt-cyst-cell-endothelial_bag+1",
                 "lt-cyst-cell-endothelial_tube1",
                 "lt-cyst-cell-endothelial_bag-1"
+            ],
+            "housingLyphTemplates": [
+                "lt-blood-capillary"
             ]
         },
         {
@@ -977,6 +980,9 @@
                 "lt-cyst-cell-endothelial_bag+2",
                 "lt-cyst-cell-endothelial_tube2",
                 "lt-cyst-cell-endothelial_bag-2"
+            ],
+            "housingLyphTemplates": [
+                "lt-arteriole"
             ]
         }
     ],
@@ -1039,7 +1045,7 @@
         }
     ],
     "name": "core with specialized cell chains",
-    "version": "41a721558c34e950944f15749e62f0c312aac5ee",
+    "version": "4539819b57ca3b73271dc49630ebd69d584c7ee4",
     "id": "wbkgcore_v4",
     "namespace": "core",
     "schemaVersion": "1bd5544231800cd01f5532800b83a39cd68f7b18",
