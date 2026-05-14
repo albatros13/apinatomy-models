@@ -962,42 +962,13 @@
     "coalescences": [],
     "chains": [
         {
-            "id": "chain-endothelial-cell-in-lt-blood-capillary1",
-            "name": "Endothelial Cell in Blood capillary vessel 1",
-            "numLevels": 3,
-            "levelOntologyTerms": [
-                "GO:0045177",
-                "GO:0097574",
-                "GO:1990794"
-            ],
-            "housingLyphTemplates": [
-                "lt-blood-capillary"
-            ],
-            "lyphTemplate": "lt-cyst-cell-endothelial"
-        },
-        {
-            "id": "chain-endothelial-cell-in-arteriole",
-            "name": "Endothelial Cell in lt-arteriole (100um) ",
-            "numLevels": 3,
-            "levelOntologyTerms": [
-                "GO:0045177",
-                "GO:0097574",
-                "GO:1990794"
-            ],
-            "housingLyphTemplates": [
-                "lt-arteriole"
-            ],
-            "lyphTemplate": "lt-cyst-cell-endothelial"
-        },
-        {
             "id": "chain-endothelial-cell-in-lt-blood-capillary11",
             "name": "Endothelial Cell in Blood capillary vessel 1 1",
             "lyphs": [
                 "lt-cyst-cell-endothelial_bag+1",
                 "lt-cyst-cell-endothelial_tube1",
                 "lt-cyst-cell-endothelial_bag-1"
-            ],
-            "specializationOf": "chain-endothelial-cell-in-lt-blood-capillary1"
+            ]
         },
         {
             "id": "chain-endothelial-cell-in-arteriole1",
@@ -1006,8 +977,7 @@
                 "lt-cyst-cell-endothelial_bag+2",
                 "lt-cyst-cell-endothelial_tube2",
                 "lt-cyst-cell-endothelial_bag-2"
-            ],
-            "specializationOf": "chain-endothelial-cell-in-arteriole"
+            ]
         }
     ],
     "localConventions": [
@@ -1069,10 +1039,10 @@
         }
     ],
     "name": "core with specialized cell chains",
-    "version": "1cf17b80a8aa2d8db7787b4f18949cef6a580f91",
+    "version": "41a721558c34e950944f15749e62f0c312aac5ee",
     "id": "wbkgcore_v4",
     "namespace": "core",
-    "schemaVersion": "7e67e32da1f4067ba65fdb73f3d94bfbfa212b3f",
+    "schemaVersion": "1bd5544231800cd01f5532800b83a39cd68f7b18",
     "lastUpdated": "2026-04-21",
     "groups": []
 }
