@@ -2194,8 +2194,9 @@
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/wbkgcore_v4.json",
         "https://raw.githubusercontent.com/albatros13/apinatomy-models/refs/heads/main/renal-scaffold.json"
     ],
-    "version": "6775f80491d45907145b0fdd425e0bd89ea30186",
+    "version": "69e34814ecf681e29e670a86188e65256491d1e9",
     "schemaVersion": "1bd5544231800cd01f5532800b83a39cd68f7b18",
+    "lastUpdated": "2026-05-19",
     "groups": [],
     "scaffolds": [],
     "snapshots": []
