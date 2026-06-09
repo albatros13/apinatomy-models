@@ -476,7 +476,7 @@
             "color": "#6955ce"
         }
     ],
-    "version": "1dc4c6aa256495487701eb887dbe4ec6bfbcca33",
+    "version": "009f3472c4a98dbe8c197431578a12ae6f813bd9",
     "schemaVersion": "ff905953bfcdd6f9d7d4f8917a82734bb20812f4",
     "anchors": [
         {
@@ -44922,7 +44922,10 @@
                     "y": 5.488850771869636,
                     "z": -47.72036474164133
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1056_st66",
+            "stratification": "st66"
         },
         {
             "id": "w_1057",
@@ -45491,7 +45494,10 @@
                     "y": 9.348198970840485,
                     "z": -47.72036474164133
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1077_st66",
+            "stratification": "st66"
         },
         {
             "id": "w_1078",
@@ -45715,7 +45721,10 @@
                     "y": 20.068610634648365,
                     "z": -47.72036474164133
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1086_st70",
+            "stratification": "st70"
         },
         {
             "id": "w_1087",
@@ -46051,7 +46060,10 @@
                     "y": -2.1440823327615846,
                     "z": -47.72036474164133
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1098_st74",
+            "stratification": "st74"
         },
         {
             "id": "w_1099",
@@ -46097,7 +46109,10 @@
                     "y": 0.6861063464837116,
                     "z": -47.72036474164133
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1100_st70",
+            "stratification": "st70"
         },
         {
             "id": "w_1101",
@@ -46191,7 +46206,10 @@
                     "y": 22.64150943396227,
                     "z": -47.72036474164133
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1102_st74",
+            "stratification": "st74"
         },
         {
             "id": "w_1103",
@@ -46280,7 +46298,10 @@
                     "y": 20.41166380789022,
                     "z": -47.72036474164133
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1104_st75",
+            "stratification": "st75"
         },
         {
             "id": "w_1105",
@@ -111940,12 +111961,16 @@
             "subtypes": [
                 "w_22_st66",
                 "w_905_st66",
-                "w_938_st66"
+                "w_938_st66",
+                "w_1077_st66",
+                "w_1056_st66"
             ],
             "axisWires": [
                 "w_22",
                 "w_905",
-                "w_938"
+                "w_938",
+                "w_1077",
+                "w_1056"
             ]
         },
         {
@@ -112005,8 +112030,14 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-third-lumbar-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_1100_st70",
+                "w_1086_st70"
+            ],
+            "axisWires": [
+                "w_1100",
+                "w_1086"
+            ]
         },
         {
             "id": "st71",
@@ -112149,8 +112180,14 @@
                 "mat-deep-fascia",
                 "mat-psoas-muscle"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_1102_st74",
+                "w_1098_st74"
+            ],
+            "axisWires": [
+                "w_1102",
+                "w_1098"
+            ]
         },
         {
             "id": "st75",
@@ -112160,8 +112197,12 @@
                 "mat-deep-fascia",
                 "mat-third-lumbar-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_1104_st75"
+            ],
+            "axisWires": [
+                "w_1104"
+            ]
         },
         {
             "id": "st76",
