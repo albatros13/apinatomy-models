@@ -26926,7 +26926,10 @@
                     "y": 5.403087478559172,
                     "z": 1.5197568389057778
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_198_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_199",
@@ -27526,7 +27529,10 @@
                     "y": 20.668953687821613,
                     "z": 1.5197568389057778
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_225_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_226",
@@ -29964,7 +29970,10 @@
                     "y": 2.658662092624354,
                     "z": -2.7355623100303887
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_372_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_373",
@@ -30709,7 +30718,10 @@
                     "y": 16.38078902229846,
                     "z": -2.7355623100303887
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_425_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_426",
@@ -67067,7 +67079,10 @@
                     "y": 3.3447684391080656,
                     "z": 34.95440729483283
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2010_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_2011",
@@ -67898,7 +67913,10 @@
                     "y": 14.493996569468266,
                     "z": 34.95440729483283
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2044_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_2045",
@@ -70236,7 +70254,10 @@
                     "y": 0.3430531732418558,
                     "z": 44.07294832826748
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2186_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_2187",
@@ -70947,7 +70968,10 @@
                     "y": 12.778730703259,
                     "z": 44.07294832826748
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2224_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_2225",
@@ -73147,7 +73171,10 @@
                     "y": -1.372212692967409,
                     "z": 37.993920972644375
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2338_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_2339",
@@ -74059,7 +74086,10 @@
                     "y": 13.722126929674104,
                     "z": 37.993920972644375
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2379_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_2380",
@@ -76181,7 +76211,10 @@
                     "y": -1.543739279588337,
                     "z": 15.501519756838903
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2491_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_2492",
@@ -76900,7 +76933,10 @@
                     "y": 18.439108061749565,
                     "z": 15.501519756838903
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2530_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_2531",
@@ -78872,7 +78908,10 @@
                     "y": -3.859348198970835,
                     "z": 22.18844984802432
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2648_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_2649",
@@ -79572,7 +79611,10 @@
                     "y": 15.694682675814747,
                     "z": 22.18844984802432
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2687_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_2688",
@@ -81337,7 +81379,10 @@
                     "y": 3.3447684391080656,
                     "z": 17.325227963525833
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2805_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_2806",
@@ -82326,7 +82371,10 @@
                     "y": 16.466552315608922,
                     "z": 17.325227963525833
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2850_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_2851",
@@ -109583,7 +109631,23 @@
                 "w_682_st2",
                 "w_664_st2",
                 "w_84_st2",
-                "w_63_st2"
+                "w_63_st2",
+                "w_425_st2",
+                "w_372_st2",
+                "w_225_st2",
+                "w_198_st2",
+                "w_2530_st2",
+                "w_2491_st2",
+                "w_2850_st2",
+                "w_2805_st2",
+                "w_2687_st2",
+                "w_2648_st2",
+                "w_2044_st2",
+                "w_2010_st2",
+                "w_2379_st2",
+                "w_2338_st2",
+                "w_2224_st2",
+                "w_2186_st2"
             ],
             "axisWires": [
                 "w_4",
@@ -109610,7 +109674,23 @@
                 "w_682",
                 "w_664",
                 "w_84",
-                "w_63"
+                "w_63",
+                "w_425",
+                "w_372",
+                "w_225",
+                "w_198",
+                "w_2530",
+                "w_2491",
+                "w_2850",
+                "w_2805",
+                "w_2687",
+                "w_2648",
+                "w_2044",
+                "w_2010",
+                "w_2379",
+                "w_2338",
+                "w_2224",
+                "w_2186"
             ]
         },
         {
