@@ -77162,7 +77162,10 @@
                     "y": 12.00686106346484,
                     "z": 15.501519756838903
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2511_st120",
+            "stratification": "st120"
         },
         {
             "id": "w_2512",
@@ -77907,7 +77910,10 @@
                     "y": 8.233276157804454,
                     "z": 15.501519756838903
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2553_st121",
+            "stratification": "st121"
         },
         {
             "id": "w_2554",
@@ -78105,7 +78111,10 @@
                     "y": -5.317324185248708,
                     "z": 15.501519756838903
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2557_st123",
+            "stratification": "st123"
         },
         {
             "id": "w_2558",
@@ -78215,7 +78224,10 @@
                     "y": 4.802744425385939,
                     "z": 15.501519756838903
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2566_st120",
+            "stratification": "st120"
         },
         {
             "id": "w_2567",
@@ -78243,7 +78255,10 @@
                     "y": 11.063464837049736,
                     "z": 15.501519756838903
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2567_st122",
+            "stratification": "st122"
         },
         {
             "id": "w_2568",
@@ -113118,8 +113133,14 @@
                 "mat-deep-fascia",
                 "mat-twelfth-thoracic-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_2511_st120",
+                "w_2566_st120"
+            ],
+            "axisWires": [
+                "w_2511",
+                "w_2566"
+            ]
         },
         {
             "id": "st121",
@@ -113129,8 +113150,12 @@
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-twelfth-thoracic-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_2553_st121"
+            ],
+            "axisWires": [
+                "w_2553"
+            ]
         },
         {
             "id": "st122",
@@ -113140,8 +113165,12 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-twelfth-thoracic-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_2567_st122"
+            ],
+            "axisWires": [
+                "w_2567"
+            ]
         },
         {
             "id": "st123",
@@ -113151,8 +113180,12 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-intervertebral-disk-of-twelfth-thoracic-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_2557_st123"
+            ],
+            "axisWires": [
+                "w_2557"
+            ]
         },
         {
             "id": "st124",
