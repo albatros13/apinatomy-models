@@ -476,7 +476,7 @@
             "color": "#6955ce"
         }
     ],
-    "version": "1f52bbba0d3c9a02b897aff08c3129a1c7c40ca9",
+    "version": "f3a10800d714004fff42da3b70a486371fdf9de6",
     "schemaVersion": "ff905953bfcdd6f9d7d4f8917a82734bb20812f4",
     "anchors": [
         {
@@ -47632,7 +47632,10 @@
                     "y": 5.0600343053173304,
                     "z": -75.07598784194528
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1161_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_1162",
@@ -48711,7 +48714,10 @@
                     "y": 17.58147512864494,
                     "z": -70.82066869300911
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1195_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_1196",
@@ -53029,7 +53035,10 @@
                     "y": 20.240137221269293,
                     "z": -84.19452887537994
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1346_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_1347",
@@ -109515,7 +109524,10 @@
                 "w_1239_st2",
                 "w_1311_st2",
                 "w_1378_st2",
-                "w_1396_st2"
+                "w_1396_st2",
+                "w_1346_st2",
+                "w_1161_st2",
+                "w_1195_st2"
             ],
             "axisWires": [
                 "w_4",
@@ -109525,7 +109537,10 @@
                 "w_1239",
                 "w_1311",
                 "w_1378",
-                "w_1396"
+                "w_1396",
+                "w_1346",
+                "w_1161",
+                "w_1195"
             ]
         },
         {
