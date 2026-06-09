@@ -476,8 +476,8 @@
             "color": "#6955ce"
         }
     ],
-    "version": "91a1755ade90d647191c7b2a5be5ac8dece06320",
-    "schemaVersion": "ac20551f27243a78fc884e9b2b5caf0b4b9d271a",
+    "version": "1f52bbba0d3c9a02b897aff08c3129a1c7c40ca9",
+    "schemaVersion": "ff905953bfcdd6f9d7d4f8917a82734bb20812f4",
     "anchors": [
         {
             "id": "a_1",
@@ -54406,7 +54406,10 @@
                     "y": 17.238421955403084,
                     "z": -92.70516717325228
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1396_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_1397",
@@ -109511,7 +109514,8 @@
                 "w_1175_st2",
                 "w_1239_st2",
                 "w_1311_st2",
-                "w_1378_st2"
+                "w_1378_st2",
+                "w_1396_st2"
             ],
             "axisWires": [
                 "w_4",
@@ -109520,7 +109524,8 @@
                 "w_1175",
                 "w_1239",
                 "w_1311",
-                "w_1378"
+                "w_1378",
+                "w_1396"
             ]
         },
         {
