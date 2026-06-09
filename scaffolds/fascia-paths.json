@@ -24834,7 +24834,10 @@
                     "y": 18.26758147512865,
                     "z": -6.9908814589665695
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_96_st99",
+            "stratification": "st99"
         },
         {
             "id": "w_97",
@@ -24915,7 +24918,10 @@
                     "y": 6.174957118353348,
                     "z": -6.9908814589665695
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_100_st99",
+            "stratification": "st99"
         },
         {
             "id": "w_101",
@@ -24976,7 +24982,10 @@
                     "y": 16.037735849056602,
                     "z": -6.9908814589665695
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_102_st102",
+            "stratification": "st102"
         },
         {
             "id": "w_103",
@@ -25007,7 +25016,10 @@
                     "y": -7.547169811320757,
                     "z": -6.9908814589665695
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_104_st100",
+            "stratification": "st100"
         },
         {
             "id": "w_105",
@@ -25048,7 +25060,10 @@
         {
             "id": "w_106",
             "source": "a_63",
-            "target": "a_62"
+            "target": "a_62",
+            "reversed": false,
+            "stratifiedRegion": "w_106_st101",
+            "stratification": "st101"
         },
         {
             "id": "w_107",
@@ -25102,7 +25117,10 @@
                     "y": 0.25728987993139185,
                     "z": -6.9908814589665695
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_108_st105",
+            "stratification": "st105"
         },
         {
             "id": "w_109",
@@ -25115,7 +25133,10 @@
                     "y": 9.090909090909093,
                     "z": -6.9908814589665695
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_109_st101",
+            "stratification": "st101"
         },
         {
             "id": "w_110",
@@ -25141,12 +25162,18 @@
         {
             "id": "w_111",
             "source": "a_66",
-            "target": "a_65"
+            "target": "a_65",
+            "reversed": false,
+            "stratifiedRegion": "w_111_st106",
+            "stratification": "st106"
         },
         {
             "id": "w_112",
             "source": "a_67",
-            "target": "a_66"
+            "target": "a_66",
+            "reversed": false,
+            "stratifiedRegion": "w_112_st101",
+            "stratification": "st101"
         },
         {
             "id": "w_113",
@@ -25210,7 +25237,10 @@
                     "y": 21.183533447684397,
                     "z": -6.9908814589665695
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_114_st100",
+            "stratification": "st100"
         },
         {
             "id": "w_115",
@@ -25281,7 +25311,10 @@
                     "y": -2.658662092624354,
                     "z": -6.9908814589665695
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_116_st103",
+            "stratification": "st103"
         },
         {
             "id": "w_117",
@@ -112686,8 +112719,14 @@
                 "mat-deep-fascia",
                 "mat-first-lumbar-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_96_st99",
+                "w_100_st99"
+            ],
+            "axisWires": [
+                "w_96",
+                "w_100"
+            ]
         },
         {
             "id": "st100",
@@ -112697,8 +112736,14 @@
                 "mat-deep-fascia",
                 "mat-psoas-muscle"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_114_st100",
+                "w_104_st100"
+            ],
+            "axisWires": [
+                "w_114",
+                "w_104"
+            ]
         },
         {
             "id": "st101",
@@ -112708,8 +112753,16 @@
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-first-lumbar-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_109_st101",
+                "w_112_st101",
+                "w_106_st101"
+            ],
+            "axisWires": [
+                "w_109",
+                "w_112",
+                "w_106"
+            ]
         },
         {
             "id": "st102",
@@ -112719,8 +112772,12 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-intervertebral-disk-of-first-lumbar-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_102_st102"
+            ],
+            "axisWires": [
+                "w_102"
+            ]
         },
         {
             "id": "st103",
@@ -112730,8 +112787,12 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-first-lumbar-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_116_st103"
+            ],
+            "axisWires": [
+                "w_116"
+            ]
         },
         {
             "id": "st104",
@@ -112752,8 +112813,12 @@
                 "mat-deep-fascia",
                 "mat-right-crus-of-diaphragm"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_108_st105"
+            ],
+            "axisWires": [
+                "w_108"
+            ]
         },
         {
             "id": "st106",
@@ -112763,8 +112828,12 @@
                 "mat-deep-fascia",
                 "mat-left-crus-of-diaphragm"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_111_st106"
+            ],
+            "axisWires": [
+                "w_111"
+            ]
         },
         {
             "id": "st107",
