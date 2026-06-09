@@ -32979,7 +32979,10 @@
                     "y": 0.6861063464837116,
                     "z": -28.875379939209722
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_580_st77",
+            "stratification": "st77"
         },
         {
             "id": "w_581",
@@ -33893,7 +33896,10 @@
                     "y": -4.9742710120068665,
                     "z": -28.875379939209722
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_622_st19",
+            "stratification": "st19"
         },
         {
             "id": "w_623",
@@ -34264,7 +34270,10 @@
                     "y": 20.15437392795883,
                     "z": -28.875379939209722
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_639_st83",
+            "stratification": "st83"
         },
         {
             "id": "w_640",
@@ -34624,7 +34633,10 @@
                     "y": 8.919382504288166,
                     "z": -28.875379939209722
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_651_st77",
+            "stratification": "st77"
         },
         {
             "id": "w_652",
@@ -34812,7 +34824,10 @@
                     "y": 24.271012006861056,
                     "z": -28.875379939209722
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_656_st19",
+            "stratification": "st19"
         },
         {
             "id": "w_657",
@@ -34919,7 +34934,10 @@
                     "y": -1.8867924528301927,
                     "z": -28.875379939209722
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_659_st85",
+            "stratification": "st85"
         },
         {
             "id": "w_660",
@@ -34967,7 +34985,10 @@
                     "y": 18.01029159519726,
                     "z": -28.875379939209722
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_661_st84",
+            "stratification": "st84"
         },
         {
             "id": "w_662",
@@ -110909,11 +110930,15 @@
             ],
             "subtypes": [
                 "w_1250_st19",
-                "w_1253_st19"
+                "w_1253_st19",
+                "w_656_st19",
+                "w_622_st19"
             ],
             "axisWires": [
                 "w_1250",
-                "w_1253"
+                "w_1253",
+                "w_656",
+                "w_622"
             ]
         },
         {
@@ -112259,8 +112284,14 @@
                 "mat-deep-fascia",
                 "mat-second-lumbar-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_651_st77",
+                "w_580_st77"
+            ],
+            "axisWires": [
+                "w_651",
+                "w_580"
+            ]
         },
         {
             "id": "st78",
@@ -112331,8 +112362,12 @@
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-second-lumbar-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_639_st83"
+            ],
+            "axisWires": [
+                "w_639"
+            ]
         },
         {
             "id": "st84",
@@ -112343,10 +112378,12 @@
                 "mat-second-lumbar-vertebra"
             ],
             "subtypes": [
-                "w_922_st84"
+                "w_922_st84",
+                "w_661_st84"
             ],
             "axisWires": [
-                "w_922"
+                "w_922",
+                "w_661"
             ]
         },
         {
@@ -112357,8 +112394,12 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-intervertebral-disk-of-second-lumbar-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_659_st85"
+            ],
+            "axisWires": [
+                "w_659"
+            ]
         },
         {
             "id": "st86",
