@@ -28552,7 +28552,10 @@
                     "y": 1.543739279588337,
                     "z": 1.5197568389057778
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_289_st103",
+            "stratification": "st103"
         },
         {
             "id": "w_290",
@@ -28570,7 +28573,10 @@
                     "y": 15.608919382504283,
                     "z": 1.5197568389057778
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_290_st99",
+            "stratification": "st99"
         },
         {
             "id": "w_291",
@@ -28672,7 +28678,10 @@
                     "y": 19.811320754716988,
                     "z": 1.5197568389057778
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_298_st104",
+            "stratification": "st104"
         },
         {
             "id": "w_299",
@@ -28779,7 +28788,10 @@
                     "y": -0.9433962264150892,
                     "z": 1.5197568389057778
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_304_st99",
+            "stratification": "st99"
         },
         {
             "id": "w_305",
@@ -28820,7 +28832,10 @@
                     "y": -8.233276157804454,
                     "z": 1.5197568389057778
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_306_st104",
+            "stratification": "st104"
         },
         {
             "id": "w_307",
@@ -28989,7 +29004,10 @@
                     "y": 0.7718696397941613,
                     "z": 1.5197568389057778
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_319_st115",
+            "stratification": "st115"
         },
         {
             "id": "w_320",
@@ -29070,7 +29088,10 @@
         {
             "id": "w_321",
             "source": "a_189",
-            "target": "a_190"
+            "target": "a_190",
+            "reversed": false,
+            "stratifiedRegion": "w_321_st109",
+            "stratification": "st109"
         },
         {
             "id": "w_322",
@@ -29113,7 +29134,10 @@
                     "y": 17.238421955403084,
                     "z": 1.5197568389057778
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_324_st108",
+            "stratification": "st108"
         },
         {
             "id": "w_325",
@@ -29182,7 +29206,10 @@
         {
             "id": "w_327",
             "source": "a_194",
-            "target": "a_188"
+            "target": "a_188",
+            "reversed": false,
+            "stratifiedRegion": "w_327_st109",
+            "stratification": "st109"
         },
         {
             "id": "w_328",
@@ -29246,7 +29273,10 @@
                     "y": -5.5746140651801,
                     "z": 1.5197568389057778
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_330_st108",
+            "stratification": "st108"
         },
         {
             "id": "w_331",
@@ -112753,13 +112783,17 @@
                 "w_96_st99",
                 "w_100_st99",
                 "w_471_st99",
-                "w_472_st99"
+                "w_472_st99",
+                "w_304_st99",
+                "w_290_st99"
             ],
             "axisWires": [
                 "w_96",
                 "w_100",
                 "w_471",
-                "w_472"
+                "w_472",
+                "w_304",
+                "w_290"
             ]
         },
         {
@@ -112824,12 +112858,14 @@
             "subtypes": [
                 "w_116_st103",
                 "w_547_st103",
-                "w_548_st103"
+                "w_548_st103",
+                "w_289_st103"
             ],
             "axisWires": [
                 "w_116",
                 "w_547",
-                "w_548"
+                "w_548",
+                "w_289"
             ]
         },
         {
@@ -112840,8 +112876,14 @@
                 "mat-deep-fascia",
                 "mat-longissimus-muscle"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_298_st104",
+                "w_306_st104"
+            ],
+            "axisWires": [
+                "w_298",
+                "w_306"
+            ]
         },
         {
             "id": "st105",
@@ -112920,11 +112962,15 @@
             ],
             "subtypes": [
                 "w_523_st108",
-                "w_493_st108"
+                "w_493_st108",
+                "w_324_st108",
+                "w_330_st108"
             ],
             "axisWires": [
                 "w_523",
-                "w_493"
+                "w_493",
+                "w_324",
+                "w_330"
             ]
         },
         {
@@ -112938,12 +112984,16 @@
             "subtypes": [
                 "w_538_st109",
                 "w_534_st109",
-                "w_495_st109"
+                "w_495_st109",
+                "w_327_st109",
+                "w_321_st109"
             ],
             "axisWires": [
                 "w_538",
                 "w_534",
-                "w_495"
+                "w_495",
+                "w_327",
+                "w_321"
             ]
         },
         {
@@ -113009,8 +113059,12 @@
                 "mat-deep-fascia",
                 "mat-right-crus-of-diaphragm"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_319_st115"
+            ],
+            "axisWires": [
+                "w_319"
+            ]
         },
         {
             "id": "st116",
