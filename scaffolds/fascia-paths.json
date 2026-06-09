@@ -55331,7 +55331,10 @@
                     "y": 28.55917667238421,
                     "z": -92.70516717325228
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1421_st43",
+            "stratification": "st43"
         },
         {
             "id": "w_1422",
@@ -55480,7 +55483,10 @@
                     "y": -9.262435677530021,
                     "z": -92.70516717325228
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1426_st43",
+            "stratification": "st43"
         },
         {
             "id": "w_1427",
@@ -111423,8 +111429,14 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-endo-abdominal-fascia"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_1421_st43",
+                "w_1426_st43"
+            ],
+            "axisWires": [
+                "w_1421",
+                "w_1426"
+            ]
         },
         {
             "id": "st44",
