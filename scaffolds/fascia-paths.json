@@ -77825,7 +77825,10 @@
                     "y": -1.286449399656945,
                     "z": 15.501519756838903
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2549_st127",
+            "stratification": "st127"
         },
         {
             "id": "w_2550",
@@ -78012,7 +78015,10 @@
                     "y": 19.21097770154374,
                     "z": 15.501519756838903
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2555_st128",
+            "stratification": "st128"
         },
         {
             "id": "w_2556",
@@ -82661,7 +82667,10 @@
                     "y": 1.0291595197255532,
                     "z": 17.325227963525833
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2828_st120",
+            "stratification": "st120"
         },
         {
             "id": "w_2829",
@@ -83594,7 +83603,10 @@
         {
             "id": "w_2875",
             "source": "a_1693",
-            "target": "a_1703"
+            "target": "a_1703",
+            "reversed": false,
+            "stratifiedRegion": "w_2875_st131",
+            "stratification": "st131"
         },
         {
             "id": "w_2876",
@@ -83810,7 +83822,10 @@
                     "y": -4.8885077186964025,
                     "z": 17.325227963525833
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2889_st130",
+            "stratification": "st130"
         },
         {
             "id": "w_2890",
@@ -83876,7 +83891,10 @@
                     "y": -7.6329331046312205,
                     "z": 17.325227963525833
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2891_st122",
+            "stratification": "st122"
         },
         {
             "id": "w_2892",
@@ -84149,7 +84167,10 @@
                     "y": 8.319039451114918,
                     "z": 17.325227963525833
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2906_st122",
+            "stratification": "st122"
         },
         {
             "id": "w_2907",
@@ -84185,7 +84206,10 @@
                     "y": 6.861063464837045,
                     "z": 17.325227963525833
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2908_st120",
+            "stratification": "st120"
         },
         {
             "id": "w_2909",
@@ -113135,11 +113159,15 @@
             ],
             "subtypes": [
                 "w_2511_st120",
-                "w_2566_st120"
+                "w_2566_st120",
+                "w_2908_st120",
+                "w_2828_st120"
             ],
             "axisWires": [
                 "w_2511",
-                "w_2566"
+                "w_2566",
+                "w_2908",
+                "w_2828"
             ]
         },
         {
@@ -113166,10 +113194,14 @@
                 "mat-twelfth-thoracic-vertebra"
             ],
             "subtypes": [
-                "w_2567_st122"
+                "w_2567_st122",
+                "w_2891_st122",
+                "w_2906_st122"
             ],
             "axisWires": [
-                "w_2567"
+                "w_2567",
+                "w_2891",
+                "w_2906"
             ]
         },
         {
@@ -113228,8 +113260,12 @@
                 "mat-deep-fascia",
                 "mat-right-crus-of-diaphragm"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_2549_st127"
+            ],
+            "axisWires": [
+                "w_2549"
+            ]
         },
         {
             "id": "st128",
@@ -113239,8 +113275,12 @@
                 "mat-deep-fascia",
                 "mat-left-crus-of-diaphragm"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_2555_st128"
+            ],
+            "axisWires": [
+                "w_2555"
+            ]
         },
         {
             "id": "st129",
@@ -113250,7 +113290,9 @@
                 "mat-deep-fascia",
                 "mat-twelfth-thoracic-vertebra"
             ],
-            "subtypes": [],
+            "subtypes": [
+                "w_2875_st129"
+            ],
             "axisWires": []
         },
         {
@@ -113261,8 +113303,12 @@
                 "mat-deep-fascia",
                 "mat-right-crus-of-diaphragm"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_2889_st130"
+            ],
+            "axisWires": [
+                "w_2889"
+            ]
         },
         {
             "id": "st131",
@@ -113272,8 +113318,12 @@
                 "mat-deep-fascia",
                 "mat-left-crus-of-diaphragm"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_2875_st131"
+            ],
+            "axisWires": [
+                "w_2875"
+            ]
         },
         {
             "id": "st132",
