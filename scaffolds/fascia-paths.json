@@ -79885,7 +79885,10 @@
                     "y": -6.689536878216117,
                     "z": 22.18844984802432
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2661_st130",
+            "stratification": "st130"
         },
         {
             "id": "w_2662",
@@ -79931,7 +79934,10 @@
                     "y": 15.180102915951977,
                     "z": 22.18844984802432
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2664_st131",
+            "stratification": "st131"
         },
         {
             "id": "w_2665",
@@ -80554,7 +80560,10 @@
                     "y": 1.0291595197255532,
                     "z": 22.18844984802432
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2696_st120",
+            "stratification": "st120"
         },
         {
             "id": "w_2697",
@@ -81839,7 +81848,10 @@
         {
             "id": "w_2798",
             "source": "a_1651",
-            "target": "a_1579"
+            "target": "a_1579",
+            "reversed": false,
+            "stratifiedRegion": "w_2798_st67",
+            "stratification": "st67"
         },
         {
             "id": "w_2799",
@@ -81877,12 +81889,18 @@
                     "y": 12.178387650085767,
                     "z": 22.18844984802432
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2799_st122",
+            "stratification": "st122"
         },
         {
             "id": "w_2800",
             "source": "a_1652",
-            "target": "a_1579"
+            "target": "a_1579",
+            "reversed": false,
+            "stratifiedRegion": "w_2800_st67",
+            "stratification": "st67"
         },
         {
             "id": "w_2801",
@@ -81900,7 +81918,10 @@
                     "y": 14.922813036020585,
                     "z": 22.18844984802432
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2801_st120",
+            "stratification": "st120"
         },
         {
             "id": "w_2802",
@@ -112220,11 +112241,15 @@
             ],
             "subtypes": [
                 "w_39_st67",
-                "w_56_st67"
+                "w_56_st67",
+                "w_2800_st67",
+                "w_2798_st67"
             ],
             "axisWires": [
                 "w_39",
-                "w_56"
+                "w_56",
+                "w_2800",
+                "w_2798"
             ]
         },
         {
@@ -113161,13 +113186,17 @@
                 "w_2511_st120",
                 "w_2566_st120",
                 "w_2908_st120",
-                "w_2828_st120"
+                "w_2828_st120",
+                "w_2801_st120",
+                "w_2696_st120"
             ],
             "axisWires": [
                 "w_2511",
                 "w_2566",
                 "w_2908",
-                "w_2828"
+                "w_2828",
+                "w_2801",
+                "w_2696"
             ]
         },
         {
@@ -113196,12 +113225,14 @@
             "subtypes": [
                 "w_2567_st122",
                 "w_2891_st122",
-                "w_2906_st122"
+                "w_2906_st122",
+                "w_2799_st122"
             ],
             "axisWires": [
                 "w_2567",
                 "w_2891",
-                "w_2906"
+                "w_2906",
+                "w_2799"
             ]
         },
         {
@@ -113304,10 +113335,12 @@
                 "mat-right-crus-of-diaphragm"
             ],
             "subtypes": [
-                "w_2889_st130"
+                "w_2889_st130",
+                "w_2661_st130"
             ],
             "axisWires": [
-                "w_2889"
+                "w_2889",
+                "w_2661"
             ]
         },
         {
@@ -113319,10 +113352,12 @@
                 "mat-left-crus-of-diaphragm"
             ],
             "subtypes": [
-                "w_2875_st131"
+                "w_2875_st131",
+                "w_2664_st131"
             ],
             "axisWires": [
-                "w_2875"
+                "w_2875",
+                "w_2664"
             ]
         },
         {
