@@ -85487,7 +85487,10 @@
                     "y": 3.1732418524871377,
                     "z": 100
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2960_st197",
+            "stratification": "st197"
         },
         {
             "id": "w_2961",
@@ -85694,7 +85697,10 @@
                     "y": 17.924528301886795,
                     "z": 100
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2971_st193",
+            "stratification": "st193"
         },
         {
             "id": "w_2972",
@@ -85740,7 +85746,10 @@
                     "y": -2.915951972555746,
                     "z": 100
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2973_st196",
+            "stratification": "st196"
         },
         {
             "id": "w_2974",
@@ -85781,7 +85790,10 @@
                     "y": -7.375643224699829,
                     "z": 100
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2977_st195",
+            "stratification": "st195"
         },
         {
             "id": "w_2978",
@@ -85801,7 +85813,10 @@
         {
             "id": "w_2981",
             "source": "a_1757",
-            "target": "a_1758"
+            "target": "a_1758",
+            "reversed": false,
+            "stratifiedRegion": "w_2981_st194",
+            "stratification": "st194"
         },
         {
             "id": "w_2982",
@@ -85857,7 +85872,10 @@
                     "y": 12.178387650085767,
                     "z": 100
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2984_st195",
+            "stratification": "st195"
         },
         {
             "id": "w_2985",
@@ -87409,7 +87427,10 @@
                     "y": -4.288164665523155,
                     "z": 100
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3048_st193",
+            "stratification": "st193"
         },
         {
             "id": "w_3049",
@@ -114517,8 +114538,14 @@
                 "mat-deep-fascia",
                 "mat-seventh-thoracic-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_2971_st193",
+                "w_3048_st193"
+            ],
+            "axisWires": [
+                "w_2971",
+                "w_3048"
+            ]
         },
         {
             "id": "st194",
@@ -114528,8 +114555,13 @@
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-seventh-thoracic-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_2984_st194",
+                "w_2981_st194"
+            ],
+            "axisWires": [
+                "w_2981"
+            ]
         },
         {
             "id": "st195",
@@ -114539,8 +114571,14 @@
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-seventh-thoracic-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_2984_st195",
+                "w_2977_st195"
+            ],
+            "axisWires": [
+                "w_2984",
+                "w_2977"
+            ]
         },
         {
             "id": "st196",
@@ -114550,8 +114588,12 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-intervertebral-disk-of-seventh-thoracic-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_2973_st196"
+            ],
+            "axisWires": [
+                "w_2973"
+            ]
         },
         {
             "id": "st197",
@@ -114561,8 +114603,12 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-seventh-thoracic-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_2960_st197"
+            ],
+            "axisWires": [
+                "w_2960"
+            ]
         }
     ],
     "components": [
