@@ -89287,7 +89287,10 @@
                     "y": 13.63636363636364,
                     "z": 84.19452887537994
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3126_st187",
+            "stratification": "st187"
         },
         {
             "id": "w_3127",
@@ -92518,7 +92521,10 @@
                     "y": 6.518010291595203,
                     "z": 93.31306990881458
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3266_st186",
+            "stratification": "st186"
         },
         {
             "id": "w_3267",
@@ -93789,7 +93795,10 @@
                     "y": -7.204116638078901,
                     "z": 93.31306990881458
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3324_st186",
+            "stratification": "st186"
         },
         {
             "id": "w_3325",
@@ -93960,7 +93969,10 @@
         {
             "id": "w_3333",
             "source": "a_1982",
-            "target": "a_2028"
+            "target": "a_2028",
+            "reversed": false,
+            "stratifiedRegion": "w_3333_st191",
+            "stratification": "st191"
         },
         {
             "id": "w_3334",
@@ -94116,7 +94128,10 @@
                     "y": -3.5162950257289936,
                     "z": 93.31306990881458
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3343_st191",
+            "stratification": "st191"
         },
         {
             "id": "w_3344",
@@ -95240,7 +95255,10 @@
                     "y": 19.468267581475132,
                     "z": 93.31306990881458
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3406_st191",
+            "stratification": "st191"
         },
         {
             "id": "w_3407",
@@ -95740,7 +95758,10 @@
                     "y": 13.293310463121784,
                     "z": 88.44984802431611
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3430_st191",
+            "stratification": "st191"
         },
         {
             "id": "w_3431",
@@ -95831,7 +95852,10 @@
                     "y": -5.231560891938244,
                     "z": 88.44984802431611
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3435_st190",
+            "stratification": "st190"
         },
         {
             "id": "w_3436",
@@ -95918,7 +95942,10 @@
                     "y": 4.116638078902227,
                     "z": 88.44984802431611
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3439_st186",
+            "stratification": "st186"
         },
         {
             "id": "w_3440",
@@ -96010,7 +96037,10 @@
                     "y": -8.319039451114918,
                     "z": 88.44984802431611
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3444_st186",
+            "stratification": "st186"
         },
         {
             "id": "w_3445",
@@ -96078,7 +96108,10 @@
                     "y": 15.00857632933105,
                     "z": 88.44984802431611
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3445_st190",
+            "stratification": "st190"
         },
         {
             "id": "w_3446",
@@ -96139,7 +96172,10 @@
                     "y": -3.6878216123499072,
                     "z": 88.44984802431611
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3447_st191",
+            "stratification": "st191"
         },
         {
             "id": "w_3448",
@@ -98443,7 +98479,10 @@
                     "y": 6.2607204116638115,
                     "z": 88.44984802431611
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3533_st191",
+            "stratification": "st191"
         },
         {
             "id": "w_3534",
@@ -114353,11 +114392,19 @@
             ],
             "subtypes": [
                 "w_3142_st186",
-                "w_3138_st186"
+                "w_3138_st186",
+                "w_3444_st186",
+                "w_3439_st186",
+                "w_3324_st186",
+                "w_3266_st186"
             ],
             "axisWires": [
                 "w_3142",
-                "w_3138"
+                "w_3138",
+                "w_3444",
+                "w_3439",
+                "w_3324",
+                "w_3266"
             ]
         },
         {
@@ -114369,10 +114416,12 @@
                 "mat-intervertebral-disk-of-eighth-thoracic-vertebra"
             ],
             "subtypes": [
-                "w_3123_st187"
+                "w_3123_st187",
+                "w_3126_st187"
             ],
             "axisWires": [
-                "w_3123"
+                "w_3123",
+                "w_3126"
             ]
         },
         {
@@ -114414,10 +114463,14 @@
                 "mat-eighth-thoracic-vertebra"
             ],
             "subtypes": [
-                "w_3136_st190"
+                "w_3136_st190",
+                "w_3445_st190",
+                "w_3435_st190"
             ],
             "axisWires": [
-                "w_3136"
+                "w_3136",
+                "w_3445",
+                "w_3435"
             ]
         },
         {
@@ -114428,8 +114481,22 @@
                 "mat-deep-fascia",
                 "mat-eighth-thoracic-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_3430_st191",
+                "w_3447_st191",
+                "w_3533_st191",
+                "w_3406_st191",
+                "w_3343_st191",
+                "w_3333_st191"
+            ],
+            "axisWires": [
+                "w_3430",
+                "w_3447",
+                "w_3533",
+                "w_3406",
+                "w_3343",
+                "w_3333"
+            ]
         },
         {
             "id": "st192",
