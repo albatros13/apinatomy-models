@@ -56275,7 +56275,10 @@
                     "y": 5.488850771869636,
                     "z": 53.191489361702125
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1448_st156",
+            "stratification": "st156"
         },
         {
             "id": "w_1449",
@@ -56741,7 +56744,10 @@
                     "y": -5.317324185248708,
                     "z": 53.191489361702125
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1468_st157",
+            "stratification": "st157"
         },
         {
             "id": "w_1469",
@@ -56797,7 +56803,10 @@
                     "y": 6.603773584905667,
                     "z": 53.191489361702125
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1470_st155",
+            "stratification": "st155"
         },
         {
             "id": "w_1471",
@@ -56873,7 +56882,10 @@
                     "y": 17.066895368782156,
                     "z": 53.191489361702125
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1472_st158",
+            "stratification": "st158"
         },
         {
             "id": "w_1473",
@@ -57102,7 +57114,10 @@
                     "y": -3.859348198970835,
                     "z": 53.191489361702125
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1482_st155",
+            "stratification": "st155"
         },
         {
             "id": "w_1483",
@@ -113717,8 +113732,14 @@
                 "mat-deep-fascia",
                 "mat-tenth-thoracic-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_1470_st155",
+                "w_1482_st155"
+            ],
+            "axisWires": [
+                "w_1470",
+                "w_1482"
+            ]
         },
         {
             "id": "st156",
@@ -113728,8 +113749,12 @@
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-tenth-thoracic-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_1448_st156"
+            ],
+            "axisWires": [
+                "w_1448"
+            ]
         },
         {
             "id": "st157",
@@ -113739,8 +113764,12 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-intervertebral-disk-of-tenth-thoracic-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_1468_st157"
+            ],
+            "axisWires": [
+                "w_1468"
+            ]
         },
         {
             "id": "st158",
@@ -113750,8 +113779,12 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-tenth-thoracic-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_1472_st158"
+            ],
+            "axisWires": [
+                "w_1472"
+            ]
         },
         {
             "id": "st159",
