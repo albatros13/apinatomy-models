@@ -64257,7 +64257,10 @@
                     "y": 6.603773584905667,
                     "z": 57.4468085106383
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1851_st155",
+            "stratification": "st155"
         },
         {
             "id": "w_1852",
@@ -64305,7 +64308,10 @@
                     "y": 16.123499142367066,
                     "z": 57.4468085106383
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1852_st158",
+            "stratification": "st158"
         },
         {
             "id": "w_1853",
@@ -64323,7 +64329,10 @@
         {
             "id": "w_1854",
             "source": "a_1103",
-            "target": "a_1114"
+            "target": "a_1114",
+            "reversed": false,
+            "stratifiedRegion": "w_1854_st169",
+            "stratification": "st169"
         },
         {
             "id": "w_1855",
@@ -65407,7 +65416,10 @@
                     "y": -1.7152658662092648,
                     "z": 57.4468085106383
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1914_st158",
+            "stratification": "st158"
         },
         {
             "id": "w_1915",
@@ -66215,7 +66227,10 @@
                     "y": -7.6329331046312205,
                     "z": 57.4468085106383
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1956_st155",
+            "stratification": "st155"
         },
         {
             "id": "w_1957",
@@ -113734,11 +113749,15 @@
             ],
             "subtypes": [
                 "w_1470_st155",
-                "w_1482_st155"
+                "w_1482_st155",
+                "w_1851_st155",
+                "w_1956_st155"
             ],
             "axisWires": [
                 "w_1470",
-                "w_1482"
+                "w_1482",
+                "w_1851",
+                "w_1956"
             ]
         },
         {
@@ -113780,10 +113799,14 @@
                 "mat-tenth-thoracic-vertebra"
             ],
             "subtypes": [
-                "w_1472_st158"
+                "w_1472_st158",
+                "w_1914_st158",
+                "w_1852_st158"
             ],
             "axisWires": [
-                "w_1472"
+                "w_1472",
+                "w_1914",
+                "w_1852"
             ]
         },
         {
@@ -114022,8 +114045,12 @@
                 "mat-deep-fascia",
                 "mat-tenth-thoracic-vertebra"
             ],
-            "subtypes": [],
-            "axisWires": []
+            "subtypes": [
+                "w_1854_st169"
+            ],
+            "axisWires": [
+                "w_1854"
+            ]
         },
         {
             "id": "st170",
