@@ -25958,7 +25958,10 @@
                     "y": -60.20583190394511,
                     "z": -6.9908814589665695
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_156_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_157",
@@ -26845,7 +26848,10 @@
                     "y": 76.41509433962264,
                     "z": -6.9908814589665695
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_197_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_198",
@@ -27915,7 +27921,10 @@
                     "y": -43.56775300171527,
                     "z": 1.5197568389057778
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_246_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_247",
@@ -28986,7 +28995,10 @@
                     "y": 72.46998284734133,
                     "z": 1.5197568389057778
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_318_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_319",
@@ -31964,7 +31976,10 @@
                     "y": -38.76500857632933,
                     "z": -2.7355623100303887
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_508_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_509",
@@ -32279,7 +32294,10 @@
                     "y": 50.514579759862784,
                     "z": -2.7355623100303887
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_527_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_528",
@@ -36310,7 +36328,10 @@
                     "y": -64.4082332761578,
                     "z": -20.36474164133739
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_721_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_722",
@@ -36386,7 +36407,10 @@
                     "y": 81.47512864493996,
                     "z": -20.36474164133739
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_723_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_724",
@@ -39415,7 +39439,10 @@
                     "y": -63.293310463121784,
                     "z": -24.620060790273556
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_846_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_847",
@@ -39506,7 +39533,10 @@
                     "y": 80.27444253859349,
                     "z": -24.620060790273556
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_848_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_849",
@@ -77990,7 +78020,10 @@
                     "y": -28.559176672384226,
                     "z": 15.501519756838903
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2552_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_2553",
@@ -78490,7 +78523,10 @@
                     "y": 57.54716981132074,
                     "z": 15.501519756838903
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2574_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_2575",
@@ -111578,11 +111614,35 @@
             ],
             "subtypes": [
                 "w_1246_st31",
-                "w_1290_st31"
+                "w_1290_st31",
+                "w_2574_st31",
+                "w_2552_st31",
+                "w_318_st31",
+                "w_246_st31",
+                "w_508_st31",
+                "w_527_st31",
+                "w_197_st31",
+                "w_156_st31",
+                "w_723_st31",
+                "w_721_st31",
+                "w_848_st31",
+                "w_846_st31"
             ],
             "axisWires": [
                 "w_1246",
-                "w_1290"
+                "w_1290",
+                "w_2574",
+                "w_2552",
+                "w_318",
+                "w_246",
+                "w_508",
+                "w_527",
+                "w_197",
+                "w_156",
+                "w_723",
+                "w_721",
+                "w_848",
+                "w_846"
             ]
         },
         {
