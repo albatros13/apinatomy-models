@@ -662,11 +662,11 @@
         }
     ],
     "name": "Fascia",
-    "version": "396aafc8a54a3f1a04aa79babef370d4df4da220",
+    "version": "acccd4debff7d3b2cb5c2dede6d2c26e70506af6",
     "id": "fascia",
     "namespace": "fascia",
     "lastUpdated": "2026-05-06",
-    "schemaVersion": "58679667aad8cb17a392ef9adf2f74996442d90b",
+    "schemaVersion": "8089a29a207edbd764f074ee446024fff2262258",
     "anchors": [
         {
             "id": "a_1",
@@ -37710,7 +37710,10 @@
         {
             "id": "w_2897",
             "source": "a_1837",
-            "target": "a_1839"
+            "target": "a_1839",
+            "reversed": false,
+            "stratifiedRegion": "w_2897_st197",
+            "stratification": "st197"
         },
         {
             "id": "w_2898",
@@ -38145,7 +38148,10 @@
         {
             "id": "w_2984",
             "source": "a_1881",
-            "target": "a_1932"
+            "target": "a_1932",
+            "reversed": false,
+            "stratifiedRegion": "w_2984_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_2985",
@@ -42390,7 +42396,8 @@
                 "w_36_st7",
                 "w_37_st7",
                 "w_861_st7",
-                "w_862_st7"
+                "w_862_st7",
+                "w_2984_st7"
             ],
             "axisWires": [
                 "w_1222",
@@ -42406,7 +42413,8 @@
                 "w_36",
                 "w_37",
                 "w_861",
-                "w_862"
+                "w_862",
+                "w_2984"
             ]
         },
         {
@@ -44757,6 +44765,12 @@
                 "mat-spinal-cord",
                 "mat-spinal-meningeal-cluster",
                 "mat-seventh-thoracic-vertebra"
+            ],
+            "subtypes": [
+                "w_2897_st197"
+            ],
+            "axisWires": [
+                "w_2897"
             ]
         }
     ],
