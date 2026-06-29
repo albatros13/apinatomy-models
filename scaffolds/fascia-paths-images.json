@@ -2,7 +2,7 @@
     "name": "Fascia paths with images",
     "id": "fascia-paths-images",
     "namespace": "fascia",
-    "background": {
+    "backgroundParams": {
         "offsetX": -29,
         "offsetY": 453,
         "scale": 1.4
@@ -669,9 +669,9 @@
             "color": "#6955ce"
         }
     ],
-    "version": "d6da32d766fd90adec10b1f84df446bef0e47e2c",
-    "schemaVersion": "3467ad362360c7907bf330426350cc6cec273bdb",
-    "lastUpdated": "2026-06-26",
+    "version": "054760ed1b51f584d7bca408344282f48f6b231e",
+    "schemaVersion": "cc5999bc14fcbdaf24a6ee5ac1f63d5486943893",
+    "lastUpdated": "2026-06-29",
     "anchors": [
         {
             "id": "a_1",
