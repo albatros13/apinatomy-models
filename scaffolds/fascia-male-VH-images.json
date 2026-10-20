@@ -4678,7 +4678,7 @@
         }
     ],
     "name": "fascia-male-VH-images",
-    "version": "1b0730400b0e9d3af48219418ec8eca81dc01531",
+    "version": "68f470abc424c1775df8963c87c11e3bb8e54005",
     "id": "fascia-male-VH-images",
     "namespace": "fascia",
     "schemaVersion": "2c4aa5dd5162bf9d9496fe240981fa6b5ac8e910",
@@ -4692,6 +4692,480 @@
         "flipY": true
     },
     "lastUpdated": "2026-10-20",
+    "materials": [
+        {
+            "id": "mat-dermis",
+            "name": "Dermis",
+            "ontologyTerms": [
+                "UBERON:0002067"
+            ],
+            "color": "#dadffd"
+        },
+        {
+            "id": "mat-epidermis",
+            "name": "Epidermis",
+            "ontologyTerms": [
+                "UBERON:0001003"
+            ],
+            "color": "#5354bb"
+        },
+        {
+            "id": "mat-outside-air",
+            "name": "Outside air",
+            "ontologyTerms": [
+                "UBERON:0034873"
+            ],
+            "color": "#01f569"
+        },
+        {
+            "id": "mat-deep-adipose-tissue",
+            "name": "Deep adipose tissue",
+            "ontologyTerms": [
+                "UBERON:0001013"
+            ],
+            "color": "#08caef"
+        },
+        {
+            "id": "mat-superficial-fascia",
+            "name": "Superficial fascia",
+            "ontologyTerms": [
+                "UBERON:0011818"
+            ],
+            "color": "#930df9"
+        },
+        {
+            "id": "mat-superfical-adipose-tissue",
+            "name": "Superfical adipose tissue",
+            "ontologyTerms": [
+                "UBERON:0003426"
+            ],
+            "color": "#908dfc"
+        },
+        {
+            "id": "mat-gluteus-medius",
+            "name": "Gluteus medius",
+            "ontologyTerms": [
+                "UBERON:0001371"
+            ],
+            "color": "#2f864f"
+        },
+        {
+            "id": "mat-deep-fascia",
+            "name": "Deep fascia",
+            "ontologyTerms": [
+                "UBERON:0011236"
+            ],
+            "color": "#95d0ed"
+        },
+        {
+            "id": "mat-ilium-bone",
+            "name": "Ilium bone",
+            "ontologyTerms": [
+                "UBERON:0001273"
+            ],
+            "color": "#4e7919"
+        },
+        {
+            "id": "mat-gluteus-maximus",
+            "name": "Gluteus maximus",
+            "ontologyTerms": [
+                "UBERON:0001370"
+            ],
+            "color": "#ad2a2b"
+        },
+        {
+            "id": "mat-iliacus-muscle",
+            "name": "Iliacus muscle",
+            "ontologyTerms": [
+                "UBERON:0001369"
+            ],
+            "color": "#0284eb"
+        },
+        {
+            "id": "mat-multifidus-muscle",
+            "name": "Multifidus muscle",
+            "ontologyTerms": [
+                "FMA:22827"
+            ],
+            "color": "#0ffafc"
+        },
+        {
+            "id": "mat-longissimus-muscle",
+            "name": "Longissimus muscle",
+            "ontologyTerms": [
+                "UBERON:0000392"
+            ],
+            "color": "#df9b6d"
+        },
+        {
+            "id": "mat-sacro-iliac-joint",
+            "name": "Sacro-iliac joint",
+            "ontologyTerms": [
+                "UBERON:0001365"
+            ],
+            "color": "#118fb5"
+        },
+        {
+            "id": "mat-sacral-bone",
+            "name": "Sacral bone",
+            "ontologyTerms": [
+                "UBERON:0003690"
+            ],
+            "color": "#b026d8"
+        },
+        {
+            "id": "mat-fifth-lumbar-vertebra",
+            "name": "Fifth lumbar vertebra",
+            "ontologyTerms": [
+                "UBERON:0004621"
+            ],
+            "color": "#ae1942"
+        },
+        {
+            "id": "mat-psoas-muscle",
+            "name": "Psoas muscle",
+            "ontologyTerms": [
+                "UBERON:0008450"
+            ],
+            "color": "#942199"
+        },
+        {
+            "id": "mat-intervertebral-disk-of-fifth-lumbar-vertebra",
+            "name": "Intervertebral disk of fifth lumbar vertebra",
+            "ontologyTerms": [
+                "FMA:16037"
+            ],
+            "color": "#3b77e5"
+        },
+        {
+            "id": "mat-lumbosacral-ligament",
+            "name": "Lumbosacral ligament",
+            "ontologyTerms": [
+                "FMA:0326295"
+            ],
+            "color": "#3f7708"
+        },
+        {
+            "id": "mat-endo-abdominal-fascia",
+            "name": "Endo-abdominal fascia",
+            "ontologyTerms": [
+                "FMA:18082"
+            ],
+            "color": "#471606"
+        },
+        {
+            "id": "mat-abdominal-external-oblique-muscle",
+            "name": "Abdominal external oblique muscle",
+            "ontologyTerms": [
+                "UBERON:0005442"
+            ],
+            "color": "#c8e4b8"
+        },
+        {
+            "id": "mat-abdominal-internal-oblique-muscle",
+            "name": "Abdominal internal oblique muscle",
+            "ontologyTerms": [
+                "UBERON:0005454"
+            ],
+            "color": "#0c8478"
+        },
+        {
+            "id": "mat-transversus-abdominis-muscle",
+            "name": "Transversus abdominis muscle",
+            "ontologyTerms": [
+                "UBERON:0001221"
+            ],
+            "color": "#ea142d"
+        },
+        {
+            "id": "mat-rectus-abdominis-muscle",
+            "name": "Rectus abdominis muscle",
+            "ontologyTerms": [
+                "UBERON:0002382"
+            ],
+            "color": "#63edc6"
+        },
+        {
+            "id": "mat-spinal-cord",
+            "name": "Spinal cord",
+            "ontologyTerms": [
+                "UBERON:0002240"
+            ],
+            "color": "#3b3d30"
+        },
+        {
+            "id": "mat-spinal-meningeal-cluster",
+            "name": "Spinal meningeal cluster",
+            "ontologyTerms": [
+                "FMA:321870"
+            ],
+            "color": "#add6a8"
+        },
+        {
+            "id": "mat-quadratus-lumborum-muscle",
+            "name": "Quadratus lumborum muscle",
+            "ontologyTerms": [
+                "UBERON:0001220"
+            ],
+            "color": "#16f8fa"
+        },
+        {
+            "id": "mat-fourth-lumbar-vertebra",
+            "name": "Fourth lumbar vertebra",
+            "ontologyTerms": [
+                "UBERON:0004620"
+            ],
+            "color": "#9867d5"
+        },
+        {
+            "id": "mat-intervertebral-disk-of-fourth-lumbar-vertebra",
+            "name": "Intervertebral disk of fourth lumbar vertebra",
+            "ontologyTerms": [
+                "FMA:16036"
+            ],
+            "color": "#b94e61"
+        },
+        {
+            "id": "mat-lateral-raphe-of-thoracolumbar-fascia",
+            "name": "Lateral raphe of thoracolumbar fascia",
+            "ontologyTerms": [
+                "FMA:25072"
+            ],
+            "color": "#1d94ea"
+        },
+        {
+            "id": "mat-third-lumbar-vertebra",
+            "name": "Third lumbar vertebra",
+            "ontologyTerms": [
+                "UBERON:0004619"
+            ],
+            "color": "#a17926"
+        },
+        {
+            "id": "mat-latissimus-dorsi-muscle",
+            "name": "Latissimus dorsi muscle",
+            "ontologyTerms": [
+                "UBERON:0001112"
+            ],
+            "color": "#c6995a"
+        },
+        {
+            "id": "mat-second-lumbar-vertebra",
+            "name": "Second lumbar vertebra",
+            "ontologyTerms": [
+                "UBERON:0004618"
+            ],
+            "color": "#058541"
+        },
+        {
+            "id": "mat-intervertebral-disk-of-second-lumbar-vertebra",
+            "name": "Intervertebral disk of second lumbar vertebra",
+            "ontologyTerms": [
+                "UBERON:0002228"
+            ],
+            "color": "#fbcbdc"
+        },
+        {
+            "id": "mat-rib",
+            "name": "Rib",
+            "ontologyTerms": [
+                "UBERON:0002228"
+            ],
+            "color": "#30e724"
+        },
+        {
+            "id": "mat-right-crus-of-diaphragm",
+            "name": "Right crus of diaphragm",
+            "ontologyTerms": [
+                "UBERON:0014766"
+            ],
+            "color": "#2fcf14"
+        },
+        {
+            "id": "mat-first-lumbar-vertebra",
+            "name": "First lumbar vertebra",
+            "ontologyTerms": [
+                "UBERON:0004617"
+            ],
+            "color": "#2bad0f"
+        },
+        {
+            "id": "mat-intervertebral-disk-of-first-lumbar-vertebra",
+            "name": "Intervertebral disk of first lumbar vertebra",
+            "ontologyTerms": [
+                "FMA:16033"
+            ],
+            "color": "#dd3093"
+        },
+        {
+            "id": "mat-left-crus-of-diaphragm",
+            "name": "Left crus of diaphragm",
+            "ontologyTerms": [
+                "UBERON:0014767"
+            ],
+            "color": "#dd205b"
+        },
+        {
+            "id": "mat-diaphragm",
+            "name": "Diaphragm",
+            "ontologyTerms": [
+                "UBERON:0001103"
+            ],
+            "color": "#70dae1"
+        },
+        {
+            "id": "mat-twelfth-thoracic-vertebra",
+            "name": "Twelfth thoracic vertebra",
+            "ontologyTerms": [
+                "UBERON:0004636"
+            ],
+            "color": "#2b73cc"
+        },
+        {
+            "id": "mat-intervertebral-disk-of-twelfth-thoracic-vertebra",
+            "name": "Intervertebral disk of twelfth thoracic vertebra",
+            "ontologyTerms": [
+                "FMA:13509"
+            ],
+            "color": "#64d43e"
+        },
+        {
+            "id": "mat-eleventh-thoracic-vertebra",
+            "name": "Eleventh thoracic vertebra",
+            "ontologyTerms": [
+                "UBERON:0004635"
+            ],
+            "color": "#e3f07f"
+        },
+        {
+            "id": "mat-xiphisternum",
+            "name": "Xiphisternum",
+            "ontologyTerms": [
+                "UBERON:0000975"
+            ],
+            "color": "#065bca"
+        },
+        {
+            "id": "mat-intervertebral-disk-of-eleventh-thoracic-vertebra",
+            "name": "Intervertebral disk of eleventh thoracic vertebra",
+            "ontologyTerms": [
+                "FMA:13508"
+            ],
+            "color": "#36fdaa"
+        },
+        {
+            "id": "mat-serratus-anterior",
+            "name": "Serratus anterior",
+            "ontologyTerms": [
+                "FMA:13397"
+            ],
+            "color": "#b9cbf2"
+        },
+        {
+            "id": "mat-serratus-posterior-inferior",
+            "name": "Serratus posterior inferior",
+            "ontologyTerms": [
+                "FMA:13402"
+            ],
+            "color": "#7dcf49"
+        },
+        {
+            "id": "mat-lung",
+            "name": "Lung",
+            "ontologyTerms": [
+                "UBERON:0002048"
+            ],
+            "color": "#efb2b0"
+        },
+        {
+            "id": "mat-tenth-thoracic-vertebra",
+            "name": "Tenth thoracic vertebra",
+            "ontologyTerms": [
+                "UBERON:0004634"
+            ],
+            "color": "#967029"
+        },
+        {
+            "id": "mat-intervertebral-disk-of-tenth-thoracic-vertebra",
+            "name": "Intervertebral disk of tenth thoracic vertebra",
+            "ontologyTerms": [
+                "FMA:13507"
+            ],
+            "color": "#f9a5ac"
+        },
+        {
+            "id": "mat-trapezius-muscle",
+            "name": "Trapezius muscle",
+            "ontologyTerms": [
+                "UBERON:0002380"
+            ],
+            "color": "#ec98e0"
+        },
+        {
+            "id": "mat-pectoralis-major",
+            "name": "Pectoralis major",
+            "ontologyTerms": [
+                "UBERON:0002381"
+            ],
+            "color": "#a6e0cb"
+        },
+        {
+            "id": "mat-ninth-thoracic-vertebra",
+            "name": "Ninth thoracic vertebra",
+            "ontologyTerms": [
+                "UBERON:0004633"
+            ],
+            "color": "#e2a302"
+        },
+        {
+            "id": "mat-intervertebral-disk-of-ninth-thoracic-vertebra",
+            "name": "Intervertebral disk of ninth thoracic vertebra",
+            "ontologyTerms": [
+                "FMA:13506"
+            ],
+            "color": "#8254d5"
+        },
+        {
+            "id": "mat-endothoracic-fascia",
+            "name": "Endothoracic fascia",
+            "ontologyTerms": [
+                "FMA:9732"
+            ],
+            "color": "#cb5ede"
+        },
+        {
+            "id": "mat-eighth-thoracic-vertebra",
+            "name": "Eighth thoracic vertebra",
+            "ontologyTerms": [
+                "UBERON:0011050"
+            ],
+            "color": "#d667c3"
+        },
+        {
+            "id": "mat-intervertebral-disk-of-eighth-thoracic-vertebra",
+            "name": "Intervertebral disk of eighth thoracic vertebra",
+            "ontologyTerms": [
+                "FMA:13505"
+            ],
+            "color": "#463db7"
+        },
+        {
+            "id": "mat-seventh-thoracic-vertebra",
+            "name": "Seventh thoracic vertebra",
+            "ontologyTerms": [
+                "UBERON:0004632"
+            ],
+            "color": "#bf7640"
+        },
+        {
+            "id": "mat-intervertebral-disk-of-seventh-thoracic-vertebra",
+            "name": "Intervertebral disk of seventh thoracic vertebra",
+            "ontologyTerms": [
+                "FMA:13504"
+            ],
+            "color": "#6955ce"
+        }
+    ],
     "anchors": [
         {
             "id": "a_1",
