@@ -1,6 +1,6 @@
 {
     "name": "fascia-male-VH-images",
-    "version": "5418c6831d0f386cc1dfd532aa88387b7103d5e8",
+    "version": "3f9998a94abcab471546ae0b8f8cd0c8e6b8a0be",
     "id": "fascia-male-VH-images",
     "namespace": "fascia",
     "schemaVersion": "4cf76f662ebc6f64557235c3d70d1ab00fefe10f",
@@ -98857,7 +98857,10 @@
                     "y": -37.5,
                     "z": -170
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3622_st75",
+            "stratification": "st75"
         },
         {
             "id": "w_3623",
@@ -116825,8 +116828,12 @@
                 "mat-deep-fascia",
                 "mat-third-lumbar-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3622"
+            ],
+            "subtypes": [
+                "w_3622_st75"
+            ]
         },
         {
             "id": "st76",
