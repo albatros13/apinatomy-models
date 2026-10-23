@@ -1,6 +1,6 @@
 {
     "name": "fascia-male-VH-images",
-    "version": "358a7328b50722feea4ba2bc1132628056a14cad",
+    "version": "8ecf963109f625c530190a90ad670f940cae0e2b",
     "id": "fascia-male-VH-images",
     "namespace": "fascia",
     "schemaVersion": "4cf76f662ebc6f64557235c3d70d1ab00fefe10f",
@@ -106697,7 +106697,10 @@
                     "y": -693.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3883_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_3884",
@@ -106760,7 +106763,10 @@
                     "y": 855.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3884_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_3885",
@@ -116022,8 +116028,14 @@
                 "mat-superficial-fascia",
                 "mat-superfical-adipose-tissue"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3884",
+                "w_3883"
+            ],
+            "subtypes": [
+                "w_3884_st2",
+                "w_3883_st2"
+            ]
         },
         {
             "id": "st3",
