@@ -1,6 +1,6 @@
 {
     "name": "fascia-male-VH-images",
-    "version": "d91380ecfa90d3d770b83bab600c40152772bb61",
+    "version": "a8f0b3861cecdcc1f0c22ea14f8854456048a85a",
     "id": "fascia-male-VH-images",
     "namespace": "fascia",
     "schemaVersion": "4cf76f662ebc6f64557235c3d70d1ab00fefe10f",
@@ -74603,7 +74603,10 @@
                     "y": 799.5,
                     "z": 488.832
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_2331_st35",
+            "stratification": "st35"
         },
         {
             "id": "w_2332",
@@ -78164,7 +78167,10 @@
                     "y": 809.5,
                     "z": 544.3839999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_2559_st35",
+            "stratification": "st35"
         },
         {
             "id": "w_2560",
@@ -117078,7 +117084,9 @@
                 "w_2636",
                 "w_2554",
                 "w_2640",
-                "w_2324"
+                "w_2324",
+                "w_2559",
+                "w_2331"
             ],
             "subtypes": [
                 "w_4080_st35",
@@ -117115,7 +117123,9 @@
                 "w_2636_st35",
                 "w_2554_st35",
                 "w_2640_st35",
-                "w_2324_st35"
+                "w_2324_st35",
+                "w_2559_st35",
+                "w_2331_st35"
             ]
         },
         {
