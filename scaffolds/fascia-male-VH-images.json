@@ -1,6 +1,6 @@
 {
     "name": "fascia-male-VH-images",
-    "version": "f031937716828ff4dd83c0a6b3a5f86c4f5af8f4",
+    "version": "d91380ecfa90d3d770b83bab600c40152772bb61",
     "id": "fascia-male-VH-images",
     "namespace": "fascia",
     "schemaVersion": "4cf76f662ebc6f64557235c3d70d1ab00fefe10f",
@@ -89464,7 +89464,10 @@
                     "y": 843.5,
                     "z": 822.1439999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3202_st35",
+            "stratification": "st35"
         },
         {
             "id": "w_3203",
@@ -89559,7 +89562,10 @@
                     "y": 842.5,
                     "z": 822.1439999999999
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3207_st35",
+            "stratification": "st35"
         },
         {
             "id": "w_3208",
@@ -97734,9 +97740,7 @@
                     "z": 1072.1280000000002
                 }
             ],
-            "reversed": true,
-            "stratifiedRegion": "w_3570_st35",
-            "stratification": "st35"
+            "reversed": true
         },
         {
             "id": "w_3571",
@@ -117034,14 +117038,15 @@
                 "w_3719",
                 "w_3647",
                 "w_3643",
-                "w_3570",
                 "w_3574",
                 "w_3506",
                 "w_3502",
                 "w_3513",
                 "w_3526",
                 "w_3399",
-                "w_3420"
+                "w_3420",
+                "w_3202",
+                "w_3207"
             ],
             "subtypes": [
                 "w_4080_st35",
@@ -117062,14 +117067,15 @@
                 "w_3719_st35",
                 "w_3647_st35",
                 "w_3643_st35",
-                "w_3570_st35",
                 "w_3574_st35",
                 "w_3506_st35",
                 "w_3502_st35",
                 "w_3513_st35",
                 "w_3526_st35",
                 "w_3399_st35",
-                "w_3420_st35"
+                "w_3420_st35",
+                "w_3202_st35",
+                "w_3207_st35"
             ]
         },
         {
