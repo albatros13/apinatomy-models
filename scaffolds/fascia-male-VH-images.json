@@ -1,6 +1,6 @@
 {
     "name": "fascia-male-VH-images",
-    "version": "a8f0b3861cecdcc1f0c22ea14f8854456048a85a",
+    "version": "972b66dce0116d9f6b1a85cecffb24b5292dabac",
     "id": "fascia-male-VH-images",
     "namespace": "fascia",
     "schemaVersion": "4cf76f662ebc6f64557235c3d70d1ab00fefe10f",
@@ -107895,7 +107895,10 @@
                     "y": -195.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3907_st24",
+            "stratification": "st24"
         },
         {
             "id": "w_3908",
@@ -107976,7 +107979,10 @@
                     "y": -214.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3910_st24",
+            "stratification": "st24"
         },
         {
             "id": "w_3911",
@@ -110183,7 +110189,10 @@
                     "y": -202.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3991_st24",
+            "stratification": "st24"
         },
         {
             "id": "w_3992",
@@ -110371,7 +110380,10 @@
                     "y": -237.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3997_st24",
+            "stratification": "st24"
         },
         {
             "id": "w_3998",
@@ -112088,7 +112100,10 @@
                     "y": 13.5,
                     "z": 1704.0320000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4048_st24",
+            "stratification": "st24"
         },
         {
             "id": "w_4049",
@@ -112161,7 +112176,10 @@
                     "y": -180.5,
                     "z": 1704.0320000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4049_st24",
+            "stratification": "st24"
         },
         {
             "id": "w_4050",
@@ -116846,8 +116864,22 @@
                 "mat-deep-fascia",
                 "mat-endo-abdominal-fascia"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4048",
+                "w_4049",
+                "w_3997",
+                "w_3991",
+                "w_3910",
+                "w_3907"
+            ],
+            "subtypes": [
+                "w_4048_st24",
+                "w_4049_st24",
+                "w_3997_st24",
+                "w_3991_st24",
+                "w_3910_st24",
+                "w_3907_st24"
+            ]
         },
         {
             "id": "st25",
