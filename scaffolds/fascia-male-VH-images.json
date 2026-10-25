@@ -117898,12 +117898,10 @@
                 "mat-intervertebral-disk-of-second-lumbar-vertebra"
             ],
             "axisWires": [
-                "w_3546",
-                "w_3547"
+                "w_3546"
             ],
             "subtypes": [
-                "w_3546_st85",
-                "w_3547_st85"
+                "w_3546_st85"
             ]
         },
         {
