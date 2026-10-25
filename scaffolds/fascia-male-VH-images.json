@@ -1,6 +1,6 @@
 {
     "name": "fascia-male-VH-images",
-    "version": "eb69388672fb2e782454289f0082d2b765cba4d4",
+    "version": "2aa1fd0fe9a747cdcb6d392636d362ec67a191cf",
     "id": "fascia-male-VH-images",
     "namespace": "fascia",
     "schemaVersion": "4cf76f662ebc6f64557235c3d70d1ab00fefe10f",
@@ -94639,7 +94639,10 @@
                     "y": -294.5,
                     "z": 1023.5199999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3445_st84",
+            "stratification": "st84"
         },
         {
             "id": "w_3446",
@@ -94710,7 +94713,10 @@
                     "y": -368.5,
                     "z": 1023.5199999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3448_st84",
+            "stratification": "st84"
         },
         {
             "id": "w_3449",
@@ -117860,8 +117866,14 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-second-lumbar-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3445",
+                "w_3448"
+            ],
+            "subtypes": [
+                "w_3445_st84",
+                "w_3448_st84"
+            ]
         },
         {
             "id": "st85",
