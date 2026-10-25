@@ -97202,7 +97202,10 @@
                     "y": -288.5,
                     "z": 1072.1280000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3546_st85",
+            "stratification": "st85"
         },
         {
             "id": "w_3547",
@@ -97245,7 +97248,10 @@
                     "y": -357.5,
                     "z": 1072.1280000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3547_st85",
+            "stratification": "st85"
         },
         {
             "id": "w_3548",
@@ -117889,8 +117895,14 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-intervertebral-disk-of-second-lumbar-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3546",
+                "w_3547"
+            ],
+            "subtypes": [
+                "w_3546_st85",
+                "w_3547_st85"
+            ]
         },
         {
             "id": "st86",
