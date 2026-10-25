@@ -87839,7 +87839,10 @@
         {
             "id": "w_3103",
             "source": "a_287",
-            "target": "a_288"
+            "target": "a_288",
+            "reversed": true,
+            "stratifiedRegion": "w_3103_st57",
+            "stratification": "st57"
         },
         {
             "id": "w_3104",
@@ -88154,7 +88157,10 @@
         {
             "id": "w_3123",
             "source": "a_308",
-            "target": "a_306"
+            "target": "a_306",
+            "reversed": false,
+            "stratifiedRegion": "w_3123_st57",
+            "stratification": "st57"
         },
         {
             "id": "w_3124",
@@ -90697,7 +90703,10 @@
                     "y": -368.5,
                     "z": 822.1439999999999
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3279_st57",
+            "stratification": "st57"
         },
         {
             "id": "w_3280",
@@ -90728,7 +90737,10 @@
                     "y": -398.5,
                     "z": 822.1439999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3281_st57",
+            "stratification": "st57"
         },
         {
             "id": "w_3282",
@@ -95231,7 +95243,10 @@
                     "y": -348.5,
                     "z": 1023.5199999999999
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3477_st62",
+            "stratification": "st62"
         },
         {
             "id": "w_3478",
@@ -95275,7 +95290,10 @@
                     "y": -257.5,
                     "z": 1023.5199999999999
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3480_st57",
+            "stratification": "st57"
         },
         {
             "id": "w_3481",
@@ -95301,7 +95319,10 @@
                     "y": -293.5,
                     "z": 1023.5199999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3482_st57",
+            "stratification": "st57"
         },
         {
             "id": "w_3483",
@@ -95439,7 +95460,10 @@
                     "y": -366.5,
                     "z": 1023.5199999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3487_st62",
+            "stratification": "st62"
         },
         {
             "id": "w_3488",
@@ -117581,8 +117605,22 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-spinal-cord"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3123",
+                "w_3103",
+                "w_3281",
+                "w_3279",
+                "w_3482",
+                "w_3480"
+            ],
+            "subtypes": [
+                "w_3123_st57",
+                "w_3103_st57",
+                "w_3281_st57",
+                "w_3279_st57",
+                "w_3482_st57",
+                "w_3480_st57"
+            ]
         },
         {
             "id": "st58",
@@ -117636,8 +117674,14 @@
                 "mat-deep-fascia",
                 "mat-psoas-muscle"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3487",
+                "w_3477"
+            ],
+            "subtypes": [
+                "w_3487_st62",
+                "w_3477_st62"
+            ]
         },
         {
             "id": "st63",
