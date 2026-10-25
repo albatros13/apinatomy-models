@@ -1,6 +1,6 @@
 {
     "name": "fascia-male-VH-images",
-    "version": "2aa1fd0fe9a747cdcb6d392636d362ec67a191cf",
+    "version": "e8fc7cc8973bd22af000a34c5b36a9d1c92170d6",
     "id": "fascia-male-VH-images",
     "namespace": "fascia",
     "schemaVersion": "4cf76f662ebc6f64557235c3d70d1ab00fefe10f",
@@ -97249,9 +97249,9 @@
                     "z": 1072.1280000000002
                 }
             ],
-            "reversed": true,
-            "stratifiedRegion": "w_3547_st85",
-            "stratification": "st85"
+            "reversed": false,
+            "stratifiedRegion": "w_3547_st84",
+            "stratification": "st84"
         },
         {
             "id": "w_3548",
@@ -117880,11 +117880,13 @@
             ],
             "axisWires": [
                 "w_3445",
-                "w_3448"
+                "w_3448",
+                "w_3547"
             ],
             "subtypes": [
                 "w_3445_st84",
-                "w_3448_st84"
+                "w_3448_st84",
+                "w_3547_st84"
             ]
         },
         {
