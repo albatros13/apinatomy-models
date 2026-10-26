@@ -87029,7 +87029,10 @@
                     "y": -333.5,
                     "z": 773.536
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3028_st108",
+            "stratification": "st108"
         },
         {
             "id": "w_3029",
@@ -87866,7 +87869,10 @@
                     "y": -255.5,
                     "z": 773.536
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3104_st108",
+            "stratification": "st108"
         },
         {
             "id": "w_3105",
@@ -89661,7 +89667,10 @@
                     "y": -303.5,
                     "z": 822.1439999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3210_st108",
+            "stratification": "st108"
         },
         {
             "id": "w_3211",
@@ -89722,7 +89731,10 @@
                     "y": -175.5,
                     "z": 822.1439999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3212_st108",
+            "stratification": "st108"
         },
         {
             "id": "w_3213",
@@ -118216,11 +118228,19 @@
             ],
             "axisWires": [
                 "w_2808",
-                "w_2815"
+                "w_2815",
+                "w_3028",
+                "w_3104",
+                "w_3212",
+                "w_3210"
             ],
             "subtypes": [
                 "w_2808_st108",
-                "w_2815_st108"
+                "w_2815_st108",
+                "w_3028_st108",
+                "w_3104_st108",
+                "w_3212_st108",
+                "w_3210_st108"
             ]
         },
         {
