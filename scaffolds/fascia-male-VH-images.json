@@ -114830,7 +114830,10 @@
                     "y": -8.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4137_st25",
+            "stratification": "st25"
         },
         {
             "id": "w_4138",
@@ -114843,7 +114846,10 @@
                     "y": -72.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4138_st19",
+            "stratification": "st19"
         },
         {
             "id": "w_4139",
@@ -115045,7 +115051,10 @@
                     "y": -71.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4149_st19",
+            "stratification": "st19"
         },
         {
             "id": "w_4150",
@@ -117015,8 +117024,14 @@
                 "mat-deep-fascia",
                 "mat-psoas-muscle"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4138",
+                "w_4149"
+            ],
+            "subtypes": [
+                "w_4138_st19",
+                "w_4149_st19"
+            ]
         },
         {
             "id": "st20",
@@ -117143,8 +117158,12 @@
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-fifth-lumbar-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4137"
+            ],
+            "subtypes": [
+                "w_4137_st25"
+            ]
         },
         {
             "id": "st26",
