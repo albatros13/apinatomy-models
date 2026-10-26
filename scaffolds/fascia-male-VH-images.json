@@ -1,6 +1,6 @@
 {
     "name": "fascia-male-VH-images",
-    "version": "52557590c9464fceb314ccd768953bfffaaf192b",
+    "version": "61fed862d1dfe41204ec98d61ab369a0b663756f",
     "id": "fascia-male-VH-images",
     "namespace": "fascia",
     "schemaVersion": "4cf76f662ebc6f64557235c3d70d1ab00fefe10f",
@@ -116018,7 +116018,10 @@
                     "y": 8.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4186_st24",
+            "stratification": "st24"
         },
         {
             "id": "w_4187",
@@ -116046,7 +116049,10 @@
                     "y": -182.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4187_st18",
+            "stratification": "st18"
         },
         {
             "id": "w_4188",
@@ -116094,7 +116100,10 @@
                     "y": 14.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4188_st24",
+            "stratification": "st24"
         },
         {
             "id": "w_4189",
@@ -116252,7 +116261,10 @@
                     "y": -125.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4194_st18",
+            "stratification": "st18"
         },
         {
             "id": "w_4195",
@@ -116986,8 +116998,14 @@
                 "mat-deep-fascia",
                 "mat-psoas-muscle"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4194",
+                "w_4187"
+            ],
+            "subtypes": [
+                "w_4194_st18",
+                "w_4187_st18"
+            ]
         },
         {
             "id": "st19",
@@ -117080,7 +117098,9 @@
                 "w_2942",
                 "w_2944",
                 "w_4072",
-                "w_4092"
+                "w_4092",
+                "w_4186",
+                "w_4188"
             ],
             "subtypes": [
                 "w_4048_st24",
@@ -117110,7 +117130,9 @@
                 "w_2942_st24",
                 "w_2944_st24",
                 "w_4072_st24",
-                "w_4092_st24"
+                "w_4092_st24",
+                "w_4186_st24",
+                "w_4188_st24"
             ]
         },
         {
