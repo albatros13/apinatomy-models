@@ -92262,7 +92262,10 @@
                     "y": -255.5,
                     "z": 974.9119999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3337_st92",
+            "stratification": "st92"
         },
         {
             "id": "w_3338",
@@ -92275,7 +92278,10 @@
                     "y": -178.5,
                     "z": 974.9119999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3338_st92",
+            "stratification": "st92"
         },
         {
             "id": "w_3339",
@@ -92324,7 +92330,10 @@
         {
             "id": "w_3343",
             "source": "a_392",
-            "target": "a_448"
+            "target": "a_448",
+            "reversed": true,
+            "stratifiedRegion": "w_3343_st92",
+            "stratification": "st92"
         },
         {
             "id": "w_3344",
@@ -92350,7 +92359,10 @@
                     "y": -251.5,
                     "z": 974.9119999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3345_st92",
+            "stratification": "st92"
         },
         {
             "id": "w_3346",
@@ -118050,8 +118062,18 @@
                 "mat-deep-fascia",
                 "mat-second-lumbar-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3345",
+                "w_3337",
+                "w_3338",
+                "w_3343"
+            ],
+            "subtypes": [
+                "w_3345_st92",
+                "w_3337_st92",
+                "w_3338_st92",
+                "w_3343_st92"
+            ]
         },
         {
             "id": "st93",
