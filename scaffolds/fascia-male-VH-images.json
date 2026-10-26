@@ -1,6 +1,6 @@
 {
     "name": "fascia-male-VH-images",
-    "version": "a2e833373351820bf68f36f666363131df793f7b",
+    "version": "8b5f4da2ae98f383467518f81e45803247aef073",
     "id": "fascia-male-VH-images",
     "namespace": "fascia",
     "schemaVersion": "4cf76f662ebc6f64557235c3d70d1ab00fefe10f",
@@ -89668,9 +89668,9 @@
                     "z": 822.1439999999999
                 }
             ],
-            "reversed": true,
-            "stratifiedRegion": "w_3210_st108",
-            "stratification": "st108"
+            "reversed": false,
+            "stratifiedRegion": "w_3210_st100",
+            "stratification": "st100"
         },
         {
             "id": "w_3211",
@@ -89732,9 +89732,9 @@
                     "z": 822.1439999999999
                 }
             ],
-            "reversed": true,
-            "stratifiedRegion": "w_3212_st108",
-            "stratification": "st108"
+            "reversed": false,
+            "stratifiedRegion": "w_3212_st100",
+            "stratification": "st100"
         },
         {
             "id": "w_3213",
@@ -118138,8 +118138,14 @@
                 "mat-deep-fascia",
                 "mat-psoas-muscle"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3212",
+                "w_3210"
+            ],
+            "subtypes": [
+                "w_3212_st100",
+                "w_3210_st100"
+            ]
         },
         {
             "id": "st101",
@@ -118230,17 +118236,13 @@
                 "w_2808",
                 "w_2815",
                 "w_3028",
-                "w_3104",
-                "w_3212",
-                "w_3210"
+                "w_3104"
             ],
             "subtypes": [
                 "w_2808_st108",
                 "w_2815_st108",
                 "w_3028_st108",
-                "w_3104_st108",
-                "w_3212_st108",
-                "w_3210_st108"
+                "w_3104_st108"
             ]
         },
         {
