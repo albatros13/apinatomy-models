@@ -1,6 +1,6 @@
 {
     "name": "fascia-male-VH-images",
-    "version": "61fed862d1dfe41204ec98d61ab369a0b663756f",
+    "version": "db0afc1dcaa0474b51d9b4c92ccd644a790d443e",
     "id": "fascia-male-VH-images",
     "namespace": "fascia",
     "schemaVersion": "4cf76f662ebc6f64557235c3d70d1ab00fefe10f",
@@ -116059,7 +116059,7 @@
                     "z": 1884.576
                 }
             ],
-            "reversed": true,
+            "reversed": false,
             "stratifiedRegion": "w_4187_st18",
             "stratification": "st18"
         },
