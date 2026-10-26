@@ -1,6 +1,6 @@
 {
     "name": "fascia-male-VH-images",
-    "version": "4fa721a6bddb99ff6671e7c5b4dface1bc962435",
+    "version": "a2e833373351820bf68f36f666363131df793f7b",
     "id": "fascia-male-VH-images",
     "namespace": "fascia",
     "schemaVersion": "4cf76f662ebc6f64557235c3d70d1ab00fefe10f",
@@ -13,7 +13,7 @@
         "flipX": false,
         "flipY": true
     },
-    "lastUpdated": "2026-10-25",
+    "lastUpdated": "2026-10-26",
     "external": [
         {
             "id": "1249",
@@ -83194,7 +83194,10 @@
                     "y": -417.5,
                     "z": 724.928
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2808_st108",
+            "stratification": "st108"
         },
         {
             "id": "w_2809",
@@ -83355,7 +83358,10 @@
                     "y": -277.5,
                     "z": 724.928
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2815_st108",
+            "stratification": "st108"
         },
         {
             "id": "w_2816",
@@ -112929,7 +112935,10 @@
                     "y": -18.5,
                     "z": 1801.248
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4072_st24",
+            "stratification": "st24"
         },
         {
             "id": "w_4073",
@@ -113559,7 +113568,10 @@
                     "y": -164.5,
                     "z": 1801.248
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4092_st24",
+            "stratification": "st24"
         },
         {
             "id": "w_4093",
@@ -117042,7 +117054,9 @@
                 "w_3120",
                 "w_3105",
                 "w_2942",
-                "w_2944"
+                "w_2944",
+                "w_4072",
+                "w_4092"
             ],
             "subtypes": [
                 "w_4048_st24",
@@ -117070,7 +117084,9 @@
                 "w_3120_st24",
                 "w_3105_st24",
                 "w_2942_st24",
-                "w_2944_st24"
+                "w_2944_st24",
+                "w_4072_st24",
+                "w_4092_st24"
             ]
         },
         {
@@ -118198,8 +118214,14 @@
                 "mat-deep-fascia",
                 "mat-psoas-muscle"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_2808",
+                "w_2815"
+            ],
+            "subtypes": [
+                "w_2808_st108",
+                "w_2815_st108"
+            ]
         },
         {
             "id": "st109",
