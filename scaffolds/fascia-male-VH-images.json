@@ -1,6 +1,6 @@
 {
     "name": "fascia-male-VH-images",
-    "version": "f50458f814d11a4488a465c2b8ba44987efd96de",
+    "version": "b4dc29d63ea3c26f57265399da92f8c3515567dc",
     "id": "fascia-male-VH-images",
     "namespace": "fascia",
     "schemaVersion": "418eec62b07c53d58e829f1e4d1a6b05ff5f266f",
@@ -115515,7 +115515,10 @@
                     "y": -519.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4165_st13",
+            "stratification": "st13"
         },
         {
             "id": "w_4166",
@@ -115543,7 +115546,10 @@
                     "y": -585.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4166_st14",
+            "stratification": "st14"
         },
         {
             "id": "w_4167",
@@ -115640,7 +115646,10 @@
                     "y": -619.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4173_st14",
+            "stratification": "st14"
         },
         {
             "id": "w_4174",
@@ -115683,7 +115692,10 @@
                     "y": -26.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4174_st13",
+            "stratification": "st13"
         },
         {
             "id": "w_4175",
@@ -116628,7 +116640,10 @@
                     "y": -708.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4206_st2",
+            "stratification": "st2"
         },
         {
             "id": "w_4207",
@@ -116691,7 +116706,10 @@
                     "y": 787.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4207_st2",
+            "stratification": "st2"
         }
     ],
     "stratifications": [
@@ -116774,7 +116792,9 @@
                 "w_527",
                 "w_526",
                 "w_366",
-                "w_365"
+                "w_365",
+                "w_4207",
+                "w_4206"
             ],
             "subtypes": [
                 "w_3884_st2",
@@ -116836,7 +116856,9 @@
                 "w_527_st2",
                 "w_526_st2",
                 "w_366_st2",
-                "w_365_st2"
+                "w_365_st2",
+                "w_4207_st2",
+                "w_4206_st2"
             ]
         },
         {
@@ -116975,8 +116997,14 @@
                 "mat-deep-fascia",
                 "mat-deep-adipose-tissue"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4174",
+                "w_4165"
+            ],
+            "subtypes": [
+                "w_4174_st13",
+                "w_4165_st13"
+            ]
         },
         {
             "id": "st14",
@@ -116986,8 +117014,14 @@
                 "mat-deep-fascia",
                 "mat-deep-adipose-tissue"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4166",
+                "w_4173"
+            ],
+            "subtypes": [
+                "w_4166_st14",
+                "w_4173_st14"
+            ]
         },
         {
             "id": "st15",
