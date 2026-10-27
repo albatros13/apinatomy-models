@@ -114877,7 +114877,10 @@
         {
             "id": "w_4140",
             "source": "a_771",
-            "target": "a_738"
+            "target": "a_738",
+            "reversed": false,
+            "stratifiedRegion": "w_4140_st6",
+            "stratification": "st6"
         },
         {
             "id": "w_4141",
@@ -115020,7 +115023,10 @@
         {
             "id": "w_4147",
             "source": "a_749",
-            "target": "a_770"
+            "target": "a_770",
+            "reversed": false,
+            "stratifiedRegion": "w_4147_st6",
+            "stratification": "st6"
         },
         {
             "id": "w_4148",
@@ -116291,7 +116297,10 @@
                     "y": -212.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4195_st23",
+            "stratification": "st23"
         },
         {
             "id": "w_4196",
@@ -116309,7 +116318,10 @@
                     "y": -128.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4196_st22",
+            "stratification": "st22"
         },
         {
             "id": "w_4197",
@@ -116337,7 +116349,10 @@
                     "y": -140.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4197_st22",
+            "stratification": "st22"
         },
         {
             "id": "w_4198",
@@ -116867,7 +116882,9 @@
                 "w_4136",
                 "w_4099",
                 "w_4016",
-                "w_4021"
+                "w_4021",
+                "w_4147",
+                "w_4140"
             ],
             "subtypes": [
                 "w_4161_st6",
@@ -116875,7 +116892,9 @@
                 "w_4136_st6",
                 "w_4099_st6",
                 "w_4016_st6",
-                "w_4021_st6"
+                "w_4021_st6",
+                "w_4147_st6",
+                "w_4140_st6"
             ]
         },
         {
@@ -117063,8 +117082,14 @@
                 "mat-deep-fascia",
                 "mat-lumbosacral-ligament"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4197",
+                "w_4196"
+            ],
+            "subtypes": [
+                "w_4197_st22",
+                "w_4196_st22"
+            ]
         },
         {
             "id": "st23",
@@ -117074,8 +117099,12 @@
                 "mat-deep-fascia",
                 "mat-lumbosacral-ligament"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4195"
+            ],
+            "subtypes": [
+                "w_4195_st23"
+            ]
         },
         {
             "id": "st24",
