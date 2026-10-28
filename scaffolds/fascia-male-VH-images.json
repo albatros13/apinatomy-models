@@ -108900,7 +108900,10 @@
                     "y": -275.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3905_st61",
+            "stratification": "st61"
         },
         {
             "id": "w_3906",
@@ -108923,7 +108926,10 @@
                     "y": -294.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3906_st61",
+            "stratification": "st61"
         },
         {
             "id": "w_3907",
@@ -110174,7 +110180,10 @@
                     "y": -310.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3951_st44",
+            "stratification": "st44"
         },
         {
             "id": "w_3952",
@@ -110253,7 +110262,10 @@
                     "y": -292.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3954_st44",
+            "stratification": "st44"
         },
         {
             "id": "w_3955",
@@ -111965,7 +111977,10 @@
                     "y": -250.5,
                     "z": 1704.0320000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4008_st44",
+            "stratification": "st44"
         },
         {
             "id": "w_4009",
@@ -112103,7 +112118,10 @@
                     "y": -280.5,
                     "z": 1704.0320000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4014_st44",
+            "stratification": "st44"
         },
         {
             "id": "w_4015",
@@ -119545,11 +119563,19 @@
             ],
             "axisWires": [
                 "w_4074",
-                "w_4077"
+                "w_4077",
+                "w_4014",
+                "w_4008",
+                "w_3954",
+                "w_3951"
             ],
             "subtypes": [
                 "w_4074_st44",
-                "w_4077_st44"
+                "w_4077_st44",
+                "w_4014_st44",
+                "w_4008_st44",
+                "w_3954_st44",
+                "w_3951_st44"
             ]
         },
         {
@@ -119750,8 +119776,14 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-spinal-cord"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3906",
+                "w_3905"
+            ],
+            "subtypes": [
+                "w_3906_st61",
+                "w_3905_st61"
+            ]
         },
         {
             "id": "st62",
