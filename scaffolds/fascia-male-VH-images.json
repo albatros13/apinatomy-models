@@ -101518,7 +101518,10 @@
                     "y": 27.5,
                     "z": 1197.12
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3666_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_3667",
@@ -101609,7 +101612,10 @@
                     "y": -433.5,
                     "z": 1197.12
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3668_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_3669",
@@ -103532,7 +103538,10 @@
                     "y": -6.5,
                     "z": 1287.3919999999998
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3738_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_3739",
@@ -103789,7 +103798,10 @@
                     "y": -412.5,
                     "z": 1287.3919999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3749_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_3750",
@@ -105385,7 +105397,10 @@
                     "y": -141.5,
                     "z": 1336
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3797_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_3798",
@@ -105898,7 +105913,10 @@
                     "y": -191.5,
                     "z": 1336
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3816_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_3817",
@@ -107091,7 +107109,10 @@
                     "y": -294.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3854_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_3855",
@@ -107187,7 +107208,10 @@
                     "y": -329.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3856_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_3857",
@@ -109215,7 +109239,10 @@
                     "y": -208.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3925_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_3926",
@@ -109454,7 +109481,10 @@
                     "y": -219.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3935_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_3936",
@@ -110942,7 +110972,10 @@
                     "y": -156.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3987_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_3988",
@@ -111026,7 +111059,10 @@
                     "y": -142.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3990_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_3991",
@@ -113330,7 +113366,10 @@
                     "y": 36.5,
                     "z": 1704.0320000000002
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4058_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_4059",
@@ -113427,7 +113466,10 @@
                     "y": -84.5,
                     "z": 1704.0320000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4063_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_4064",
@@ -114285,7 +114327,10 @@
                     "y": 9.5,
                     "z": 1801.248
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4090_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_4091",
@@ -114636,7 +114681,10 @@
                     "y": 146.5,
                     "z": 1801.248
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4102_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_4103",
@@ -118734,11 +118782,43 @@
             ],
             "axisWires": [
                 "w_4204",
-                "w_4199"
+                "w_4199",
+                "w_4090",
+                "w_4102",
+                "w_4063",
+                "w_4058",
+                "w_3990",
+                "w_3987",
+                "w_3935",
+                "w_3925",
+                "w_3856",
+                "w_3854",
+                "w_3816",
+                "w_3797",
+                "w_3749",
+                "w_3738",
+                "w_3668",
+                "w_3666"
             ],
             "subtypes": [
                 "w_4204_st29",
-                "w_4199_st29"
+                "w_4199_st29",
+                "w_4090_st29",
+                "w_4102_st29",
+                "w_4063_st29",
+                "w_4058_st29",
+                "w_3990_st29",
+                "w_3987_st29",
+                "w_3935_st29",
+                "w_3925_st29",
+                "w_3856_st29",
+                "w_3854_st29",
+                "w_3816_st29",
+                "w_3797_st29",
+                "w_3749_st29",
+                "w_3738_st29",
+                "w_3668_st29",
+                "w_3666_st29"
             ]
         },
         {
