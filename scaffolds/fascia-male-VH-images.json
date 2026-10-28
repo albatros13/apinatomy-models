@@ -114921,7 +114921,10 @@
                     "y": -369.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4142_st27",
+            "stratification": "st27"
         },
         {
             "id": "w_4143",
@@ -115016,7 +115019,10 @@
                     "y": -335.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4145_st27",
+            "stratification": "st27"
         },
         {
             "id": "w_4146",
@@ -115167,7 +115173,10 @@
                     "y": -547.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4152_st8",
+            "stratification": "st8"
         },
         {
             "id": "w_4153",
@@ -115361,7 +115370,10 @@
                     "y": -558.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4159_st8",
+            "stratification": "st8"
         },
         {
             "id": "w_4160",
@@ -115641,7 +115653,10 @@
         {
             "id": "w_4169",
             "source": "a_755",
-            "target": "a_744"
+            "target": "a_744",
+            "reversed": false,
+            "stratifiedRegion": "w_4169_st16",
+            "stratification": "st16"
         },
         {
             "id": "w_4170",
@@ -117074,8 +117089,14 @@
                 "mat-deep-fascia",
                 "mat-longissimus-muscle"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4159",
+                "w_4152"
+            ],
+            "subtypes": [
+                "w_4159_st8",
+                "w_4152_st8"
+            ]
         },
         {
             "id": "st9",
@@ -117196,8 +117217,12 @@
                 "mat-deep-fascia",
                 "mat-multifidus-muscle"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4169"
+            ],
+            "subtypes": [
+                "w_4169_st16"
+            ]
         },
         {
             "id": "st17",
@@ -117431,8 +117456,14 @@
                 "mat-deep-fascia",
                 "mat-longissimus-muscle"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4142",
+                "w_4145"
+            ],
+            "subtypes": [
+                "w_4142_st27",
+                "w_4145_st27"
+            ]
         },
         {
             "id": "st28",
