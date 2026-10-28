@@ -81101,7 +81101,10 @@
                     "y": 39.5,
                     "z": 565.216
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_2705_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_2706",
@@ -81277,7 +81280,10 @@
                     "y": -17.5,
                     "z": 565.216
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2717_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_2718",
@@ -84114,7 +84120,10 @@
                     "y": -59.5,
                     "z": 724.928
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2875_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_2876",
@@ -84607,7 +84616,10 @@
                     "y": -44.5,
                     "z": 724.928
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_2900_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_2901",
@@ -117613,7 +117625,11 @@
                 "w_3263",
                 "w_3254",
                 "w_3009",
-                "w_2998"
+                "w_2998",
+                "w_2900",
+                "w_2875",
+                "w_2717",
+                "w_2705"
             ],
             "subtypes": [
                 "w_4164_st28",
@@ -117643,7 +117659,11 @@
                 "w_3263_st28",
                 "w_3254_st28",
                 "w_3009_st28",
-                "w_2998_st28"
+                "w_2998_st28",
+                "w_2900_st28",
+                "w_2875_st28",
+                "w_2717_st28",
+                "w_2705_st28"
             ]
         },
         {
