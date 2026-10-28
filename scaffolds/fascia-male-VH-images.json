@@ -48817,7 +48817,10 @@
                     "y": -819.5,
                     "z": -87.52000000000004
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1076_st162",
+            "stratification": "st162"
         },
         {
             "id": "w_1077",
@@ -48848,7 +48851,10 @@
                     "y": -815.5,
                     "z": -87.52000000000004
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1078_st162",
+            "stratification": "st162"
         },
         {
             "id": "w_1079",
@@ -52364,7 +52370,10 @@
                     "y": -779.5,
                     "z": -38.912000000000035
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1224_st162",
+            "stratification": "st162"
         },
         {
             "id": "w_1225",
@@ -52458,7 +52467,10 @@
                     "y": -814.5,
                     "z": -38.912000000000035
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1227_st162",
+            "stratification": "st162"
         },
         {
             "id": "w_1228",
@@ -56454,7 +56466,10 @@
                     "y": -776.5,
                     "z": 44.41599999999994
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1415_st162",
+            "stratification": "st162"
         },
         {
             "id": "w_1416",
@@ -56688,7 +56703,10 @@
                     "y": -777.5,
                     "z": 44.41599999999994
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1422_st162",
+            "stratification": "st162"
         },
         {
             "id": "w_1423",
@@ -59206,7 +59224,10 @@
                     "y": -799.5,
                     "z": 86.07999999999993
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1556_st162",
+            "stratification": "st162"
         },
         {
             "id": "w_1557",
@@ -59252,7 +59273,10 @@
                     "y": -786.5,
                     "z": 86.07999999999993
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1559_st162",
+            "stratification": "st162"
         },
         {
             "id": "w_1560",
@@ -63876,7 +63900,10 @@
                     "y": -707.5,
                     "z": 134.688
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1781_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_1782",
@@ -63935,7 +63962,10 @@
                     "y": -736.5,
                     "z": 134.688
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1785_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_1786",
@@ -117548,7 +117578,9 @@
                 "w_1953",
                 "w_1926",
                 "w_1843",
-                "w_1842"
+                "w_1842",
+                "w_1785",
+                "w_1781"
             ],
             "subtypes": [
                 "w_4171_st7",
@@ -117594,7 +117626,9 @@
                 "w_1953_st7",
                 "w_1926_st7",
                 "w_1843_st7",
-                "w_1842_st7"
+                "w_1842_st7",
+                "w_1785_st7",
+                "w_1781_st7"
             ]
         },
         {
@@ -119943,8 +119977,26 @@
                 "mat-deep-fascia",
                 "mat-trapezius-muscle"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_1556",
+                "w_1559",
+                "w_1422",
+                "w_1415",
+                "w_1227",
+                "w_1224",
+                "w_1078",
+                "w_1076"
+            ],
+            "subtypes": [
+                "w_1556_st162",
+                "w_1559_st162",
+                "w_1422_st162",
+                "w_1415_st162",
+                "w_1227_st162",
+                "w_1224_st162",
+                "w_1078_st162",
+                "w_1076_st162"
+            ]
         },
         {
             "id": "st163",
