@@ -94659,7 +94659,10 @@
                     "y": 4.5,
                     "z": 974.9119999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3403_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3404",
@@ -95189,7 +95192,10 @@
                     "y": 97.5,
                     "z": 974.9119999999999
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3421_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3422",
@@ -97315,7 +97321,10 @@
                     "y": 45.5,
                     "z": 1023.5199999999999
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3503_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3504",
@@ -97470,7 +97479,10 @@
                     "y": -45.5,
                     "z": 1023.5199999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3507_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3508",
@@ -100120,7 +100132,10 @@
                     "y": -488.5,
                     "z": 1072.1280000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3612_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3613",
@@ -101414,7 +101429,10 @@
                     "y": -170.5,
                     "z": 1197.12
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3644_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3645",
@@ -101567,7 +101585,10 @@
                     "y": -211.5,
                     "z": 1197.12
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3648_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3649",
@@ -103654,7 +103675,10 @@
                     "y": -324.5,
                     "z": 1287.3919999999998
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3720_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3721",
@@ -103781,7 +103805,10 @@
                     "y": -274.5,
                     "z": 1287.3919999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3723_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3724",
@@ -105892,7 +105919,10 @@
                     "y": -293.5,
                     "z": 1336
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3789_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3790",
@@ -106422,7 +106452,10 @@
                     "y": 629.5,
                     "z": 1336
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3809_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3810",
@@ -108125,7 +108158,10 @@
                     "y": -186.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3862_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3863",
@@ -108530,7 +108566,10 @@
                     "y": -278.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3877_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3878",
@@ -109803,7 +109842,10 @@
                     "y": -171.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3915_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3916",
@@ -109910,7 +109952,10 @@
                     "y": -215.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3920_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3921",
@@ -119975,7 +120020,22 @@
                 "w_4043",
                 "w_4039",
                 "w_3977",
-                "w_3972"
+                "w_3972",
+                "w_3920",
+                "w_3915",
+                "w_3877",
+                "w_3862",
+                "w_3809",
+                "w_3789",
+                "w_3723",
+                "w_3720",
+                "w_3648",
+                "w_3644",
+                "w_3612",
+                "w_3507",
+                "w_3503",
+                "w_3403",
+                "w_3421"
             ],
             "subtypes": [
                 "w_4184_st31",
@@ -119985,7 +120045,22 @@
                 "w_4043_st31",
                 "w_4039_st31",
                 "w_3977_st31",
-                "w_3972_st31"
+                "w_3972_st31",
+                "w_3920_st31",
+                "w_3915_st31",
+                "w_3877_st31",
+                "w_3862_st31",
+                "w_3809_st31",
+                "w_3789_st31",
+                "w_3723_st31",
+                "w_3720_st31",
+                "w_3648_st31",
+                "w_3644_st31",
+                "w_3612_st31",
+                "w_3507_st31",
+                "w_3503_st31",
+                "w_3403_st31",
+                "w_3421_st31"
             ]
         },
         {
