@@ -115625,7 +115625,10 @@
                     "y": -598.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4167_st15",
+            "stratification": "st15"
         },
         {
             "id": "w_4168",
@@ -115648,7 +115651,10 @@
                     "y": -651.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4168_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_4169",
@@ -115684,12 +115690,18 @@
                     "y": -674.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4171_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_4172",
             "source": "a_775",
-            "target": "a_776"
+            "target": "a_776",
+            "reversed": true,
+            "stratifiedRegion": "w_4172_st15",
+            "stratification": "st15"
         },
         {
             "id": "w_4173",
@@ -117078,8 +117090,14 @@
                 "mat-deep-fascia",
                 "mat-deep-adipose-tissue"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4171",
+                "w_4168"
+            ],
+            "subtypes": [
+                "w_4171_st7",
+                "w_4168_st7"
+            ]
         },
         {
             "id": "st8",
@@ -117206,8 +117224,14 @@
                 "mat-deep-fascia",
                 "mat-deep-adipose-tissue"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4172",
+                "w_4167"
+            ],
+            "subtypes": [
+                "w_4172_st15",
+                "w_4167_st15"
+            ]
         },
         {
             "id": "st16",
