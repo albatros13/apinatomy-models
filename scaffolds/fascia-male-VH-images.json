@@ -106054,7 +106054,10 @@
                     "y": -214.5,
                     "z": 1336
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3801_st49",
+            "stratification": "st49"
         },
         {
             "id": "w_3802",
@@ -106118,7 +106121,10 @@
                     "y": -314.5,
                     "z": 1336
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3803_st49",
+            "stratification": "st49"
         },
         {
             "id": "w_3804",
@@ -108029,7 +108035,10 @@
                     "y": -196.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3864_st49",
+            "stratification": "st49"
         },
         {
             "id": "w_3865",
@@ -108516,7 +108525,10 @@
                     "y": -291.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3882_st49",
+            "stratification": "st49"
         },
         {
             "id": "w_3883",
@@ -109969,7 +109981,10 @@
                     "y": -218.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3927_st49",
+            "stratification": "st49"
         },
         {
             "id": "w_3928",
@@ -110244,7 +110259,10 @@
                     "y": -226.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3939_st49",
+            "stratification": "st49"
         },
         {
             "id": "w_3940",
@@ -111893,7 +111911,10 @@
                     "y": -192.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3993_st49",
+            "stratification": "st49"
         },
         {
             "id": "w_3994",
@@ -112093,7 +112114,10 @@
                     "y": -234.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3999_st49",
+            "stratification": "st49"
         },
         {
             "id": "w_4000",
@@ -120302,8 +120326,26 @@
                 "mat-deep-fascia",
                 "mat-endo-abdominal-fascia"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3999",
+                "w_3993",
+                "w_3939",
+                "w_3927",
+                "w_3882",
+                "w_3864",
+                "w_3803",
+                "w_3801"
+            ],
+            "subtypes": [
+                "w_3999_st49",
+                "w_3993_st49",
+                "w_3939_st49",
+                "w_3927_st49",
+                "w_3882_st49",
+                "w_3864_st49",
+                "w_3803_st49",
+                "w_3801_st49"
+            ]
         },
         {
             "id": "st50",
