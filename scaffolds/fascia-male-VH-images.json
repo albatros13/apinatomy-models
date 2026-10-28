@@ -59328,7 +59328,10 @@
                     "y": -79.5,
                     "z": 86.07999999999993
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1561_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_1562",
@@ -59460,7 +59463,10 @@
                     "y": -45.5,
                     "z": 86.07999999999993
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1567_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_1568",
@@ -64002,7 +64008,10 @@
                     "y": 86.5,
                     "z": 134.688
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1787_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_1788",
@@ -64190,7 +64199,10 @@
                     "y": -48.5,
                     "z": 134.688
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1795_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_1796",
@@ -66491,7 +66503,10 @@
                     "y": -896.5,
                     "z": 238.84799999999996
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1922_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_1923",
@@ -67493,7 +67508,10 @@
                     "y": -32.5,
                     "z": 238.84799999999996
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_1960_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_1961",
@@ -68737,7 +68755,10 @@
                     "y": -876.5,
                     "z": 308.288
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_2016_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_2017",
@@ -69301,7 +69322,10 @@
                     "y": -876.5,
                     "z": 308.288
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_2047_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_2048",
@@ -118505,7 +118529,15 @@
                 "w_1222",
                 "w_1218",
                 "w_1420",
-                "w_1408"
+                "w_1408",
+                "w_1561",
+                "w_1567",
+                "w_1795",
+                "w_1787",
+                "w_1960",
+                "w_1922",
+                "w_2047",
+                "w_2016"
             ],
             "subtypes": [
                 "w_311_st71",
@@ -118523,7 +118555,15 @@
                 "w_1222_st71",
                 "w_1218_st71",
                 "w_1420_st71",
-                "w_1408_st71"
+                "w_1408_st71",
+                "w_1561_st71",
+                "w_1567_st71",
+                "w_1795_st71",
+                "w_1787_st71",
+                "w_1960_st71",
+                "w_1922_st71",
+                "w_2047_st71",
+                "w_2016_st71"
             ]
         },
         {
