@@ -81580,7 +81580,10 @@
                     "y": -385.5,
                     "z": 565.216
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_2700_st125",
+            "stratification": "st125"
         },
         {
             "id": "w_2701",
@@ -81646,7 +81649,10 @@
                     "y": -467.5,
                     "z": 565.216
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_2702_st124",
+            "stratification": "st124"
         },
         {
             "id": "w_2703",
@@ -96318,7 +96324,10 @@
                     "y": -351.5,
                     "z": 1023.5199999999999
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3481_st57",
+            "stratification": "st57"
         },
         {
             "id": "w_3482",
@@ -99674,7 +99683,10 @@
                     "y": -342.5,
                     "z": 1072.1280000000002
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3599_st57",
+            "stratification": "st57"
         },
         {
             "id": "w_3600",
@@ -102815,7 +102827,10 @@
         {
             "id": "w_3697",
             "source": "a_651",
-            "target": "a_640"
+            "target": "a_640",
+            "reversed": false,
+            "stratifiedRegion": "w_3697_st57",
+            "stratification": "st57"
         },
         {
             "id": "w_3698",
@@ -102844,7 +102859,10 @@
                     "y": -262.5,
                     "z": 1287.3919999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3699_st57",
+            "stratification": "st57"
         },
         {
             "id": "w_3700",
@@ -104960,7 +104978,10 @@
                     "y": -220.5,
                     "z": 1336
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3767_st57",
+            "stratification": "st57"
         },
         {
             "id": "w_3768",
@@ -104973,7 +104994,10 @@
                     "y": -251.5,
                     "z": 1336
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3768_st57",
+            "stratification": "st57"
         },
         {
             "id": "w_3769",
@@ -120390,7 +120414,13 @@
                 "w_3482",
                 "w_3480",
                 "w_3956",
-                "w_3955"
+                "w_3955",
+                "w_3768",
+                "w_3767",
+                "w_3699",
+                "w_3697",
+                "w_3599",
+                "w_3481"
             ],
             "subtypes": [
                 "w_3123_st57",
@@ -120400,7 +120430,13 @@
                 "w_3482_st57",
                 "w_3480_st57",
                 "w_3956_st57",
-                "w_3955_st57"
+                "w_3955_st57",
+                "w_3768_st57",
+                "w_3767_st57",
+                "w_3699_st57",
+                "w_3697_st57",
+                "w_3599_st57",
+                "w_3481_st57"
             ]
         },
         {
@@ -121447,8 +121483,12 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-right-crus-of-diaphragm"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_2702"
+            ],
+            "subtypes": [
+                "w_2702_st124"
+            ]
         },
         {
             "id": "st125",
@@ -121458,8 +121498,12 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-left-crus-of-diaphragm"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_2700"
+            ],
+            "subtypes": [
+                "w_2700_st125"
+            ]
         },
         {
             "id": "st126",
