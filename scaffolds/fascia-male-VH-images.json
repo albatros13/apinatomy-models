@@ -109773,7 +109773,10 @@
                     "y": -575.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3963_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_3964",
@@ -109786,7 +109789,10 @@
                     "y": -634.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3964_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_3965",
@@ -111830,7 +111836,10 @@
                     "y": -546.5,
                     "z": 1704.0320000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4031_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_4032",
@@ -111858,7 +111867,10 @@
                     "y": -667.5,
                     "z": 1704.0320000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4032_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_4033",
@@ -114667,7 +114679,10 @@
                     "y": -550.5,
                     "z": 1801.248
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4123_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_4124",
@@ -114695,7 +114710,10 @@
                     "y": -667.5,
                     "z": 1801.248
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4124_st7",
+            "stratification": "st7"
         },
         {
             "id": "w_4125",
@@ -117380,11 +117398,23 @@
             ],
             "axisWires": [
                 "w_4171",
-                "w_4168"
+                "w_4168",
+                "w_4124",
+                "w_4123",
+                "w_4032",
+                "w_4031",
+                "w_3964",
+                "w_3963"
             ],
             "subtypes": [
                 "w_4171_st7",
-                "w_4168_st7"
+                "w_4168_st7",
+                "w_4124_st7",
+                "w_4123_st7",
+                "w_4032_st7",
+                "w_4031_st7",
+                "w_3964_st7",
+                "w_3963_st7"
             ]
         },
         {
