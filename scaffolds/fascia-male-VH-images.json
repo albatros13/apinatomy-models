@@ -106341,7 +106341,10 @@
                     "y": -601.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3834_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_3835",
@@ -106406,7 +106409,10 @@
                     "y": -447.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3837_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_3838",
@@ -109173,7 +109179,10 @@
                     "y": -622.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3928_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_3929",
@@ -109458,7 +109467,10 @@
                     "y": -623.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3942_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_3943",
@@ -111220,7 +111232,10 @@
                     "y": -573.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4000_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_4001",
@@ -111253,7 +111268,10 @@
                     "y": -642.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4001_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_4002",
@@ -112985,7 +113003,10 @@
                     "y": -577.5,
                     "z": 1704.0320000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4050_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_4051",
@@ -113013,7 +113034,10 @@
                     "y": -595.5,
                     "z": 1704.0320000000002
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4051_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_4052",
@@ -113761,7 +113785,10 @@
                     "y": -552.5,
                     "z": 1801.248
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4078_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_4079",
@@ -114515,7 +114542,10 @@
                     "y": -604.5,
                     "z": 1801.248
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4104_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_4105",
@@ -117867,10 +117897,30 @@
                 "mat-longissimus-muscle"
             ],
             "axisWires": [
-                "w_4177"
+                "w_4177",
+                "w_4104",
+                "w_4078",
+                "w_4051",
+                "w_4050",
+                "w_4001",
+                "w_4000",
+                "w_3942",
+                "w_3928",
+                "w_3834",
+                "w_3837"
             ],
             "subtypes": [
-                "w_4177_st9"
+                "w_4177_st9",
+                "w_4104_st9",
+                "w_4078_st9",
+                "w_4051_st9",
+                "w_4050_st9",
+                "w_4001_st9",
+                "w_4000_st9",
+                "w_3942_st9",
+                "w_3928_st9",
+                "w_3834_st9",
+                "w_3837_st9"
             ]
         },
         {
