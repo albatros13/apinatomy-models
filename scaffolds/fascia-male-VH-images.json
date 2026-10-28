@@ -99748,7 +99748,10 @@
                     "y": -373.5,
                     "z": 1197.12
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3634_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_3635",
@@ -100029,7 +100032,10 @@
                     "y": 631.5,
                     "z": 1197.12
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3641_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_3642",
@@ -101900,7 +101906,10 @@
                     "y": -405.5,
                     "z": 1287.3919999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3706_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_3707",
@@ -102172,7 +102181,10 @@
                     "y": 660.5,
                     "z": 1287.3919999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3717_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_3718",
@@ -104090,7 +104102,10 @@
                     "y": -394.5,
                     "z": 1336
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3777_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_3778",
@@ -104349,7 +104364,10 @@
                     "y": 664.5,
                     "z": 1336
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3786_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_3787",
@@ -105997,7 +106015,10 @@
                     "y": -334.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3841_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_3842",
@@ -106239,7 +106260,10 @@
                     "y": 689.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3850_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_3851",
@@ -107619,7 +107643,10 @@
                     "y": -268.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3893_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_3894",
@@ -107881,7 +107908,10 @@
                     "y": 642.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3903_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_3904",
@@ -117533,7 +117563,17 @@
                 "w_4036",
                 "w_4027",
                 "w_3968",
-                "w_3958"
+                "w_3958",
+                "w_3903",
+                "w_3893",
+                "w_3850",
+                "w_3841",
+                "w_3786",
+                "w_3777",
+                "w_3717",
+                "w_3706",
+                "w_3641",
+                "w_3634"
             ],
             "subtypes": [
                 "w_4164_st28",
@@ -117543,7 +117583,17 @@
                 "w_4036_st28",
                 "w_4027_st28",
                 "w_3968_st28",
-                "w_3958_st28"
+                "w_3958_st28",
+                "w_3903_st28",
+                "w_3893_st28",
+                "w_3850_st28",
+                "w_3841_st28",
+                "w_3786_st28",
+                "w_3777_st28",
+                "w_3717_st28",
+                "w_3706_st28",
+                "w_3641_st28",
+                "w_3634_st28"
             ]
         },
         {
