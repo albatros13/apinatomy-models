@@ -104413,7 +104413,10 @@
                     "y": -555.5,
                     "z": 1287.3919999999998
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3757_st58",
+            "stratification": "st58"
         },
         {
             "id": "w_3758",
@@ -104431,7 +104434,10 @@
                     "y": -550.5,
                     "z": 1287.3919999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3758_st58",
+            "stratification": "st58"
         },
         {
             "id": "w_3759",
@@ -105095,7 +105101,10 @@
                     "y": -429.5,
                     "z": 1336
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3779_st58",
+            "stratification": "st58"
         },
         {
             "id": "w_3780",
@@ -105219,7 +105228,10 @@
                     "y": -471.5,
                     "z": 1336
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3784_st58",
+            "stratification": "st58"
         },
         {
             "id": "w_3785",
@@ -107061,7 +107073,10 @@
                     "y": -509.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3844_st58",
+            "stratification": "st58"
         },
         {
             "id": "w_3845",
@@ -107156,7 +107171,10 @@
                     "y": -483.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3847_st58",
+            "stratification": "st58"
         },
         {
             "id": "w_3848",
@@ -108706,7 +108724,10 @@
                     "y": -482.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3896_st58",
+            "stratification": "st58"
         },
         {
             "id": "w_3897",
@@ -108820,7 +108841,10 @@
         {
             "id": "w_3901",
             "source": "a_701",
-            "target": "a_700"
+            "target": "a_700",
+            "reversed": false,
+            "stratifiedRegion": "w_3901_st58",
+            "stratification": "st58"
         },
         {
             "id": "w_3902",
@@ -110545,7 +110569,10 @@
                     "y": -440.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3961_st58",
+            "stratification": "st58"
         },
         {
             "id": "w_3962",
@@ -110644,7 +110671,10 @@
         {
             "id": "w_3966",
             "source": "a_671",
-            "target": "a_670"
+            "target": "a_670",
+            "reversed": false,
+            "stratifiedRegion": "w_3966_st58",
+            "stratification": "st58"
         },
         {
             "id": "w_3967",
@@ -112361,7 +112391,10 @@
                     "y": -453.5,
                     "z": 1704.0320000000002
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4019_st45",
+            "stratification": "st45"
         },
         {
             "id": "w_4020",
@@ -112431,7 +112464,10 @@
         {
             "id": "w_4023",
             "source": "a_805",
-            "target": "a_789"
+            "target": "a_789",
+            "reversed": false,
+            "stratifiedRegion": "w_4023_st45",
+            "stratification": "st45"
         },
         {
             "id": "w_4024",
@@ -114830,7 +114866,10 @@
         {
             "id": "w_4095",
             "source": "a_836",
-            "target": "a_846"
+            "target": "a_846",
+            "reversed": false,
+            "stratifiedRegion": "w_4095_st45",
+            "stratification": "st45"
         },
         {
             "id": "w_4096",
@@ -115645,7 +115684,10 @@
         {
             "id": "w_4126",
             "source": "a_851",
-            "target": "a_815"
+            "target": "a_815",
+            "reversed": true,
+            "stratifiedRegion": "w_4126_st45",
+            "stratification": "st45"
         },
         {
             "id": "w_4127",
@@ -119695,8 +119737,18 @@
                 "mat-deep-fascia",
                 "mat-deep-adipose-tissue"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4126",
+                "w_4095",
+                "w_4023",
+                "w_4019"
+            ],
+            "subtypes": [
+                "w_4126_st45",
+                "w_4095_st45",
+                "w_4023_st45",
+                "w_4019_st45"
+            ]
         },
         {
             "id": "st46",
@@ -119852,8 +119904,30 @@
                 "mat-deep-fascia",
                 "mat-lateral-raphe-of-thoracolumbar-fascia"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3966",
+                "w_3961",
+                "w_3901",
+                "w_3896",
+                "w_3847",
+                "w_3844",
+                "w_3784",
+                "w_3779",
+                "w_3758",
+                "w_3757"
+            ],
+            "subtypes": [
+                "w_3966_st58",
+                "w_3961_st58",
+                "w_3901_st58",
+                "w_3896_st58",
+                "w_3847_st58",
+                "w_3844_st58",
+                "w_3784_st58",
+                "w_3779_st58",
+                "w_3758_st58",
+                "w_3757_st58"
+            ]
         },
         {
             "id": "st59",
