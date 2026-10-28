@@ -85115,7 +85115,10 @@
                     "y": -669.5,
                     "z": 724.928
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_2910_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_2911",
@@ -85201,7 +85204,10 @@
                     "y": -566.5,
                     "z": 724.928
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_2916_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_2917",
@@ -88074,7 +88080,10 @@
                     "y": -520.5,
                     "z": 773.536
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3090_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_3091",
@@ -88784,7 +88793,10 @@
                     "y": -660.5,
                     "z": 773.536
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3140_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_3141",
@@ -91586,7 +91598,10 @@
                     "y": -648.5,
                     "z": 822.1439999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3301_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_3302",
@@ -91664,7 +91679,10 @@
                     "y": -481.5,
                     "z": 822.1439999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3305_st9",
+            "stratification": "st9"
         },
         {
             "id": "w_3306",
@@ -117955,7 +117973,13 @@
                 "w_3453",
                 "w_3458",
                 "w_3391",
-                "w_3390"
+                "w_3390",
+                "w_3301",
+                "w_3305",
+                "w_3140",
+                "w_3090",
+                "w_2916",
+                "w_2910"
             ],
             "subtypes": [
                 "w_4177_st9",
@@ -117980,7 +118004,13 @@
                 "w_3453_st9",
                 "w_3458_st9",
                 "w_3391_st9",
-                "w_3390_st9"
+                "w_3390_st9",
+                "w_3301_st9",
+                "w_3305_st9",
+                "w_3140_st9",
+                "w_3090_st9",
+                "w_2916_st9",
+                "w_2910_st9"
             ]
         },
         {
