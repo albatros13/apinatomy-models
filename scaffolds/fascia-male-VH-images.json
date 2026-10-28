@@ -75889,7 +75889,10 @@
         {
             "id": "w_2374",
             "source": "a_1577",
-            "target": "a_1576"
+            "target": "a_1576",
+            "reversed": false,
+            "stratifiedRegion": "w_2374_st129",
+            "stratification": "st129"
         },
         {
             "id": "w_2375",
@@ -77546,7 +77549,10 @@
         {
             "id": "w_2482",
             "source": "a_1690",
-            "target": "a_1691"
+            "target": "a_1691",
+            "reversed": true,
+            "stratifiedRegion": "w_2482_st129",
+            "stratification": "st129"
         },
         {
             "id": "w_2483",
@@ -80832,7 +80838,10 @@
                     "y": -151.5,
                     "z": 565.216
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_2641_st121",
+            "stratification": "st121"
         },
         {
             "id": "w_2642",
@@ -83740,7 +83749,10 @@
         {
             "id": "w_2805",
             "source": "a_189",
-            "target": "a_190"
+            "target": "a_190",
+            "reversed": true,
+            "stratifiedRegion": "w_2805_st109",
+            "stratification": "st109"
         },
         {
             "id": "w_2806",
@@ -83750,7 +83762,10 @@
         {
             "id": "w_2807",
             "source": "a_191",
-            "target": "a_192"
+            "target": "a_192",
+            "reversed": true,
+            "stratifiedRegion": "w_2807_st109",
+            "stratification": "st109"
         },
         {
             "id": "w_2808",
@@ -83955,7 +83970,10 @@
         {
             "id": "w_2816",
             "source": "a_194",
-            "target": "a_188"
+            "target": "a_188",
+            "reversed": true,
+            "stratifiedRegion": "w_2816_st109",
+            "stratification": "st109"
         },
         {
             "id": "w_2817",
@@ -121134,12 +121152,18 @@
             "axisWires": [
                 "w_3027",
                 "w_3025",
-                "w_3033"
+                "w_3033",
+                "w_2807",
+                "w_2805",
+                "w_2816"
             ],
             "subtypes": [
                 "w_3027_st109",
                 "w_3025_st109",
-                "w_3033_st109"
+                "w_3033_st109",
+                "w_2807_st109",
+                "w_2805_st109",
+                "w_2816_st109"
             ]
         },
         {
@@ -121271,8 +121295,12 @@
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-twelfth-thoracic-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_2641"
+            ],
+            "subtypes": [
+                "w_2641_st121"
+            ]
         },
         {
             "id": "st122",
@@ -121359,8 +121387,14 @@
                 "mat-deep-fascia",
                 "mat-twelfth-thoracic-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_2482",
+                "w_2374"
+            ],
+            "subtypes": [
+                "w_2482_st129",
+                "w_2374_st129"
+            ]
         },
         {
             "id": "st130",
