@@ -69447,7 +69447,10 @@
                     "y": -479.5,
                     "z": 308.288
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_2035_st124",
+            "stratification": "st124"
         },
         {
             "id": "w_2036",
@@ -72309,7 +72312,10 @@
                     "y": -569.5,
                     "z": 343.0079999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_2198_st124",
+            "stratification": "st124"
         },
         {
             "id": "w_2199",
@@ -78520,7 +78526,10 @@
                     "y": -427.5,
                     "z": 544.3839999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_2547_st124",
+            "stratification": "st124"
         },
         {
             "id": "w_2548",
@@ -121484,10 +121493,16 @@
                 "mat-right-crus-of-diaphragm"
             ],
             "axisWires": [
-                "w_2702"
+                "w_2702",
+                "w_2547",
+                "w_2198",
+                "w_2035"
             ],
             "subtypes": [
-                "w_2702_st124"
+                "w_2702_st124",
+                "w_2547_st124",
+                "w_2198_st124",
+                "w_2035_st124"
             ]
         },
         {
