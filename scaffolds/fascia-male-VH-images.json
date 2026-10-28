@@ -115493,7 +115493,10 @@
                     "y": 121.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4164_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_4165",
@@ -115769,7 +115772,10 @@
                     "y": 582.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4175_st28",
+            "stratification": "st28"
         },
         {
             "id": "w_4176",
@@ -115992,7 +115998,10 @@
                     "y": 147.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4184_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_4185",
@@ -116230,7 +116239,10 @@
                     "y": 301.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4190_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_4191",
@@ -116444,7 +116456,10 @@
                     "y": 185.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4199_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_4200",
@@ -116472,7 +116487,10 @@
                     "y": 183.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4200_st30",
+            "stratification": "st30"
         },
         {
             "id": "w_4201",
@@ -116560,7 +116578,10 @@
                     "y": 108.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4204_st29",
+            "stratification": "st29"
         },
         {
             "id": "w_4205",
@@ -116588,7 +116609,10 @@
                     "y": 83.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4205_st30",
+            "stratification": "st30"
         },
         {
             "id": "w_4206",
@@ -117330,8 +117354,14 @@
                 "mat-deep-fascia",
                 "mat-deep-adipose-tissue"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4164",
+                "w_4175"
+            ],
+            "subtypes": [
+                "w_4164_st28",
+                "w_4175_st28"
+            ]
         },
         {
             "id": "st29",
@@ -117341,8 +117371,14 @@
                 "mat-deep-fascia",
                 "mat-abdominal-internal-oblique-muscle"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4204",
+                "w_4199"
+            ],
+            "subtypes": [
+                "w_4204_st29",
+                "w_4199_st29"
+            ]
         },
         {
             "id": "st30",
@@ -117352,8 +117388,14 @@
                 "mat-deep-fascia",
                 "mat-transversus-abdominis-muscle"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4200",
+                "w_4205"
+            ],
+            "subtypes": [
+                "w_4200_st30",
+                "w_4205_st30"
+            ]
         },
         {
             "id": "st31",
@@ -117363,8 +117405,14 @@
                 "mat-deep-fascia",
                 "mat-endo-abdominal-fascia"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4184",
+                "w_4190"
+            ],
+            "subtypes": [
+                "w_4184_st31",
+                "w_4190_st31"
+            ]
         },
         {
             "id": "st32",
