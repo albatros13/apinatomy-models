@@ -110721,7 +110721,10 @@
                     "y": -225.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3955_st57",
+            "stratification": "st57"
         },
         {
             "id": "w_3956",
@@ -110739,7 +110742,10 @@
                     "y": -225.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3956_st57",
+            "stratification": "st57"
         },
         {
             "id": "w_3957",
@@ -114709,7 +114715,10 @@
                     "y": -233.5,
                     "z": 1801.248
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4079_st43",
+            "stratification": "st43"
         },
         {
             "id": "w_4080",
@@ -115484,7 +115493,10 @@
                     "y": -241.5,
                     "z": 1801.248
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4105_st43",
+            "stratification": "st43"
         },
         {
             "id": "w_4106",
@@ -120074,8 +120086,14 @@
                 "mat-spinal-meningeal-cluster",
                 "mat-endo-abdominal-fascia"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4105",
+                "w_4079"
+            ],
+            "subtypes": [
+                "w_4105_st43",
+                "w_4079_st43"
+            ]
         },
         {
             "id": "st44",
@@ -120370,7 +120388,9 @@
                 "w_3281",
                 "w_3279",
                 "w_3482",
-                "w_3480"
+                "w_3480",
+                "w_3956",
+                "w_3955"
             ],
             "subtypes": [
                 "w_3123_st57",
@@ -120378,7 +120398,9 @@
                 "w_3281_st57",
                 "w_3279_st57",
                 "w_3482_st57",
-                "w_3480_st57"
+                "w_3480_st57",
+                "w_3956_st57",
+                "w_3955_st57"
             ]
         },
         {
