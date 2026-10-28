@@ -115180,7 +115180,10 @@
                     "y": -537.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4153_st5",
+            "stratification": "st5"
         },
         {
             "id": "w_4154",
@@ -115342,7 +115345,10 @@
                     "y": -584.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4158_st5",
+            "stratification": "st5"
         },
         {
             "id": "w_4159",
@@ -115918,7 +115924,10 @@
                     "y": -530.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4180_st4",
+            "stratification": "st4"
         },
         {
             "id": "w_4181",
@@ -115936,7 +115945,10 @@
                     "y": -581.5,
                     "z": 1884.576
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4181_st4",
+            "stratification": "st4"
         },
         {
             "id": "w_4182",
@@ -116988,8 +117000,14 @@
                 "mat-deep-fascia",
                 "mat-gluteus-medius"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4181",
+                "w_4180"
+            ],
+            "subtypes": [
+                "w_4181_st4",
+                "w_4180_st4"
+            ]
         },
         {
             "id": "st5",
@@ -116999,8 +117017,14 @@
                 "mat-deep-fascia",
                 "mat-ilium-bone"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4153",
+                "w_4158"
+            ],
+            "subtypes": [
+                "w_4153_st5",
+                "w_4158_st5"
+            ]
         },
         {
             "id": "st6",
