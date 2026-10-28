@@ -96088,7 +96088,10 @@
                     "y": -768.5,
                     "z": 1023.5199999999999
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3498_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_3499",
@@ -96268,7 +96271,10 @@
                     "y": -772.5,
                     "z": 1023.5199999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3501_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_3502",
@@ -97815,7 +97821,10 @@
                     "y": -733.5,
                     "z": 1072.1280000000002
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3562_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_3563",
@@ -97939,7 +97948,10 @@
                     "y": -455.5,
                     "z": 1072.1280000000002
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3567_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_3568",
@@ -99998,7 +100010,10 @@
                     "y": -532.5,
                     "z": 1197.12
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3635_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_3636",
@@ -100153,7 +100168,10 @@
                     "y": -475.5,
                     "z": 1197.12
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3640_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_3641",
@@ -102141,7 +102159,10 @@
                     "y": -426.5,
                     "z": 1287.3919999999998
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3707_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_3708",
@@ -102302,7 +102323,10 @@
                     "y": -475.5,
                     "z": 1287.3919999999998
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3716_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_3717",
@@ -104332,7 +104356,10 @@
                     "y": -402.5,
                     "z": 1336
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3778_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_3779",
@@ -104475,7 +104502,10 @@
                     "y": -463.5,
                     "z": 1336
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3785_st71",
+            "stratification": "st71"
         },
         {
             "id": "w_3786",
@@ -118597,7 +118627,17 @@
                 "w_3271",
                 "w_3283",
                 "w_3392",
-                "w_3417"
+                "w_3417",
+                "w_3501",
+                "w_3498",
+                "w_3567",
+                "w_3562",
+                "w_3640",
+                "w_3635",
+                "w_3716",
+                "w_3707",
+                "w_3785",
+                "w_3778"
             ],
             "subtypes": [
                 "w_311_st71",
@@ -118638,7 +118678,17 @@
                 "w_3271_st71",
                 "w_3283_st71",
                 "w_3392_st71",
-                "w_3417_st71"
+                "w_3417_st71",
+                "w_3501_st71",
+                "w_3498_st71",
+                "w_3567_st71",
+                "w_3562_st71",
+                "w_3640_st71",
+                "w_3635_st71",
+                "w_3716_st71",
+                "w_3707_st71",
+                "w_3785_st71",
+                "w_3778_st71"
             ]
         },
         {
