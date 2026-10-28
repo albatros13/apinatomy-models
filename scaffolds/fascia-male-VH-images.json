@@ -100221,7 +100221,10 @@
                     "y": -37.5,
                     "z": 1197.12
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3622_st75",
+            "stratification": "st75"
         },
         {
             "id": "w_3623",
@@ -102464,7 +102467,10 @@
                     "y": -5.5,
                     "z": 1287.3919999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3689_st75",
+            "stratification": "st75"
         },
         {
             "id": "w_3690",
@@ -106617,7 +106623,10 @@
                     "y": 22.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3823_st60",
+            "stratification": "st60"
         },
         {
             "id": "w_3824",
@@ -108509,7 +108518,10 @@
                     "y": 29.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3885_st60",
+            "stratification": "st60"
         },
         {
             "id": "w_3886",
@@ -120277,8 +120289,14 @@
                 "mat-deep-fascia",
                 "mat-fourth-lumbar-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3885",
+                "w_3823"
+            ],
+            "subtypes": [
+                "w_3885_st60",
+                "w_3823_st60"
+            ]
         },
         {
             "id": "st61",
@@ -120622,8 +120640,14 @@
                 "mat-deep-fascia",
                 "mat-third-lumbar-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3689",
+                "w_3622"
+            ],
+            "subtypes": [
+                "w_3689_st75",
+                "w_3622_st75"
+            ]
         },
         {
             "id": "st76",
