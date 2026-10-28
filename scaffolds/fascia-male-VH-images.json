@@ -107833,7 +107833,10 @@
                     "y": -384.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3866_st46",
+            "stratification": "st46"
         },
         {
             "id": "w_3867",
@@ -108018,7 +108021,10 @@
                     "y": -368.5,
                     "z": 1447.1039999999998
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3872_st46",
+            "stratification": "st46"
         },
         {
             "id": "w_3873",
@@ -109791,7 +109797,10 @@
                     "y": -245.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3930_st46",
+            "stratification": "st46"
         },
         {
             "id": "w_3931",
@@ -110024,7 +110033,10 @@
                     "y": -263.5,
                     "z": 1551.2640000000001
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3941_st46",
+            "stratification": "st46"
         },
         {
             "id": "w_3942",
@@ -111642,7 +111654,10 @@
                     "y": -349.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3994_st46",
+            "stratification": "st46"
         },
         {
             "id": "w_3995",
@@ -111906,7 +111921,10 @@
                     "y": -387.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4002_st46",
+            "stratification": "st46"
         },
         {
             "id": "w_4003",
@@ -119869,8 +119887,22 @@
                 "mat-deep-fascia",
                 "mat-longissimus-muscle"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4002",
+                "w_3994",
+                "w_3941",
+                "w_3930",
+                "w_3872",
+                "w_3866"
+            ],
+            "subtypes": [
+                "w_4002_st46",
+                "w_3994_st46",
+                "w_3941_st46",
+                "w_3930_st46",
+                "w_3872_st46",
+                "w_3866_st46"
+            ]
         },
         {
             "id": "st47",
