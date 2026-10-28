@@ -28046,7 +28046,10 @@
                     "y": -376.5,
                     "z": -400
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_211_st194",
+            "stratification": "st194"
         },
         {
             "id": "w_212",
@@ -28069,7 +28072,10 @@
         {
             "id": "w_214",
             "source": "a_1757",
-            "target": "a_1758"
+            "target": "a_1758",
+            "reversed": true,
+            "stratifiedRegion": "w_214_st194",
+            "stratification": "st194"
         },
         {
             "id": "w_215",
@@ -28097,7 +28103,10 @@
                     "y": -443.5,
                     "z": -400
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_216_st194",
+            "stratification": "st194"
         },
         {
             "id": "w_217",
@@ -31771,7 +31780,10 @@
                     "y": -326.5,
                     "z": -323.616
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_367_st191",
+            "stratification": "st191"
         },
         {
             "id": "w_368",
@@ -31781,7 +31793,10 @@
         {
             "id": "w_369",
             "source": "a_1982",
-            "target": "a_2028"
+            "target": "a_2028",
+            "reversed": true,
+            "stratifiedRegion": "w_369_st191",
+            "stratification": "st191"
         },
         {
             "id": "w_370",
@@ -31829,7 +31844,10 @@
                     "y": -610.5,
                     "z": -323.616
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_371_st191",
+            "stratification": "st191"
         },
         {
             "id": "w_372",
@@ -35136,7 +35154,10 @@
                     "y": -329.5,
                     "z": -268.064
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_528_st191",
+            "stratification": "st191"
         },
         {
             "id": "w_529",
@@ -35167,7 +35188,10 @@
                     "y": -288.5,
                     "z": -268.064
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_531_st191",
+            "stratification": "st191"
         },
         {
             "id": "w_532",
@@ -35200,7 +35224,10 @@
                     "y": -454.5,
                     "z": -268.064
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_533_st191",
+            "stratification": "st191"
         },
         {
             "id": "w_534",
@@ -38843,7 +38870,10 @@
                     "y": -292.5,
                     "z": -219.45600000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_673_st187",
+            "stratification": "st187"
         },
         {
             "id": "w_674",
@@ -38853,7 +38883,10 @@
         {
             "id": "w_675",
             "source": "a_1852",
-            "target": "a_1853"
+            "target": "a_1853",
+            "reversed": true,
+            "stratifiedRegion": "w_675_st187",
+            "stratification": "st187"
         },
         {
             "id": "w_676",
@@ -38876,7 +38909,10 @@
                     "y": -419.5,
                     "z": -219.45600000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_677_st187",
+            "stratification": "st187"
         },
         {
             "id": "w_678",
@@ -42089,7 +42125,10 @@
                     "y": -279.5,
                     "z": -129.18400000000003
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_809_st181",
+            "stratification": "st181"
         },
         {
             "id": "w_810",
@@ -42142,7 +42181,10 @@
                     "y": -584.5,
                     "z": -129.18400000000003
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_812_st181",
+            "stratification": "st181"
         },
         {
             "id": "w_813",
@@ -42318,7 +42360,10 @@
                     "y": -496.5,
                     "z": -129.18400000000003
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_819_st181",
+            "stratification": "st181"
         },
         {
             "id": "w_820",
@@ -45767,7 +45812,10 @@
                     "y": -286.5,
                     "z": -87.52000000000004
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_946_st181",
+            "stratification": "st181"
         },
         {
             "id": "w_947",
@@ -45777,7 +45825,10 @@
         {
             "id": "w_948",
             "source": "a_2133",
-            "target": "a_2134"
+            "target": "a_2134",
+            "reversed": true,
+            "stratifiedRegion": "w_948_st181",
+            "stratification": "st181"
         },
         {
             "id": "w_949",
@@ -45810,7 +45861,10 @@
                     "y": -485.5,
                     "z": -87.52000000000004
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_950_st181",
+            "stratification": "st181"
         },
         {
             "id": "w_951",
@@ -122156,8 +122210,22 @@
                 "mat-deep-fascia",
                 "mat-ninth-thoracic-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_948",
+                "w_950",
+                "w_946",
+                "w_812",
+                "w_819",
+                "w_809"
+            ],
+            "subtypes": [
+                "w_948_st181",
+                "w_950_st181",
+                "w_946_st181",
+                "w_812_st181",
+                "w_819_st181",
+                "w_809_st181"
+            ]
         },
         {
             "id": "st182",
@@ -122222,8 +122290,16 @@
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-eighth-thoracic-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_675",
+                "w_677",
+                "w_673"
+            ],
+            "subtypes": [
+                "w_675_st187",
+                "w_677_st187",
+                "w_673_st187"
+            ]
         },
         {
             "id": "st188",
@@ -122266,8 +122342,22 @@
                 "mat-deep-fascia",
                 "mat-eighth-thoracic-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_531",
+                "w_533",
+                "w_528",
+                "w_369",
+                "w_371",
+                "w_367"
+            ],
+            "subtypes": [
+                "w_531_st191",
+                "w_533_st191",
+                "w_528_st191",
+                "w_369_st191",
+                "w_371_st191",
+                "w_367_st191"
+            ]
         },
         {
             "id": "st192",
@@ -122299,8 +122389,16 @@
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-seventh-thoracic-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_214",
+                "w_216",
+                "w_211"
+            ],
+            "subtypes": [
+                "w_214_st194",
+                "w_216_st194",
+                "w_211_st194"
+            ]
         },
         {
             "id": "st195",
