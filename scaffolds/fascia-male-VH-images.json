@@ -1,6 +1,6 @@
 {
     "name": "fascia-male-VH-images",
-    "version": "92bfe2cc95e127d7946b5f97185cbaa3e6a4e01a",
+    "version": "8f44c2a3041511385f186358c7a88f98410c537a",
     "id": "fascia-male-VH-images",
     "namespace": "fascia",
     "schemaVersion": "418eec62b07c53d58e829f1e4d1a6b05ff5f266f",
@@ -114907,8 +114907,8 @@
                 }
             ],
             "reversed": true,
-            "stratifiedRegion": "w_4141_st10",
-            "stratification": "st10"
+            "stratifiedRegion": "w_4141_st11",
+            "stratification": "st11"
         },
         {
             "id": "w_4142",
@@ -115036,8 +115036,8 @@
                 }
             ],
             "reversed": true,
-            "stratifiedRegion": "w_4146_st10",
-            "stratification": "st10"
+            "stratifiedRegion": "w_4146_st11",
+            "stratification": "st11"
         },
         {
             "id": "w_4147",
@@ -117101,14 +117101,10 @@
                 "mat-ilium-bone"
             ],
             "axisWires": [
-                "w_4146",
-                "w_4141",
                 "w_4160",
                 "w_4151"
             ],
             "subtypes": [
-                "w_4146_st10",
-                "w_4141_st10",
                 "w_4160_st10",
                 "w_4151_st10"
             ]
@@ -117121,8 +117117,14 @@
                 "mat-deep-fascia",
                 "mat-sacral-bone"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4146",
+                "w_4141"
+            ],
+            "subtypes": [
+                "w_4146_st11",
+                "w_4141_st11"
+            ]
         },
         {
             "id": "st12",
