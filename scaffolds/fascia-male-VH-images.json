@@ -112249,7 +112249,10 @@
         {
             "id": "w_4020",
             "source": "a_806",
-            "target": "a_786"
+            "target": "a_786",
+            "reversed": false,
+            "stratifiedRegion": "w_4020_st8",
+            "stratification": "st8"
         },
         {
             "id": "w_4021",
@@ -112303,7 +112306,10 @@
                     "y": -405.5,
                     "z": 1704.0320000000002
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4022_st8",
+            "stratification": "st8"
         },
         {
             "id": "w_4023",
@@ -114070,7 +114076,10 @@
                     "y": -336.5,
                     "z": 1801.248
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4074_st44",
+            "stratification": "st44"
         },
         {
             "id": "w_4075",
@@ -114146,7 +114155,10 @@
         {
             "id": "w_4077",
             "source": "a_832",
-            "target": "a_842"
+            "target": "a_842",
+            "reversed": true,
+            "stratifiedRegion": "w_4077_st44",
+            "stratification": "st44"
         },
         {
             "id": "w_4078",
@@ -114687,7 +114699,10 @@
                     "y": -481.5,
                     "z": 1801.248
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4094_st8",
+            "stratification": "st8"
         },
         {
             "id": "w_4095",
@@ -115763,7 +115778,10 @@
                     "y": -513.5,
                     "z": 1801.248
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4131_st8",
+            "stratification": "st8"
         },
         {
             "id": "w_4132",
@@ -118285,11 +118303,19 @@
             ],
             "axisWires": [
                 "w_4159",
-                "w_4152"
+                "w_4152",
+                "w_4131",
+                "w_4094",
+                "w_4020",
+                "w_4022"
             ],
             "subtypes": [
                 "w_4159_st8",
-                "w_4152_st8"
+                "w_4152_st8",
+                "w_4131_st8",
+                "w_4094_st8",
+                "w_4020_st8",
+                "w_4022_st8"
             ]
         },
         {
@@ -119517,8 +119543,14 @@
                 "mat-deep-fascia",
                 "mat-fifth-lumbar-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4074",
+                "w_4077"
+            ],
+            "subtypes": [
+                "w_4074_st44",
+                "w_4077_st44"
+            ]
         },
         {
             "id": "st45",
