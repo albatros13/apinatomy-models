@@ -87669,7 +87669,10 @@
                     "y": -92.5,
                     "z": 773.536
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3025_st109",
+            "stratification": "st109"
         },
         {
             "id": "w_3026",
@@ -87679,7 +87682,10 @@
         {
             "id": "w_3027",
             "source": "a_311",
-            "target": "a_305"
+            "target": "a_305",
+            "reversed": true,
+            "stratifiedRegion": "w_3027_st109",
+            "stratification": "st109"
         },
         {
             "id": "w_3028",
@@ -87777,7 +87783,10 @@
         {
             "id": "w_3033",
             "source": "a_289",
-            "target": "a_314"
+            "target": "a_314",
+            "reversed": true,
+            "stratifiedRegion": "w_3033_st109",
+            "stratification": "st109"
         },
         {
             "id": "w_3034",
@@ -90355,7 +90364,10 @@
         {
             "id": "w_3209",
             "source": "a_63",
-            "target": "a_62"
+            "target": "a_62",
+            "reversed": false,
+            "stratifiedRegion": "w_3209_st101",
+            "stratification": "st101"
         },
         {
             "id": "w_3210",
@@ -90445,7 +90457,10 @@
         {
             "id": "w_3213",
             "source": "a_67",
-            "target": "a_66"
+            "target": "a_66",
+            "reversed": false,
+            "stratifiedRegion": "w_3213_st101",
+            "stratification": "st101"
         },
         {
             "id": "w_3214",
@@ -90463,7 +90478,10 @@
                     "y": -83.5,
                     "z": 822.1439999999999
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3215_st101",
+            "stratification": "st101"
         },
         {
             "id": "w_3216",
@@ -93046,7 +93064,10 @@
         {
             "id": "w_3339",
             "source": "a_396",
-            "target": "a_395"
+            "target": "a_395",
+            "reversed": true,
+            "stratifiedRegion": "w_3339_st93",
+            "stratification": "st93"
         },
         {
             "id": "w_3340",
@@ -93072,7 +93093,10 @@
                     "y": -38.5,
                     "z": 974.9119999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3341_st93",
+            "stratification": "st93"
         },
         {
             "id": "w_3342",
@@ -93085,7 +93109,10 @@
                     "y": -75.5,
                     "z": 974.9119999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3342_st93",
+            "stratification": "st93"
         },
         {
             "id": "w_3343",
@@ -95452,7 +95479,10 @@
                     "y": -38.5,
                     "z": 1023.5199999999999
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3443_st93",
+            "stratification": "st93"
         },
         {
             "id": "w_3444",
@@ -98082,7 +98112,10 @@
                     "y": -27.5,
                     "z": 1072.1280000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3544_st83",
+            "stratification": "st83"
         },
         {
             "id": "w_3545",
@@ -120752,8 +120785,12 @@
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-second-lumbar-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3544"
+            ],
+            "subtypes": [
+                "w_3544_st83"
+            ]
         },
         {
             "id": "st84",
@@ -120884,8 +120921,18 @@
                 "mat-deep-fascia",
                 "mat-second-lumbar-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3443",
+                "w_3341",
+                "w_3342",
+                "w_3339"
+            ],
+            "subtypes": [
+                "w_3443_st93",
+                "w_3341_st93",
+                "w_3342_st93",
+                "w_3339_st93"
+            ]
         },
         {
             "id": "st94",
@@ -120978,8 +121025,16 @@
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-first-lumbar-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3215",
+                "w_3209",
+                "w_3213"
+            ],
+            "subtypes": [
+                "w_3215_st101",
+                "w_3209_st101",
+                "w_3213_st101"
+            ]
         },
         {
             "id": "st102",
@@ -121076,8 +121131,16 @@
                 "mat-deep-fascia",
                 "mat-first-lumbar-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3027",
+                "w_3025",
+                "w_3033"
+            ],
+            "subtypes": [
+                "w_3027_st109",
+                "w_3025_st109",
+                "w_3033_st109"
+            ]
         },
         {
             "id": "st110",
