@@ -49363,7 +49363,10 @@
         {
             "id": "w_1098",
             "source": "a_2278",
-            "target": "a_2277"
+            "target": "a_2277",
+            "reversed": true,
+            "stratifiedRegion": "w_1098_st174",
+            "stratification": "st174"
         },
         {
             "id": "w_1099",
@@ -49386,7 +49389,10 @@
                     "y": -401.5,
                     "z": -38.912000000000035
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1100_st174",
+            "stratification": "st174"
         },
         {
             "id": "w_1101",
@@ -49455,7 +49461,10 @@
                     "y": -333.5,
                     "z": -38.912000000000035
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1103_st174",
+            "stratification": "st174"
         },
         {
             "id": "w_1104",
@@ -53693,7 +53702,10 @@
                     "y": -306.5,
                     "z": 44.41599999999994
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1271_st169",
+            "stratification": "st169"
         },
         {
             "id": "w_1272",
@@ -53716,12 +53728,18 @@
                     "y": -239.5,
                     "z": 44.41599999999994
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1273_st169",
+            "stratification": "st169"
         },
         {
             "id": "w_1274",
             "source": "a_1069",
-            "target": "a_1058"
+            "target": "a_1058",
+            "reversed": true,
+            "stratifiedRegion": "w_1274_st169",
+            "stratification": "st169"
         },
         {
             "id": "w_1275",
@@ -53744,7 +53762,10 @@
                     "y": -395.5,
                     "z": 44.41599999999994
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1275_st169",
+            "stratification": "st169"
         },
         {
             "id": "w_1276",
@@ -57583,7 +57604,10 @@
         {
             "id": "w_1454",
             "source": "a_1103",
-            "target": "a_1114"
+            "target": "a_1114",
+            "reversed": true,
+            "stratifiedRegion": "w_1454_st169",
+            "stratification": "st169"
         },
         {
             "id": "w_1455",
@@ -57611,7 +57635,10 @@
                     "y": -478.5,
                     "z": 86.07999999999993
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1456_st169",
+            "stratification": "st169"
         },
         {
             "id": "w_1457",
@@ -57672,7 +57699,10 @@
                     "y": -297.5,
                     "z": 86.07999999999993
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1458_st169",
+            "stratification": "st169"
         },
         {
             "id": "w_1459",
@@ -61713,7 +61743,10 @@
                     "y": -309.5,
                     "z": 134.688
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1642_st156",
+            "stratification": "st156"
         },
         {
             "id": "w_1643",
@@ -121707,10 +121740,12 @@
                 "mat-intervertebral-disk-of-tenth-thoracic-vertebra"
             ],
             "axisWires": [
-                "w_1640"
+                "w_1640",
+                "w_1642"
             ],
             "subtypes": [
-                "w_1640_st156"
+                "w_1640_st156",
+                "w_1642_st156"
             ]
         },
         {
@@ -121965,8 +122000,24 @@
                 "mat-deep-fascia",
                 "mat-tenth-thoracic-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_1454",
+                "w_1458",
+                "w_1456",
+                "w_1271",
+                "w_1273",
+                "w_1274",
+                "w_1275"
+            ],
+            "subtypes": [
+                "w_1454_st169",
+                "w_1458_st169",
+                "w_1456_st169",
+                "w_1271_st169",
+                "w_1273_st169",
+                "w_1274_st169",
+                "w_1275_st169"
+            ]
         },
         {
             "id": "st170",
@@ -122020,8 +122071,16 @@
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-ninth-thoracic-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_1098",
+                "w_1100",
+                "w_1103"
+            ],
+            "subtypes": [
+                "w_1098_st174",
+                "w_1100_st174",
+                "w_1103_st174"
+            ]
         },
         {
             "id": "st175",
