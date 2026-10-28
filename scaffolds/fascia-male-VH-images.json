@@ -1,6 +1,6 @@
 {
     "name": "fascia-male-VH-images",
-    "version": "8f44c2a3041511385f186358c7a88f98410c537a",
+    "version": "fb7177f6565da2082cf2d388e450774a72e76411",
     "id": "fascia-male-VH-images",
     "namespace": "fascia",
     "schemaVersion": "418eec62b07c53d58e829f1e4d1a6b05ff5f266f",
@@ -111409,7 +111409,10 @@
                     "y": -120.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_3972_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3973",
@@ -111547,7 +111550,10 @@
                     "y": -229.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3977_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_3978",
@@ -113634,7 +113640,10 @@
                     "y": -5.5,
                     "z": 1704.0320000000002
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4039_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_4040",
@@ -113752,7 +113761,10 @@
                     "y": -77.5,
                     "z": 1704.0320000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4043_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_4044",
@@ -115007,7 +115019,10 @@
                     "y": 24.5,
                     "z": 1801.248
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4083_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_4084",
@@ -115901,7 +115916,10 @@
                     "y": 93.5,
                     "z": 1801.248
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_4114_st31",
+            "stratification": "st31"
         },
         {
             "id": "w_4115",
@@ -119951,11 +119969,23 @@
             ],
             "axisWires": [
                 "w_4184",
-                "w_4190"
+                "w_4190",
+                "w_4114",
+                "w_4083",
+                "w_4043",
+                "w_4039",
+                "w_3977",
+                "w_3972"
             ],
             "subtypes": [
                 "w_4184_st31",
-                "w_4190_st31"
+                "w_4190_st31",
+                "w_4114_st31",
+                "w_4083_st31",
+                "w_4043_st31",
+                "w_4039_st31",
+                "w_3977_st31",
+                "w_3972_st31"
             ]
         },
         {
