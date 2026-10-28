@@ -61692,7 +61692,10 @@
                     "y": -233.5,
                     "z": 134.688
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1640_st156",
+            "stratification": "st156"
         },
         {
             "id": "w_1641",
@@ -65243,7 +65246,10 @@
                     "y": -230.5,
                     "z": 238.84799999999996
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_1830_st150",
+            "stratification": "st150"
         },
         {
             "id": "w_1831",
@@ -121630,8 +121636,12 @@
                 "mat-deep-fascia",
                 "mat-eleventh-thoracic-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_1830"
+            ],
+            "subtypes": [
+                "w_1830_st150"
+            ]
         },
         {
             "id": "st151",
@@ -121696,8 +121706,12 @@
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-tenth-thoracic-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_1640"
+            ],
+            "subtypes": [
+                "w_1640_st156"
+            ]
         },
         {
             "id": "st157",
