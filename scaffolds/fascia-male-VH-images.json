@@ -110324,7 +110324,10 @@
                     "y": 38.5,
                     "z": 1599.8720000000003
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_3946_st52",
+            "stratification": "st52"
         },
         {
             "id": "w_3947",
@@ -112360,7 +112363,10 @@
                     "y": 30.5,
                     "z": 1704.0320000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4011_st41",
+            "stratification": "st41"
         },
         {
             "id": "w_4012",
@@ -115350,7 +115356,10 @@
                     "y": -13.5,
                     "z": 1801.248
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_4106_st41",
+            "stratification": "st41"
         },
         {
             "id": "w_4107",
@@ -119881,8 +119890,14 @@
                 "mat-deep-fascia",
                 "mat-fifth-lumbar-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_4106",
+                "w_4011"
+            ],
+            "subtypes": [
+                "w_4106_st41",
+                "w_4011_st41"
+            ]
         },
         {
             "id": "st42",
@@ -120072,8 +120087,12 @@
                 "mat-deep-fascia",
                 "mat-intervertebral-disk-of-fourth-lumbar-vertebra"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_3946"
+            ],
+            "subtypes": [
+                "w_3946_st52"
+            ]
         },
         {
             "id": "st53",
