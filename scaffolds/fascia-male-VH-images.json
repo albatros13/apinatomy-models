@@ -30251,7 +30251,10 @@
                     "y": -816.5,
                     "z": -400
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_317_st163",
+            "stratification": "st163"
         },
         {
             "id": "w_318",
@@ -30386,7 +30389,10 @@
                     "y": -821.5,
                     "z": -400
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_322_st163",
+            "stratification": "st163"
         },
         {
             "id": "w_323",
@@ -34149,7 +34155,10 @@
                     "y": -829.5,
                     "z": -323.616
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_485_st163",
+            "stratification": "st163"
         },
         {
             "id": "w_486",
@@ -34236,7 +34245,10 @@
                     "y": -833.5,
                     "z": -323.616
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_490_st163",
+            "stratification": "st163"
         },
         {
             "id": "w_491",
@@ -37264,7 +37276,10 @@
                     "y": -833.5,
                     "z": -268.064
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_619_st163",
+            "stratification": "st163"
         },
         {
             "id": "w_620",
@@ -37371,7 +37386,10 @@
                     "y": -833.5,
                     "z": -268.064
                 }
-            ]
+            ],
+            "reversed": false,
+            "stratifiedRegion": "w_624_st163",
+            "stratification": "st163"
         },
         {
             "id": "w_625",
@@ -40977,7 +40995,10 @@
                     "y": -841.5,
                     "z": -219.45600000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_770_st163",
+            "stratification": "st163"
         },
         {
             "id": "w_771",
@@ -41118,7 +41139,10 @@
                     "y": -838.5,
                     "z": -219.45600000000002
                 }
-            ]
+            ],
+            "reversed": true,
+            "stratifiedRegion": "w_778_st163",
+            "stratification": "st163"
         },
         {
             "id": "w_779",
@@ -120056,8 +120080,26 @@
                 "mat-deep-fascia",
                 "mat-trapezius-muscle"
             ],
-            "axisWires": [],
-            "subtypes": []
+            "axisWires": [
+                "w_322",
+                "w_317",
+                "w_490",
+                "w_485",
+                "w_624",
+                "w_619",
+                "w_778",
+                "w_770"
+            ],
+            "subtypes": [
+                "w_322_st163",
+                "w_317_st163",
+                "w_490_st163",
+                "w_485_st163",
+                "w_624_st163",
+                "w_619_st163",
+                "w_778_st163",
+                "w_770_st163"
+            ]
         },
         {
             "id": "st164",
